@@ -3,190 +3,180 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Dibi — ציוד מוזיקה</title>
+<title>Dibi — ציוד מוזיקה מקצועי</title>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet"/>
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+  function trackClick(name) {
+    gtag('event','product_click',{'event_category':'affiliate','event_label':name});
+  }
+</script>
+
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#050505;
-  --s1:#0D0D0D;
-  --s2:#141414;
-  --s3:#1C1C1C;
-  --lime:#C9FF00;
-  --lime-dim:#A8D900;
-  --white:#FFFFFF;
-  --muted:#555555;
-  --muted2:#888888;
-  --border:rgba(255,255,255,0.06);
-  --green:#22C55E;
-  --red:#FF3B3B;
+  --bg:#050505;--s1:#0D0D0D;--s2:#141414;--s3:#1C1C1C;
+  --lime:#C9FF00;--lime-dim:rgba(201,255,0,0.08);
+  --green:#22C55E;--muted:#555;--muted2:#888;
+  --text:#F8F8F8;--border:rgba(255,255,255,0.07);
 }
 html{scroll-behavior:smooth}
-body{font-family:'Heebo',sans-serif;background:var(--bg);color:var(--white);overflow-x:hidden}
+body{font-family:'Heebo',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden}
 
-/* ── TICKER ── */
-.ticker{background:var(--lime);padding:10px 0;overflow:hidden;white-space:nowrap}
-.ticker-inner{display:inline-flex;gap:0;animation:tick 18s linear infinite}
-.ticker-item{color:#000;font-size:13px;font-weight:700;letter-spacing:.5px;padding:0 32px}
-.ticker-item::after{content:'◆';margin-right:32px;opacity:.4}
+/* TICKER */
+.ticker{background:var(--lime);padding:9px 0;overflow:hidden;white-space:nowrap}
+.ticker-inner{display:inline-flex;animation:tick 20s linear infinite}
+.ticker-item{color:#000;font-size:12px;font-weight:700;letter-spacing:.5px;padding:0 28px}
+.ticker-item::after{content:'◆';margin-right:28px;opacity:.4}
 @keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 
-/* ── NAV ── */
+/* NAV */
 nav{position:sticky;top:0;z-index:100;background:rgba(5,5,5,0.97);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 48px;height:64px}
-.nav-logo{font-size:24px;font-weight:900;letter-spacing:-1px;color:var(--white)}
+.nav-logo{font-size:24px;font-weight:900;letter-spacing:-1px}
 .nav-logo em{font-style:normal;color:var(--lime)}
-.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links{display:flex;gap:28px;list-style:none}
 .nav-links a{text-decoration:none;color:var(--muted2);font-size:13px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;transition:color .2s}
 .nav-links a:hover{color:var(--lime)}
-.nav-right{display:flex;align-items:center;gap:12px}
-.nav-cta{background:var(--lime);color:#000;border:none;border-radius:6px;padding:9px 22px;font-size:13px;font-weight:800;cursor:pointer;font-family:'Heebo',sans-serif;letter-spacing:.5px;transition:all .2s}
-.nav-cta:hover{background:#fff;transform:translateY(-1px)}
-.lang-toggle{display:flex;gap:3px;background:rgba(255,255,255,0.05);border-radius:6px;padding:3px}
-.lang-btn{background:none;border:none;color:var(--muted2);font-size:11px;font-weight:700;padding:4px 10px;border-radius:5px;cursor:pointer;font-family:'Heebo',sans-serif;letter-spacing:.5px;transition:all .15s}
-.lang-btn.active{background:var(--lime);color:#000}
+.nav-right{display:flex;align-items:center;gap:14px}
+.nav-ig{display:flex;align-items:center;gap:6px;color:var(--muted2);text-decoration:none;font-size:13px;font-weight:600;transition:color .2s}
+.nav-ig:hover{color:var(--lime)}
+.nav-ig svg{width:18px;height:18px;fill:currentColor}
+.nav-cta{background:var(--lime);color:#000;border:none;border-radius:6px;padding:9px 22px;font-size:13px;font-weight:800;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s}
+.nav-cta:hover{background:#fff}
 
-/* ── HERO ── */
-.hero{min-height:100vh;display:grid;grid-template-rows:1fr auto;padding:120px 48px 60px;position:relative;overflow:hidden}
-.hero-bg-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:clamp(120px,18vw,260px);font-weight:900;color:rgba(255,255,255,0.02);letter-spacing:-8px;white-space:nowrap;pointer-events:none;user-select:none}
+/* HERO */
+.hero{min-height:92vh;display:grid;grid-template-rows:1fr auto;padding:110px 48px 56px;position:relative;overflow:hidden;background:radial-gradient(ellipse 60% 50% at 50% 0%,rgba(201,255,0,0.07),transparent 70%)}
+.hero-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:clamp(100px,17vw,240px);font-weight:900;color:rgba(255,255,255,0.015);letter-spacing:-8px;white-space:nowrap;pointer-events:none;user-select:none}
 .hero-content{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end;position:relative;z-index:1}
-.hero-left{}
-.hero-tag{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--lime);margin-bottom:24px}
-.hero-tag::before{content:'';width:24px;height:2px;background:var(--lime)}
-.hero h1{font-size:clamp(52px,8vw,110px);font-weight:900;line-height:.95;letter-spacing:-4px;margin-bottom:28px}
-.hero h1 .stroke{-webkit-text-stroke:2px var(--white);color:transparent}
-.hero h1 .lime{color:var(--lime)}
-.hero-desc{font-size:16px;color:var(--muted2);line-height:1.7;max-width:420px;margin-bottom:36px;font-weight:300}
-.hero-desc strong{color:var(--white)}
+.hero-tag{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--lime);margin-bottom:22px}
+.hero-tag::before{content:'';width:22px;height:2px;background:var(--lime)}
+h1{font-size:clamp(48px,8vw,105px);font-weight:900;line-height:.95;letter-spacing:-4px;margin-bottom:24px}
+.stroke{-webkit-text-stroke:2px var(--text);color:transparent}
+.lime{color:var(--lime)}
+.hero-desc{font-size:16px;color:var(--muted2);line-height:1.7;max-width:420px;margin-bottom:32px;font-weight:300}
+.hero-desc strong{color:var(--text);font-weight:600}
 .hero-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.btn-lime{background:var(--lime);color:#000;border:none;border-radius:6px;padding:14px 32px;font-size:15px;font-weight:800;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s;letter-spacing:.3px}
+.btn-lime{background:var(--lime);color:#000;border:none;border-radius:6px;padding:14px 32px;font-size:15px;font-weight:800;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s;box-shadow:0 4px 20px rgba(201,255,0,0.2)}
 .btn-lime:hover{background:#fff;transform:translateY(-2px)}
-.btn-ghost{background:transparent;color:var(--white);border:1px solid rgba(255,255,255,0.2);border-radius:6px;padding:14px 28px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s}
+.btn-ghost{background:transparent;color:var(--text);border:1.5px solid rgba(255,255,255,0.15);border-radius:6px;padding:14px 26px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s}
 .btn-ghost:hover{border-color:var(--lime);color:var(--lime)}
-
-.hero-right{text-align:left}
-.hero-big-num{font-size:clamp(80px,12vw,160px);font-weight:900;line-height:1;color:var(--lime);letter-spacing:-4px}
-.hero-big-label{font-size:13px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-top:-8px}
-
-.hero-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:48px;border-top:1px solid var(--border);position:relative;z-index:1;flex-wrap:wrap;gap:16px}
+.hero-big{text-align:left}
+.hero-big-num{font-size:clamp(70px,11vw,150px);font-weight:900;line-height:1;color:var(--lime);letter-spacing:-4px}
+.hero-big-lbl{font-size:12px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;margin-top:-8px}
+.hero-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:44px;border-top:1px solid var(--border);position:relative;z-index:1;flex-wrap:wrap;gap:16px}
 .hero-stats{display:flex;gap:40px;flex-wrap:wrap}
-.hstat{display:flex;flex-direction:column}
-.hstat-num{font-size:26px;font-weight:900;color:var(--white)}
-.hstat-lbl{font-size:11px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px}
-.hero-scroll{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);letter-spacing:2px;text-transform:uppercase;cursor:pointer}
-.scroll-line{width:40px;height:1px;background:var(--muted)}
+.hstat-num{font-size:24px;font-weight:900}
+.hstat-lbl{font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px}
 
-/* ── BENTO CATEGORIES ── */
-.bento{padding:80px 48px;background:var(--s1)}
-.bento-label{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--lime);margin-bottom:20px}
-.bento-title{font-size:clamp(28px,4vw,48px);font-weight:900;letter-spacing:-1px;margin-bottom:40px}
-.bento-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:auto auto;gap:12px;max-width:1200px}
-.bento-item{background:var(--s2);border:1px solid var(--border);border-radius:14px;padding:28px;cursor:pointer;transition:all .22s;position:relative;overflow:hidden}
-.bento-item:hover{border-color:var(--lime);background:rgba(201,255,0,0.04)}
-.bento-item.large{grid-column:span 2}
-.bento-item.tall{grid-row:span 2}
-.bento-emoji{font-size:36px;margin-bottom:14px;display:block}
-.bento-name{font-size:15px;font-weight:700;margin-bottom:5px}
-.bento-desc{font-size:12px;color:var(--muted2);line-height:1.5}
-.bento-arrow{position:absolute;bottom:20px;left:20px;color:var(--muted);font-size:18px;transition:all .2s}
-.bento-item:hover .bento-arrow{color:var(--lime);transform:translateX(-4px)}
-.bento-item.featured{background:var(--lime);border-color:var(--lime)}
-.bento-item.featured .bento-name{color:#000}
-.bento-item.featured .bento-desc{color:rgba(0,0,0,0.6)}
-.bento-item.featured .bento-arrow{color:rgba(0,0,0,0.4)}
-.bento-item.featured:hover .bento-arrow{color:#000}
+/* MARQUEE */
+.marquee{padding:24px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--s1);overflow:hidden}
+.marquee-inner{display:inline-flex;animation:tick 28s linear infinite}
+.marquee-item{font-size:13px;font-weight:700;color:var(--muted);padding:0 36px;letter-spacing:2px;text-transform:uppercase;white-space:nowrap}
+.marquee-item span{color:var(--lime);margin-left:36px}
 
-/* ── PRODUCTS ── */
+/* PRODUCTS SECTION */
 .products-section{padding:80px 48px;background:var(--bg)}
-.prod-header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:40px;flex-wrap:wrap;gap:16px}
-.prod-title-wrap{}
-.prod-count{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--lime);margin-bottom:10px}
-.prod-title{font-size:clamp(26px,4vw,44px);font-weight:900;letter-spacing:-1px}
-.sort-btns{display:flex;gap:6px}
-.sort-btn{background:var(--s2);border:1px solid var(--border);border-radius:6px;padding:7px 16px;font-size:12px;font-weight:600;cursor:pointer;font-family:'Heebo',sans-serif;color:var(--muted2);transition:all .2s;letter-spacing:.5px;text-transform:uppercase}
-.sort-btn.on,.sort-btn:hover{background:var(--lime);border-color:var(--lime);color:#000}
+.sec-label{display:inline-block;font-size:10px;font-weight:700;letter-spacing:3px;color:var(--lime);text-transform:uppercase;margin-bottom:10px}
+.sec-title{font-size:clamp(24px,3.5vw,40px);font-weight:900;letter-spacing:-1px;margin-bottom:6px}
+.sec-sub{font-size:14px;color:var(--muted2);margin-bottom:48px;line-height:1.6;max-width:480px}
 
-/* PRODUCT CARDS — restyled */
-.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;border:1px solid var(--border);border-radius:14px;overflow:hidden;max-width:1200px;margin:0 auto}
-.product-card{background:var(--s1);border:none;border-radius:0;transition:all .2s;cursor:pointer;position:relative;display:flex;flex-direction:column;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
-.product-card:hover{background:rgba(201,255,0,0.03);z-index:2}
-.product-badge{position:absolute;top:14px;right:14px;background:var(--lime);color:#000;font-size:9px;font-weight:800;padding:4px 10px;border-radius:4px;text-transform:uppercase;letter-spacing:.5px;z-index:2}
-.product-img{width:100%;height:180px;display:flex;align-items:center;justify-content:center;font-size:58px;background:var(--s2);flex-shrink:0;border-bottom:1px solid var(--border)}
+/* CATEGORY BLOCK */
+.cat-block{margin-bottom:64px}
+.cat-header{display:flex;align-items:center;gap:14px;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.cat-icon{font-size:28px}
+.cat-name{font-size:18px;font-weight:800;letter-spacing:-.5px}
+.cat-count{font-size:12px;color:var(--muted);background:var(--s2);border:1px solid var(--border);padding:3px 10px;border-radius:100px;margin-right:4px}
+
+/* PRODUCT CARDS */
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.product-card{background:var(--s1);transition:all .2s;cursor:pointer;position:relative;display:flex;flex-direction:column;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
+.product-card:hover{background:rgba(201,255,0,0.03)}
+.product-badge{position:absolute;top:12px;right:12px;background:var(--lime);color:#000;font-size:9px;font-weight:800;padding:3px 9px;border-radius:4px;text-transform:uppercase;letter-spacing:.5px;z-index:2}
+.product-img{width:100%;height:170px;display:flex;align-items:center;justify-content:center;font-size:54px;background:var(--s2);flex-shrink:0;border-bottom:1px solid var(--border)}
 .product-body{padding:18px;display:flex;flex-direction:column;flex:1}
-.product-category{font-size:9px;font-weight:700;letter-spacing:3px;color:var(--lime);text-transform:uppercase;margin-bottom:6px}
-.product-name{font-size:15px;font-weight:700;margin-bottom:8px;line-height:1.3}
+.product-cat-tag{font-size:9px;font-weight:700;letter-spacing:2px;color:var(--lime);text-transform:uppercase;margin-bottom:6px}
+.product-name{font-size:14px;font-weight:700;margin-bottom:8px;line-height:1.3}
 .product-desc{font-size:12px;color:var(--muted2);line-height:1.6;margin-bottom:12px;flex:1}
-.product-stars{display:flex;align-items:center;gap:5px;margin-bottom:12px}
-.stars{color:var(--lime);font-size:12px}
-.stars-score{font-size:12px;font-weight:700}
-.stars-count{font-size:11px;color:var(--muted)}
-.product-footer{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:12px;border-top:1px solid var(--border)}
-.product-price{display:flex;flex-direction:column}
+.product-stars{display:flex;align-items:center;gap:6px;margin-bottom:14px;font-size:12px}
+.stars{color:var(--lime);letter-spacing:1px}
+.stars-score{font-weight:700}
+.stars-count{color:var(--muted)}
+.product-footer{display:flex;align-items:center;justify-content:space-between;padding-top:12px;border-top:1px solid var(--border)}
 .price-current{font-size:20px;font-weight:900}
-.price-original{font-size:11px;color:var(--muted);text-decoration:line-through}
-.price-save{font-size:10px;color:var(--lime);font-weight:700}
-.btn-buy{background:transparent;color:var(--lime);border:1px solid rgba(201,255,0,0.3);border-radius:6px;padding:8px 16px;font-size:12px;font-weight:700;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s;text-decoration:none;display:inline-flex;align-items:center;gap:4px;letter-spacing:.3px}
+.price-ship{font-size:10px;color:var(--green);font-weight:600;margin-top:2px}
+.btn-buy{background:transparent;color:var(--lime);border:1px solid rgba(201,255,0,0.3);border-radius:6px;padding:8px 16px;font-size:11px;font-weight:700;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s;text-decoration:none;letter-spacing:.3px}
 .btn-buy:hover{background:var(--lime);color:#000;border-color:var(--lime)}
-.btn-buy::after{content:'←'}
 
-/* ── MARQUEE ── */
-.marquee-section{padding:28px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--s1);overflow:hidden}
-.marquee-track{display:inline-flex;gap:0;animation:tick 25s linear infinite}
-.marquee-item{font-size:14px;font-weight:700;color:var(--muted);padding:0 40px;letter-spacing:2px;text-transform:uppercase;white-space:nowrap}
-.marquee-item span{color:var(--lime);margin-left:40px}
+/* BENTO CATEGORIES NAV */
+.cats-section{padding:64px 48px;background:var(--s1);border-top:1px solid var(--border)}
+.cats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;max-width:1100px;margin:28px auto 0}
+.cat-card{background:var(--s2);border:1px solid var(--border);border-radius:12px;padding:18px 14px;text-align:center;cursor:pointer;transition:all .2s;text-decoration:none;display:block}
+.cat-card:hover{border-color:var(--lime);background:var(--lime-dim);transform:translateY(-2px)}
+.cat-card-icon{font-size:28px;margin-bottom:8px;display:block}
+.cat-card-name{font-size:12px;font-weight:700;color:var(--muted2)}
+.cat-card:hover .cat-card-name{color:var(--lime)}
 
-/* ── WHY ── */
-.why-section{padding:80px 48px;background:var(--s1)}
-.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:48px;border:1px solid var(--border);border-radius:14px;overflow:hidden;max-width:1100px}
-.why-item{background:var(--s2);padding:36px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);transition:background .2s}
-.why-item:hover{background:rgba(201,255,0,0.04)}
-.why-num{font-size:48px;font-weight:900;color:rgba(201,255,0,0.15);line-height:1;margin-bottom:16px}
-.why-title{font-size:16px;font-weight:700;margin-bottom:8px}
+/* WHY */
+.why-section{padding:80px 48px;background:var(--bg)}
+.why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;margin-top:40px;border:1px solid var(--border);border-radius:14px;overflow:hidden;max-width:1000px}
+.why-item{background:var(--s2);padding:32px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);transition:background .2s}
+.why-item:hover{background:rgba(201,255,0,0.03)}
+.why-num{font-size:44px;font-weight:900;color:rgba(201,255,0,0.12);line-height:1;margin-bottom:14px}
+.why-title{font-size:15px;font-weight:700;margin-bottom:6px}
 .why-desc{font-size:13px;color:var(--muted2);line-height:1.7}
 
-/* ── NEWSLETTER ── */
-.nl-section{padding:100px 48px;background:var(--bg);text-align:center}
-.nl-inner{max-width:560px;margin:0 auto}
-.nl-tag{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--lime);margin-bottom:16px}
-.nl-title{font-size:clamp(32px,5vw,64px);font-weight:900;letter-spacing:-2px;line-height:1;margin-bottom:12px}
-.nl-sub{font-size:15px;color:var(--muted2);margin-bottom:32px;line-height:1.6}
-.nl-form{display:flex;gap:8px;max-width:420px;margin:0 auto}
-.nl-input{flex:1;background:var(--s2);border:1px solid var(--border);border-radius:6px;padding:13px 16px;font-size:14px;color:var(--white);font-family:'Heebo',sans-serif;outline:none;transition:border-color .2s}
+/* NEWSLETTER */
+.nl-section{padding:90px 48px;background:var(--s1);text-align:center;border-top:1px solid var(--border)}
+.nl-inner{max-width:500px;margin:0 auto}
+.nl-title{font-size:clamp(28px,5vw,58px);font-weight:900;letter-spacing:-2px;line-height:1;margin-bottom:10px}
+.nl-sub{font-size:14px;color:var(--muted2);margin-bottom:28px;line-height:1.6}
+.nl-form{display:flex;gap:8px;max-width:400px;margin:0 auto}
+.nl-input{flex:1;background:var(--s2);border:1px solid var(--border);border-radius:6px;padding:12px 16px;font-size:14px;color:var(--text);font-family:'Heebo',sans-serif;outline:none;transition:border-color .2s}
 .nl-input:focus{border-color:var(--lime)}
 .nl-input::placeholder{color:var(--muted)}
 .nl-note{font-size:11px;color:var(--muted);margin-top:12px;letter-spacing:.5px}
 
-/* ── FOOTER ── */
+/* FOOTER */
 footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
-.footer-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px;margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid var(--border)}
-.footer-logo-wrap{max-width:280px}
-.footer-logo{font-size:22px;font-weight:900;letter-spacing:-1px;margin-bottom:10px}
+.footer-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px;margin-bottom:36px;padding-bottom:36px;border-bottom:1px solid var(--border)}
+.footer-logo{font-size:20px;font-weight:900;letter-spacing:-1px;margin-bottom:8px}
 .footer-logo em{font-style:normal;color:var(--lime)}
-.footer-tagline{font-size:13px;color:var(--muted2);line-height:1.6}
-.footer-links-group{display:flex;gap:60px;flex-wrap:wrap}
-.footer-col-title{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--lime);margin-bottom:16px}
-.footer-col a{display:block;color:var(--muted2);text-decoration:none;font-size:13px;margin-bottom:10px;transition:color .2s}
+.footer-tagline{font-size:13px;color:var(--muted2);line-height:1.6;max-width:240px}
+.footer-links-group{display:flex;gap:56px;flex-wrap:wrap}
+.footer-col-title{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--lime);margin-bottom:14px}
+.footer-col a{display:block;color:var(--muted2);text-decoration:none;font-size:13px;margin-bottom:9px;transition:color .2s}
 .footer-col a:hover{color:var(--lime)}
-.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-.footer-copy{font-size:12px;color:var(--muted)}
-.footer-made{font-size:12px;color:var(--muted)}
+.footer-ig{display:inline-flex;align-items:center;gap:6px;color:var(--muted2);text-decoration:none;font-size:13px;transition:color .2s;margin-bottom:9px}
+.footer-ig:hover{color:var(--lime)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.footer-copy,.footer-made{font-size:12px;color:var(--muted)}
+
+/* SCROLL TO TOP */
+.scroll-top{position:fixed;bottom:24px;left:24px;width:40px;height:40px;background:var(--lime);border:none;border-radius:6px;cursor:pointer;font-size:16px;color:#000;font-weight:800;z-index:99;transition:all .2s;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none}
+.scroll-top.visible{opacity:1;pointer-events:all}
+.scroll-top:hover{background:#fff}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 
 @media(max-width:900px){
   nav{padding:0 20px}
   .nav-links{display:none}
-  .hero{padding:100px 20px 48px;grid-template-rows:1fr auto}
+  .hero{padding:90px 20px 48px}
   .hero-content{grid-template-columns:1fr}
-  .hero-right{display:none}
-  .hero-bottom{padding-top:32px}
-  .bento{padding:60px 20px}
-  .bento-grid{grid-template-columns:1fr 1fr}
-  .bento-item.tall{grid-row:span 1}
-  .products-section{padding:60px 20px}
-  .why-section{padding:60px 20px}
+  .hero-big{display:none}
+  .hero-stats{gap:24px}
+  .products-section,.cats-section,.why-section,.nl-section{padding:56px 20px}
   .why-grid{grid-template-columns:1fr}
-  .nl-section{padding:60px 20px}
-  footer{padding:40px 20px}
+  .nl-form{flex-direction:column}
+  footer{padding:36px 20px}
   .footer-top{flex-direction:column}
-  .footer-links-group{gap:32px}
+  .footer-links-group{gap:28px}
 }
 </style>
 </head>
@@ -195,18 +185,22 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
 <!-- TICKER -->
 <div class="ticker">
   <div class="ticker-inner">
-    <span class="ticker-item">ממשקי אודיו מקצועיים</span>
-    <span class="ticker-item">מיקרופונים לסטודיו</span>
+    <span class="ticker-item">ממשקי אודיו</span>
+    <span class="ticker-item">מיקרופונים מקצועיים</span>
     <span class="ticker-item">בקרי MIDI</span>
     <span class="ticker-item">מוניטורי סטודיו</span>
     <span class="ticker-item">מיקסרים</span>
-    <span class="ticker-item">אוזניות מקצועיות</span>
-    <span class="ticker-item">ממשקי אודיו מקצועיים</span>
-    <span class="ticker-item">מיקרופונים לסטודיו</span>
+    <span class="ticker-item">אוזניות סטודיו</span>
+    <span class="ticker-item">אביזרי גיטרה</span>
+    <span class="ticker-item">כרטיסי סאונד</span>
+    <span class="ticker-item">ממשקי אודיו</span>
+    <span class="ticker-item">מיקרופונים מקצועיים</span>
     <span class="ticker-item">בקרי MIDI</span>
     <span class="ticker-item">מוניטורי סטודיו</span>
     <span class="ticker-item">מיקסרים</span>
-    <span class="ticker-item">אוזניות מקצועיות</span>
+    <span class="ticker-item">אוזניות סטודיו</span>
+    <span class="ticker-item">אביזרי גיטרה</span>
+    <span class="ticker-item">כרטיסי סאונד</span>
   </div>
 </div>
 
@@ -215,310 +209,353 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
   <div class="nav-logo">Di<em>bi</em></div>
   <ul class="nav-links">
     <li><a href="#products">מוצרים</a></li>
-    <li><a href="#bento">קטגוריות</a></li>
+    <li><a href="#categories">קטגוריות</a></li>
     <li><a href="#why">עלינו</a></li>
     <li><a href="#newsletter">עדכונים</a></li>
   </ul>
   <div class="nav-right">
-    <div class="lang-toggle">
-      <button class="lang-btn active">עב</button>
-      <button class="lang-btn">EN</button>
-    </div>
+    <a href="https://www.instagram.com/dibi.music" target="_blank" class="nav-ig">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      @dibi.music
+    </a>
     <button class="nav-cta" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">לחנות</button>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-bg-text">SOUND</div>
+  <div class="hero-bg">SOUND</div>
   <div class="hero-content">
-    <div class="hero-left">
+    <div>
       <div class="hero-tag">ציוד מוזיקה מקצועי</div>
-      <h1>
-        הסאונד<br/>
-        <span class="stroke">שלך</span><br/>
-        <span class="lime">מתחיל כאן.</span>
-      </h1>
-      <p class="hero-desc">
-        ממשקי אודיו, מיקרופונים, מיקסרים, בקרי MIDI ומוניטורים —
-        <strong>כל מה שמוזיקאי צריך</strong>, במחירים שלא תמצא בשום מקום בארץ.
-      </p>
+      <h1>הסאונד<br/><span class="stroke">שלך</span><br/><span class="lime">מתחיל כאן.</span></h1>
+      <p class="hero-desc">ממשקי אודיו, מיקרופונים, בקרי MIDI ומוניטורים — <strong>הכל במחיר שלא תמצא בישראל.</strong></p>
       <div class="hero-actions">
         <button class="btn-lime" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">גלה את הציוד</button>
-        <button class="btn-ghost" onclick="document.getElementById('bento').scrollIntoView({behavior:'smooth'})">כל הקטגוריות ←</button>
+        <button class="btn-ghost" onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">כל הקטגוריות ←</button>
       </div>
     </div>
-    <div class="hero-right">
-      <div class="hero-big-num">500+</div>
-      <div class="hero-big-label">פריטי ציוד</div>
+    <div class="hero-big">
+      <div class="hero-big-num">11</div>
+      <div class="hero-big-lbl">מוצרים נבחרים</div>
     </div>
   </div>
   <div class="hero-bottom">
     <div class="hero-stats">
-      <div class="hstat"><span class="hstat-num">4.9★</span><span class="hstat-lbl">דירוג לקוחות</span></div>
-      <div class="hstat"><span class="hstat-num">48h</span><span class="hstat-lbl">משלוח</span></div>
-      <div class="hstat"><span class="hstat-num">30 יום</span><span class="hstat-lbl">החזרה</span></div>
-      <div class="hstat"><span class="hstat-num">100%</span><span class="hstat-lbl">מאומת</span></div>
-    </div>
-    <div class="hero-scroll" onclick="document.getElementById('bento').scrollIntoView({behavior:'smooth'})">
-      <span class="scroll-line"></span>
-      <span>גלול למטה</span>
+      <div><div class="hstat-num">4.9★</div><div class="hstat-lbl">דירוג ממוצע</div></div>
+      <div><div class="hstat-num">✈ חינם</div><div class="hstat-lbl">משלוח לישראל</div></div>
+      <div><div class="hstat-num">11</div><div class="hstat-lbl">מוצרים</div></div>
+      <div><div class="hstat-num">7</div><div class="hstat-lbl">קטגוריות</div></div>
     </div>
   </div>
 </section>
 
 <!-- MARQUEE -->
-<div class="marquee-section">
-  <div class="marquee-track">
+<div class="marquee">
+  <div class="marquee-inner">
     <span class="marquee-item">AUDIO INTERFACE <span>◆</span></span>
     <span class="marquee-item">MICROPHONE <span>◆</span></span>
     <span class="marquee-item">MIDI CONTROLLER <span>◆</span></span>
     <span class="marquee-item">STUDIO MONITOR <span>◆</span></span>
-    <span class="marquee-item">MIXER <span>◆</span></span>
+    <span class="marquee-item">AUDIO MIXER <span>◆</span></span>
     <span class="marquee-item">HEADPHONES <span>◆</span></span>
+    <span class="marquee-item">SOUND CARD <span>◆</span></span>
+    <span class="marquee-item">GUITAR PEDAL <span>◆</span></span>
     <span class="marquee-item">AUDIO INTERFACE <span>◆</span></span>
     <span class="marquee-item">MICROPHONE <span>◆</span></span>
     <span class="marquee-item">MIDI CONTROLLER <span>◆</span></span>
     <span class="marquee-item">STUDIO MONITOR <span>◆</span></span>
-    <span class="marquee-item">MIXER <span>◆</span></span>
+    <span class="marquee-item">AUDIO MIXER <span>◆</span></span>
     <span class="marquee-item">HEADPHONES <span>◆</span></span>
+    <span class="marquee-item">SOUND CARD <span>◆</span></span>
+    <span class="marquee-item">GUITAR PEDAL <span>◆</span></span>
   </div>
 </div>
 
-<!-- BENTO CATEGORIES -->
-<section class="bento" id="bento">
-  <div class="bento-label">קטגוריות</div>
-  <div class="bento-title">מה אתה מחפש?</div>
-  <div class="bento-grid">
-    <div class="bento-item featured large">
-      <span class="bento-emoji">🎛️</span>
-      <div class="bento-name">ממשקי אודיו</div>
-      <div class="bento-desc">חבר את הגיטרה, המיקרופון או הסינת' ישירות למחשב באיכות סטודיו</div>
-      <div class="bento-arrow">←</div>
-    </div>
-    <div class="bento-item">
-      <span class="bento-emoji">🎙️</span>
-      <div class="bento-name">מיקרופונים</div>
-      <div class="bento-desc">קונדנסר, דינמי ורימסר לכל שימוש</div>
-      <div class="bento-arrow">←</div>
-    </div>
-    <div class="bento-item">
-      <span class="bento-emoji">🎹</span>
-      <div class="bento-name">בקרי MIDI</div>
-      <div class="bento-desc">קלידים, פדים ובקרים לכל DAW</div>
-      <div class="bento-arrow">←</div>
-    </div>
-    <div class="bento-item">
-      <span class="bento-emoji">🔊</span>
-      <div class="bento-name">מוניטורי סטודיו</div>
-      <div class="bento-desc">שמע את המיקס כמו שהוא באמת</div>
-      <div class="bento-arrow">←</div>
-    </div>
-    <div class="bento-item">
-      <span class="bento-emoji">🎚️</span>
-      <div class="bento-name">מיקסרים</div>
-      <div class="bento-desc">אנלוגי ודיגיטלי לכל גודל</div>
-      <div class="bento-arrow">←</div>
-    </div>
-    <div class="bento-item">
-      <span class="bento-emoji">🎧</span>
-      <div class="bento-name">אוזניות</div>
-      <div class="bento-desc">מוניטורינג, מיקס והאזנה</div>
-      <div class="bento-arrow">←</div>
-    </div>
-    <div class="bento-item">
-      <span class="bento-emoji">🎸</span>
-      <div class="bento-name">אביזרים</div>
-      <div class="bento-desc">כבלים, מעמדים ואביזרי סטודיו</div>
-      <div class="bento-arrow">←</div>
-    </div>
+<!-- CATEGORIES NAV -->
+<section class="cats-section" id="categories">
+  <div class="sec-label">קטגוריות</div>
+  <div class="sec-title">מה אתה מחפש?</div>
+  <div class="cats-grid">
+    <a href="#cat-interface" class="cat-card"><span class="cat-card-icon">🎛️</span><div class="cat-card-name">ממשקי אודיו</div></a>
+    <a href="#cat-mic" class="cat-card"><span class="cat-card-icon">🎙️</span><div class="cat-card-name">מיקרופונים</div></a>
+    <a href="#cat-midi" class="cat-card"><span class="cat-card-icon">🎹</span><div class="cat-card-name">בקרי MIDI</div></a>
+    <a href="#cat-monitor" class="cat-card"><span class="cat-card-icon">🔊</span><div class="cat-card-name">מוניטורי סטודיו</div></a>
+    <a href="#cat-mixer" class="cat-card"><span class="cat-card-icon">🎚️</span><div class="cat-card-name">מיקסרים</div></a>
+    <a href="#cat-headphones" class="cat-card"><span class="cat-card-icon">🎧</span><div class="cat-card-name">אוזניות</div></a>
+    <a href="#cat-guitar" class="cat-card"><span class="cat-card-icon">🎸</span><div class="cat-card-name">אביזרי גיטרה</div></a>
+    <a href="#cat-soundcard" class="cat-card"><span class="cat-card-icon">🖥️</span><div class="cat-card-name">כרטיסי סאונד</div></a>
   </div>
 </section>
 
 <!-- PRODUCTS -->
 <section class="products-section" id="products">
-  <div class="prod-header">
-    <div class="prod-title-wrap">
-      <div class="prod-count">מוצרים נבחרים</div>
-      <div class="prod-title">ציוד שמוזיקאים ממליצים עליו</div>
+  <div class="sec-label">מוצרים נבחרים</div>
+  <div class="sec-title">ציוד שמוזיקאים ממליצים עליו</div>
+  <div class="sec-sub">כל מוצר נבחר בקפידה — ביצועים מוכחים, ביקורות אמיתיות, מחיר שלא תמצא בארץ.</div>
+
+  <!-- ── ממשקי אודיו ── -->
+  <div class="cat-block" id="cat-interface">
+    <div class="cat-header">
+      <span class="cat-icon">🎛️</span>
+      <span class="cat-name">ממשקי אודיו</span>
+      <span class="cat-count">1 מוצר</span>
     </div>
-    <div class="sort-btns">
-      <button class="sort-btn on">הכל</button>
-      <button class="sort-btn">חדש</button>
-      <button class="sort-btn">פופולרי</button>
+    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
+      <div class="product-card">
+        <div class="product-badge">⭐ 4.9</div>
+        <div class="product-img">🎛️</div>
+        <div class="product-body">
+          <div class="product-cat-tag">ממשק אודיו</div>
+          <div class="product-name">MAONO PS22 Lite USB Audio Interface</div>
+          <div class="product-desc">ממשק אודיו USB נייד עם כניסת XLR להקלטה, סטרימינג ומוזיקה. Plug & Play, תואם לכל DAW — Focusrite Scarlett ישראלי במחיר קטן.</div>
+          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(420 מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪178</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c3Lvs4dJ" target="_blank" class="btn-buy" onclick="trackClick('MAONO PS22')">לרכישה ←</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="products-grid" id="products">
-    <div class="product-card">
-      <div class="product-badge">🏆 בסט סלר</div>
-      <div class="product-img">🤖</div>
-      <div class="product-body">
-        <div class="product-category">ניקיון חכם</div>
-        <div class="product-name">שואב רובוטי חכם Xiaomi — ניווט + שאיבה עוצמתית</div>
-        <div class="product-desc">שואב רובוט חכם עם ניווט אוטומטי, שאיבה עוצמתית, שליטה מהאפליקציה ותזמון. מנקה לבד בזמן שאתה עושה דברים אחרים.</div>
-        <div class="product-stars">
-          <span class="stars">★★★★★</span>
-          <span class="stars-score">4.8</span>
-          <span class="stars-count">(165+ הזמנות)</span>
-        </div>
-        <div class="product-footer">
-          <div class="product-price">
-            <div class="price-current">₪729</div>
-            <div class="price-original">₪1,581</div>
-            <div class="price-save">חיסכון 54%</div>
+
+  <!-- ── מיקרופונים ── -->
+  <div class="cat-block" id="cat-mic">
+    <div class="cat-header">
+      <span class="cat-icon">🎙️</span>
+      <span class="cat-name">מיקרופונים</span>
+      <span class="cat-count">2 מוצרים</span>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-badge">🔥 4,000+ מכירות</div>
+        <div class="product-img">🎙️</div>
+        <div class="product-body">
+          <div class="product-cat-tag">מיקרופון USB</div>
+          <div class="product-name">FIFINE AmpliGame A2 RGB USB Microphone</div>
+          <div class="product-desc">מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.</div>
+          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(4,000+ מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪70</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c40ZMzpL" target="_blank" class="btn-buy" onclick="trackClick('FIFINE A2')">לרכישה ←</a>
           </div>
-          <a href="https://s.click.aliexpress.com/e/_c3nByKqb" target="_blank" class="btn-buy">לרכישה</a>
         </div>
       </div>
-
-    <div class="product-card">
-      <div class="product-badge">✅ Brand+</div>
-      <div class="product-img">🫧</div>
-      <div class="product-body">
-        <div class="product-category">ניקיון חכם</div>
-        <div class="product-name">Xiaomi Mijia שואב רחצה אלחוטי 2C — שואב, שוטף ומחטא בבת אחת</div>
-        <div class="product-desc">שואב אלחוטי שגם שוטף את הרצפה ומחטא את המים אלקטרוליטית תוך כדי ניקוי. מברשת אנטי-סבך לשיער חיות מחמד, ומאושר לסביבת תינוקות — כי נקיון אמיתי זה לא רק אבק.</div>
-        <div class="product-stars">
-          <span class="stars">★★★★★</span>
-          <span class="stars-score">4.8</span>
-          <span class="stars-count">(69 הזמנות)</span>
-        </div>
-        <div class="product-footer">
-          <div class="product-price">
-            <div class="price-current">₪368</div>
-            <div class="price-original">₪829</div>
-            <div class="price-save">חיסכון 56%</div>
+      <div class="product-card">
+        <div class="product-badge">🎤 5,000+ מכירות</div>
+        <div class="product-img">🎙️</div>
+        <div class="product-body">
+          <div class="product-cat-tag">מיקרופון USB/XLR</div>
+          <div class="product-name">FIFINE AmpliGame AM8 USB/XLR Dynamic Mic</div>
+          <div class="product-desc">מיקרופון דינמי מקצועי עם חיבור כפול USB ו-XLR, שליטה על RGB, יציאת אוזניות ומיוט מובנה. השדרוג הבא מ-A2 עם גמישות מקסימלית.</div>
+          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(5,000+ מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪112</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c3ojwsol" target="_blank" class="btn-buy" onclick="trackClick('FIFINE AM8')">לרכישה ←</a>
           </div>
-          <a href="https://s.click.aliexpress.com/e/_c3Bc4egJ" target="_blank" class="btn-buy">לרכישה</a>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- ── בקרי MIDI ── -->
+  <div class="cat-block" id="cat-midi">
+    <div class="cat-header">
+      <span class="cat-icon">🎹</span>
+      <span class="cat-name">בקרי MIDI</span>
+      <span class="cat-count">2 מוצרים</span>
     </div>
-
-
-
-
-
-
-    
-    <div class="product-card">
-      <div class="product-badge">🔥 8,673 הזמנות</div>
-      <div class="product-img">💆</div>
-      <div class="product-body">
-        <div class="product-category">בריאות וטיפוח</div>
-        <div class="product-name">מסאג'ר צוואר וכתפיים 4D אלחוטי — כאילו יש לך מטפל בבית</div>
-        <div class="product-desc">4 אצבעות ביוניות שמדמות עיסוי יד אמיתי — לצוואר, כתפיים וטרפזים. אלחוטי לחלוטין, מנוע ללא מברשות לשקט מרבי. מושלם אחרי יום עמידה ארוך מול מסך.</div>
-        <div class="product-stars">
-          <span class="stars">★★★★★</span>
-          <span class="stars-score">4.8</span>
-          <span class="stars-count">(8,673 הזמנות)</span>
-        </div>
-        <div class="product-footer">
-          <div class="product-price">
-            <div class="price-current">₪97</div>
-            <div class="price-original">₪277</div>
-            <div class="price-save">חיסכון 65%</div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-badge">⭐ 4.9</div>
+        <div class="product-img">🎹</div>
+        <div class="product-body">
+          <div class="product-cat-tag">קלידיית MIDI</div>
+          <div class="product-name">M-VAVE SMK-25 Mini MIDI Keyboard 25 Keys</div>
+          <div class="product-desc">קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.</div>
+          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(129 מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪138</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c4E0aQhJ" target="_blank" class="btn-buy" onclick="trackClick('M-VAVE SMK-25')">לרכישה ←</a>
           </div>
-          <a href="https://s.click.aliexpress.com/e/_c4NUMNCx" target="_blank" class="btn-buy">לרכישה</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-badge">🥁 1,000+ מכירות</div>
+        <div class="product-img">🎛️</div>
+        <div class="product-body">
+          <div class="product-cat-tag">בקר פדים MIDI</div>
+          <div class="product-name">M-VAVE SMC PAD Wireless MIDI Controller 16 Pads</div>
+          <div class="product-desc">16 פדי הקשה אלחוטיים ומסוגננים ב-Pocket-size. USB-C, חיבור Bluetooth ותאימות מלאה לכל DAW. המכשיר שכל ביטמייקר חולם עליו.</div>
+          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.6</span><span class="stars-count">(1,000+ מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪81</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c3bBWFiV" target="_blank" class="btn-buy" onclick="trackClick('M-VAVE SMC PAD')">לרכישה ←</a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    
-    <div class="product-card">
-      <div class="product-badge">🔥 6,754 הזמנות</div>
-      <div class="product-img">💻</div>
-      <div class="product-body">
-        <div class="product-category">טכנולוגיה וגאדג'טים</div>
-        <div class="product-name">Baseus Hub 12 ב-1 USB-C — כל החיבורים שאי פעם תצטרך</div>
-        <div class="product-desc">הופך חיבור USB-C אחד ל-12 — HDMI 4K@60Hz כפול, USB 3.2, רשת RJ45, SD/TF, ו-100W טעינה. תואם Windows ו-Mac. הפסיקו לחפש מתאמים.</div>
-        <div class="product-stars">
-          <span class="stars">★★★★★</span>
-          <span class="stars-score">4.8</span>
-          <span class="stars-count">(6,754 הזמנות)</span>
-        </div>
-        <div class="product-footer">
-          <div class="product-price">
-            <div class="price-current">₪209</div>
-            <div class="price-original">₪458</div>
-            <div class="price-save">חיסכון 54%</div>
+  <!-- ── מוניטורי סטודיו ── -->
+  <div class="cat-block" id="cat-monitor">
+    <div class="cat-header">
+      <span class="cat-icon">🔊</span>
+      <span class="cat-name">מוניטורי סטודיו</span>
+      <span class="cat-count">1 מוצר</span>
+    </div>
+    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
+      <div class="product-card">
+        <div class="product-badge">🔊 BT 5.0</div>
+        <div class="product-img">🔊</div>
+        <div class="product-body">
+          <div class="product-cat-tag">מוניטור סטודיו</div>
+          <div class="product-name">AIYIMA S4000 Studio Monitor 40W×2 Bluetooth</div>
+          <div class="product-desc">מוניטורי סטודיו אקטיביים 40W לכל ערוץ עם Bluetooth 5.0, כניסות RCA/XLR מאוזנות, יציאת Subwoofer וארון עץ לאקוסטיקה חמה ומדויקת.</div>
+          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.7</span><span class="stars-count">(109 מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪688</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c365CVQV" target="_blank" class="btn-buy" onclick="trackClick('AIYIMA S4000')">לרכישה ←</a>
           </div>
-          <a href="https://s.click.aliexpress.com/e/_c4DZWbTD" target="_blank" class="btn-buy">לרכישה</a>
         </div>
       </div>
     </div>
+  </div>
 
-    
-    <div class="product-card">
-      <div class="product-badge">☕ 1,936 הזמנות</div>
-      <div class="product-img">☕</div>
-      <div class="product-body">
-        <div class="product-category">מטבח חכם</div>
-        <div class="product-name">HiBREW H10A — מכונת אספרסו חצי אוטומטית 20 בר</div>
-        <div class="product-desc">20 בר לחץ, פורטפילטר 58מ"מ כמו הבריסטות האמיתיים, גוף מתכת מלא, שליטה בטמפרטורה ואפשרות קפה חם/קר. כי קפה טוב מתחיל בבית.</div>
-        <div class="product-stars">
-          <span class="stars">★★★★★</span>
-          <span class="stars-score">4.8</span>
-          <span class="stars-count">(1,936 הזמנות)</span>
-        </div>
-        <div class="product-footer">
-          <div class="product-price">
-            <div class="price-current">₪693</div>
-            <div class="price-original">₪1,200</div>
-            <div class="price-save">חיסכון 42%</div>
+  <!-- ── מיקסרים ── -->
+  <div class="cat-block" id="cat-mixer">
+    <div class="cat-header">
+      <span class="cat-icon">🎚️</span>
+      <span class="cat-name">מיקסרים</span>
+      <span class="cat-count">2 מוצרים</span>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-badge">🎚️ 600+ מכירות</div>
+        <div class="product-img">🎚️</div>
+        <div class="product-body">
+          <div class="product-cat-tag">מיקסר RGB</div>
+          <div class="product-name">FIFINE SC8 Audio Mixer RGB + Voice Changer</div>
+          <div class="product-desc">מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.</div>
+          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.8</span><span class="stars-count">(600+ מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪185</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c45rBg2t" target="_blank" class="btn-buy" onclick="trackClick('FIFINE SC8')">לרכישה ←</a>
           </div>
-          <a href="https://s.click.aliexpress.com/e/_c38ZFTBv" target="_blank" class="btn-buy">לרכישה</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-badge">⭐ 4.9</div>
+        <div class="product-img">🎛️</div>
+        <div class="product-body">
+          <div class="product-cat-tag">מיקסר לַיין</div>
+          <div class="product-name">Depusheng Ultra Low Noise Mini Line Mixer</div>
+          <div class="product-desc">מיקסר לַיין 4/6/8 ערוצים עם רעש נמוך במיוחד, אספקת חשמל DC5V פשוטה ותפעול קל. קומפקטי, יציב ואמין — הפתרון הנקי לאולפן ביתי.</div>
+          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(1,000+ מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪69</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c3tuI2bL" target="_blank" class="btn-buy" onclick="trackClick('Depusheng Mixer')">לרכישה ←</a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    
-
-    <div class="product-card" style="background: linear-gradient(145deg, var(--navy-light), var(--navy-mid)); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:40px; min-height:320px;">
-      <div style="font-size:48px;margin-bottom:20px;">🚀</div>
-      <div style="font-size:20px;font-weight:800;margin-bottom:12px;">עוד מוצרים בדרך</div>
-      <div style="font-size:14px;color:var(--text-muted);line-height:1.6;margin-bottom:24px;">הצטרף לרשימה וקבל התראה ראשון כשמוצרים חדשים נוחתים.</div>
-      <button class="btn-primary" style="width:100%;" onclick="document.getElementById('newsletter').scrollIntoView({behavior:'smooth'})">הודע לי ראשון</button>
+  <!-- ── אוזניות ── -->
+  <div class="cat-block" id="cat-headphones">
+    <div class="cat-header">
+      <span class="cat-icon">🎧</span>
+      <span class="cat-name">אוזניות</span>
+      <span class="cat-count">1 מוצר</span>
     </div>
+    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
+      <div class="product-card">
+        <div class="product-badge">🎧 5,000+ מכירות</div>
+        <div class="product-img">🎧</div>
+        <div class="product-body">
+          <div class="product-cat-tag">אוזניות DJ</div>
+          <div class="product-name">Oneodio Studio Pro 50 DJ Headphones</div>
+          <div class="product-desc">אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.</div>
+          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(5,000+ מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪131</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c4KGDyB3" target="_blank" class="btn-buy" onclick="trackClick('Oneodio Pro 50')">לרכישה ←</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- ── אביזרי גיטרה ── -->
+  <div class="cat-block" id="cat-guitar">
+    <div class="cat-header">
+      <span class="cat-icon">🎸</span>
+      <span class="cat-name">אביזרי גיטרה</span>
+      <span class="cat-count">1 מוצר</span>
+    </div>
+    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
+      <div class="product-card">
+        <div class="product-badge">🔁 1,000+ מכירות</div>
+        <div class="product-img">🎸</div>
+        <div class="product-body">
+          <div class="product-cat-tag">פדל לופר</div>
+          <div class="product-name">Rowin Golden Loop Station 48K Looper Pedal</div>
+          <div class="product-desc">פדל לופר 48kHz עם Overdub ללא הגבלה, 10 דקות הקלטה, Half/Double Time, Reverse ו-True Bypass. כל הנגינה שלך — בלופ אחד.</div>
+          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(1,000+ מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪71</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c3Us72JF" target="_blank" class="btn-buy" onclick="trackClick('Rowin Looper')">לרכישה ←</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── כרטיסי סאונד ── -->
+  <div class="cat-block" id="cat-soundcard">
+    <div class="cat-header">
+      <span class="cat-icon">🖥️</span>
+      <span class="cat-name">כרטיסי סאונד</span>
+      <span class="cat-count">1 מוצר</span>
+    </div>
+    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
+      <div class="product-card">
+        <div class="product-badge">🎮 PC & Karaoke</div>
+        <div class="product-img">🖥️</div>
+        <div class="product-body">
+          <div class="product-cat-tag">כרטיס סאונד</div>
+          <div class="product-name">V8S Professional Sound Card + Voice Changer</div>
+          <div class="product-desc">כרטיס סאונד מקצועי עם 10 אפקטי קול, משנה קול דיגיטלי, Plug & Play לגיימינג, קריוקי, סטרימינג והקלטה. כל האולפן — בגאדג'ט אחד קטן.</div>
+          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.6</span><span class="stars-count">(81 מכירות)</span></div>
+          <div class="product-footer">
+            <div><div class="price-current">₪58</div><div class="price-ship">✈ משלוח חינם</div></div>
+            <a href="https://s.click.aliexpress.com/e/_c3MRTYoV" target="_blank" class="btn-buy" onclick="trackClick('V8S Sound Card')">לרכישה ←</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </section>
 
 <!-- WHY -->
 <section class="why-section" id="why">
-  <div class="bento-label">למה Dibi</div>
-  <div class="bento-title">ציוד מקצועי. מחירים הגיוניים.</div>
+  <div class="sec-label">למה Dibi</div>
+  <div class="sec-title">ציוד מקצועי. מחירים הגיוניים.</div>
   <div class="why-grid">
-    <div class="why-item">
-      <div class="why-num">01</div>
-      <div class="why-title">סינון קפדני</div>
-      <div class="why-desc">כל מוצר נבדק לפי ביצועים, דירוג מוזיקאים ויחס מחיר-איכות. רק מה שעובד באמת — נכנס.</div>
-    </div>
-    <div class="why-item">
-      <div class="why-num">02</div>
-      <div class="why-title">מחיר ישיר מהמקור</div>
-      <div class="why-desc">קונים ישירות מהיצרן ומעבירים לך את החיסכון. בלי חנות ביניים, בלי תמחור מנופח.</div>
-    </div>
-    <div class="why-item">
-      <div class="why-num">03</div>
-      <div class="why-title">משלוח מהיר לכל הארץ</div>
-      <div class="why-desc">מעקב בזמן אמת ומשלוח תוך 48 שעות לרוב האזורים. הציוד מגיע מוכן להקלטה.</div>
-    </div>
-    <div class="why-item">
-      <div class="why-num">04</div>
-      <div class="why-title">30 יום החזרה</div>
-      <div class="why-desc">הציוד לא מתאים לסאונד שלך? לא מספיק עוצמה? מחזירים בלי שאלות ובלי בירוקרטיה.</div>
-    </div>
+    <div class="why-item"><div class="why-num">01</div><div class="why-title">סינון קפדני</div><div class="why-desc">כל מוצר נבחר לפי ביצועים, ביקורות מוזיקאים ויחס מחיר-איכות. רק מה שעובד באמת נכנס לחנות.</div></div>
+    <div class="why-item"><div class="why-num">02</div><div class="why-title">מחיר ישיר מהמקור</div><div class="why-desc">קונים ישירות מהיצרן ומעבירים את החיסכון אליך — בלי חנות ביניים, בלי תמחור מנופח.</div></div>
+    <div class="why-item"><div class="why-num">03</div><div class="why-title">✈ משלוח חינם לישראל</div><div class="why-desc">כל המוצרים בחנות מגיעים עם משלוח חינמי לישראל — אין הפתעות בקופה.</div></div>
+    <div class="why-item"><div class="why-num">04</div><div class="why-title">לכל מוזיקאי</div><div class="why-desc">לא רק לפרודיוסרים ו-DJ — לגיטריסטים, סטרימרים, מקליטים, ביטמייקרים וכל מי שאוהב מוזיקה.</div></div>
   </div>
 </section>
 
 <!-- NEWSLETTER -->
 <section class="nl-section" id="newsletter">
   <div class="nl-inner">
-    <div class="nl-tag">ניוזלטר</div>
+    <div class="sec-label">ניוזלטר</div>
     <div class="nl-title">דילים.<br/>ציוד חדש.</div>
-    <div class="nl-sub">הצטרף למוזיקאים שמקבלים ראשונים את ההצעות הכי שוות — בלי ספאם.</div>
+    <div class="nl-sub">הצטרף למוזיקאים שמקבלים ראשונים את ההצעות הכי שוות — ללא ספאם.</div>
     <div class="nl-form">
       <input class="nl-input" type="email" placeholder="האימייל שלך"/>
       <button class="btn-lime">הצטרף</button>
@@ -530,30 +567,35 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
 <!-- FOOTER -->
 <footer>
   <div class="footer-top">
-    <div class="footer-logo-wrap">
+    <div>
       <div class="footer-logo">Di<em>bi</em></div>
       <div class="footer-tagline">ציוד מוזיקה מקצועי במחירים שלא תמצא בשום מקום אחר בישראל.</div>
     </div>
     <div class="footer-links-group">
       <div class="footer-col">
-        <div class="footer-col-title">חנות</div>
-        <a href="#">כל המוצרים</a>
-        <a href="#">קטגוריות</a>
-        <a href="#">מבצעים</a>
-        <a href="#">חדש באתר</a>
+        <div class="footer-col-title">קטגוריות</div>
+        <a href="#cat-interface">ממשקי אודיו</a>
+        <a href="#cat-mic">מיקרופונים</a>
+        <a href="#cat-midi">בקרי MIDI</a>
+        <a href="#cat-monitor">מוניטורים</a>
+        <a href="#cat-mixer">מיקסרים</a>
+        <a href="#cat-headphones">אוזניות</a>
+        <a href="#cat-guitar">גיטרה</a>
+        <a href="#cat-soundcard">כרטיסי סאונד</a>
       </div>
       <div class="footer-col">
-        <div class="footer-col-title">שירות</div>
-        <a href="#">משלוחים</a>
-        <a href="#">החזרות</a>
-        <a href="#">צור קשר</a>
-        <a href="#">שאלות נפוצות</a>
+        <div class="footer-col-title">עקבו אחרינו</div>
+        <a href="https://www.instagram.com/dibi.music" target="_blank" class="footer-ig">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @dibi.music
+        </a>
+        <a href="#newsletter">ניוזלטר</a>
       </div>
       <div class="footer-col">
-        <div class="footer-col-title">חברה</div>
-        <a href="#">אודות</a>
-        <a href="#">מדיניות פרטיות</a>
-        <a href="#">תנאי שימוש</a>
+        <div class="footer-col-title">מידע</div>
+        <a href="#why">אודות Dibi</a>
+        <a href="#categories">כל הקטגוריות</a>
+        <a href="#products">מוצרים</a>
       </div>
     </div>
   </div>
@@ -563,32 +605,26 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
   </div>
 </footer>
 
-<button onclick="window.scrollTo({top:0,behavior:'smooth'})"
-  style="position:fixed;bottom:24px;left:24px;width:42px;height:42px;background:var(--lime);border:none;border-radius:6px;cursor:pointer;font-size:16px;color:#000;font-weight:800;z-index:99;transition:all .2s;display:flex;align-items:center;justify-content:center"
-  onmouseover="this.style.background='#fff'"
-  onmouseout="this.style.background='var(--lime)'">↑</button>
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script>
-document.querySelectorAll('.lang-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-  });
+// Scroll to top button
+const scrollBtn = document.getElementById('scrollTop');
+window.addEventListener('scroll', () => {
+  scrollBtn.classList.toggle('visible', window.scrollY > 400);
 });
 
+// Fade-up animation
 const obs = new IntersectionObserver(entries => {
   entries.forEach(e => {
     if (e.isIntersecting) {
-      e.target.style.opacity = '1';
-      e.target.style.transform = 'translateY(0)';
+      e.target.style.animation = 'fadeUp 0.45s ease forwards';
     }
   });
-}, {threshold:0.08});
-
-document.querySelectorAll('.product-card,.why-item,.bento-item').forEach(el => {
+}, {threshold: 0.08});
+document.querySelectorAll('.product-card,.why-item,.cat-card').forEach(el => {
   el.style.opacity = '0';
-  el.style.transform = 'translateY(20px)';
-  el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
   obs.observe(el);
 });
 </script>
