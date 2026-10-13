@@ -32,11 +32,22 @@ if [ -f "$DIR/.env" ]; then
   [[ "$keep" =~ ^[Nn] ]] || ask_keys=0
 fi
 if [ "$ask_keys" = 1 ]; then
-  echo -e "\n${Y}מדביקים כל ערך ולוחצים Enter (בשדות הסודיים לא רואים את מה שמודבק — זה תקין).${N}"
-  read -rp  "AliExpress App Key: " K </dev/tty
-  read -rsp "AliExpress App Secret: " S </dev/tty; echo
-  read -rp  "Tracking ID של האתר (לא של וואטסאפ): " T </dev/tty
-  read -rsp "GitHub token (Contents: Read and write על DibiIL/dibi): " GT </dev/tty; echo
+  echo -e "\n${Y}להדבקה: Ctrl+V, או לחיצה ימנית בעכבר, או Shift+Insert. ואז Enter.${N}"
+  echo -e "${Y}בשדות הסודיים לא רואים את מה שמודבק — אחרי Enter יופיע אישור עם מספר התווים.${N}\n"
+  ask(){ # ask <var> <prompt> <secret 0/1>
+    local v=""
+    while [ -z "$v" ]; do
+      if [ "$3" = 1 ]; then read -rsp "$2: " v </dev/tty; echo; else read -rp "$2: " v </dev/tty; fi
+      v="$(echo -n "$v" | tr -d '[:space:]')"
+      if [ -z "$v" ]; then echo -e "${R}  לא התקבל כלום — נסה להדביק שוב.${N}"
+      elif [ "$3" = 1 ]; then echo -e "${G}  ✓ התקבלו ${#v} תווים, מסתיים ב-...${v: -4}${N}"; fi
+    done
+    printf -v "$1" '%s' "$v"
+  }
+  ask K  "1/4  AliExpress App Key" 0
+  ask S  "2/4  AliExpress App Secret" 1
+  ask T  "3/4  Tracking ID של האתר (לא של וואטסאפ)" 0
+  ask GT "4/4  GitHub token (מתחיל ב-github_pat_)" 1
   umask 077
   cat > "$DIR/.env" <<ENV
 ALI_APP_KEY=$K
