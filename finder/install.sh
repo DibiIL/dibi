@@ -120,7 +120,7 @@ say "תוזמן: מחירים כל 6 שעות · מוצרים חדשים כל י
 # 6. ריצה ראשונה
 echo
 say "ריצה ראשונה (לוקח כדקה)…"
-$RUN all 2>&1 | tee -a "$LOGF"
+( cd "$DIR" && "$NODE" "$DIR/repo/finder/finder.js" all ) 2>&1 | tee -a "$LOGF"
 echo -e "\n${G}✅ הכל מוכן.${N} הבוט רץ לבד מעכשיו, גם כשהמחשב שלך כבוי."
 echo "רשימת המוצרים לאישור: https://dibi.co.il/review.html"
 echo "לראות מה הבוט עשה:  tail -n 40 $LOGF"
