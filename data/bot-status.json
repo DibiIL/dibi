@@ -195,5 +195,57 @@
     "active": true
    }
   ]
+ },
+ "find": {
+  "at": "2026-10-13T20:38:20.485Z",
+  "ok": true,
+  "keywords": [
+   "video capture card usb 3.0",
+   "microphone shock mount pop filter",
+   "audio interface 2 channel recording",
+   "camera tripod aluminum",
+   "guitar looper pedal",
+   "midi keyboard controller 25 keys",
+   "softbox lighting kit",
+   "guitar wireless system",
+   "gaming mouse wireless",
+   "webcam 4k streaming",
+   "mechanical keyboard",
+   "green screen backdrop",
+   "led light stick rgb",
+   "low profile mic arm"
+  ],
+  "rawMatches": 164,
+  "added": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28
+  ],
+  "pending": 28
  }
 }
