@@ -36,6 +36,7 @@ const CFG = {
   api: E.ALI_API_URL || 'https://api-sg.aliexpress.com/sync',
   token: E.GITHUB_TOKEN, repo: E.GITHUB_REPO || 'DibiIL/dibi', branch: E.GITHUB_BRANCH || 'main',
   gitRemote: E.GIT_REMOTE_URL, // לבדיקות בלבד
+  sshKey: E.GIT_SSH_KEY,        // מפתח Deploy key (חלופה לטוקן)
   minCommission: +(E.MIN_COMMISSION || 5),   // %
   minOrders: +(E.MIN_ORDERS || 100),
   minRating: +(E.MIN_RATING || 90),          // % ביקורות חיוביות
@@ -110,18 +111,20 @@ function bestPrice(p) {
 // ---------- git ----------
 function git(args, opts = {}) {
   const user = CFG.repo.split('/')[0];
-  const auth = CFG.token ? ['-c', 'http.extraHeader=Authorization: Basic ' + Buffer.from(user + ':' + CFG.token).toString('base64')] : [];
+  const auth = CFG.token && !CFG.sshKey ? ['-c', 'http.extraHeader=Authorization: Basic ' + Buffer.from(user + ':' + CFG.token).toString('base64')] : [];
   return execFileSync('git', [...auth, ...args], {
     cwd: opts.cwd || REPO, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'],
-    env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'never' }, // אף פעם לא לעצור ולשאול סיסמה
+    env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'never',
+      ...(CFG.sshKey ? { GIT_SSH_COMMAND: `ssh -i ${CFG.sshKey} -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o BatchMode=yes` } : {}) }, // אף פעם לא לעצור ולשאול סיסמה
   }).trim();
 }
-function remoteUrl() { return CFG.gitRemote || `https://github.com/${CFG.repo}.git`; }
+function remoteUrl() { return CFG.gitRemote || (CFG.sshKey ? `git@github.com:${CFG.repo}.git` : `https://github.com/${CFG.repo}.git`); }
 function syncRepo() {
   if (!fs.existsSync(path.join(REPO, '.git'))) {
     log('משכפל את האתר מ-GitHub…');
     git(['clone', '--branch', CFG.branch, remoteUrl(), REPO], { cwd: HOME });
   }
+  git(['remote', 'set-url', 'origin', remoteUrl()]);
   git(['fetch', '--quiet', 'origin', CFG.branch]);
   git(['checkout', '--quiet', '-B', CFG.branch, 'origin/' + CFG.branch]);
   git(['reset', '--quiet', '--hard', 'origin/' + CFG.branch]);
@@ -387,7 +390,8 @@ async function findProducts() {
 // ---------- test ----------
 async function selfTest() {
   let ok = true;
-  for (const k of ['ALI_APP_KEY', 'ALI_APP_SECRET', 'ALI_TRACKING_ID', 'GITHUB_TOKEN']) if (!E[k]) { log(`❌ חסר ${k} בקובץ ${ENV_FILE}`); ok = false; }
+  for (const k of ['ALI_APP_KEY', 'ALI_APP_SECRET', 'ALI_TRACKING_ID']) if (!E[k]) { log(`❌ חסר ${k} בקובץ ${ENV_FILE}`); ok = false; }
+  if (!CFG.token && !CFG.sshKey) { log('❌ חסר חיבור ל-GitHub (מפתח או טוקן)'); ok = false; }
   if (!ok) return false;
   try {
     const r = await api('aliexpress.affiliate.product.query', { keywords: 'usb microphone', page_no: 1, page_size: 5, target_currency: 'ILS', target_language: 'EN', ship_to_country: 'IL', tracking_id: CFG.tracking });
@@ -400,16 +404,23 @@ async function selfTest() {
     ok = false;
   }
   try {
+    if (CFG.token && !CFG.sshKey) {
     const r = await fetch(`https://api.github.com/repos/${CFG.repo}`, { headers: { Authorization: 'Bearer ' + CFG.token, 'User-Agent': 'dibi-finder' }, signal: AbortSignal.timeout(20000) });
     if (r.status === 401) { log('❌ GitHub: הטוקן לא תקין — כנראה לא הועתק שלם, או שנמחק. צריך ליצור טוקן חדש.'); return false; }
     const j = await r.json().catch(() => ({}));
     if (r.ok && j.permissions && !j.permissions.push) { log(`❌ GitHub: לטוקן אין הרשאת כתיבה. בהגדרות הטוקן צריך Contents: Read and write, ולבחור את ${CFG.repo}.`); return false; }
+    }
   } catch (_) { /* בדיקה משלימה בלבד */ }
   try {
     syncRepo();
     git(['push', '--dry-run', '--quiet', 'origin', 'HEAD:' + CFG.branch]);
     log('✅ GitHub: יש הרשאת כתיבה ל-' + CFG.repo);
-  } catch (e) { log('❌ GitHub:', String(e.stderr || e.message).split('\n')[0]); ok = false; }
+  } catch (e) {
+    const m = String(e.stderr || e.message);
+    if (CFG.sshKey && /Permission denied|denied to deploy key|publickey|read-only|not allowed/i.test(m)) log('❌ GitHub: המפתח עוד לא נוסף, או שלא סומן Allow write access. מוסיפים אותו ב-github.com/' + CFG.repo + '/settings/keys');
+    else log('❌ GitHub:', m.split('\n').filter(Boolean).slice(-1)[0]);
+    ok = false;
+  }
   return ok;
 }
 

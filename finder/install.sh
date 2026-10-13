@@ -22,7 +22,7 @@ say "Node $("$NODE" -v) · $(git --version)"
 
 # 2. קבצים
 mkdir -p "$DIR"
-if [ -d "$DIR/repo/.git" ]; then say "מעדכן את העותק של האתר…"; git -C "$DIR/repo" fetch -q origin main && git -C "$DIR/repo" reset -q --hard origin/main
+if [ -d "$DIR/repo/.git" ]; then say "מעדכן את העותק של האתר…"; git -C "$DIR/repo" fetch -q "$REPO_URL" main && git -C "$DIR/repo" reset -q --hard FETCH_HEAD
 else say "מוריד את האתר מ-GitHub…"; git clone -q "$REPO_URL" "$DIR/repo"; fi
 
 # 3. מפתחות (.env)
@@ -37,6 +37,21 @@ ask(){ # ask <var> <prompt> <secret 0/1> <min length>
   done
   printf -v "$1" '%s' "$v"
 }
+deploy_key(){ # מחבר את השרת ל-GitHub עם מפתח, בלי להקליד טוקן
+  local KEY="$DIR/deploy_key"
+  [ -f "$KEY" ] || ssh-keygen -q -t ed25519 -N "" -C "dibi-bot" -f "$KEY"
+  set_env GIT_SSH_KEY "$KEY"
+  echo
+  echo -e "${G}=== חיבור ל-GitHub ===${N}"
+  echo "1. פתח בדפדפן את הכתובת:  github.com/DibiIL/dibi/settings/keys/new"
+  echo "2. בשדה Title כתוב: dibi-bot"
+  echo "3. סמן עם העכבר את כל השורה הירוקה למטה (מ-ssh-ed25519 עד dibi-bot), העתק, והדבק בשדה Key בדפדפן:"
+  echo
+  echo -e "${G}$(cat "$KEY.pub")${N}"
+  echo
+  echo "4. סמן את התיבה Allow write access ולחץ Add key"
+  read -rp "כשסיימת — לחץ כאן Enter " _ </dev/tty
+}
 set_env(){ # set_env KEY VALUE
   local tmp; tmp="$(mktemp)"; grep -v "^$1=" "$DIR/.env" > "$tmp" || true
   printf '%s=%s\n' "$1" "$2" >> "$tmp"; cat "$tmp" > "$DIR/.env"; rm -f "$tmp"; chmod 600 "$DIR/.env"
@@ -46,7 +61,7 @@ if [ -f "$DIR/.env" ]; then
   echo "כבר יש מפתחות שמורים. מה לעשות?"
   echo "  1) להשאיר הכל כמו שהוא"
   echo "  2) להחליף רק את ה-Tracking ID"
-  echo "  3) להחליף רק את הטוקן של GitHub"
+  echo "  3) לחבר מחדש את GitHub"
   echo "  4) להזין הכל מחדש"
   read -rp "הקלד מספר ולחץ Enter: " ch </dev/tty
   case "$ch" in
@@ -57,19 +72,17 @@ if [ -f "$DIR/.env" ]; then
   esac
 fi
 if [ "$ask_keys" = 1 ]; then
-  echo -e "\n${Y}להדבקה: לחיצה ימנית בעכבר (לא Ctrl+V), ואז Enter.${N}"
+  echo -e "\n${Y}אפשר להדביק (לחיצה ימנית בעכבר) או להקליד. ואז Enter.${N}"
   echo -e "${Y}את מה שמדביקים רואים על המסך. בסוף המסך יתנקה כדי שהמפתחות לא יישארו מוצגים.${N}\n"
-  ask K  "1/4  AliExpress App Key" 0 5
-  ask S  "2/4  AliExpress App Secret" 0 16
-  ask T  "3/4  Tracking ID של האתר (לא של וואטסאפ)" 0
-  ask GT "4/4  GitHub token (מתחיל ב-github_pat_)" 0 30
+  ask K  "1/3  AliExpress App Key" 0 5
+  ask S  "2/3  AliExpress App Secret" 0 16
+  ask T  "3/3  Tracking ID של האתר (לא של וואטסאפ)" 0
   clear
   umask 077
   cat > "$DIR/.env" <<ENV
 ALI_APP_KEY=$K
 ALI_APP_SECRET=$S
 ALI_TRACKING_ID=$T
-GITHUB_TOKEN=$GT
 GITHUB_REPO=DibiIL/dibi
 MIN_COMMISSION=5
 MIN_ORDERS=100
@@ -77,13 +90,14 @@ MIN_RATING=90
 ENV
   chmod 600 "$DIR/.env"
   say "המפתחות נשמרו ב-$DIR/.env (רק למשתמש הזה יש גישה)"
+  ONLY=GT
 fi
 if [ "${ONLY:-}" = T ]; then
   echo -e "${Y}להדבקה: לחיצה ימנית בעכבר, ואז Enter.${N}"
   ask T "Tracking ID של האתר (בדיוק כמו בפורטלים)" 0 2; set_env ALI_TRACKING_ID "$T"; clear; say "ה-Tracking ID עודכן"
+  grep -q '^GIT_SSH_KEY=' "$DIR/.env" || deploy_key
 elif [ "${ONLY:-}" = GT ]; then
-  echo -e "${Y}להדבקה: לחיצה ימנית בעכבר, ואז Enter.${N}"
-  ask GT "GitHub token (מתחיל ב-github_pat_)" 0 30; set_env GITHUB_TOKEN "$GT"; clear; say "הטוקן עודכן"
+  deploy_key
 fi
 
 # 4. בדיקה
