@@ -25,7 +25,7 @@
   },
   "creators": {
     "wireless-mic": { "min": 40, "max": 900, "kw": ["wireless lavalier microphone", "wireless microphone for phone camera", "wireless lapel mic usb c"] },
-    "lighting": { "min": 25, "max": 900, "kw": ["ring light with tripod", "led video light panel", "rgb video light", "softbox lighting kit", "led light stick rgb"] },
+    "lighting": { "min": 25, "max": 900, "kw": ["ring light with tripod", "led video light panel", "rgb video light", "softbox lighting kit", "rgb light wand photography"] },
     "tripod": { "min": 25, "max": 900, "kw": ["phone tripod bluetooth remote", "gimbal stabilizer smartphone", "selfie stick tripod", "camera tripod aluminum"] },
     "camera": { "min": 60, "max": 900, "kw": ["webcam 1080p", "webcam 4k streaming", "action camera 4k"] },
     "mic": { "min": 30, "max": 500, "kw": ["shotgun microphone camera", "on camera microphone"] },

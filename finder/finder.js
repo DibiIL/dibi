@@ -264,7 +264,16 @@ function modelKey(title) {
   if (!model) { const m = raw.match(/\b(pro|max|plus|lite|mini|air|studio)\s+(\d{1,4})\b/); if (m) model = m[1] + m[2]; }
   return model ? brand + '|' + model : w.slice(0, 3).join(' ');
 }
-const JUNK = /\b(replacement|spare|repair|parts?|sticker|decal|cover only|case only|ear ?pads?|cushions?|cable only|adapter only|dummy|toy|kids?|children)\b/i;
+const JUNK = /\b(replacement|spare|repair|parts?|sticker|decal|cover only|case only|ear ?pads?|cushions?|cable only|adapter only|dummy|toy|kids?|children|glow|party|cheer|foam|wedding|costume|chair|halloween|christmas)\b/i;
+// מילים משמעותיות בכותרת — לזיהוי מוצרים כמעט זהים ממוכרים שונים (בלי מותג)
+const words = t => new Set(String(t || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter(w => w.length > 2 && !STOP.has(w) && !/^\d+$/.test(w)));
+function similar(a, b) {
+  const A = words(a), B = words(b);
+  if (!A.size || !B.size) return false;
+  let both = 0; A.forEach(w => { if (B.has(w)) both++; });
+  return both / Math.min(A.size, B.size) >= 0.6;
+}
+const brandOf = t => { const w = String(t || '').trim().split(/\s+/)[0] || ''; return /^[A-Za-z][A-Za-z-]{2,}$/.test(w) && w === w.toUpperCase() ? w.toLowerCase() : ''; };
 function relevant(title, kw) {
   const t = title.toLowerCase();
   const words = kw.toLowerCase().split(/\s+/).filter(w => w.length > 2 && !/^\d/.test(w) && !['with', 'for', 'and'].includes(w));
@@ -364,6 +373,12 @@ async function findProducts() {
       const k = c.niche + '/' + c.cat;
       if (siteIds.has(c.id) || rejIds.has(c.id) || takenIds.has(c.id)) continue;
       if (siteModels.has(c.model) || rejModels.has(c.model) || takenModels.has(c.model)) continue;
+      // גיוון: מוצר כמעט זהה או אותו מותג באותה קטגוריה — פעם אחת בלבד
+      const sameCat = cand.pending.filter(x => x.niche === c.niche && x.cat === c.cat);
+      if (sameCat.some(x => similar(x.title, c.title))) continue;
+      const br = brandOf(c.title);
+      if (br && sameCat.some(x => brandOf(x.title) === br)) continue;
+      if (site.products.some(p => p.cat === c.cat && similar(p.name, c.title))) continue;
       if ((perCat[k] || 0) >= CFG.perCat) continue;
       perCat[k] = (perCat[k] || 0) + 1;
       takenIds.add(c.id); takenModels.add(c.model);
