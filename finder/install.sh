@@ -33,7 +33,7 @@ if [ -f "$DIR/.env" ]; then
 fi
 if [ "$ask_keys" = 1 ]; then
   echo -e "\n${Y}להדבקה: Ctrl+V, או לחיצה ימנית בעכבר, או Shift+Insert. ואז Enter.${N}"
-  echo -e "${Y}בשדות הסודיים לא רואים את מה שמודבק — אחרי Enter יופיע אישור עם מספר התווים.${N}\n"
+  echo -e "${Y}את מה שמדביקים רואים על המסך. בסוף המסך יתנקה כדי שהמפתחות לא יישארו מוצגים.${N}\n"
   ask(){ # ask <var> <prompt> <secret 0/1> <min length>
     local v=""
     while [ -z "$v" ]; do
@@ -46,9 +46,10 @@ if [ "$ask_keys" = 1 ]; then
     printf -v "$1" '%s' "$v"
   }
   ask K  "1/4  AliExpress App Key" 0 5
-  ask S  "2/4  AliExpress App Secret" 1 16
+  ask S  "2/4  AliExpress App Secret" 0 16
   ask T  "3/4  Tracking ID של האתר (לא של וואטסאפ)" 0
-  ask GT "4/4  GitHub token (מתחיל ב-github_pat_)" 1 30
+  ask GT "4/4  GitHub token (מתחיל ב-github_pat_)" 0 30
+  clear
   umask 077
   cat > "$DIR/.env" <<ENV
 ALI_APP_KEY=$K
