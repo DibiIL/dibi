@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T23:20:00+03:00",
+ "updated": "2026-10-13T20:37:45.996Z",
  "niches": [
   {
    "id": "music",
@@ -169,12 +169,14 @@
    "desc": "ממשק אודיו USB נייד עם כניסת XLR להקלטה, סטרימינג ומוזיקה. Plug & Play, תואם לכל DAW — Focusrite Scarlett ישראלי במחיר קטן.",
    "rating": 4.9,
    "sold": "420 מכירות",
-   "price": 154,
+   "price": 196,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3Lvs4dJ",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 435,
+   "commission": 7
   },
   {
    "id": "1005006930797952",
@@ -192,12 +194,14 @@
    "desc": "מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.",
    "rating": 4.9,
    "sold": "4,000+ מכירות",
-   "price": 49,
+   "price": 75,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
    "link": "https://s.click.aliexpress.com/e/_c40ZMzpL",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 175,
+   "commission": 7
   },
   {
    "id": "1005006356702381",
@@ -216,12 +220,14 @@
    "desc": "מיקרופון דינמי מקצועי עם חיבור כפול USB ו-XLR, שליטה על RGB, יציאת אוזניות ומיוט מובנה. השדרוג הבא מ-A2 עם גמישות מקסימלית.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 121,
+   "price": 178,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3ojwsol",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 324,
+   "commission": 7
   },
   {
    "id": "1005008077659125",
@@ -237,12 +243,14 @@
    "desc": "קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.",
    "rating": 4.9,
    "sold": "129 מכירות",
-   "price": 143,
+   "price": 147,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4E0aQhJ",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 312,
+   "commission": 7
   },
   {
    "id": "1005008239764437",
@@ -259,12 +267,14 @@
    "desc": "16 פדי הקשה אלחוטיים ומסוגננים ב-Pocket-size. USB-C, חיבור Bluetooth ותאימות מלאה לכל DAW. המכשיר שכל ביטמייקר חולם עליו.",
    "rating": 4.6,
    "sold": "1,000+ מכירות",
-   "price": 63,
+   "price": 97,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3bBWFiV",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 187,
+   "commission": 7
   },
   {
    "id": "1005011667078395",
@@ -281,12 +291,14 @@
    "desc": "מוניטורי סטודיו אקטיביים 40W לכל ערוץ עם Bluetooth 5.0, כניסות RCA/XLR מאוזנות, יציאת Subwoofer וארון עץ לאקוסטיקה חמה ומדויקת.",
    "rating": 4.7,
    "sold": "109 מכירות",
-   "price": 696,
+   "price": 704,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
    "link": "https://s.click.aliexpress.com/e/_c365CVQV",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 978,
+   "commission": 7
   },
   {
    "id": "1005010049082935",
@@ -304,12 +316,14 @@
    "desc": "מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.",
    "rating": 4.8,
    "sold": "600+ מכירות",
-   "price": 168,
+   "price": 220,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
    "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 324,
+   "commission": 8
   },
   {
    "id": "1005008248050829",
@@ -326,12 +340,14 @@
    "desc": "מיקסר לַיין 4/6/8 ערוצים עם רעש נמוך במיוחד, אספקת חשמל DC5V פשוטה ותפעול קל. קומפקטי, יציב ואמין — הפתרון הנקי לאולפן ביתי.",
    "rating": 4.9,
    "sold": "1,000+ מכירות",
-   "price": 66,
+   "price": 73,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3tuI2bL",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 156,
+   "commission": 7
   },
   {
    "id": "1005006966378311",
@@ -349,12 +365,14 @@
    "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 134,
+   "price": 141,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 300,
+   "commission": 7
   },
   {
    "id": "1005007938035539",
@@ -370,12 +388,14 @@
    "desc": "פדל לופר 48kHz עם Overdub ללא הגבלה, 10 דקות הקלטה, Half/Double Time, Reverse ו-True Bypass. כל הנגינה שלך — בלופ אחד.",
    "rating": 4.9,
    "sold": "1,000+ מכירות",
-   "price": 73,
+   "price": 77,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
    "link": "https://s.click.aliexpress.com/e/_c3Us72JF",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 153,
+   "commission": 7
   },
   {
    "id": "1005008719757425",
@@ -392,12 +412,14 @@
    "desc": "כרטיס סאונד מקצועי עם 10 אפקטי קול, משנה קול דיגיטלי, Plug & Play לגיימינג, קריוקי, סטרימינג והקלטה. כל האולפן — בגאדג'ט אחד קטן.",
    "rating": 4.6,
    "sold": "81 מכירות",
-   "price": 59,
+   "price": 62,
    "freeShip": true,
-   "image": "",
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3MRTYoV",
    "active": true,
-   "added": "2026-10-06"
+   "added": "2026-10-06",
+   "listPrice": 125,
+   "commission": 7
   }
  ]
 }
