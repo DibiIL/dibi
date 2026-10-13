@@ -147,6 +147,20 @@ async function commitChange(files, message, mutate) {
   throw new Error('לא הצלחתי לדחוף ל-GitHub אחרי 3 ניסיונות');
 }
 
+// ---------- status report (data/bot-status.json) ----------
+// דוח פומבי בלי סודות: מתי הבוט רץ, מה ה-API החזיר בפועל לכל מוצר, ומה נכתב לאתר. משמש לבקרה.
+const STATUS = () => path.join(REPO, 'data', 'bot-status.json');
+function writeStatus(part, value) {
+  const st = readJson(STATUS(), {});
+  st[part] = value;
+  writeJson(STATUS(), st);
+}
+async function reportFailure(part, message) {
+  try {
+    await commitChange(['data/bot-status.json'], 'דוח בוט: תקלה', () => { writeStatus(part, { at: nowIso(), ok: false, error: String(message).slice(0, 300) }); return true; });
+  } catch (e) { log('לא הצלחתי לשמור דוח תקלה:', e.message); }
+}
+
 // ---------- prices ----------
 const PRODUCTS = () => path.join(REPO, 'data', 'products.json');
 
@@ -171,16 +185,29 @@ async function updatePrices() {
   log(`בודק מחירים ל-${ids.length} מוצרים…`);
   const details = await fetchDetails(ids);
   log(`התקבלו פרטים ל-${details.size}/${ids.length} מוצרים.`);
-  if (details.size === 0) { log('⚠️ לא התקבל אף מוצר מה-API — לא משנה כלום (כנראה תקלה זמנית).'); return; }
+  if (details.size === 0) {
+    log('⚠️ לא התקבל אף מוצר מה-API — לא משנה מחירים (כנראה תקלה זמנית).');
+    await reportFailure('prices', 'ה-API לא החזיר אף מוצר');
+    return;
+  }
 
   const changes = [];
-  await commitChange(['data/products.json'], 'עדכון מחירים אוטומטי', () => {
+  await commitChange(['data/products.json', 'data/bot-status.json'], 'עדכון מחירים אוטומטי', () => {
     const data = readJson(PRODUCTS(), null);
+    const report = [];
     if (!data) throw new Error('data/products.json לא תקין');
     changes.length = 0;
     let dirty = false;
     for (const p of data.products) {
       const d = details.get(String(p.id));
+      const before = p.price;
+      if (d) report.push({
+        id: String(p.id), name: p.short || p.name, before,
+        api: { sale: d.target_sale_price ?? null, app: d.target_app_sale_price ?? null, original: d.target_original_price ?? null,
+               currency: d.target_sale_price_currency || d.target_app_sale_price_currency || null },
+        image: d.product_main_image_url || null,
+      });
+      else report.push({ id: String(p.id), name: p.short || p.name, before, missing: (p.missing || 0) + 1 });
       if (!d) {
         p.missing = (p.missing || 0) + 1;
         if (p.missing >= 3 && p.active !== false) { p.active = false; p.autoHidden = true; changes.push(`🚫 הוסתר (לא זמין): ${p.short || p.name}`); }
@@ -210,7 +237,10 @@ async function updatePrices() {
     // את תאריך "המחירים עודכנו" מרעננים כשיש שינוי, ולפחות פעם ביום
     if (changes.length || Date.now() - last > 20 * 3600e3) { data.updated = nowIso(); dirty = true; }
     if (dirty) writeJson(PRODUCTS(), data);
-    return dirty;
+    const byId = new Map(data.products.map(p => [String(p.id), p]));
+    report.forEach(r => { const p = byId.get(r.id); if (p) { r.after = p.price; r.listPrice = p.listPrice ?? null; r.siteImage = p.image || null; r.active = p.active !== false; } });
+    writeStatus('prices', { at: nowIso(), ok: true, checked: data.products.length, returned: details.size, changes: changes.slice(), items: report });
+    return true; // תמיד שומרים את הדוח — גם משמש "דופק" שהבוט חי
   });
   if (changes.length) changes.forEach(c => log('  ' + c)); else log('המחירים לא השתנו.');
 }
@@ -303,7 +333,7 @@ async function findProducts() {
   if (!CFG.dryRun) writeJson(STATE_FILE, state);
 
   let added = [];
-  await commitChange(['data/candidates.json'], 'מועמדים חדשים לאתר', () => {
+  await commitChange(['data/candidates.json', 'data/bot-status.json'], 'חיפוש מוצרים: מועמדים לאישור', () => {
     const site = readJson(PRODUCTS(), { products: [] });
     const cand = readJson(path.join(REPO, 'data', 'candidates.json'), { nextNum: 1, pending: [], rejected: [] });
     cand.pending = cand.pending || []; cand.rejected = cand.rejected || []; cand.nextNum = cand.nextNum || 1;
@@ -342,8 +372,8 @@ async function findProducts() {
     if (cand.pending.length > CFG.maxPending) cand.pending = cand.pending.sort((a, b) => score(b) - score(a)).slice(0, CFG.maxPending);
     cand.pending.sort((a, b) => a.niche.localeCompare(b.niche) || a.cat.localeCompare(b.cat) || b.num - a.num);
     cand.updated = nowIso();
-    if (!added.length) return false;
-    writeJson(path.join(REPO, 'data', 'candidates.json'), cand);
+    if (added.length) writeJson(path.join(REPO, 'data', 'candidates.json'), cand);
+    writeStatus('find', { at: nowIso(), ok: true, keywords: picked.map(k => k.kw), rawMatches: found.length, added: added.map(c => c.num), pending: cand.pending.length });
     return true;
   });
   log(added.length ? `🆕 ${added.length} מועמדים חדשים:` : 'לא נמצאו מועמדים חדשים בריצה הזו.');
@@ -382,8 +412,8 @@ async function selfTest() {
     if (cmd === 'test') process.exitCode = (await selfTest()) ? 0 : 1;
     else {
       if (!CFG.key || !CFG.secret || !CFG.tracking) throw new Error(`חסרים מפתחות בקובץ ${ENV_FILE} — הריצו שוב את install.sh`);
-      if (cmd === 'prices' || cmd === 'all') await updatePrices();
-      if (cmd === 'find' || cmd === 'all') await findProducts();
+      if (cmd === 'prices' || cmd === 'all') { try { await updatePrices(); } catch (e) { log('❌ מחירים:', e.message); await reportFailure('prices', e.message); process.exitCode = 1; } }
+      if (cmd === 'find' || cmd === 'all') { try { await findProducts(); } catch (e) { log('❌ חיפוש:', e.message); await reportFailure('find', e.message); process.exitCode = 1; } }
       if (!['prices', 'find', 'all'].includes(cmd)) log('פקודות: prices | find | all | test');
     }
   } catch (e) {
