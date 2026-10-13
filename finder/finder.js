@@ -109,8 +109,12 @@ function bestPrice(p) {
 
 // ---------- git ----------
 function git(args, opts = {}) {
-  const auth = CFG.token ? ['-c', 'http.extraHeader=Authorization: Basic ' + Buffer.from('x-access-token:' + CFG.token).toString('base64')] : [];
-  return execFileSync('git', [...auth, ...args], { cwd: opts.cwd || REPO, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
+  const user = CFG.repo.split('/')[0];
+  const auth = CFG.token ? ['-c', 'http.extraHeader=Authorization: Basic ' + Buffer.from(user + ':' + CFG.token).toString('base64')] : [];
+  return execFileSync('git', [...auth, ...args], {
+    cwd: opts.cwd || REPO, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'],
+    env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GCM_INTERACTIVE: 'never' }, // אף פעם לא לעצור ולשאול סיסמה
+  }).trim();
 }
 function remoteUrl() { return CFG.gitRemote || `https://github.com/${CFG.repo}.git`; }
 function syncRepo() {
@@ -388,7 +392,19 @@ async function selfTest() {
   try {
     const r = await api('aliexpress.affiliate.product.query', { keywords: 'usb microphone', page_no: 1, page_size: 5, target_currency: 'ILS', target_language: 'EN', ship_to_country: 'IL', tracking_id: CFG.tracking });
     log(`✅ AliExpress API עובד (${products(r).length} תוצאות לדוגמה)`);
-  } catch (e) { log('❌ AliExpress API:', e.message); ok = false; }
+  } catch (e) {
+    const m = String(e.message);
+    if (/tracking/i.test(m)) log('❌ AliExpress: ה-Tracking ID לא נכון. צריך להעתיק אותו בדיוק כמו שהוא מופיע בפורטלים, בעמוד Tracking ID.');
+    else if (/sign|appkey|app key|InvalidApp/i.test(m)) log('❌ AliExpress: ה-App Key או ה-App Secret לא נכונים.');
+    else log('❌ AliExpress API:', m);
+    ok = false;
+  }
+  try {
+    const r = await fetch(`https://api.github.com/repos/${CFG.repo}`, { headers: { Authorization: 'Bearer ' + CFG.token, 'User-Agent': 'dibi-finder' }, signal: AbortSignal.timeout(20000) });
+    if (r.status === 401) { log('❌ GitHub: הטוקן לא תקין — כנראה לא הועתק שלם, או שנמחק. צריך ליצור טוקן חדש.'); return false; }
+    const j = await r.json().catch(() => ({}));
+    if (r.ok && j.permissions && !j.permissions.push) { log(`❌ GitHub: לטוקן אין הרשאת כתיבה. בהגדרות הטוקן צריך Contents: Read and write, ולבחור את ${CFG.repo}.`); return false; }
+  } catch (_) { /* בדיקה משלימה בלבד */ }
   try {
     syncRepo();
     git(['push', '--dry-run', '--quiet', 'origin', 'HEAD:' + CFG.branch]);

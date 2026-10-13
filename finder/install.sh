@@ -26,25 +26,39 @@ if [ -d "$DIR/repo/.git" ]; then say "מעדכן את העותק של האתר�
 else say "מוריד את האתר מ-GitHub…"; git clone -q "$REPO_URL" "$DIR/repo"; fi
 
 # 3. מפתחות (.env)
+ask(){ # ask <var> <prompt> <secret 0/1> <min length>
+  local v=""
+  while [ -z "$v" ]; do
+    if [ "$3" = 1 ]; then read -rsp "$2: " v </dev/tty; echo; else read -rp "$2: " v </dev/tty; fi
+    v="$(echo -n "$v" | tr -d '[:space:][:cntrl:]')"
+    if [ -z "$v" ]; then echo -e "${R}  לא התקבל כלום — נסה להדביק שוב (לחיצה ימנית בעכבר).${N}"
+    elif [ ${#v} -lt "${4:-1}" ]; then echo -e "${R}  התקבלו רק ${#v} תווים — זה קצר מדי, כנראה ההדבקה לא עבדה. נסה שוב עם לחיצה ימנית בעכבר.${N}"; v=""
+    elif [ "$3" = 1 ]; then echo -e "${G}  ✓ התקבלו ${#v} תווים, מסתיים ב-...${v: -4}${N}"; fi
+  done
+  printf -v "$1" '%s' "$v"
+}
+set_env(){ # set_env KEY VALUE
+  local tmp; tmp="$(mktemp)"; grep -v "^$1=" "$DIR/.env" > "$tmp" || true
+  printf '%s=%s\n' "$1" "$2" >> "$tmp"; cat "$tmp" > "$DIR/.env"; rm -f "$tmp"; chmod 600 "$DIR/.env"
+}
 ask_keys=1
 if [ -f "$DIR/.env" ]; then
-  read -rp "כבר יש מפתחות שמורים. להשאיר אותם? (Y/n) " keep </dev/tty
-  [[ "$keep" =~ ^[Nn] ]] || ask_keys=0
+  echo "כבר יש מפתחות שמורים. מה לעשות?"
+  echo "  1) להשאיר הכל כמו שהוא"
+  echo "  2) להחליף רק את ה-Tracking ID"
+  echo "  3) להחליף רק את הטוקן של GitHub"
+  echo "  4) להזין הכל מחדש"
+  read -rp "הקלד מספר ולחץ Enter: " ch </dev/tty
+  case "$ch" in
+    1) ask_keys=0 ;;
+    2) ask_keys=0; ONLY=T ;;
+    3) ask_keys=0; ONLY=GT ;;
+    *) ask_keys=1 ;;
+  esac
 fi
 if [ "$ask_keys" = 1 ]; then
-  echo -e "\n${Y}להדבקה: Ctrl+V, או לחיצה ימנית בעכבר, או Shift+Insert. ואז Enter.${N}"
+  echo -e "\n${Y}להדבקה: לחיצה ימנית בעכבר (לא Ctrl+V), ואז Enter.${N}"
   echo -e "${Y}את מה שמדביקים רואים על המסך. בסוף המסך יתנקה כדי שהמפתחות לא יישארו מוצגים.${N}\n"
-  ask(){ # ask <var> <prompt> <secret 0/1> <min length>
-    local v=""
-    while [ -z "$v" ]; do
-      if [ "$3" = 1 ]; then read -rsp "$2: " v </dev/tty; echo; else read -rp "$2: " v </dev/tty; fi
-      v="$(echo -n "$v" | tr -d '[:space:][:cntrl:]')"
-      if [ -z "$v" ]; then echo -e "${R}  לא התקבל כלום — נסה להדביק שוב (לחיצה ימנית בעכבר).${N}"
-      elif [ ${#v} -lt "${4:-1}" ]; then echo -e "${R}  התקבלו רק ${#v} תווים — זה קצר מדי, כנראה ההדבקה לא עבדה. נסה שוב עם לחיצה ימנית בעכבר.${N}"; v=""
-      elif [ "$3" = 1 ]; then echo -e "${G}  ✓ התקבלו ${#v} תווים, מסתיים ב-...${v: -4}${N}"; fi
-    done
-    printf -v "$1" '%s' "$v"
-  }
   ask K  "1/4  AliExpress App Key" 0 5
   ask S  "2/4  AliExpress App Secret" 0 16
   ask T  "3/4  Tracking ID של האתר (לא של וואטסאפ)" 0
@@ -63,6 +77,13 @@ MIN_RATING=90
 ENV
   chmod 600 "$DIR/.env"
   say "המפתחות נשמרו ב-$DIR/.env (רק למשתמש הזה יש גישה)"
+fi
+if [ "${ONLY:-}" = T ]; then
+  echo -e "${Y}להדבקה: לחיצה ימנית בעכבר, ואז Enter.${N}"
+  ask T "Tracking ID של האתר (בדיוק כמו בפורטלים)" 0 2; set_env ALI_TRACKING_ID "$T"; clear; say "ה-Tracking ID עודכן"
+elif [ "${ONLY:-}" = GT ]; then
+  echo -e "${Y}להדבקה: לחיצה ימנית בעכבר, ואז Enter.${N}"
+  ask GT "GitHub token (מתחיל ב-github_pat_)" 0 30; set_env GITHUB_TOKEN "$GT"; clear; say "הטוקן עודכן"
 fi
 
 # 4. בדיקה
