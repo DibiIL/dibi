@@ -1,0 +1,39 @@
+{
+  "_info": "מילות חיפוש לכל תחום וקטגוריה. הבוט עובר עליהן בסבב, כמה בכל ריצה. min/max = טווח מחיר בשקלים.",
+  "music": {
+    "interface": { "min": 60, "max": 900, "kw": ["usb audio interface xlr", "audio interface 2 channel recording", "sound card audio interface 48v phantom"] },
+    "midi": { "min": 60, "max": 800, "kw": ["midi keyboard controller 25 keys", "midi keyboard 49 keys", "midi pad controller", "midi controller knobs faders"] },
+    "monitor": { "min": 150, "max": 1500, "kw": ["studio monitor speakers active", "bookshelf speakers studio monitor"] },
+    "mic": { "min": 60, "max": 700, "kw": ["large diaphragm condenser microphone xlr", "studio condenser microphone kit"] },
+    "headphones": { "min": 60, "max": 600, "kw": ["studio monitor headphones closed back", "open back studio headphones"] },
+    "guitar": { "min": 30, "max": 600, "kw": ["guitar multi effects pedal", "guitar looper pedal", "guitar wireless system", "guitar tuner pedal", "guitar headphone amplifier"] },
+    "mixer": { "min": 60, "max": 900, "kw": ["audio mixer 4 channel usb", "analog mixer 6 channel"] }
+  },
+  "dj": {
+    "dj-controller": { "min": 150, "max": 2500, "kw": ["dj controller", "dj controller 2 channel", "dj mixer controller usb", "portable dj controller"] },
+    "headphones": { "min": 60, "max": 600, "kw": ["dj headphones", "dj headphones swivel"] },
+    "monitor": { "min": 100, "max": 1500, "kw": ["powered speakers bluetooth dj", "desktop studio monitors bluetooth"] },
+    "mixer": { "min": 80, "max": 1200, "kw": ["dj mixer 2 channel", "dj mixer crossfader"] }
+  },
+  "podcast": {
+    "mic": { "min": 50, "max": 700, "kw": ["podcast microphone usb", "dynamic microphone xlr podcast", "usb xlr dynamic microphone"] },
+    "mic-arm": { "min": 25, "max": 400, "kw": ["microphone boom arm", "low profile mic arm", "microphone shock mount pop filter"] },
+    "mixer": { "min": 100, "max": 1500, "kw": ["podcast mixer", "streaming audio mixer", "podcast production studio"] },
+    "soundcard": { "min": 40, "max": 500, "kw": ["live sound card streaming", "voice changer sound card"] },
+    "capture": { "min": 30, "max": 800, "kw": ["hdmi capture card 4k", "video capture card usb 3.0"] },
+    "headphones": { "min": 50, "max": 500, "kw": ["monitoring headphones podcast", "closed back headphones recording"] }
+  },
+  "creators": {
+    "wireless-mic": { "min": 40, "max": 900, "kw": ["wireless lavalier microphone", "wireless microphone for phone camera", "wireless lapel mic usb c"] },
+    "lighting": { "min": 25, "max": 900, "kw": ["ring light with tripod", "led video light panel", "rgb video light", "softbox lighting kit", "led light stick rgb"] },
+    "tripod": { "min": 25, "max": 900, "kw": ["phone tripod bluetooth remote", "gimbal stabilizer smartphone", "selfie stick tripod", "camera tripod aluminum"] },
+    "camera": { "min": 60, "max": 900, "kw": ["webcam 1080p", "webcam 4k streaming", "action camera 4k"] },
+    "mic": { "min": 30, "max": 500, "kw": ["shotgun microphone camera", "on camera microphone"] },
+    "creator-gear": { "min": 25, "max": 800, "kw": ["teleprompter phone", "green screen backdrop", "phone cage rig video"] }
+  },
+  "gaming": {
+    "gaming-headset": { "min": 50, "max": 700, "kw": ["gaming headset", "wireless gaming headset", "gaming headset 7.1"] },
+    "mic": { "min": 40, "max": 500, "kw": ["gaming microphone rgb usb"] },
+    "desk": { "min": 20, "max": 900, "kw": ["mechanical keyboard", "gaming mouse wireless", "desk mat xxl", "monitor light bar", "headphone stand rgb", "rgb led strip desk"] }
+  }
+}

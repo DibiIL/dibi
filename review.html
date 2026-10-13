@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>dibi — מוצרים לאישור</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#050505;--s1:#0D0D0D;--s2:#141414;--lime:#C9FF00;--lime-dim:rgba(201,255,0,0.08);--green:#22C55E;--muted:#555;--muted2:#888;--text:#F8F8F8;--border:rgba(255,255,255,0.07)}
+body{font-family:'Heebo',sans-serif;background:var(--bg);color:var(--text);padding:0 0 110px}
+header{position:sticky;top:0;z-index:10;background:rgba(5,5,5,0.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:14px 20px}
+.logo{font-size:22px;font-weight:900;letter-spacing:-1px}.logo em{font-style:normal;color:var(--lime)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.meta{font-size:12px;color:var(--muted2)}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin-top:12px;scrollbar-width:none}
+.tab{flex-shrink:0;background:var(--s2);border:1px solid var(--border);color:var(--muted2);border-radius:100px;padding:7px 14px;font:700 12px 'Heebo',sans-serif;cursor:pointer}
+.tab.active{background:var(--lime);color:#000;border-color:var(--lime)}
+main{padding:20px;max-width:1300px;margin:0 auto}
+.help{font-size:13px;color:var(--muted2);line-height:1.7;margin-bottom:18px;background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+.help b{color:var(--lime)}
+h2{font-size:16px;font-weight:800;margin:26px 0 12px;display:flex;gap:8px;align-items:center}
+h2 small{font-size:11px;color:var(--muted);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.c{background:var(--s1);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;position:relative;cursor:pointer;transition:border-color .15s}
+.c.sel{border-color:var(--lime);box-shadow:0 0 0 1px var(--lime)}
+.c img{width:100%;aspect-ratio:1;object-fit:cover;background:var(--s2);display:block}
+.num{position:absolute;top:10px;right:10px;background:#000;color:var(--lime);font-weight:900;font-size:13px;padding:3px 9px;border-radius:6px;border:1px solid rgba(201,255,0,.35)}
+.chk{position:absolute;top:10px;left:10px;width:26px;height:26px;border-radius:6px;background:rgba(0,0,0,.7);border:1.5px solid rgba(255,255,255,.3);display:flex;align-items:center;justify-content:center;font-weight:900;color:#000}
+.c.sel .chk{background:var(--lime);border-color:var(--lime)}
+.b{padding:12px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.t{font-size:12px;line-height:1.45;color:#ddd;direction:ltr;text-align:left;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:6px;margin-top:auto}
+.p{font-size:20px;font-weight:900}.p s{font-size:11px;color:var(--muted);font-weight:400;margin-right:4px}
+.stats{font-size:11px;color:var(--muted2);display:flex;gap:10px;flex-wrap:wrap}
+.stats b{color:var(--green);font-weight:700}
+a.view{font-size:11px;color:var(--lime);text-decoration:none;border:1px solid rgba(201,255,0,.3);border-radius:6px;padding:5px 10px;align-self:flex-start}
+.bar{position:fixed;bottom:0;left:0;right:0;background:rgba(13,13,13,.97);border-top:1px solid var(--border);padding:12px 20px;display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.bar .msg{font-size:13px;color:var(--muted2);flex:1;min-width:180px}
+.bar .msg b{color:var(--text)}
+.btn{background:var(--lime);color:#000;border:none;border-radius:8px;padding:11px 20px;font:800 14px 'Heebo',sans-serif;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,.18)}
+.btn:disabled{opacity:.35;cursor:default}
+.t,.stats{unicode-bidi:plaintext}
+@media(max-width:600px){.grid{grid-template-columns:1fr 1fr;gap:8px}.b{padding:10px}.p{font-size:17px}.stats{gap:6px;font-size:10px}a.view{padding:4px 8px}}
+.empty{padding:60px 0;text-align:center;color:var(--muted2);line-height:1.8}
+</style>
+</head>
+<body>
+<header>
+  <div class="top"><div class="logo">di<em>bi</em> · לאישור</div><div class="meta" id="meta">טוען…</div></div>
+  <div class="tabs" id="tabs"></div>
+</header>
+<main>
+  <div class="help">הבוט בשרת מוצא כאן מוצרים חדשים שמתאימים לאתר: עמלה טובה, הרבה הזמנות, דירוג גבוה, ובלי כפילויות למה שכבר יש באתר. <b>לוחצים על המוצרים שרוצים</b>, ואז "העתק" ומדביקים לי בצ'אט. אני אכתוב תיאור בעברית ואעלה אותם לאתר. מה שלא תבחרו פשוט יישאר ברשימה.</div>
+  <div id="list"></div>
+</main>
+<div class="bar">
+  <div class="msg" id="selMsg">לא נבחרו מוצרים</div>
+  <button class="btn ghost" id="clearBtn" disabled>נקה</button>
+  <button class="btn" id="copyBtn" disabled>העתק בחירה</button>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let C = null, S = null, niche = 'all';
+const sel = new Set();
+
+Promise.all([
+  fetch('data/candidates.json', {cache: 'no-cache'}).then(r => r.ok ? r.json() : {pending: []}).catch(() => ({pending: []})),
+  fetch('data/products.json', {cache: 'no-cache'}).then(r => r.json())
+]).then(([c, s]) => { C = c; S = s; render(); });
+
+function nName(id){ const n = S.niches.find(x => x.id === id); return n ? n.icon + ' ' + n.name : id; }
+function cName(id){ const c = S.categories[id]; return c ? c.icon + ' ' + c.name : id; }
+
+function render(){
+  const pend = C.pending || [];
+  $('meta').textContent = pend.length ? `${pend.length} מוצרים ממתינים · עודכן ${new Date(C.updated).toLocaleString('he-IL', {dateStyle: 'short', timeStyle: 'short'})}` : 'אין מוצרים ממתינים';
+  const counts = {}; pend.forEach(p => counts[p.niche] = (counts[p.niche] || 0) + 1);
+  $('tabs').innerHTML = [`<button class="tab${niche === 'all' ? ' active' : ''}" data-n="all">הכל ${pend.length}</button>`]
+    .concat(S.niches.map(n => `<button class="tab${niche === n.id ? ' active' : ''}" data-n="${n.id}">${n.icon} <bdi>${esc(n.name)}</bdi> ${counts[n.id] || 0}</button>`)).join('');
+  const shown = pend.filter(p => niche === 'all' || p.niche === niche);
+  if (!shown.length) { $('list').innerHTML = '<div class="empty">אין כרגע מוצרים לאישור בתחום הזה.<br/>הבוט מחפש כל יום ומוסיף לכאן מה שהוא מוצא.</div>'; return; }
+  const groups = {};
+  shown.forEach(p => { const k = p.niche + '|' + p.cat; (groups[k] = groups[k] || []).push(p); });
+  $('list').innerHTML = Object.entries(groups).map(([k, arr]) => {
+    const [n, c] = k.split('|');
+    return `<h2>${nName(n)} › ${cName(c)} <small>${arr.length}</small></h2><div class="grid">${arr.map(card).join('')}</div>`;
+  }).join('');
+}
+function card(p){
+  const view = p.url || `https://www.aliexpress.com/item/${p.id}.html`;
+  return `<div class="c${sel.has(p.num) ? ' sel' : ''}" data-num="${p.num}">
+    <span class="num">#${p.num}</span><span class="chk">${sel.has(p.num) ? '✓' : ''}</span>
+    ${p.image ? `<img src="${esc(p.image)}" loading="lazy" referrerpolicy="no-referrer" alt="" onerror="this.style.visibility='hidden'"/>` : ''}
+    <div class="b">
+      <div class="t">${esc(p.title)}</div>
+      <div class="stats"><span>${(p.orders || 0).toLocaleString()} הזמנות</span><span>${p.rating ? p.rating + '% 👍' : ''}</span><span>עמלה <b>${p.commission}%</b></span></div>
+      <div class="row"><div class="p">₪${p.price}${p.listPrice ? `<s>₪${p.listPrice}</s>` : ''}</div><a class="view" href="${esc(view)}" target="_blank" rel="noopener">לצפייה ↗</a></div>
+    </div></div>`;
+}
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-n]'); if (t) { niche = t.dataset.n; render(); return; }
+  if (e.target.closest('a')) return;
+  const c = e.target.closest('[data-num]');
+  if (c) { const n = +c.dataset.num; sel.has(n) ? sel.delete(n) : sel.add(n); render(); upd(); }
+});
+function upd(){
+  const n = sel.size;
+  $('selMsg').innerHTML = n ? `נבחרו <b>${n}</b>: ${[...sel].sort((a, b) => a - b).map(x => '#' + x).join(', ')}` : 'לא נבחרו מוצרים';
+  $('copyBtn').disabled = $('clearBtn').disabled = !n;
+}
+$('clearBtn').onclick = () => { sel.clear(); render(); upd(); };
+$('copyBtn').onclick = async () => {
+  const txt = `תוסיף לאתר את המוצרים מרשימת האישור: ${[...sel].sort((a, b) => a - b).map(x => '#' + x).join(', ')}`;
+  try { await navigator.clipboard.writeText(txt); $('copyBtn').textContent = 'הועתק ✓ — הדבק בצ\'אט'; }
+  catch (_) { prompt('העתק את הטקסט:', txt); }
+  setTimeout(() => $('copyBtn').textContent = 'העתק בחירה', 2500);
+};
+</script>
+</body>
+</html>

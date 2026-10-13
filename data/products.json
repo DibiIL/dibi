@@ -1,0 +1,403 @@
+{
+ "updated": "2026-10-06T23:20:00+03:00",
+ "niches": [
+  {
+   "id": "music",
+   "name": "הפקה ואולפן",
+   "en": "STUDIO",
+   "icon": "🎛️",
+   "desc": "ממשקים, קלידיות, מוניטורים וכל מה שצריך לאולפן ביתי.",
+   "cats": [
+    "interface",
+    "mic",
+    "midi",
+    "monitor",
+    "mixer",
+    "headphones",
+    "guitar",
+    "soundcard"
+   ]
+  },
+  {
+   "id": "dj",
+   "name": "דיג'יי",
+   "en": "DJ",
+   "icon": "💿",
+   "desc": "קונטרולרים, אוזניות ומוניטורים לסטים בבית ובמועדון.",
+   "cats": [
+    "dj-controller",
+    "headphones",
+    "midi",
+    "monitor",
+    "mixer"
+   ]
+  },
+  {
+   "id": "podcast",
+   "name": "פודקאסט וסטרימינג",
+   "en": "PODCAST",
+   "icon": "🎙️",
+   "desc": "מיקרופונים, זרועות, מיקסרים וכרטיסי לכידה לשידור נקי.",
+   "cats": [
+    "mic",
+    "mic-arm",
+    "interface",
+    "mixer",
+    "soundcard",
+    "capture",
+    "headphones"
+   ]
+  },
+  {
+   "id": "creators",
+   "name": "יוצרי תוכן ויוטיוב",
+   "en": "CREATORS",
+   "icon": "📸",
+   "desc": "מיקרופונים אלחוטיים, תאורה וחצובות לצילום בטלפון ובמצלמה.",
+   "cats": [
+    "wireless-mic",
+    "lighting",
+    "tripod",
+    "camera",
+    "mic",
+    "creator-gear"
+   ]
+  },
+  {
+   "id": "gaming",
+   "name": "גיימינג וסטאפ",
+   "en": "GAMING",
+   "icon": "🎮",
+   "desc": "אוזניות, מיקרופונים ואביזרים לעמדה שנראית ונשמעת טוב.",
+   "cats": [
+    "gaming-headset",
+    "mic",
+    "mixer",
+    "soundcard",
+    "capture",
+    "desk"
+   ]
+  }
+ ],
+ "categories": {
+  "interface": {
+   "name": "ממשקי אודיו",
+   "icon": "🎛️"
+  },
+  "mic": {
+   "name": "מיקרופונים",
+   "icon": "🎙️"
+  },
+  "midi": {
+   "name": "בקרי MIDI",
+   "icon": "🎹"
+  },
+  "monitor": {
+   "name": "מוניטורים ורמקולים",
+   "icon": "🔊"
+  },
+  "mixer": {
+   "name": "מיקסרים",
+   "icon": "🎚️"
+  },
+  "headphones": {
+   "name": "אוזניות",
+   "icon": "🎧"
+  },
+  "guitar": {
+   "name": "אביזרי גיטרה",
+   "icon": "🎸"
+  },
+  "soundcard": {
+   "name": "כרטיסי סאונד",
+   "icon": "🖥️"
+  },
+  "dj-controller": {
+   "name": "קונטרולרים לדיג'יי",
+   "icon": "💿"
+  },
+  "mic-arm": {
+   "name": "זרועות ומעמדים למיקרופון",
+   "icon": "🦾"
+  },
+  "capture": {
+   "name": "כרטיסי לכידה",
+   "icon": "📼"
+  },
+  "wireless-mic": {
+   "name": "מיקרופונים אלחוטיים",
+   "icon": "📡"
+  },
+  "lighting": {
+   "name": "תאורה",
+   "icon": "💡"
+  },
+  "tripod": {
+   "name": "חצובות ומייצבים",
+   "icon": "📸"
+  },
+  "camera": {
+   "name": "מצלמות רשת",
+   "icon": "📷"
+  },
+  "gaming-headset": {
+   "name": "אוזניות גיימינג",
+   "icon": "🎮"
+  },
+  "desk": {
+   "name": "סטאפ ושולחן",
+   "icon": "🖱️"
+  },
+  "creator-gear": {
+   "name": "אביזרי צילום",
+   "icon": "🎬"
+  }
+ },
+ "products": [
+  {
+   "id": "1005012329009344",
+   "name": "MAONO PS22 Lite USB Audio Interface",
+   "short": "MAONO PS22",
+   "cat": "interface",
+   "niches": [
+    "music",
+    "podcast"
+   ],
+   "tag": "ממשק אודיו",
+   "icon": "🎛️",
+   "badge": "⭐ 4.9",
+   "desc": "ממשק אודיו USB נייד עם כניסת XLR להקלטה, סטרימינג ומוזיקה. Plug & Play, תואם לכל DAW — Focusrite Scarlett ישראלי במחיר קטן.",
+   "rating": 4.9,
+   "sold": "420 מכירות",
+   "price": 154,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c3Lvs4dJ",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005006930797952",
+   "name": "FIFINE AmpliGame A2 RGB USB Microphone",
+   "short": "FIFINE A2",
+   "cat": "mic",
+   "niches": [
+    "podcast",
+    "gaming",
+    "creators"
+   ],
+   "tag": "מיקרופון USB",
+   "icon": "🎙️",
+   "badge": "🔥 4,000+ מכירות",
+   "desc": "מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.",
+   "rating": 4.9,
+   "sold": "4,000+ מכירות",
+   "price": 49,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c40ZMzpL",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005006356702381",
+   "name": "FIFINE AmpliGame AM8 USB/XLR Dynamic Mic",
+   "short": "FIFINE AM8",
+   "cat": "mic",
+   "niches": [
+    "music",
+    "podcast",
+    "gaming",
+    "creators"
+   ],
+   "tag": "מיקרופון USB/XLR",
+   "icon": "🎙️",
+   "badge": "🎤 5,000+ מכירות",
+   "desc": "מיקרופון דינמי מקצועי עם חיבור כפול USB ו-XLR, שליטה על RGB, יציאת אוזניות ומיוט מובנה. השדרוג הבא מ-A2 עם גמישות מקסימלית.",
+   "rating": 4.9,
+   "sold": "5,000+ מכירות",
+   "price": 121,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c3ojwsol",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005008077659125",
+   "name": "M-VAVE SMK-25 Mini MIDI Keyboard 25 Keys",
+   "short": "M-VAVE SMK-25",
+   "cat": "midi",
+   "niches": [
+    "music"
+   ],
+   "tag": "קלידיית MIDI",
+   "icon": "🎹",
+   "badge": "⭐ 4.9",
+   "desc": "קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.",
+   "rating": 4.9,
+   "sold": "129 מכירות",
+   "price": 143,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c4E0aQhJ",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005008239764437",
+   "name": "M-VAVE SMC PAD Wireless MIDI Controller 16 Pads",
+   "short": "M-VAVE SMC PAD",
+   "cat": "midi",
+   "niches": [
+    "music",
+    "dj"
+   ],
+   "tag": "בקר פדים MIDI",
+   "icon": "🎛️",
+   "badge": "🥁 1,000+ מכירות",
+   "desc": "16 פדי הקשה אלחוטיים ומסוגננים ב-Pocket-size. USB-C, חיבור Bluetooth ותאימות מלאה לכל DAW. המכשיר שכל ביטמייקר חולם עליו.",
+   "rating": 4.6,
+   "sold": "1,000+ מכירות",
+   "price": 63,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c3bBWFiV",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005011667078395",
+   "name": "AIYIMA S4000 Studio Monitor 40W×2 Bluetooth",
+   "short": "AIYIMA S4000",
+   "cat": "monitor",
+   "niches": [
+    "music",
+    "dj"
+   ],
+   "tag": "מוניטור סטודיו",
+   "icon": "🔊",
+   "badge": "🔊 BT 5.0",
+   "desc": "מוניטורי סטודיו אקטיביים 40W לכל ערוץ עם Bluetooth 5.0, כניסות RCA/XLR מאוזנות, יציאת Subwoofer וארון עץ לאקוסטיקה חמה ומדויקת.",
+   "rating": 4.7,
+   "sold": "109 מכירות",
+   "price": 696,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c365CVQV",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005010049082935",
+   "name": "FIFINE SC8 Audio Mixer RGB + Voice Changer",
+   "short": "FIFINE SC8",
+   "cat": "mixer",
+   "niches": [
+    "podcast",
+    "gaming",
+    "creators"
+   ],
+   "tag": "מיקסר RGB",
+   "icon": "🎚️",
+   "badge": "🎚️ 600+ מכירות",
+   "desc": "מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.",
+   "rating": 4.8,
+   "sold": "600+ מכירות",
+   "price": 168,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005008248050829",
+   "name": "Depusheng Ultra Low Noise Mini Line Mixer",
+   "short": "Depusheng Mixer",
+   "cat": "mixer",
+   "niches": [
+    "music",
+    "dj"
+   ],
+   "tag": "מיקסר לַיין",
+   "icon": "🎛️",
+   "badge": "⭐ 4.9",
+   "desc": "מיקסר לַיין 4/6/8 ערוצים עם רעש נמוך במיוחד, אספקת חשמל DC5V פשוטה ותפעול קל. קומפקטי, יציב ואמין — הפתרון הנקי לאולפן ביתי.",
+   "rating": 4.9,
+   "sold": "1,000+ מכירות",
+   "price": 66,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c3tuI2bL",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005006966378311",
+   "name": "Oneodio Studio Pro 50 DJ Headphones",
+   "short": "Oneodio Pro 50",
+   "cat": "headphones",
+   "niches": [
+    "music",
+    "dj",
+    "podcast"
+   ],
+   "tag": "אוזניות DJ",
+   "icon": "🎧",
+   "badge": "🎧 5,000+ מכירות",
+   "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
+   "rating": 4.9,
+   "sold": "5,000+ מכירות",
+   "price": 134,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005007938035539",
+   "name": "Rowin Golden Loop Station 48K Looper Pedal",
+   "short": "Rowin Looper",
+   "cat": "guitar",
+   "niches": [
+    "music"
+   ],
+   "tag": "פדל לופר",
+   "icon": "🎸",
+   "badge": "🔁 1,000+ מכירות",
+   "desc": "פדל לופר 48kHz עם Overdub ללא הגבלה, 10 דקות הקלטה, Half/Double Time, Reverse ו-True Bypass. כל הנגינה שלך — בלופ אחד.",
+   "rating": 4.9,
+   "sold": "1,000+ מכירות",
+   "price": 73,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c3Us72JF",
+   "active": true,
+   "added": "2026-10-06"
+  },
+  {
+   "id": "1005008719757425",
+   "name": "V8S Professional Sound Card + Voice Changer",
+   "short": "V8S Sound Card",
+   "cat": "soundcard",
+   "niches": [
+    "podcast",
+    "gaming"
+   ],
+   "tag": "כרטיס סאונד",
+   "icon": "🖥️",
+   "badge": "🎮 PC & Karaoke",
+   "desc": "כרטיס סאונד מקצועי עם 10 אפקטי קול, משנה קול דיגיטלי, Plug & Play לגיימינג, קריוקי, סטרימינג והקלטה. כל האולפן — בגאדג'ט אחד קטן.",
+   "rating": 4.6,
+   "sold": "81 מכירות",
+   "price": 59,
+   "freeShip": true,
+   "image": "",
+   "link": "https://s.click.aliexpress.com/e/_c3MRTYoV",
+   "active": true,
+   "added": "2026-10-06"
+  }
+ ]
+}

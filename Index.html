@@ -4,7 +4,8 @@
    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>dibi — ציוד מוזיקה מקצועי</title>
+<title>dibi — ציוד לאולפן, דיג'יי, פודקאסט ויוצרי תוכן</title>
+<meta name="description" content="ציוד נבחר למוזיקאים, דיג'ייז, פודקאסטרים, יוצרי תוכן וגיימרים — במחירים ישירים מהמקור, עם מחירים שמתעדכנים אוטומטית."/>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet"/>
 
 <!-- Google Analytics 4 -->
@@ -179,30 +180,65 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
   .footer-top{flex-direction:column}
   .footer-links-group{gap:28px}
 }
+
+/* ── v2: NICHES / TABS / FILTERS ── */
+#products{scroll-margin-top:56px}
+.products-grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;border:none;border-radius:0;overflow:visible}
+.product-card{border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.product-card:hover{border-color:rgba(201,255,0,0.25)}
+.niches-section{padding:64px 48px;background:var(--s1);border-top:1px solid var(--border)}
+.niches-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:28px}
+.niche-card{background:var(--s2);border:1px solid var(--border);border-radius:14px;padding:22px 20px;cursor:pointer;transition:all .2s;text-align:right;font-family:'Heebo',sans-serif;color:var(--text);display:flex;flex-direction:column;gap:6px}
+.niche-card:hover{border-color:var(--lime);background:var(--lime-dim);transform:translateY(-2px)}
+.niche-card-top{display:flex;justify-content:space-between;align-items:center}
+.niche-card-icon{font-size:30px}
+.niche-card-en{font-size:10px;font-weight:800;letter-spacing:3px;color:var(--lime)}
+.niche-card-name{font-size:17px;font-weight:800;margin-top:6px}
+.niche-card-desc{font-size:12px;color:var(--muted2);line-height:1.6;flex:1}
+.niche-card-count{font-size:11px;color:var(--muted);margin-top:6px}
+
+.tabs-wrap{position:sticky;top:64px;z-index:50;background:rgba(5,5,5,0.96);backdrop-filter:blur(16px);margin:0 -48px 28px;padding:12px 48px;border-bottom:1px solid var(--border)}
+.tabs,.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.tabs::-webkit-scrollbar,.chips::-webkit-scrollbar{display:none}
+.tab{flex-shrink:0;background:var(--s2);border:1px solid var(--border);color:var(--muted2);border-radius:100px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s;white-space:nowrap}
+.tab:hover{color:var(--text);border-color:rgba(255,255,255,0.2)}
+.tab.active{background:var(--lime);color:#000;border-color:var(--lime)}
+.chips{margin-top:10px}
+.chip{flex-shrink:0;background:transparent;border:1px solid var(--border);color:var(--muted2);border-radius:6px;padding:6px 12px;font-size:12px;font-weight:600;cursor:pointer;font-family:'Heebo',sans-serif;transition:all .2s;white-space:nowrap}
+.chip:hover{color:var(--lime);border-color:rgba(201,255,0,0.3)}
+.chip.active{color:var(--lime);border-color:var(--lime);background:var(--lime-dim)}
+.chip small{color:var(--muted);margin-right:4px}
+
+.product-img img{width:100%;height:100%;object-fit:cover;display:block}
+.product-img{overflow:hidden}
+.price-row{display:flex;align-items:baseline;gap:8px}
+.price-old{font-size:12px;color:var(--muted);text-decoration:line-through}
+.price-off{font-size:10px;font-weight:800;color:#000;background:var(--lime);border-radius:3px;padding:1px 5px}
+.soon{border:1px dashed rgba(255,255,255,0.12);border-radius:14px;padding:28px;text-align:center;color:var(--muted2);font-size:14px;line-height:1.7}
+.soon strong{color:var(--lime)}
+.soon-list{margin-top:-36px;margin-bottom:48px;font-size:12px;color:var(--muted)}
+.soon-list span{display:inline-block;border:1px dashed rgba(255,255,255,0.1);border-radius:6px;padding:4px 10px;margin:4px 0 0 6px}
+.price-note{font-size:12px;color:var(--muted2);opacity:.7;margin:-40px 0 36px}
+.loading{padding:60px 0;text-align:center;color:var(--muted)}
+
+@media(max-width:900px){
+  .niches-section{padding:56px 20px}
+  .tabs-wrap{margin:0 -20px 24px;padding:10px 20px}
+  .niches-grid{grid-template-columns:1fr 1fr}
+  .niche-card{padding:16px 14px}
+  .niche-card-desc{display:none}
+  .niche-card:last-child:nth-child(odd){grid-column:1/-1}
+}
+@media(max-width:420px){
+  .products-grid{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
 
 <!-- TICKER -->
 <div class="ticker">
-  <div class="ticker-inner">
-    <span class="ticker-item">ממשקי אודיו</span>
-    <span class="ticker-item">מיקרופונים מקצועיים</span>
-    <span class="ticker-item">בקרי MIDI</span>
-    <span class="ticker-item">מוניטורי סטודיו</span>
-    <span class="ticker-item">מיקסרים</span>
-    <span class="ticker-item">אוזניות סטודיו</span>
-    <span class="ticker-item">אביזרי גיטרה</span>
-    <span class="ticker-item">כרטיסי סאונד</span>
-    <span class="ticker-item">ממשקי אודיו</span>
-    <span class="ticker-item">מיקרופונים מקצועיים</span>
-    <span class="ticker-item">בקרי MIDI</span>
-    <span class="ticker-item">מוניטורי סטודיו</span>
-    <span class="ticker-item">מיקסרים</span>
-    <span class="ticker-item">אוזניות סטודיו</span>
-    <span class="ticker-item">אביזרי גיטרה</span>
-    <span class="ticker-item">כרטיסי סאונד</span>
-  </div>
+  <div class="ticker-inner" id="ticker"></div>
 </div>
 
 <!-- NAV -->
@@ -210,334 +246,73 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
   <div class="nav-logo">di<em>bi</em></div>
   <ul class="nav-links">
     <li><a href="#products">מוצרים</a></li>
-    <li><a href="#categories">קטגוריות</a></li>
+    <li><a href="#niches">תחומים</a></li>
     <li><a href="#why">עלינו</a></li>
     <li><a href="#newsletter">עדכונים</a></li>
   </ul>
   <div class="nav-right">
-    <a href="https://www.instagram.com/dibi.music" target="_blank" class="nav-ig">
+    <a href="https://www.instagram.com/dibi.music" target="_blank" rel="noopener" class="nav-ig">
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
       @dibi.music
     </a>
-    <button class="nav-cta" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">לחנות</button>
+    <button class="nav-cta" onclick="goProducts()">לחנות</button>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-bg">SOUND</div>
+  <div class="hero-bg">CREATE</div>
   <div class="hero-content">
     <div>
-      <div class="hero-tag">ציוד מוזיקה מקצועי</div>
+      <div class="hero-tag">ציוד ליוצרים ומוזיקאים</div>
       <h1>הסאונד<br/><span class="stroke">שלך</span><br/><span class="lime">מתחיל כאן.</span></h1>
-      <p class="hero-desc">ממשקי אודיו, מיקרופונים, בקרי MIDI ומוניטורים — <strong>הכל במחיר שלא תמצא בישראל.</strong></p>
+      <p class="hero-desc">אולפן, דיג'יי, פודקאסט, יוטיוב וגיימינג — <strong>ציוד נבחר במחיר שלא תמצא בישראל.</strong></p>
       <div class="hero-actions">
-        <button class="btn-lime" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">גלה את הציוד</button>
-        <button class="btn-ghost" onclick="document.getElementById('categories').scrollIntoView({behavior:'smooth'})">כל הקטגוריות ←</button>
+        <button class="btn-lime" onclick="goProducts()">גלה את הציוד</button>
+        <button class="btn-ghost" onclick="document.getElementById('niches').scrollIntoView({behavior:'smooth'})">בחר תחום ←</button>
       </div>
     </div>
     <div class="hero-big">
-      <div class="hero-big-num">11</div>
+      <div class="hero-big-num" data-stat="count">—</div>
       <div class="hero-big-lbl">מוצרים נבחרים</div>
     </div>
   </div>
   <div class="hero-bottom">
     <div class="hero-stats">
-      <div><div class="hstat-num">4.9★</div><div class="hstat-lbl">דירוג ממוצע</div></div>
+      <div><div class="hstat-num"><span data-stat="rating">—</span>★</div><div class="hstat-lbl">דירוג ממוצע</div></div>
       <div><div class="hstat-num">✈ חינם</div><div class="hstat-lbl">משלוח לישראל</div></div>
-      <div><div class="hstat-num">11</div><div class="hstat-lbl">מוצרים</div></div>
-      <div><div class="hstat-num">7</div><div class="hstat-lbl">קטגוריות</div></div>
+      <div><div class="hstat-num" data-stat="count">—</div><div class="hstat-lbl">מוצרים</div></div>
+      <div><div class="hstat-num" data-stat="niches">5</div><div class="hstat-lbl">תחומים</div></div>
     </div>
   </div>
 </section>
 
 <!-- MARQUEE -->
 <div class="marquee">
-  <div class="marquee-inner">
-    <span class="marquee-item">AUDIO INTERFACE <span>◆</span></span>
-    <span class="marquee-item">MICROPHONE <span>◆</span></span>
-    <span class="marquee-item">MIDI CONTROLLER <span>◆</span></span>
-    <span class="marquee-item">STUDIO MONITOR <span>◆</span></span>
-    <span class="marquee-item">AUDIO MIXER <span>◆</span></span>
-    <span class="marquee-item">HEADPHONES <span>◆</span></span>
-    <span class="marquee-item">SOUND CARD <span>◆</span></span>
-    <span class="marquee-item">GUITAR PEDAL <span>◆</span></span>
-    <span class="marquee-item">AUDIO INTERFACE <span>◆</span></span>
-    <span class="marquee-item">MICROPHONE <span>◆</span></span>
-    <span class="marquee-item">MIDI CONTROLLER <span>◆</span></span>
-    <span class="marquee-item">STUDIO MONITOR <span>◆</span></span>
-    <span class="marquee-item">AUDIO MIXER <span>◆</span></span>
-    <span class="marquee-item">HEADPHONES <span>◆</span></span>
-    <span class="marquee-item">SOUND CARD <span>◆</span></span>
-    <span class="marquee-item">GUITAR PEDAL <span>◆</span></span>
-  </div>
+  <div class="marquee-inner" id="marquee"></div>
 </div>
 
-<!-- CATEGORIES NAV -->
-<section class="cats-section" id="categories">
-  <div class="sec-label">קטגוריות</div>
-  <div class="sec-title">מה אתה מחפש?</div>
-  <div class="cats-grid">
-    <a href="#cat-interface" class="cat-card"><span class="cat-card-icon">🎛️</span><div class="cat-card-name">ממשקי אודיו</div></a>
-    <a href="#cat-mic" class="cat-card"><span class="cat-card-icon">🎙️</span><div class="cat-card-name">מיקרופונים</div></a>
-    <a href="#cat-midi" class="cat-card"><span class="cat-card-icon">🎹</span><div class="cat-card-name">בקרי MIDI</div></a>
-    <a href="#cat-monitor" class="cat-card"><span class="cat-card-icon">🔊</span><div class="cat-card-name">מוניטורי סטודיו</div></a>
-    <a href="#cat-mixer" class="cat-card"><span class="cat-card-icon">🎚️</span><div class="cat-card-name">מיקסרים</div></a>
-    <a href="#cat-headphones" class="cat-card"><span class="cat-card-icon">🎧</span><div class="cat-card-name">אוזניות</div></a>
-    <a href="#cat-guitar" class="cat-card"><span class="cat-card-icon">🎸</span><div class="cat-card-name">אביזרי גיטרה</div></a>
-    <a href="#cat-soundcard" class="cat-card"><span class="cat-card-icon">🖥️</span><div class="cat-card-name">כרטיסי סאונד</div></a>
-  </div>
+<!-- NICHES -->
+<section class="niches-section" id="niches">
+  <div class="sec-label">תחומים</div>
+  <div class="sec-title">מה אתה יוצר?</div>
+  <div class="niches-grid" id="nichesGrid"></div>
 </section>
 
 <!-- PRODUCTS -->
 <section class="products-section" id="products">
-  <div class="sec-label">מוצרים נבחרים</div>
-  <div class="sec-title">ציוד שמוזיקאים ממליצים עליו</div>
-  <div class="sec-sub">כל מוצר נבחר בקפידה — ביצועים מוכחים, ביקורות אמיתיות, מחיר שלא תמצא בארץ.</div>
-  <div class="sec-sub" style="font-size:12px;opacity:.7;margin-top:6px">המחירים נבדקו מול AliExpress ב-6.10.2026 ועשויים להשתנות — המחיר הקובע הוא זה שמופיע בעמוד המוצר.</div>
+  <div class="sec-label" id="prodLabel">מוצרים נבחרים</div>
+  <div class="sec-title" id="prodTitle">ציוד שיוצרים ממליצים עליו</div>
+  <div class="sec-sub" id="prodSub">כל מוצר נבחר בקפידה — ביצועים מוכחים, ביקורות אמיתיות, מחיר שלא תמצא בארץ.</div>
+  <div class="price-note" id="priceNote"></div>
 
-  <!-- ── ממשקי אודיו ── -->
-  <div class="cat-block" id="cat-interface">
-    <div class="cat-header">
-      <span class="cat-icon">🎛️</span>
-      <span class="cat-name">ממשקי אודיו</span>
-      <span class="cat-count">1 מוצר</span>
-    </div>
-    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
-      <div class="product-card">
-        <div class="product-badge">⭐ 4.9</div>
-        <div class="product-img">🎛️</div>
-        <div class="product-body">
-          <div class="product-cat-tag">ממשק אודיו</div>
-          <div class="product-name">MAONO PS22 Lite USB Audio Interface</div>
-          <div class="product-desc">ממשק אודיו USB נייד עם כניסת XLR להקלטה, סטרימינג ומוזיקה. Plug & Play, תואם לכל DAW — Focusrite Scarlett ישראלי במחיר קטן.</div>
-          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(420 מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪154</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c3Lvs4dJ" target="_blank" class="btn-buy" onclick="trackClick('MAONO PS22')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="tabs-wrap">
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="chips" id="chips"></div>
   </div>
 
-  <!-- ── מיקרופונים ── -->
-  <div class="cat-block" id="cat-mic">
-    <div class="cat-header">
-      <span class="cat-icon">🎙️</span>
-      <span class="cat-name">מיקרופונים</span>
-      <span class="cat-count">2 מוצרים</span>
-    </div>
-    <div class="products-grid">
-      <div class="product-card">
-        <div class="product-badge">🔥 4,000+ מכירות</div>
-        <div class="product-img">🎙️</div>
-        <div class="product-body">
-          <div class="product-cat-tag">מיקרופון USB</div>
-          <div class="product-name">FIFINE AmpliGame A2 RGB USB Microphone</div>
-          <div class="product-desc">מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.</div>
-          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(4,000+ מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪49</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c40ZMzpL" target="_blank" class="btn-buy" onclick="trackClick('FIFINE A2')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-      <div class="product-card">
-        <div class="product-badge">🎤 5,000+ מכירות</div>
-        <div class="product-img">🎙️</div>
-        <div class="product-body">
-          <div class="product-cat-tag">מיקרופון USB/XLR</div>
-          <div class="product-name">FIFINE AmpliGame AM8 USB/XLR Dynamic Mic</div>
-          <div class="product-desc">מיקרופון דינמי מקצועי עם חיבור כפול USB ו-XLR, שליטה על RGB, יציאת אוזניות ומיוט מובנה. השדרוג הבא מ-A2 עם גמישות מקסימלית.</div>
-          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(5,000+ מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪121</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c3ojwsol" target="_blank" class="btn-buy" onclick="trackClick('FIFINE AM8')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── בקרי MIDI ── -->
-  <div class="cat-block" id="cat-midi">
-    <div class="cat-header">
-      <span class="cat-icon">🎹</span>
-      <span class="cat-name">בקרי MIDI</span>
-      <span class="cat-count">2 מוצרים</span>
-    </div>
-    <div class="products-grid">
-      <div class="product-card">
-        <div class="product-badge">⭐ 4.9</div>
-        <div class="product-img">🎹</div>
-        <div class="product-body">
-          <div class="product-cat-tag">קלידיית MIDI</div>
-          <div class="product-name">M-VAVE SMK-25 Mini MIDI Keyboard 25 Keys</div>
-          <div class="product-desc">קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.</div>
-          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(129 מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪143</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c4E0aQhJ" target="_blank" class="btn-buy" onclick="trackClick('M-VAVE SMK-25')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-      <div class="product-card">
-        <div class="product-badge">🥁 1,000+ מכירות</div>
-        <div class="product-img">🎛️</div>
-        <div class="product-body">
-          <div class="product-cat-tag">בקר פדים MIDI</div>
-          <div class="product-name">M-VAVE SMC PAD Wireless MIDI Controller 16 Pads</div>
-          <div class="product-desc">16 פדי הקשה אלחוטיים ומסוגננים ב-Pocket-size. USB-C, חיבור Bluetooth ותאימות מלאה לכל DAW. המכשיר שכל ביטמייקר חולם עליו.</div>
-          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.6</span><span class="stars-count">(1,000+ מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪63</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c3bBWFiV" target="_blank" class="btn-buy" onclick="trackClick('M-VAVE SMC PAD')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── מוניטורי סטודיו ── -->
-  <div class="cat-block" id="cat-monitor">
-    <div class="cat-header">
-      <span class="cat-icon">🔊</span>
-      <span class="cat-name">מוניטורי סטודיו</span>
-      <span class="cat-count">1 מוצר</span>
-    </div>
-    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
-      <div class="product-card">
-        <div class="product-badge">🔊 BT 5.0</div>
-        <div class="product-img">🔊</div>
-        <div class="product-body">
-          <div class="product-cat-tag">מוניטור סטודיו</div>
-          <div class="product-name">AIYIMA S4000 Studio Monitor 40W×2 Bluetooth</div>
-          <div class="product-desc">מוניטורי סטודיו אקטיביים 40W לכל ערוץ עם Bluetooth 5.0, כניסות RCA/XLR מאוזנות, יציאת Subwoofer וארון עץ לאקוסטיקה חמה ומדויקת.</div>
-          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.7</span><span class="stars-count">(109 מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪696</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c365CVQV" target="_blank" class="btn-buy" onclick="trackClick('AIYIMA S4000')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── מיקסרים ── -->
-  <div class="cat-block" id="cat-mixer">
-    <div class="cat-header">
-      <span class="cat-icon">🎚️</span>
-      <span class="cat-name">מיקסרים</span>
-      <span class="cat-count">2 מוצרים</span>
-    </div>
-    <div class="products-grid">
-      <div class="product-card">
-        <div class="product-badge">🎚️ 600+ מכירות</div>
-        <div class="product-img">🎚️</div>
-        <div class="product-body">
-          <div class="product-cat-tag">מיקסר RGB</div>
-          <div class="product-name">FIFINE SC8 Audio Mixer RGB + Voice Changer</div>
-          <div class="product-desc">מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.</div>
-          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.8</span><span class="stars-count">(600+ מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪168</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c45rBg2t" target="_blank" class="btn-buy" onclick="trackClick('FIFINE SC8')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-      <div class="product-card">
-        <div class="product-badge">⭐ 4.9</div>
-        <div class="product-img">🎛️</div>
-        <div class="product-body">
-          <div class="product-cat-tag">מיקסר לַיין</div>
-          <div class="product-name">Depusheng Ultra Low Noise Mini Line Mixer</div>
-          <div class="product-desc">מיקסר לַיין 4/6/8 ערוצים עם רעש נמוך במיוחד, אספקת חשמל DC5V פשוטה ותפעול קל. קומפקטי, יציב ואמין — הפתרון הנקי לאולפן ביתי.</div>
-          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(1,000+ מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪66</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c3tuI2bL" target="_blank" class="btn-buy" onclick="trackClick('Depusheng Mixer')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── אוזניות ── -->
-  <div class="cat-block" id="cat-headphones">
-    <div class="cat-header">
-      <span class="cat-icon">🎧</span>
-      <span class="cat-name">אוזניות</span>
-      <span class="cat-count">1 מוצר</span>
-    </div>
-    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
-      <div class="product-card">
-        <div class="product-badge">🎧 5,000+ מכירות</div>
-        <div class="product-img">🎧</div>
-        <div class="product-body">
-          <div class="product-cat-tag">אוזניות DJ</div>
-          <div class="product-name">Oneodio Studio Pro 50 DJ Headphones</div>
-          <div class="product-desc">אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.</div>
-          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(5,000+ מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪134</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c4KGDyB3" target="_blank" class="btn-buy" onclick="trackClick('Oneodio Pro 50')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── אביזרי גיטרה ── -->
-  <div class="cat-block" id="cat-guitar">
-    <div class="cat-header">
-      <span class="cat-icon">🎸</span>
-      <span class="cat-name">אביזרי גיטרה</span>
-      <span class="cat-count">1 מוצר</span>
-    </div>
-    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
-      <div class="product-card">
-        <div class="product-badge">🔁 1,000+ מכירות</div>
-        <div class="product-img">🎸</div>
-        <div class="product-body">
-          <div class="product-cat-tag">פדל לופר</div>
-          <div class="product-name">Rowin Golden Loop Station 48K Looper Pedal</div>
-          <div class="product-desc">פדל לופר 48kHz עם Overdub ללא הגבלה, 10 דקות הקלטה, Half/Double Time, Reverse ו-True Bypass. כל הנגינה שלך — בלופ אחד.</div>
-          <div class="product-stars"><span class="stars">★★★★★</span><span class="stars-score">4.9</span><span class="stars-count">(1,000+ מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪73</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c3Us72JF" target="_blank" class="btn-buy" onclick="trackClick('Rowin Looper')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── כרטיסי סאונד ── -->
-  <div class="cat-block" id="cat-soundcard">
-    <div class="cat-header">
-      <span class="cat-icon">🖥️</span>
-      <span class="cat-name">כרטיסי סאונד</span>
-      <span class="cat-count">1 מוצר</span>
-    </div>
-    <div class="products-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))">
-      <div class="product-card">
-        <div class="product-badge">🎮 PC & Karaoke</div>
-        <div class="product-img">🖥️</div>
-        <div class="product-body">
-          <div class="product-cat-tag">כרטיס סאונד</div>
-          <div class="product-name">V8S Professional Sound Card + Voice Changer</div>
-          <div class="product-desc">כרטיס סאונד מקצועי עם 10 אפקטי קול, משנה קול דיגיטלי, Plug & Play לגיימינג, קריוקי, סטרימינג והקלטה. כל האולפן — בגאדג'ט אחד קטן.</div>
-          <div class="product-stars"><span class="stars">★★★★☆</span><span class="stars-score">4.6</span><span class="stars-count">(81 מכירות)</span></div>
-          <div class="product-footer">
-            <div><div class="price-current">₪59</div><div class="price-ship">✈ משלוח חינם</div></div>
-            <a href="https://s.click.aliexpress.com/e/_c3MRTYoV" target="_blank" class="btn-buy" onclick="trackClick('V8S Sound Card')">לרכישה ←</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <div id="catalog"><div class="loading">טוען מוצרים…</div></div>
+  <noscript><div class="soon">כדי לראות את המוצרים צריך להפעיל JavaScript בדפדפן.</div></noscript>
 </section>
 
 <!-- WHY -->
@@ -545,10 +320,10 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
   <div class="sec-label">למה dibi</div>
   <div class="sec-title">ציוד מקצועי. מחירים הגיוניים.</div>
   <div class="why-grid">
-    <div class="why-item"><div class="why-num">01</div><div class="why-title">סינון קפדני</div><div class="why-desc">כל מוצר נבחר לפי ביצועים, ביקורות מוזיקאים ויחס מחיר-איכות. רק מה שעובד באמת נכנס לחנות.</div></div>
-    <div class="why-item"><div class="why-num">02</div><div class="why-title">מחיר ישיר מהמקור</div><div class="why-desc">קונים ישירות מהיצרן ומעבירים את החיסכון אליך — בלי חנות ביניים, בלי תמחור מנופח.</div></div>
-    <div class="why-item"><div class="why-num">03</div><div class="why-title">✈ משלוח חינם לישראל</div><div class="why-desc">כל המוצרים בחנות מגיעים עם משלוח חינמי לישראל — אין הפתעות בקופה.</div></div>
-    <div class="why-item"><div class="why-num">04</div><div class="why-title">לכל מוזיקאי</div><div class="why-desc">לא רק לפרודיוסרים ו-DJ — לגיטריסטים, סטרימרים, מקליטים, ביטמייקרים וכל מי שאוהב מוזיקה.</div></div>
+    <div class="why-item"><div class="why-num">01</div><div class="why-title">סינון קפדני</div><div class="why-desc">כל מוצר נבחר לפי ביצועים, ביקורות של קונים אמיתיים ויחס מחיר-איכות. רק מה שעובד באמת נכנס לחנות.</div></div>
+    <div class="why-item"><div class="why-num">02</div><div class="why-title">מחיר ישיר ומעודכן</div><div class="why-desc">קונים ישירות מהיצרן, והמחירים באתר מתעדכנים אוטומטית מול AliExpress כמה פעמים ביום.</div></div>
+    <div class="why-item"><div class="why-num">03</div><div class="why-title">✈ משלוח לישראל</div><div class="why-desc">המוצרים נבחרו עם משלוח לישראל — את העלות הסופית רואים בעמוד המוצר לפני התשלום.</div></div>
+    <div class="why-item"><div class="why-num">04</div><div class="why-title">לכל יוצר</div><div class="why-desc">פרודיוסרים, דיג'ייז, פודקאסטרים, יוטיוברים, סטרימרים וגיימרים — לכל אחד יש פה פינה משלו.</div></div>
   </div>
 </section>
 
@@ -557,7 +332,7 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
   <div class="nl-inner">
     <div class="sec-label">ניוזלטר</div>
     <div class="nl-title">דילים.<br/>ציוד חדש.</div>
-    <div class="nl-sub">הצטרף למוזיקאים שמקבלים ראשונים את ההצעות הכי שוות — ללא ספאם.</div>
+    <div class="nl-sub">הצטרף ליוצרים שמקבלים ראשונים את ההצעות הכי שוות — ללא ספאם.</div>
     <div class="nl-form">
       <input class="nl-input" type="email" placeholder="האימייל שלך"/>
       <button class="btn-lime">הצטרף</button>
@@ -571,23 +346,15 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
   <div class="footer-top">
     <div>
       <div class="footer-logo">di<em>bi</em></div>
-      <div class="footer-tagline">ציוד מוזיקה מקצועי במחירים שלא תמצא בשום מקום אחר בישראל.</div>
+      <div class="footer-tagline">ציוד למוזיקאים ויוצרי תוכן במחירים שלא תמצא בשום מקום אחר בישראל.</div>
     </div>
     <div class="footer-links-group">
-      <div class="footer-col">
-        <div class="footer-col-title">קטגוריות</div>
-        <a href="#cat-interface">ממשקי אודיו</a>
-        <a href="#cat-mic">מיקרופונים</a>
-        <a href="#cat-midi">בקרי MIDI</a>
-        <a href="#cat-monitor">מוניטורים</a>
-        <a href="#cat-mixer">מיקסרים</a>
-        <a href="#cat-headphones">אוזניות</a>
-        <a href="#cat-guitar">גיטרה</a>
-        <a href="#cat-soundcard">כרטיסי סאונד</a>
+      <div class="footer-col" id="footerNiches">
+        <div class="footer-col-title">תחומים</div>
       </div>
       <div class="footer-col">
         <div class="footer-col-title">עקבו אחרינו</div>
-        <a href="https://www.instagram.com/dibi.music" target="_blank" class="footer-ig">
+        <a href="https://www.instagram.com/dibi.music" target="_blank" rel="noopener" class="footer-ig">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
           @dibi.music
         </a>
@@ -596,13 +363,13 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
       <div class="footer-col">
         <div class="footer-col-title">מידע</div>
         <a href="#why">אודות dibi</a>
-        <a href="#categories">כל הקטגוריות</a>
+        <a href="#niches">כל התחומים</a>
         <a href="#products">מוצרים</a>
       </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <div class="footer-copy">© 2026 dibi · כל הזכויות שמורות</div>
+    <div class="footer-copy">© 2026 dibi · כל הזכויות שמורות · הקישורים לחנות הם קישורי שותפים</div>
     <div class="footer-made">עוצב ונבנה בישראל 🇮🇱</div>
   </div>
 </footer>
@@ -611,24 +378,161 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
 <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script>
-// Scroll to top button
-const scrollBtn = document.getElementById('scrollTop');
-window.addEventListener('scroll', () => {
-  scrollBtn.classList.toggle('visible', window.scrollY > 400);
-});
+/* ═══ dibi catalog — products come from data/products.json ═══ */
+const ALL = 'all';
+let DATA = null, state = {niche: ALL, cat: ALL};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => '₪' + Math.round(n).toLocaleString('he-IL');
 
-// Fade-up animation
-const obs = new IntersectionObserver(entries => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      e.target.style.animation = 'fadeUp 0.45s ease forwards';
-    }
+function goProducts(){ $('products').scrollIntoView({behavior:'smooth'}); }
+
+function live(){ return DATA.products.filter(p => p.active !== false); }
+function inNiche(p, n){ return n === ALL || (p.niches || []).includes(n); }
+function nicheById(id){ return DATA.niches.find(n => n.id === id); }
+
+/* category order for current niche */
+function catOrder(n){
+  if (n !== ALL) return nicheById(n).cats;
+  const seen = [];
+  DATA.niches.forEach(x => x.cats.forEach(c => { if (!seen.includes(c)) seen.push(c); }));
+  return seen;
+}
+
+function card(p){
+  const img = p.image
+    ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.textContent='${esc(p.icon || '📦')}'"/>`
+    : esc(p.icon || '📦');
+  const old = p.listPrice && p.listPrice > p.price * 1.05
+    ? `<span class="price-old">${fmt(p.listPrice)}</span><span class="price-off">-${Math.round((1 - p.price / p.listPrice) * 100)}%</span>` : '';
+  const stars = '★'.repeat(Math.round(p.rating || 5)) + '☆'.repeat(5 - Math.round(p.rating || 5));
+  return `<div class="product-card">
+    ${p.badge ? `<div class="product-badge">${esc(p.badge)}</div>` : ''}
+    <div class="product-img">${img}</div>
+    <div class="product-body">
+      <div class="product-cat-tag">${esc(p.tag || (DATA.categories[p.cat] || {}).name)}</div>
+      <div class="product-name">${esc(p.name)}</div>
+      <div class="product-desc">${esc(p.desc)}</div>
+      <div class="product-stars"><span class="stars">${stars}</span><span class="stars-score">${esc(p.rating)}</span>${p.sold ? `<span class="stars-count">(${esc(p.sold)})</span>` : ''}</div>
+      <div class="product-footer">
+        <div><div class="price-row"><div class="price-current">${fmt(p.price)}</div>${old}</div>${p.freeShip !== false ? '<div class="price-ship">✈ משלוח חינם</div>' : ''}</div>
+        <a href="${esc(p.link)}" target="_blank" rel="sponsored noopener" class="btn-buy" data-track="${esc(p.short || p.name)}">לרכישה ←</a>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderTabs(){
+  const items = [{id: ALL, name: 'הכל', icon: '✦'}, ...DATA.niches];
+  $('tabs').innerHTML = items.map(n => {
+    const c = live().filter(p => inNiche(p, n.id)).length;
+    return `<button class="tab${state.niche === n.id ? ' active' : ''}" role="tab" data-niche="${n.id}">${n.icon} <bdi>${esc(n.name)}</bdi> <span style="opacity:.55">${c}</span></button>`;
+  }).join('');
+}
+
+function renderChips(){
+  const prods = live().filter(p => inNiche(p, state.niche));
+  const cats = catOrder(state.niche).filter(c => prods.some(p => p.cat === c));
+  if (cats.length < 2) { $('chips').innerHTML = ''; return; }
+  $('chips').innerHTML = [`<button class="chip${state.cat === ALL ? ' active' : ''}" data-cat="all">הכל <small>${prods.length}</small></button>`]
+    .concat(cats.map(c => `<button class="chip${state.cat === c ? ' active' : ''}" data-cat="${c}">${DATA.categories[c].icon} <bdi>${esc(DATA.categories[c].name)}</bdi> <small>${prods.filter(p => p.cat === c).length}</small></button>`)).join('');
+}
+
+function renderCatalog(){
+  const n = state.niche, nd = n === ALL ? null : nicheById(n);
+  $('prodLabel').textContent = nd ? nd.en : 'מוצרים נבחרים';
+  $('prodTitle').textContent = nd ? nd.name : 'ציוד שיוצרים ממליצים עליו';
+  $('prodSub').textContent = nd ? nd.desc : 'כל מוצר נבחר בקפידה — ביצועים מוכחים, ביקורות אמיתיות, מחיר שלא תמצא בארץ.';
+
+  const prods = live().filter(p => inNiche(p, n));
+  const order = catOrder(n);
+  const extra = [...new Set(prods.map(p => p.cat))].filter(c => !order.includes(c));
+  let html = '';
+  [...order, ...extra].forEach(c => {
+    if (state.cat !== ALL && state.cat !== c) return;
+    const list = prods.filter(p => p.cat === c);
+    if (!list.length) return;
+    const meta = DATA.categories[c] || {name: c, icon: '📦'};
+    html += `<div class="cat-block" id="cat-${c}">
+      <div class="cat-header"><span class="cat-icon">${meta.icon}</span><span class="cat-name"><bdi>${esc(meta.name)}</bdi></span><span class="cat-count">${list.length} ${list.length === 1 ? 'מוצר' : 'מוצרים'}</span></div>
+      <div class="products-grid">${list.map(card).join('')}</div></div>`;
   });
-}, {threshold: 0.08});
-document.querySelectorAll('.product-card,.why-item,.cat-card').forEach(el => {
-  el.style.opacity = '0';
-  obs.observe(el);
+  if (!prods.length) {
+    html = `<div class="soon">${nd.icon} <strong>${esc(nd.name)}</strong> — המוצרים הראשונים בתחום הזה נכנסים ממש בקרוב.<br/>בינתיים שווה להציץ ב<a href="#all" style="color:var(--lime)">כל המוצרים</a>.</div>`;
+  } else if (nd && state.cat === ALL) {
+    const soon = order.filter(c => !prods.some(p => p.cat === c));
+    if (soon.length) html += `<div class="soon-list">בקרוב בתחום הזה: ${soon.map(c => `<span>${DATA.categories[c].icon} ${esc(DATA.categories[c].name)}</span>`).join('')}</div>`;
+  }
+  $('catalog').innerHTML = html;
+  animate('#catalog .product-card');
+}
+
+function render(){ renderTabs(); renderChips(); renderCatalog(); }
+
+function setNiche(id, scroll){
+  state.niche = (id === ALL || nicheById(id)) ? id : ALL;
+  state.cat = ALL;
+  render();
+  if (scroll) goProducts();
+}
+
+function renderStatic(){
+  const prods = live();
+  const avg = prods.reduce((s, p) => s + (+p.rating || 0), 0) / (prods.length || 1);
+  document.querySelectorAll('[data-stat="count"]').forEach(e => e.textContent = prods.length);
+  document.querySelectorAll('[data-stat="rating"]').forEach(e => e.textContent = avg.toFixed(1));
+  document.querySelectorAll('[data-stat="niches"]').forEach(e => e.textContent = DATA.niches.length);
+
+  const words = DATA.niches.flatMap(n => n.cats.slice(0, 3).map(c => DATA.categories[c].name));
+  const uniq = [...new Set(words)];
+  $('ticker').innerHTML = [...uniq, ...uniq].map(w => `<span class="ticker-item">${esc(w)}</span>`).join('');
+  const en = ['AUDIO INTERFACE','MICROPHONE','DJ CONTROLLER','PODCAST','STREAMING','CONTENT CREATOR','RING LIGHT','GAMING SETUP','STUDIO MONITOR','HEADPHONES'];
+  $('marquee').innerHTML = [...en, ...en].map(w => `<span class="marquee-item">${w} <span>◆</span></span>`).join('');
+
+  $('nichesGrid').innerHTML = DATA.niches.map(n => {
+    const c = prods.filter(p => inNiche(p, n.id)).length;
+    return `<button class="niche-card" data-niche="${n.id}">
+      <div class="niche-card-top"><span class="niche-card-icon">${n.icon}</span><span class="niche-card-en">${n.en}</span></div>
+      <div class="niche-card-name">${esc(n.name)}</div>
+      <div class="niche-card-desc">${esc(n.desc)}</div>
+      <div class="niche-card-count">${c ? c + ' מוצרים' : 'בקרוב'}</div></button>`;
+  }).join('');
+  $('footerNiches').innerHTML += DATA.niches.map(n => `<a href="#${n.id}">${esc(n.name)}</a>`).join('');
+
+  const d = new Date(DATA.updated);
+  if (!isNaN(d)) $('priceNote').textContent = `המחירים עודכנו מול AliExpress ב-${d.toLocaleDateString('he-IL')} ועשויים להשתנות — המחיר הקובע הוא זה שמופיע בעמוד המוצר.`;
+}
+
+/* events */
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-niche]');
+  if (t) { const id = t.dataset.niche; history.replaceState(null, '', id === ALL ? location.pathname : '#' + id); setNiche(id, t.classList.contains('niche-card')); return; }
+  const c = e.target.closest('[data-cat]');
+  if (c) { state.cat = c.dataset.cat; renderChips(); renderCatalog(); return; }
+  const b = e.target.closest('[data-track]');
+  if (b && typeof trackClick === 'function') trackClick(b.dataset.track + (state.niche !== ALL ? ' | ' + state.niche : ''));
 });
+function fromHash(scroll){
+  const h = location.hash.slice(1);
+  if (h === ALL || (DATA && nicheById(h))) { setNiche(h, scroll); return true; }
+  return false;
+}
+window.addEventListener('hashchange', () => fromHash(true));
+
+/* load data */
+fetch('data/products.json', {cache: 'no-cache'})
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { DATA = d; renderStatic(); if (!fromHash(true)) render(); animate('.niche-card'); })
+  .catch(() => { $('catalog').innerHTML = '<div class="soon">לא הצלחנו לטעון את המוצרים כרגע — נסו לרענן את הדף.</div>'; });
+
+/* scroll-to-top + fade-up */
+const scrollBtn = $('scrollTop');
+window.addEventListener('scroll', () => scrollBtn.classList.toggle('visible', window.scrollY > 400));
+const obs = new IntersectionObserver(entries => entries.forEach(e => {
+  if (e.isIntersecting) { e.target.style.animation = 'fadeUp 0.45s ease forwards'; obs.unobserve(e.target); }
+}), {threshold: 0.08});
+function animate(sel){ document.querySelectorAll(sel).forEach(el => { el.style.opacity = '0'; obs.observe(el); }); }
+animate('.why-item');
 </script>
 </body>
 </html>
