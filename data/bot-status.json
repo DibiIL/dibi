@@ -1,24 +1,28 @@
 {
  "prices": {
-  "at": "2026-10-13T21:17:10.878Z",
+  "at": "2026-10-14T03:17:07.922Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
-  "changes": [],
+  "changes": [
+   "MAONO PS22: ₪196 → ₪195",
+   "M-VAVE SMK-25: ₪147 → ₪146",
+   "AIYIMA S4000: ₪704 → ₪702"
+  ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
     "before": 196,
     "api": {
-     "sale": "195.90",
-     "app": "195.90",
-     "original": "435.33",
+     "sale": "195.36",
+     "app": "195.36",
+     "original": "434.13",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
-    "after": 196,
-    "listPrice": 435,
+    "after": 195,
+    "listPrice": 434,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
     "active": true
    },
@@ -27,14 +31,14 @@
     "name": "FIFINE A2",
     "before": 75,
     "api": {
-     "sale": "75.42",
-     "app": "75.42",
-     "original": "174.92",
+     "sale": "75.30",
+     "app": "75.30",
+     "original": "174.43",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "after": 75,
-    "listPrice": 175,
+    "listPrice": 174,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
    },
@@ -43,14 +47,14 @@
     "name": "FIFINE AM8",
     "before": 178,
     "api": {
-     "sale": "178.21",
-     "app": "178.21",
-     "original": "324.04",
+     "sale": "177.67",
+     "app": "177.67",
+     "original": "323.07",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
     "after": 178,
-    "listPrice": 324,
+    "listPrice": 323,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
     "active": true
    },
@@ -59,14 +63,14 @@
     "name": "M-VAVE SMK-25",
     "before": 147,
     "api": {
-     "sale": "146.53",
-     "app": "146.53",
-     "original": "311.77",
+     "sale": "146.12",
+     "app": "146.12",
+     "original": "310.91",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 147,
-    "listPrice": 312,
+    "after": 146,
+    "listPrice": 311,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
@@ -75,9 +79,9 @@
     "name": "M-VAVE SMC PAD",
     "before": 97,
     "api": {
-     "sale": "97.42",
-     "app": "97.42",
-     "original": "187.34",
+     "sale": "97.15",
+     "app": "97.15",
+     "original": "186.82",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
@@ -91,14 +95,14 @@
     "name": "AIYIMA S4000",
     "before": 704,
     "api": {
-     "sale": "703.83",
-     "app": "703.83",
-     "original": "977.56",
+     "sale": "701.72",
+     "app": "701.72",
+     "original": "974.63",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
-    "after": 704,
-    "listPrice": 978,
+    "after": 702,
+    "listPrice": 975,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
     "active": true
    },
@@ -107,14 +111,14 @@
     "name": "FIFINE SC8",
     "before": 220,
     "api": {
-     "sale": "220.34",
-     "app": "220.34",
-     "original": "324.04",
+     "sale": "219.68",
+     "app": "219.68",
+     "original": "323.07",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "after": 220,
-    "listPrice": 324,
+    "listPrice": 323,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -123,14 +127,14 @@
     "name": "Depusheng Mixer",
     "before": 73,
     "api": {
-     "sale": "73.19",
-     "app": "73.19",
-     "original": "155.73",
+     "sale": "72.99",
+     "app": "72.99",
+     "original": "155.30",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
     "after": 73,
-    "listPrice": 156,
+    "listPrice": 155,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
     "active": true
    },
@@ -139,9 +143,9 @@
     "name": "Oneodio Pro 50",
     "before": 141,
     "api": {
-     "sale": "141.19",
-     "app": "141.19",
-     "original": "300.42",
+     "sale": "140.80",
+     "app": "140.80",
+     "original": "299.59",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
@@ -155,9 +159,9 @@
     "name": "Rowin Looper",
     "before": 77,
     "api": {
-     "sale": "76.73",
-     "app": "76.73",
-     "original": "153.46",
+     "sale": "76.52",
+     "app": "76.52",
+     "original": "153.04",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
@@ -171,9 +175,9 @@
     "name": "V8S Sound Card",
     "before": 62,
     "api": {
-     "sale": "62.45",
-     "app": "62.45",
-     "original": "124.90",
+     "sale": "62.27",
+     "app": "62.27",
+     "original": "124.55",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
