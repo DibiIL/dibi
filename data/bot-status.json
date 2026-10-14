@@ -1,19 +1,17 @@
 {
  "prices": {
-  "at": "2026-10-14T03:17:07.922Z",
+  "at": "2026-10-14T09:17:09.549Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
   "changes": [
-   "MAONO PS22: ₪196 → ₪195",
-   "M-VAVE SMK-25: ₪147 → ₪146",
-   "AIYIMA S4000: ₪704 → ₪702"
+   "FIFINE SC8: ₪220 → ₪198"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 196,
+    "before": 195,
     "api": {
      "sale": "195.36",
      "app": "195.36",
@@ -61,7 +59,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 147,
+    "before": 146,
     "api": {
      "sale": "146.12",
      "app": "146.12",
@@ -93,7 +91,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 704,
+    "before": 702,
     "api": {
      "sale": "701.72",
      "app": "701.72",
@@ -111,13 +109,13 @@
     "name": "FIFINE SC8",
     "before": 220,
     "api": {
-     "sale": "219.68",
-     "app": "219.68",
+     "sale": "198.35",
+     "app": "198.35",
      "original": "323.07",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 220,
+    "after": 198,
     "listPrice": 323,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
