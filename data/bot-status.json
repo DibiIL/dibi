@@ -185,35 +185,37 @@
   ]
  },
  "find": {
-  "at": "2026-10-15T02:43:36.281Z",
+  "at": "2026-10-16T02:43:35.053Z",
   "ok": true,
   "keywords": [
-   "monitoring headphones podcast",
-   "midi pad controller",
-   "studio monitor speakers active",
-   "desktop studio monitors bluetooth",
-   "dj headphones",
-   "sound card audio interface 48v phantom",
-   "bookshelf speakers studio monitor",
-   "analog mixer 6 channel",
-   "midi controller knobs faders",
-   "studio monitor headphones closed back",
-   "dj controller 2 channel",
-   "open back studio headphones",
-   "dj mixer 2 channel",
-   "large diaphragm condenser microphone xlr"
+   "guitar headphone amplifier",
+   "rgb video light",
+   "wireless gaming headset",
+   "powered speakers bluetooth dj",
+   "microphone boom arm",
+   "headphone stand rgb",
+   "podcast mixer",
+   "teleprompter phone",
+   "audio mixer 4 channel usb",
+   "phone cage rig video",
+   "dynamic microphone xlr podcast",
+   "podcast production studio",
+   "guitar tuner pedal",
+   "dj mixer crossfader"
   ],
-  "rawMatches": 53,
+  "rawMatches": 211,
   "added": [
-   54,
-   55,
-   56,
-   57,
-   58,
-   59,
-   60,
-   61
+   62,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71
   ],
-  "pending": 51
+  "pending": 60
  }
 }
