@@ -1,11 +1,16 @@
 {
  "prices": {
-  "at": "2026-10-16T15:17:10.889Z",
+  "at": "2026-10-16T21:17:12.460Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
   "changes": [
-   "FIFINE SC8: ₪194 → ₪215"
+   "MAONO PS22: ₪197 → ₪202",
+   "M-VAVE SMK-25: ₪134 → ₪138",
+   "M-VAVE SMC PAD: ₪98 → ₪99",
+   "FIFINE SC8: ₪215 → ₪194",
+   "Depusheng Mixer: ₪66 → ₪68",
+   "Oneodio Pro 50: ₪128 → ₪131"
   ],
   "items": [
    {
@@ -13,14 +18,14 @@
     "name": "MAONO PS22",
     "before": 197,
     "api": {
-     "sale": "197.39",
-     "app": "197.39",
-     "original": "438.64",
+     "sale": "201.69",
+     "app": "201.69",
+     "original": "438.46",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
-    "after": 197,
-    "listPrice": 439,
+    "after": 202,
+    "listPrice": 438,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
     "active": true
    },
@@ -61,13 +66,13 @@
     "name": "M-VAVE SMK-25",
     "before": 134,
     "api": {
-     "sale": "134.48",
-     "app": "134.48",
+     "sale": "137.64",
+     "app": "137.64",
      "original": "317.08",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 134,
+    "after": 138,
     "listPrice": 317,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
@@ -77,14 +82,14 @@
     "name": "M-VAVE SMC PAD",
     "before": 98,
     "api": {
-     "sale": "97.99",
-     "app": "97.99",
-     "original": "188.44",
+     "sale": "98.69",
+     "app": "98.69",
+     "original": "188.65",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
-    "after": 98,
-    "listPrice": 188,
+    "after": 99,
+    "listPrice": 189,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
     "active": true
    },
@@ -107,16 +112,16 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 194,
+    "before": 215,
     "api": {
-     "sale": "215.39",
-     "app": "215.39",
-     "original": "316.75",
+     "sale": "193.81",
+     "app": "193.81",
+     "original": "316.34",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 215,
-    "listPrice": 317,
+    "after": 194,
+    "listPrice": 316,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -125,13 +130,13 @@
     "name": "Depusheng Mixer",
     "before": 66,
     "api": {
-     "sale": "66.47",
-     "app": "66.47",
+     "sale": "68.04",
+     "app": "68.04",
      "original": "156.70",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
-    "after": 66,
+    "after": 68,
     "listPrice": 157,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
     "active": true
@@ -141,13 +146,13 @@
     "name": "Oneodio Pro 50",
     "before": 128,
     "api": {
-     "sale": "128.21",
-     "app": "128.21",
+     "sale": "131.24",
+     "app": "131.24",
      "original": "302.28",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
-    "after": 128,
+    "after": 131,
     "listPrice": 302,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "active": true
@@ -159,7 +164,7 @@
     "api": {
      "sale": "77.39",
      "app": "77.39",
-     "original": "154.78",
+     "original": "154.60",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
