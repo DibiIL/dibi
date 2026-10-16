@@ -1,13 +1,11 @@
 {
  "prices": {
-  "at": "2026-10-16T09:17:10.693Z",
+  "at": "2026-10-16T15:17:10.889Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
   "changes": [
-   "FIFINE AM8: ₪174 → ₪169",
-   "M-VAVE SMK-25: ₪132 → ₪134",
-   "FIFINE SC8: ₪215 → ₪194"
+   "FIFINE SC8: ₪194 → ₪215"
   ],
   "items": [
    {
@@ -45,7 +43,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 174,
+    "before": 169,
     "api": {
      "sale": "168.75",
      "app": "168.75",
@@ -61,7 +59,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 132,
+    "before": 134,
     "api": {
      "sale": "134.48",
      "app": "134.48",
@@ -109,16 +107,16 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 215,
+    "before": 194,
     "api": {
-     "sale": "193.81",
-     "app": "193.81",
-     "original": "316.34",
+     "sale": "215.39",
+     "app": "215.39",
+     "original": "316.75",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 194,
-    "listPrice": 316,
+    "after": 215,
+    "listPrice": 317,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
