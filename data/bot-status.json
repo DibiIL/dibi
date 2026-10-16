@@ -1,10 +1,17 @@
 {
  "prices": {
-  "at": "2026-10-15T21:17:11.170Z",
+  "at": "2026-10-16T03:17:08.984Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
-  "changes": [],
+  "changes": [
+   "FIFINE AM8: ₪180 → ₪174",
+   "M-VAVE SMK-25: ₪147 → ₪132",
+   "AIYIMA S4000: ₪710 → ₪708",
+   "FIFINE SC8: ₪222 → ₪215",
+   "Depusheng Mixer: ₪74 → ₪66",
+   "Oneodio Pro 50: ₪142 → ₪128"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -27,9 +34,9 @@
     "name": "FIFINE A2",
     "before": 76,
     "api": {
-     "sale": "76.12",
-     "app": "76.12",
-     "original": "176.33",
+     "sale": "75.97",
+     "app": "75.97",
+     "original": "175.99",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
@@ -43,14 +50,14 @@
     "name": "FIFINE AM8",
     "before": 180,
     "api": {
-     "sale": "179.69",
-     "app": "179.69",
-     "original": "326.71",
+     "sale": "173.90",
+     "app": "173.90",
+     "original": "316.18",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
-    "after": 180,
-    "listPrice": 327,
+    "after": 174,
+    "listPrice": 316,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
     "active": true
    },
@@ -59,14 +66,14 @@
     "name": "M-VAVE SMK-25",
     "before": 147,
     "api": {
-     "sale": "147.39",
-     "app": "147.39",
-     "original": "313.60",
+     "sale": "132.32",
+     "app": "132.32",
+     "original": "312.46",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 147,
-    "listPrice": 314,
+    "after": 132,
+    "listPrice": 312,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
@@ -75,14 +82,14 @@
     "name": "M-VAVE SMC PAD",
     "before": 98,
     "api": {
-     "sale": "98.39",
-     "app": "98.39",
-     "original": "189.21",
+     "sale": "97.99",
+     "app": "97.99",
+     "original": "188.44",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
     "after": 98,
-    "listPrice": 189,
+    "listPrice": 188,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
     "active": true
    },
@@ -91,14 +98,14 @@
     "name": "AIYIMA S4000",
     "before": 710,
     "api": {
-     "sale": "709.90",
-     "app": "709.90",
-     "original": "985.97",
+     "sale": "707.90",
+     "app": "707.90",
+     "original": "983.19",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
-    "after": 710,
-    "listPrice": 986,
+    "after": 708,
+    "listPrice": 983,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
     "active": true
    },
@@ -107,14 +114,14 @@
     "name": "FIFINE SC8",
     "before": 222,
     "api": {
-     "sale": "221.99",
-     "app": "221.99",
-     "original": "326.46",
+     "sale": "215.39",
+     "app": "215.39",
+     "original": "316.75",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 222,
-    "listPrice": 326,
+    "after": 215,
+    "listPrice": 317,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -123,13 +130,13 @@
     "name": "Depusheng Mixer",
     "before": 74,
     "api": {
-     "sale": "73.69",
-     "app": "73.69",
-     "original": "156.79",
+     "sale": "66.47",
+     "app": "66.47",
+     "original": "156.70",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
-    "after": 74,
+    "after": 66,
     "listPrice": 157,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
     "active": true
@@ -139,14 +146,14 @@
     "name": "Oneodio Pro 50",
     "before": 142,
     "api": {
-     "sale": "142.39",
-     "app": "142.39",
-     "original": "302.96",
+     "sale": "128.21",
+     "app": "128.21",
+     "original": "302.28",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
-    "after": 142,
-    "listPrice": 303,
+    "after": 128,
+    "listPrice": 302,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "active": true
    },
@@ -173,7 +180,7 @@
     "api": {
      "sale": "62.90",
      "app": "62.90",
-     "original": "125.85",
+     "original": "125.73",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
