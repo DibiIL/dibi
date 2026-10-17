@@ -1,6 +1,6 @@
 {
  "prices": {
-  "at": "2026-10-17T15:17:10.593Z",
+  "at": "2026-10-17T21:17:09.003Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
@@ -139,8 +139,8 @@
     "name": "Oneodio Pro 50",
     "before": 131,
     "api": {
-     "sale": "131.24",
-     "app": "131.24",
+     "sale": "130.96",
+     "app": "130.96",
      "original": "302.28",
      "currency": "ILS"
     },
