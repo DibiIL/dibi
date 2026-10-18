@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-10-18T03:17:08.712Z",
+  "at": "2026-10-18T09:17:13.518Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
-  "changes": [],
+  "changes": [
+   "M-VAVE SMK-25: ₪136 → ₪133"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -59,14 +61,14 @@
     "name": "M-VAVE SMK-25",
     "before": 136,
     "api": {
-     "sale": "135.89",
-     "app": "135.89",
-     "original": "314.01",
+     "sale": "133.28",
+     "app": "133.28",
+     "original": "308.16",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 136,
-    "listPrice": 314,
+    "after": 133,
+    "listPrice": 308,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
