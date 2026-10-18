@@ -1,6 +1,6 @@
 {
  "prices": {
-  "at": "2026-10-17T21:17:09.003Z",
+  "at": "2026-10-18T03:17:08.712Z",
   "ok": true,
   "checked": 11,
   "returned": 11,
@@ -59,8 +59,8 @@
     "name": "M-VAVE SMK-25",
     "before": 136,
     "api": {
-     "sale": "136.18",
-     "app": "136.18",
+     "sale": "135.89",
+     "app": "135.89",
      "original": "314.01",
      "currency": "ILS"
     },
@@ -123,8 +123,8 @@
     "name": "Depusheng Mixer",
     "before": 68,
     "api": {
-     "sale": "68.04",
-     "app": "68.04",
+     "sale": "67.88",
+     "app": "67.88",
      "original": "156.70",
      "currency": "ILS"
     },
