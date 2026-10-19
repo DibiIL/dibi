@@ -5,35 +5,26 @@
   "error": "ApiCallLimit Api access frequency exceeds the limit. this ban will last 1 seconds"
  },
  "find": {
-  "at": "2026-10-18T02:43:38.067Z",
+  "at": "2026-10-19T02:43:38.073Z",
   "ok": true,
   "keywords": [
-   "usb xlr dynamic microphone",
-   "shotgun microphone camera",
-   "on camera microphone",
-   "rgb led strip desk",
-   "desk mat xxl",
-   "gaming microphone rgb usb",
-   "video capture card usb 3.0",
-   "microphone shock mount pop filter",
-   "audio interface 2 channel recording",
-   "camera tripod aluminum",
-   "guitar looper pedal",
-   "midi keyboard controller 25 keys",
-   "softbox lighting kit",
-   "guitar wireless system"
+   "gaming mouse wireless",
+   "webcam 4k streaming",
+   "mechanical keyboard",
+   "green screen backdrop",
+   "low profile mic arm",
+   "gaming headset",
+   "guitar multi effects pedal",
+   "midi keyboard 49 keys",
+   "live sound card streaming",
+   "gimbal stabilizer smartphone",
+   "streaming audio mixer",
+   "action camera 4k",
+   "led video light panel",
+   "dj controller"
   ],
-  "rawMatches": 129,
-  "added": [
-   80,
-   81,
-   82,
-   83,
-   84,
-   85,
-   86,
-   87
-  ],
+  "rawMatches": 115,
+  "added": [],
   "pending": 60
  }
 }
