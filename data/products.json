@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T15:17:11.138Z",
+ "updated": "2026-10-19T21:17:08.791Z",
  "niches": [
   {
    "id": "music",
@@ -416,11 +416,12 @@
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3MRTYoV",
-   "active": true,
+   "active": false,
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 2
+   "missing": 3,
+   "autoHidden": true
   }
  ]
 }
