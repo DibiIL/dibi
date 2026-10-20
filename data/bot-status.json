@@ -181,26 +181,29 @@
   ]
  },
  "find": {
-  "at": "2026-10-19T02:43:38.073Z",
+  "at": "2026-10-20T02:43:35.830Z",
   "ok": true,
   "keywords": [
-   "gaming mouse wireless",
-   "webcam 4k streaming",
-   "mechanical keyboard",
-   "green screen backdrop",
-   "low profile mic arm",
-   "gaming headset",
-   "guitar multi effects pedal",
-   "midi keyboard 49 keys",
-   "live sound card streaming",
-   "gimbal stabilizer smartphone",
-   "streaming audio mixer",
-   "action camera 4k",
-   "led video light panel",
-   "dj controller"
+   "voice changer sound card",
+   "usb audio interface xlr",
+   "selfie stick tripod",
+   "wireless lavalier microphone",
+   "dj mixer controller usb",
+   "monitoring headphones podcast",
+   "midi pad controller",
+   "studio monitor speakers active",
+   "desktop studio monitors bluetooth",
+   "dj headphones",
+   "sound card audio interface 48v phantom",
+   "bookshelf speakers studio monitor",
+   "analog mixer 6 channel",
+   "midi controller knobs faders"
   ],
-  "rawMatches": 115,
-  "added": [],
+  "rawMatches": 129,
+  "added": [
+   88,
+   89
+  ],
   "pending": 60
  }
 }
