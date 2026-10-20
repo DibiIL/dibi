@@ -1,15 +1,11 @@
 {
  "prices": {
-  "at": "2026-10-20T03:17:10.992Z",
+  "at": "2026-10-20T09:17:09.666Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
   "changes": [
-   "FIFINE A2: ₪86 → ₪76",
-   "FIFINE AM8: ₪174 → ₪180",
-   "M-VAVE SMK-25: ₪145 → ₪148",
-   "Depusheng Mixer: ₪72 → ₪75",
-   "Oneodio Pro 50: ₪142 → ₪146"
+   "FIFINE SC8: ₪215 → ₪200"
   ],
   "items": [
    {
@@ -31,7 +27,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 86,
+    "before": 76,
     "api": {
      "sale": "76.42",
      "app": "76.42",
@@ -47,7 +43,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 174,
+    "before": 180,
     "api": {
      "sale": "179.69",
      "app": "179.69",
@@ -63,7 +59,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 145,
+    "before": 148,
     "api": {
      "sale": "148.39",
      "app": "148.39",
@@ -113,21 +109,21 @@
     "name": "FIFINE SC8",
     "before": 215,
     "api": {
-     "sale": "215.39",
-     "app": "215.39",
-     "original": "316.75",
+     "sale": "200.37",
+     "app": "200.37",
+     "original": "326.37",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 215,
-    "listPrice": 317,
+    "after": 200,
+    "listPrice": 326,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
    {
     "id": "1005008248050829",
     "name": "Depusheng Mixer",
-    "before": 72,
+    "before": 75,
     "api": {
      "sale": "75.39",
      "app": "75.39",
@@ -143,7 +139,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 142,
+    "before": 146,
     "api": {
      "sale": "145.69",
      "app": "145.69",
@@ -176,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 4,
+    "missing": 5,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
