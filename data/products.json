@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T21:17:08.791Z",
+ "updated": "2026-10-20T03:17:10.991Z",
  "niches": [
   {
    "id": "music",
@@ -175,7 +175,7 @@
    "link": "https://s.click.aliexpress.com/e/_c3Lvs4dJ",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 439,
+   "listPrice": 440,
    "commission": 7
   },
   {
@@ -194,13 +194,13 @@
    "desc": "מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.",
    "rating": 4.9,
    "sold": "4,000+ מכירות",
-   "price": 86,
+   "price": 76,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
    "link": "https://s.click.aliexpress.com/e/_c40ZMzpL",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 176,
+   "listPrice": 177,
    "commission": 7
   },
   {
@@ -220,13 +220,13 @@
    "desc": "מיקרופון דינמי מקצועי עם חיבור כפול USB ו-XLR, שליטה על RGB, יציאת אוזניות ומיוט מובנה. השדרוג הבא מ-A2 עם גמישות מקסימלית.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 174,
+   "price": 180,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3ojwsol",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 317,
+   "listPrice": 327,
    "commission": 7
   },
   {
@@ -243,7 +243,7 @@
    "desc": "קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.",
    "rating": 4.9,
    "sold": "129 מכירות",
-   "price": 145,
+   "price": 148,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4E0aQhJ",
@@ -340,7 +340,7 @@
    "desc": "מיקסר לַיין 4/6/8 ערוצים עם רעש נמוך במיוחד, אספקת חשמל DC5V פשוטה ותפעול קל. קומפקטי, יציב ואמין — הפתרון הנקי לאולפן ביתי.",
    "rating": 4.9,
    "sold": "1,000+ מכירות",
-   "price": 72,
+   "price": 75,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3tuI2bL",
@@ -365,13 +365,13 @@
    "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 142,
+   "price": 146,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 303,
+   "listPrice": 304,
    "commission": 7
   },
   {
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 3,
+   "missing": 4,
    "autoHidden": true
   }
  ]
