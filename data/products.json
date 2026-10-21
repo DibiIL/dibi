@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T03:17:09.119Z",
+ "updated": "2026-10-21T15:17:11.110Z",
  "niches": [
   {
    "id": "music",
@@ -194,13 +194,13 @@
    "desc": "מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.",
    "rating": 4.9,
    "sold": "4,000+ מכירות",
-   "price": 86,
+   "price": 84,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
    "link": "https://s.click.aliexpress.com/e/_c40ZMzpL",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 176,
+   "listPrice": 171,
    "commission": 7
   },
   {
@@ -371,7 +371,7 @@
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 303,
+   "listPrice": 302,
    "commission": 7
   },
   {
@@ -388,7 +388,7 @@
    "desc": "פדל לופר 48kHz עם Overdub ללא הגבלה, 10 דקות הקלטה, Half/Double Time, Reverse ו-True Bypass. כל הנגינה שלך — בלופ אחד.",
    "rating": 4.9,
    "sold": "1,000+ מכירות",
-   "price": 77,
+   "price": 78,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
    "link": "https://s.click.aliexpress.com/e/_c3Us72JF",
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 8,
+   "missing": 9,
    "autoHidden": true
   }
  ]
