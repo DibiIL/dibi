@@ -1,13 +1,10 @@
 {
  "prices": {
-  "at": "2026-10-21T15:17:11.110Z",
+  "at": "2026-10-21T21:17:08.407Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "FIFINE A2: ₪86 → ₪84",
-   "Rowin Looper: ₪77 → ₪78"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -28,7 +25,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 86,
+    "before": 84,
     "api": {
      "sale": "83.69",
      "app": "83.69",
@@ -80,7 +77,7 @@
     "api": {
      "sale": "98.69",
      "app": "98.69",
-     "original": "188.71",
+     "original": "188.70",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
@@ -156,7 +153,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 77,
+    "before": 78,
     "api": {
      "sale": "77.69",
      "app": "77.69",
@@ -173,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 9,
+    "missing": 10,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
