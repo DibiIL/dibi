@@ -179,28 +179,27 @@
   ]
  },
  "find": {
-  "at": "2026-10-20T02:43:35.830Z",
+  "at": "2026-10-21T02:43:35.875Z",
   "ok": true,
   "keywords": [
-   "voice changer sound card",
-   "usb audio interface xlr",
-   "selfie stick tripod",
-   "wireless lavalier microphone",
-   "dj mixer controller usb",
-   "monitoring headphones podcast",
-   "midi pad controller",
-   "studio monitor speakers active",
-   "desktop studio monitors bluetooth",
-   "dj headphones",
-   "sound card audio interface 48v phantom",
-   "bookshelf speakers studio monitor",
-   "analog mixer 6 channel",
-   "midi controller knobs faders"
+   "studio monitor headphones closed back",
+   "dj controller 2 channel",
+   "open back studio headphones",
+   "dj mixer 2 channel",
+   "large diaphragm condenser microphone xlr",
+   "guitar headphone amplifier",
+   "rgb video light",
+   "wireless gaming headset",
+   "powered speakers bluetooth dj",
+   "microphone boom arm",
+   "headphone stand rgb",
+   "podcast mixer",
+   "teleprompter phone",
+   "audio mixer 4 channel usb"
   ],
-  "rawMatches": 129,
+  "rawMatches": 128,
   "added": [
-   88,
-   89
+   90
   ],
   "pending": 60
  }
