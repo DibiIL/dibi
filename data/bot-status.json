@@ -1,11 +1,11 @@
 {
  "prices": {
-  "at": "2026-10-22T15:17:10.565Z",
+  "at": "2026-10-22T21:17:10.712Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
   "changes": [
-   "FIFINE SC8: ₪200 → ₪221"
+   "FIFINE A2: ₪76 → ₪86"
   ],
   "items": [
    {
@@ -13,8 +13,8 @@
     "name": "MAONO PS22",
     "before": 187,
     "api": {
-     "sale": "186.87",
-     "app": "186.87",
+     "sale": "186.91",
+     "app": "186.91",
      "original": "438.39",
      "currency": "ILS"
     },
@@ -29,13 +29,13 @@
     "name": "FIFINE A2",
     "before": 76,
     "api": {
-     "sale": "76.20",
-     "app": "76.20",
-     "original": "176.14",
+     "sale": "86.39",
+     "app": "86.39",
+     "original": "176.31",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
-    "after": 76,
+    "after": 86,
     "listPrice": 176,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
@@ -107,7 +107,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 200,
+    "before": 221,
     "api": {
      "sale": "221.39",
      "app": "221.39",
@@ -172,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 13,
+    "missing": 14,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",

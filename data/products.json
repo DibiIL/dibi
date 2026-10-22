@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:17:10.564Z",
+ "updated": "2026-10-22T21:17:10.711Z",
  "niches": [
   {
    "id": "music",
@@ -194,7 +194,7 @@
    "desc": "מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.",
    "rating": 4.9,
    "sold": "4,000+ מכירות",
-   "price": 76,
+   "price": 86,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
    "link": "https://s.click.aliexpress.com/e/_c40ZMzpL",
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 13,
+   "missing": 14,
    "autoHidden": true
   }
  ]
