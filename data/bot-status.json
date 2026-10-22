@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-10-22T09:17:08.713Z",
+  "at": "2026-10-22T15:17:10.565Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [],
+  "changes": [
+   "FIFINE SC8: ₪200 → ₪221"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -107,14 +109,14 @@
     "name": "FIFINE SC8",
     "before": 200,
     "api": {
-     "sale": "199.78",
-     "app": "199.78",
-     "original": "325.39",
+     "sale": "221.39",
+     "app": "221.39",
+     "original": "325.57",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 200,
-    "listPrice": 325,
+    "after": 221,
+    "listPrice": 326,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -139,14 +141,14 @@
     "name": "Oneodio Pro 50",
     "before": 145,
     "api": {
-     "sale": "144.99",
-     "app": "144.99",
-     "original": "302.06",
+     "sale": "145.39",
+     "app": "145.39",
+     "original": "302.90",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "after": 145,
-    "listPrice": 302,
+    "listPrice": 303,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "active": true
    },
@@ -170,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 12,
+    "missing": 13,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
