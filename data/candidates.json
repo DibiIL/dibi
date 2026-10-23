@@ -1,6 +1,6 @@
 {
- "nextNum": 92,
- "updated": "2026-10-22T02:43:39.161Z",
+ "nextNum": 93,
+ "updated": "2026-10-23T02:43:34.796Z",
  "pending": [
   {
    "num": 33,
@@ -109,24 +109,6 @@
    "keyword": "teleprompter phone",
    "model": "ulanzi|rt02",
    "found": "2026-10-16T02:43:35.026Z"
-  },
-  {
-   "num": 27,
-   "id": "1005005429715949",
-   "title": "Photography T-shape Background Backdrop Stand Frame Support System For Photo Studio Video Chroma Key Green Screen With Stand",
-   "niche": "creators",
-   "cat": "creator-gear",
-   "price": 26,
-   "listPrice": 65,
-   "commission": 8,
-   "orders": 277,
-   "rating": 96.1,
-   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb016d49b848149a8acd743b60cd614747.jpg",
-   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mT9sjV0hn3PeZ80TXmkraBj297I7UmPf5tjmmqA2xnLRrWPNgvjDehjBm1nP5EGEPeN6ZKwCpGBCN5i99zJgiSKnwqIsdc9LXQtrdL8HT73ECF2zQHmhRq6AoIoHyi783b0PKcCymgPYrkcChbR2EgA17gW65GfgMuXokSndsOxvyWZQBcEx6BoV0P3t6sgDqaYQHJC5i9Ly1CBJEe0R4kBy2O6lSIv3e0YsnDBqf6o4ES7pn6UpTzTPhDSouE2iDE3ej5oIRpfjXkoNqOysXls1v8IVFCTZNw7KSmSTS1VZonR2JUubDvAecmTp1aXEHer1duWR2ByhEwqbAd4YEWrrHvwoUgvlj79ylW8nCR3U8YxhkdvUz4Cqhf4lrvw8FmjQBDV3l1yH87MQCorwFLd5XFDf6glAOc43gl4QJMpD4Iny55RvcYHTANlScStvrlxwsulJ5QABl4NZg4QdIfT8sARDyERQel8r8W4gdxFm7XZUbc4vV4EtuzBpHOCGEp3grs1lJTvTADpfDp1P9WPJO24ot28D5Ma9Hqdv5PW1Nuf3Sq9ttumuLCo7TfuNWKsIeiNoBlK1FHZQcQnuuqHUVrKmEzik0T5zMwV6txttRbvGeIQK0ytEUsUVGPTbV4YZWSdm5YQ3BDaAsYHnysbyENkU9yHJB7D5cEuCwvgh1TNaPPI5KUqmzMCQ50HfHigwVY3XhfaLq",
-   "url": "https://www.aliexpress.com/item/1005005429715949.html?pdp_npi=6%40dis%21ILS%2164.75%2125.89%21%21%2120.58%218.23%21%402102f1cd17919238930305083e0f82%2112000033036949309%21affd%21%21%21%211%210%21",
-   "keyword": "green screen backdrop",
-   "model": "photography tshape background",
-   "found": "2026-10-13T20:38:20.468Z"
   },
   {
    "num": 40,
@@ -845,6 +827,24 @@
    "keyword": "video capture card usb 3.0",
    "model": "ugreen|4k60hz",
    "found": "2026-10-13T20:38:20.468Z"
+  },
+  {
+   "num": 92,
+   "id": "1005007635109339",
+   "title": "FIFINE Recording XLR Dynamic Microphone with Real-time Monitoring,USB Streaming Mic with Gain Knob/Touch-mute for PC,Mixer-K688",
+   "niche": "podcast",
+   "cat": "mic",
+   "price": 171,
+   "listPrice": 357,
+   "commission": 7,
+   "orders": 10937,
+   "rating": 98,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S107da0e0ebb74722918a145c8d7462621.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FeusdgCfFZOk7bJcH2vAYGwHrwAYRxJodlvJUZOU2dM6FKhcoctICLScFdeFHqaWDHred7vKozJUc5WpTncb9XHLUDnhnpWBx7SZ98W5tBelHn1hyZO7iewt4MPnd3TbZz07dcejcOyf0EaxSW553e5ElhyXAuhMSMKn6PYWqcdXoYYf6ts0e06wAdFqn3l2lVCxhzV58Ll71g9bpRrDz4T6F3fz3avh2DfC2W8JksezLrqddoX4QypkylmJxasPfaQkpfwCHHJSmeg99dlPy4CQIKfCz7ZeAH4k2RDS6xCaBdoQZa2dnImHv5CPGvwckKuyhE238Hv0CJSx1EG0e0UtA8u3rNNN63vQuY73iNZTCFiZbSWuKRGstgHj6r7JngHABnUnvDFXvJzSSvtduLo7gQnj7ai8lwr5nmmaY7Ud7ZMZn7gAkYjJeLImh94zfefySUDem6op25t3AD0Vc8TZu5q9Y4dos2IIfTQSVXBcC9hW8NHcrMtg2ovGv4nW8Z1zTls6LTjeNRmSTU5qzzf8KL13JV53au3IOujHNAzHxD2huonyz5TL3BuirRiY4WiOZkoVJei6ChYEy8NP8P4CHMnejNUdsBqw0jvwl4KYbd8Bt69IJpXiqk3SteQW28RZjmISDOd6EoqPBqLsoK0nZEX6MdUUpLHaZwdv0yJamwWRjKlTsGeeHPjNikKnlGsXDlRDcaPKE",
+   "url": "https://www.aliexpress.com/item/1005007635109339.html?pdp_npi=6%40dis%21ILS%21357.06%21171.39%21%21%21754.40%21362.11%21%402141315917927233958076008e1047%2112000041587339101%21affd%21%21%21%211%210%21",
+   "keyword": "usb xlr dynamic microphone",
+   "model": "fifine|mixerk688",
+   "found": "2026-10-23T02:43:34.767Z"
   },
   {
    "num": 69,
