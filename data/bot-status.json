@@ -1,11 +1,12 @@
 {
  "prices": {
-  "at": "2026-10-23T09:17:10.334Z",
+  "at": "2026-10-23T15:17:08.968Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
   "changes": [
-   "FIFINE A2: ₪87 → ₪77"
+   "FIFINE A2: ₪77 → ₪87",
+   "M-VAVE SMK-25: ₪149 → ₪153"
   ],
   "items": [
    {
@@ -27,15 +28,15 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 87,
+    "before": 77,
     "api": {
-     "sale": "76.81",
-     "app": "76.81",
+     "sale": "86.99",
+     "app": "86.99",
      "original": "177.52",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
-    "after": 77,
+    "after": 87,
     "listPrice": 178,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
@@ -61,14 +62,14 @@
     "name": "M-VAVE SMK-25",
     "before": 149,
     "api": {
-     "sale": "149.39",
-     "app": "149.39",
-     "original": "311.23",
+     "sale": "153.39",
+     "app": "153.39",
+     "original": "319.56",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 149,
-    "listPrice": 311,
+    "after": 153,
+    "listPrice": 320,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
@@ -172,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 16,
+    "missing": 17,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
