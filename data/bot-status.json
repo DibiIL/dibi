@@ -1,21 +1,18 @@
 {
  "prices": {
-  "at": "2026-10-23T15:17:08.968Z",
+  "at": "2026-10-23T21:17:08.658Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "FIFINE A2: ₪77 → ₪87",
-   "M-VAVE SMK-25: ₪149 → ₪153"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
     "before": 188,
     "api": {
-     "sale": "188.38",
-     "app": "188.38",
+     "sale": "188.34",
+     "app": "188.34",
      "original": "441.82",
      "currency": "ILS"
     },
@@ -28,7 +25,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 77,
+    "before": 87,
     "api": {
      "sale": "86.99",
      "app": "86.99",
@@ -60,7 +57,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 149,
+    "before": 153,
     "api": {
      "sale": "153.39",
      "app": "153.39",
@@ -173,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 17,
+    "missing": 18,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
