@@ -179,27 +179,28 @@
   ]
  },
  "find": {
-  "at": "2026-10-23T02:43:34.799Z",
+  "at": "2026-10-24T02:43:35.346Z",
   "ok": true,
   "keywords": [
-   "portable dj controller",
-   "podcast microphone usb",
-   "studio condenser microphone kit",
-   "webcam 1080p",
-   "dj headphones swivel",
-   "usb xlr dynamic microphone",
-   "shotgun microphone camera",
-   "on camera microphone",
-   "rgb led strip desk",
-   "desk mat xxl",
-   "gaming microphone rgb usb",
-   "video capture card usb 3.0",
-   "microphone shock mount pop filter",
-   "audio interface 2 channel recording"
+   "camera tripod aluminum",
+   "guitar looper pedal",
+   "midi keyboard controller 25 keys",
+   "softbox lighting kit",
+   "guitar wireless system",
+   "gaming mouse wireless",
+   "webcam 4k streaming",
+   "mechanical keyboard",
+   "green screen backdrop",
+   "low profile mic arm",
+   "gaming headset",
+   "midi keyboard 49 keys",
+   "live sound card streaming",
+   "gimbal stabilizer smartphone"
   ],
-  "rawMatches": 41,
+  "rawMatches": 107,
   "added": [
-   92
+   93,
+   94
   ],
   "pending": 60
  }
