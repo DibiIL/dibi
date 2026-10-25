@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T10:17:08.466Z",
+ "updated": "2026-10-25T22:17:08.694Z",
  "niches": [
   {
    "id": "music",
@@ -220,7 +220,7 @@
    "desc": "מיקרופון דינמי מקצועי עם חיבור כפול USB ו-XLR, שליטה על RGB, יציאת אוזניות ומיוט מובנה. השדרוג הבא מ-A2 עם גמישות מקסימלית.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 175,
+   "price": 180,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3ojwsol",
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 25,
+   "missing": 26,
    "autoHidden": true
   }
  ]

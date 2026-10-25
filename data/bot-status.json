@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-10-25T16:17:09.410Z",
+  "at": "2026-10-25T22:17:08.695Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [],
+  "changes": [
+   "FIFINE AM8: ₪175 → ₪180"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -43,13 +45,13 @@
     "name": "FIFINE AM8",
     "before": 175,
     "api": {
-     "sale": "175.03",
-     "app": "175.03",
-     "original": "327.80",
+     "sale": "180.39",
+     "app": "180.39",
+     "original": "327.98",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
-    "after": 175,
+    "after": 180,
     "listPrice": 328,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
     "active": true
@@ -170,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 25,
+    "missing": 26,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
