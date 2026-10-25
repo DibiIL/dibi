@@ -181,28 +181,30 @@
   ]
  },
  "find": {
-  "at": "2026-10-24T02:43:35.346Z",
+  "at": "2026-10-25T03:43:36.186Z",
   "ok": true,
   "keywords": [
-   "camera tripod aluminum",
-   "guitar looper pedal",
-   "midi keyboard controller 25 keys",
-   "softbox lighting kit",
-   "guitar wireless system",
-   "gaming mouse wireless",
-   "webcam 4k streaming",
-   "mechanical keyboard",
-   "green screen backdrop",
-   "low profile mic arm",
-   "gaming headset",
-   "midi keyboard 49 keys",
-   "live sound card streaming",
-   "gimbal stabilizer smartphone"
+   "guitar multi effects pedal",
+   "streaming audio mixer",
+   "action camera 4k",
+   "led video light panel",
+   "dj controller",
+   "voice changer sound card",
+   "usb audio interface xlr",
+   "selfie stick tripod",
+   "wireless lavalier microphone",
+   "dj mixer controller usb",
+   "monitoring headphones podcast",
+   "midi pad controller",
+   "studio monitor speakers active",
+   "desktop studio monitors bluetooth"
   ],
-  "rawMatches": 107,
+  "rawMatches": 170,
   "added": [
-   93,
-   94
+   95,
+   96,
+   97,
+   98
   ],
   "pending": 60
  }
