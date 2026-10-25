@@ -1,14 +1,10 @@
 {
  "prices": {
-  "at": "2026-10-25T10:17:08.466Z",
+  "at": "2026-10-25T16:17:09.410Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "M-VAVE SMK-25: ₪149 → ₪153",
-   "Oneodio Pro 50: ₪146 → ₪142",
-   "Rowin Looper: ₪78 → ₪77"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -61,7 +57,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 149,
+    "before": 153,
     "api": {
      "sale": "153.39",
      "app": "153.39",
@@ -141,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 146,
+    "before": 142,
     "api": {
      "sale": "142.39",
      "app": "142.39",
@@ -157,7 +153,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 78,
+    "before": 77,
     "api": {
      "sale": "77.39",
      "app": "77.39",
@@ -174,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 24,
+    "missing": 25,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
