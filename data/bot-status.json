@@ -1,11 +1,13 @@
 {
  "prices": {
-  "at": "2026-10-25T04:17:09.133Z",
+  "at": "2026-10-25T10:17:08.466Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
   "changes": [
-   "FIFINE AM8: ₪180 → ₪175"
+   "M-VAVE SMK-25: ₪149 → ₪153",
+   "Oneodio Pro 50: ₪146 → ₪142",
+   "Rowin Looper: ₪78 → ₪77"
   ],
   "items": [
    {
@@ -43,7 +45,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 180,
+    "before": 175,
     "api": {
      "sale": "175.03",
      "app": "175.03",
@@ -61,14 +63,14 @@
     "name": "M-VAVE SMK-25",
     "before": 149,
     "api": {
-     "sale": "149.39",
-     "app": "149.39",
-     "original": "311.23",
+     "sale": "153.39",
+     "app": "153.39",
+     "original": "319.56",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 149,
-    "listPrice": 311,
+    "after": 153,
+    "listPrice": 320,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
@@ -141,14 +143,14 @@
     "name": "Oneodio Pro 50",
     "before": 146,
     "api": {
-     "sale": "146.39",
-     "app": "146.39",
-     "original": "304.98",
+     "sale": "142.39",
+     "app": "142.39",
+     "original": "296.65",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
-    "after": 146,
-    "listPrice": 305,
+    "after": 142,
+    "listPrice": 297,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "active": true
    },
@@ -157,14 +159,14 @@
     "name": "Rowin Looper",
     "before": 78,
     "api": {
-     "sale": "78.39",
-     "app": "78.39",
-     "original": "156.80",
+     "sale": "77.39",
+     "app": "77.39",
+     "original": "154.65",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
-    "after": 78,
-    "listPrice": 157,
+    "after": 77,
+    "listPrice": 155,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
     "active": true
    },
@@ -172,7 +174,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 23,
+    "missing": 24,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
