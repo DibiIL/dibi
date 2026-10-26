@@ -1,23 +1,18 @@
 {
  "prices": {
-  "at": "2026-10-26T04:17:09.495Z",
+  "at": "2026-10-26T10:17:09.024Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
   "changes": [
-   "MAONO PS22: ₪188 → ₪189",
-   "FIFINE AM8: ₪180 → ₪175",
-   "M-VAVE SMK-25: ₪153 → ₪154",
-   "M-VAVE SMC PAD: ₪99 → ₪100",
-   "AIYIMA S4000: ₪712 → ₪714",
-   "FIFINE SC8: ₪223 → ₪202",
-   "Oneodio Pro 50: ₪142 → ₪143"
+   "FIFINE AM8: ₪175 → ₪231",
+   "FIFINE SC8: ₪202 → ₪223"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 188,
+    "before": 189,
     "api": {
      "sale": "188.86",
      "app": "188.86",
@@ -49,23 +44,23 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 180,
+    "before": 175,
     "api": {
-     "sale": "175.39",
-     "app": "175.39",
-     "original": "328.48",
+     "sale": "230.69",
+     "app": "230.69",
+     "original": "354.91",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
-    "after": 175,
-    "listPrice": 328,
+    "after": 231,
+    "listPrice": 355,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
     "active": true
    },
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 153,
+    "before": 154,
     "api": {
      "sale": "153.69",
      "app": "153.69",
@@ -81,7 +76,7 @@
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 99,
+    "before": 100,
     "api": {
      "sale": "99.69",
      "app": "99.69",
@@ -97,7 +92,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 712,
+    "before": 714,
     "api": {
      "sale": "713.90",
      "app": "713.90",
@@ -113,16 +108,16 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 223,
+    "before": 202,
     "api": {
-     "sale": "201.67",
-     "app": "201.67",
-     "original": "328.48",
+     "sale": "223.39",
+     "app": "223.39",
+     "original": "328.51",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 202,
-    "listPrice": 328,
+    "after": 223,
+    "listPrice": 329,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -145,7 +140,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 142,
+    "before": 143,
     "api": {
      "sale": "142.69",
      "app": "142.69",
@@ -165,7 +160,7 @@
     "api": {
      "sale": "77.39",
      "app": "77.39",
-     "original": "154.87",
+     "original": "154.64",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
@@ -178,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 27,
+    "missing": 28,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T04:17:09.494Z",
+ "updated": "2026-10-26T10:17:09.024Z",
  "niches": [
   {
    "id": "music",
@@ -220,13 +220,13 @@
    "desc": "מיקרופון דינמי מקצועי עם חיבור כפול USB ו-XLR, שליטה על RGB, יציאת אוזניות ומיוט מובנה. השדרוג הבא מ-A2 עם גמישות מקסימלית.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 175,
+   "price": 231,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5415f22fc3744f49a74bcd11b136f6bj.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3ojwsol",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 328,
+   "listPrice": 355,
    "commission": 7
   },
   {
@@ -316,13 +316,13 @@
    "desc": "מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.",
    "rating": 4.8,
    "sold": "600+ מכירות",
-   "price": 202,
+   "price": 223,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
    "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 328,
+   "listPrice": 329,
    "commission": 8
   },
   {
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 27,
+   "missing": 28,
    "autoHidden": true
   }
  ]
