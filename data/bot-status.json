@@ -181,30 +181,27 @@
   ]
  },
  "find": {
-  "at": "2026-10-25T03:43:36.186Z",
+  "at": "2026-10-26T03:43:37.424Z",
   "ok": true,
   "keywords": [
-   "guitar multi effects pedal",
-   "streaming audio mixer",
-   "action camera 4k",
-   "led video light panel",
-   "dj controller",
-   "voice changer sound card",
-   "usb audio interface xlr",
-   "selfie stick tripod",
-   "wireless lavalier microphone",
-   "dj mixer controller usb",
-   "monitoring headphones podcast",
-   "midi pad controller",
-   "studio monitor speakers active",
-   "desktop studio monitors bluetooth"
+   "dj headphones",
+   "sound card audio interface 48v phantom",
+   "bookshelf speakers studio monitor",
+   "analog mixer 6 channel",
+   "midi controller knobs faders",
+   "studio monitor headphones closed back",
+   "dj controller 2 channel",
+   "open back studio headphones",
+   "dj mixer 2 channel",
+   "large diaphragm condenser microphone xlr",
+   "guitar headphone amplifier",
+   "rgb video light",
+   "wireless gaming headset",
+   "powered speakers bluetooth dj"
   ],
-  "rawMatches": 170,
+  "rawMatches": 129,
   "added": [
-   95,
-   96,
-   97,
-   98
+   99
   ],
   "pending": 60
  }
