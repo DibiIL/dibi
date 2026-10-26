@@ -1,17 +1,15 @@
 {
  "prices": {
-  "at": "2026-10-26T16:17:08.726Z",
+  "at": "2026-10-26T22:17:10.708Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "MAONO PS22: ₪189 → ₪204"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 189,
+    "before": 204,
     "api": {
      "sale": "203.90",
      "app": "203.90",
@@ -172,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 29,
+    "missing": 30,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
