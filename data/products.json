@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T10:17:09.024Z",
+ "updated": "2026-10-26T16:17:08.726Z",
  "niches": [
   {
    "id": "music",
@@ -169,7 +169,7 @@
    "desc": "ממשק אודיו USB נייד עם כניסת XLR להקלטה, סטרימינג ומוזיקה. Plug & Play, תואם לכל DAW — Focusrite Scarlett ישראלי במחיר קטן.",
    "rating": 4.9,
    "sold": "420 מכירות",
-   "price": 189,
+   "price": 204,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3Lvs4dJ",
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 28,
+   "missing": 29,
    "autoHidden": true
   }
  ]
