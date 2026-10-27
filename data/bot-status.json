@@ -1,16 +1,10 @@
 {
  "prices": {
-  "at": "2026-10-27T10:17:09.092Z",
+  "at": "2026-10-27T16:17:09.176Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "FIFINE AM8: ₪227 → ₪182",
-   "M-VAVE SMK-25: ₪147 → ₪151",
-   "Depusheng Mixer: ₪73 → ₪75",
-   "Oneodio Pro 50: ₪140 → ₪141",
-   "Rowin Looper: ₪75 → ₪76"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -47,7 +41,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 227,
+    "before": 182,
     "api": {
      "sale": "181.90",
      "app": "181.90",
@@ -63,7 +57,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 147,
+    "before": 151,
     "api": {
      "sale": "151.39",
      "app": "151.39",
@@ -127,7 +121,7 @@
    {
     "id": "1005008248050829",
     "name": "Depusheng Mixer",
-    "before": 73,
+    "before": 75,
     "api": {
      "sale": "74.90",
      "app": "74.90",
@@ -143,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 140,
+    "before": 141,
     "api": {
      "sale": "140.69",
      "app": "140.69",
@@ -159,7 +153,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 75,
+    "before": 76,
     "api": {
      "sale": "76.39",
      "app": "76.39",
@@ -176,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 32,
+    "missing": 33,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
