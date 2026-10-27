@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-10-27T16:17:09.176Z",
+  "at": "2026-10-27T22:17:08.930Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [],
+  "changes": [
+   "M-VAVE SMK-25: ₪151 → ₪147"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -59,14 +61,14 @@
     "name": "M-VAVE SMK-25",
     "before": 151,
     "api": {
-     "sale": "151.39",
-     "app": "151.39",
-     "original": "315.40",
+     "sale": "147.39",
+     "app": "147.39",
+     "original": "307.06",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 151,
-    "listPrice": 315,
+    "after": 147,
+    "listPrice": 307,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
@@ -170,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 33,
+    "missing": 34,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
