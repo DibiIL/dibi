@@ -181,26 +181,28 @@
   ]
  },
  "find": {
-  "at": "2026-10-27T03:43:35.530Z",
+  "at": "2026-10-28T03:43:34.368Z",
   "ok": true,
   "keywords": [
-   "microphone boom arm",
-   "headphone stand rgb",
-   "podcast mixer",
-   "teleprompter phone",
-   "audio mixer 4 channel usb",
-   "phone cage rig video",
-   "dynamic microphone xlr podcast",
-   "podcast production studio",
-   "guitar tuner pedal",
-   "dj mixer crossfader",
-   "ring light with tripod",
-   "closed back headphones recording",
-   "hdmi capture card 4k",
-   "wireless microphone for phone camera"
+   "rgb light wand photography",
+   "gaming headset 7.1",
+   "wireless lapel mic usb c",
+   "monitor light bar",
+   "phone tripod bluetooth remote",
+   "portable dj controller",
+   "podcast microphone usb",
+   "studio condenser microphone kit",
+   "webcam 1080p",
+   "dj headphones swivel",
+   "usb xlr dynamic microphone",
+   "shotgun microphone camera",
+   "on camera microphone",
+   "rgb led strip desk"
   ],
-  "rawMatches": 41,
-  "added": [],
+  "rawMatches": 100,
+  "added": [
+   100
+  ],
   "pending": 60
  }
 }
