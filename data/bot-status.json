@@ -1,6 +1,6 @@
 {
  "prices": {
-  "at": "2026-10-28T16:17:08.732Z",
+  "at": "2026-10-28T22:17:10.608Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
@@ -155,14 +155,14 @@
     "name": "Rowin Looper",
     "before": 76,
     "api": {
-     "sale": "76.39",
-     "app": "76.39",
-     "original": "152.83",
+     "sale": "75.69",
+     "app": "75.69",
+     "original": "151.45",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
     "after": 76,
-    "listPrice": 153,
+    "listPrice": 151,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
     "active": true
    },
@@ -170,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 37,
+    "missing": 38,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
