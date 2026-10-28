@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T04:17:09.654Z",
+ "updated": "2026-10-28T10:17:09.578Z",
  "niches": [
   {
    "id": "music",
@@ -243,13 +243,13 @@
    "desc": "קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.",
    "rating": 4.9,
    "sold": "129 מכירות",
-   "price": 148,
+   "price": 152,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4E0aQhJ",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 308,
+   "listPrice": 317,
    "commission": 7
   },
   {
@@ -365,13 +365,13 @@
    "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 141,
+   "price": 145,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 295,
+   "listPrice": 302,
    "commission": 7
   },
   {
@@ -388,7 +388,7 @@
    "desc": "פדל לופר 48kHz עם Overdub ללא הגבלה, 10 דקות הקלטה, Half/Double Time, Reverse ו-True Bypass. כל הנגינה שלך — בלופ אחד.",
    "rating": 4.9,
    "sold": "1,000+ מכירות",
-   "price": 77,
+   "price": 76,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
    "link": "https://s.click.aliexpress.com/e/_c3Us72JF",
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 35,
+   "missing": 36,
    "autoHidden": true
   }
  ]

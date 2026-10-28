@@ -1,23 +1,19 @@
 {
  "prices": {
-  "at": "2026-10-28T04:17:09.654Z",
+  "at": "2026-10-28T10:17:09.579Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
   "changes": [
-   "MAONO PS22: ₪201 → ₪202",
-   "FIFINE AM8: ₪182 → ₪183",
-   "M-VAVE SMK-25: ₪147 → ₪148",
-   "M-VAVE SMC PAD: ₪98 → ₪99",
-   "AIYIMA S4000: ₪704 → ₪706",
-   "FIFINE SC8: ₪220 → ₪221",
-   "Rowin Looper: ₪76 → ₪77"
+   "M-VAVE SMK-25: ₪148 → ₪152",
+   "Oneodio Pro 50: ₪141 → ₪145",
+   "Rowin Looper: ₪77 → ₪76"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 201,
+    "before": 202,
     "api": {
      "sale": "201.69",
      "app": "201.69",
@@ -49,7 +45,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 182,
+    "before": 183,
     "api": {
      "sale": "182.69",
      "app": "182.69",
@@ -65,23 +61,23 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 147,
+    "before": 148,
     "api": {
-     "sale": "147.90",
-     "app": "147.90",
-     "original": "308.12",
+     "sale": "151.99",
+     "app": "151.99",
+     "original": "316.65",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 148,
-    "listPrice": 308,
+    "after": 152,
+    "listPrice": 317,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 98,
+    "before": 99,
     "api": {
      "sale": "98.69",
      "app": "98.69",
@@ -97,7 +93,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 704,
+    "before": 706,
     "api": {
      "sale": "705.90",
      "app": "705.90",
@@ -113,7 +109,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 220,
+    "before": 221,
     "api": {
      "sale": "220.99",
      "app": "220.99",
@@ -147,29 +143,29 @@
     "name": "Oneodio Pro 50",
     "before": 141,
     "api": {
-     "sale": "141.39",
-     "app": "141.39",
-     "original": "294.56",
+     "sale": "144.99",
+     "app": "144.99",
+     "original": "302.06",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
-    "after": 141,
-    "listPrice": 295,
+    "after": 145,
+    "listPrice": 302,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "active": true
    },
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 76,
+    "before": 77,
     "api": {
-     "sale": "76.69",
-     "app": "76.69",
-     "original": "153.28",
+     "sale": "76.39",
+     "app": "76.39",
+     "original": "152.83",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
-    "after": 77,
+    "after": 76,
     "listPrice": 153,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
     "active": true
@@ -178,7 +174,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 35,
+    "missing": 36,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
