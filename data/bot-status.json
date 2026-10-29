@@ -1,12 +1,10 @@
 {
  "prices": {
-  "at": "2026-10-29T10:17:09.773Z",
+  "at": "2026-10-29T16:17:09.469Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "Rowin Looper: ₪76 → ₪77"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -155,7 +153,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 76,
+    "before": 77,
     "api": {
      "sale": "77.39",
      "app": "77.39",
@@ -172,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 40,
+    "missing": 41,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
