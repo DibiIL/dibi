@@ -179,27 +179,30 @@
   ]
  },
  "find": {
-  "at": "2026-10-28T03:43:34.368Z",
+  "at": "2026-10-29T03:43:42.849Z",
   "ok": true,
   "keywords": [
-   "rgb light wand photography",
-   "gaming headset 7.1",
-   "wireless lapel mic usb c",
-   "monitor light bar",
-   "phone tripod bluetooth remote",
-   "portable dj controller",
-   "podcast microphone usb",
-   "studio condenser microphone kit",
-   "webcam 1080p",
-   "dj headphones swivel",
-   "usb xlr dynamic microphone",
-   "shotgun microphone camera",
-   "on camera microphone",
-   "rgb led strip desk"
+   "desk mat xxl",
+   "gaming microphone rgb usb",
+   "video capture card usb 3.0",
+   "microphone shock mount pop filter",
+   "audio interface 2 channel recording",
+   "camera tripod aluminum",
+   "guitar looper pedal",
+   "midi keyboard controller 25 keys",
+   "softbox lighting kit",
+   "guitar wireless system",
+   "gaming mouse wireless",
+   "webcam 4k streaming",
+   "green screen backdrop",
+   "low profile mic arm"
   ],
-  "rawMatches": 100,
+  "rawMatches": 139,
   "added": [
-   100
+   101,
+   102,
+   103,
+   104
   ],
   "pending": 60
  }
