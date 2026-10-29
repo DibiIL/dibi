@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T04:17:10.991Z",
+ "updated": "2026-10-29T10:17:09.772Z",
  "niches": [
   {
    "id": "music",
@@ -388,13 +388,13 @@
    "desc": "פדל לופר 48kHz עם Overdub ללא הגבלה, 10 דקות הקלטה, Half/Double Time, Reverse ו-True Bypass. כל הנגינה שלך — בלופ אחד.",
    "rating": 4.9,
    "sold": "1,000+ מכירות",
-   "price": 76,
+   "price": 77,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
    "link": "https://s.click.aliexpress.com/e/_c3Us72JF",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 153,
+   "listPrice": 154,
    "commission": 7
   },
   {
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 39,
+   "missing": 40,
    "autoHidden": true
   }
  ]
