@@ -1,6 +1,6 @@
 {
  "prices": {
-  "at": "2026-10-29T16:17:09.469Z",
+  "at": "2026-10-29T22:17:09.623Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
@@ -170,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 41,
+    "missing": 42,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
