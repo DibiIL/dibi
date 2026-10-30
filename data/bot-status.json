@@ -1,21 +1,15 @@
 {
  "prices": {
-  "at": "2026-10-30T04:17:07.588Z",
+  "at": "2026-10-30T10:17:09.637Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "MAONO PS22: ₪203 → ₪204",
-   "M-VAVE SMK-25: ₪153 → ₪154",
-   "M-VAVE SMC PAD: ₪99 → ₪100",
-   "AIYIMA S4000: ₪712 → ₪713",
-   "Oneodio Pro 50: ₪146 → ₪147"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 203,
+    "before": 204,
     "api": {
      "sale": "204.39",
      "app": "204.39",
@@ -63,7 +57,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 153,
+    "before": 154,
     "api": {
      "sale": "153.90",
      "app": "153.90",
@@ -79,7 +73,7 @@
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 99,
+    "before": 100,
     "api": {
      "sale": "99.90",
      "app": "99.90",
@@ -95,7 +89,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 712,
+    "before": 713,
     "api": {
      "sale": "712.90",
      "app": "712.90",
@@ -143,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 146,
+    "before": 147,
     "api": {
      "sale": "146.90",
      "app": "146.90",
@@ -176,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 43,
+    "missing": 44,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
