@@ -179,30 +179,29 @@
   ]
  },
  "find": {
-  "at": "2026-10-29T03:43:42.849Z",
+  "at": "2026-10-30T03:43:34.219Z",
   "ok": true,
   "keywords": [
-   "desk mat xxl",
-   "gaming microphone rgb usb",
-   "video capture card usb 3.0",
-   "microphone shock mount pop filter",
-   "audio interface 2 channel recording",
-   "camera tripod aluminum",
-   "guitar looper pedal",
-   "midi keyboard controller 25 keys",
-   "softbox lighting kit",
-   "guitar wireless system",
-   "gaming mouse wireless",
-   "webcam 4k streaming",
-   "green screen backdrop",
-   "low profile mic arm"
+   "mechanical keyboard",
+   "gaming headset",
+   "midi keyboard 49 keys",
+   "live sound card streaming",
+   "gimbal stabilizer smartphone",
+   "guitar multi effects pedal",
+   "streaming audio mixer",
+   "action camera 4k",
+   "led video light panel",
+   "dj controller",
+   "voice changer sound card",
+   "usb audio interface xlr",
+   "selfie stick tripod",
+   "wireless lavalier microphone"
   ],
-  "rawMatches": 139,
+  "rawMatches": 239,
   "added": [
-   101,
-   102,
-   103,
-   104
+   105,
+   106,
+   107
   ],
   "pending": 60
  }
