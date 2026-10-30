@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T10:17:09.772Z",
+ "updated": "2026-10-30T04:17:07.588Z",
  "niches": [
   {
    "id": "music",
@@ -169,13 +169,13 @@
    "desc": "ממשק אודיו USB נייד עם כניסת XLR להקלטה, סטרימינג ומוזיקה. Plug & Play, תואם לכל DAW — Focusrite Scarlett ישראלי במחיר קטן.",
    "rating": 4.9,
    "sold": "420 מכירות",
-   "price": 203,
+   "price": 204,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3Lvs4dJ",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 442,
+   "listPrice": 444,
    "commission": 7
   },
   {
@@ -226,7 +226,7 @@
    "link": "https://s.click.aliexpress.com/e/_c3ojwsol",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 354,
+   "listPrice": 355,
    "commission": 7
   },
   {
@@ -243,13 +243,13 @@
    "desc": "קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.",
    "rating": 4.9,
    "sold": "129 מכירות",
-   "price": 153,
+   "price": 154,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4E0aQhJ",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 320,
+   "listPrice": 321,
    "commission": 7
   },
   {
@@ -267,13 +267,13 @@
    "desc": "16 פדי הקשה אלחוטיים ומסוגננים ב-Pocket-size. USB-C, חיבור Bluetooth ותאימות מלאה לכל DAW. המכשיר שכל ביטמייקר חולם עליו.",
    "rating": 4.6,
    "sold": "1,000+ מכירות",
-   "price": 99,
+   "price": 100,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b80f9a162db4ef5b52c864e989ef267K.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3bBWFiV",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 190,
+   "listPrice": 191,
    "commission": 7
   },
   {
@@ -291,13 +291,13 @@
    "desc": "מוניטורי סטודיו אקטיביים 40W לכל ערוץ עם Bluetooth 5.0, כניסות RCA/XLR מאוזנות, יציאת Subwoofer וארון עץ לאקוסטיקה חמה ומדויקת.",
    "rating": 4.7,
    "sold": "109 מכירות",
-   "price": 712,
+   "price": 713,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
    "link": "https://s.click.aliexpress.com/e/_c365CVQV",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 989,
+   "listPrice": 990,
    "commission": 7
   },
   {
@@ -322,7 +322,7 @@
    "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 327,
+   "listPrice": 329,
    "commission": 8
   },
   {
@@ -346,7 +346,7 @@
    "link": "https://s.click.aliexpress.com/e/_c3tuI2bL",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 158,
+   "listPrice": 159,
    "commission": 7
   },
   {
@@ -365,13 +365,13 @@
    "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 146,
+   "price": 147,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 305,
+   "listPrice": 306,
    "commission": 7
   },
   {
@@ -394,7 +394,7 @@
    "link": "https://s.click.aliexpress.com/e/_c3Us72JF",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 154,
+   "listPrice": 155,
    "commission": 7
   },
   {
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 42,
+   "missing": 43,
    "autoHidden": true
   }
  ]
