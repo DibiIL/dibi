@@ -1,23 +1,29 @@
 {
  "prices": {
-  "at": "2026-10-31T10:17:09.075Z",
+  "at": "2026-10-31T16:17:08.976Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [],
+  "changes": [
+   "MAONO PS22: ₪204 → ₪200",
+   "FIFINE A2: ₪87 → ₪86",
+   "M-VAVE SMK-25: ₪154 → ₪160",
+   "Depusheng Mixer: ₪76 → ₪79",
+   "Oneodio Pro 50: ₪143 → ₪149"
+  ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
     "before": 204,
     "api": {
-     "sale": "204.39",
-     "app": "204.39",
-     "original": "444.33",
+     "sale": "199.69",
+     "app": "199.69",
+     "original": "443.76",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
-    "after": 204,
+    "after": 200,
     "listPrice": 444,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
     "active": true
@@ -27,14 +33,14 @@
     "name": "FIFINE A2",
     "before": 87,
     "api": {
-     "sale": "87.39",
-     "app": "87.39",
-     "original": "178.35",
+     "sale": "85.69",
+     "app": "85.69",
+     "original": "178.52",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05f2774f57cc4e78b170e471e0a07689k.jpg",
-    "after": 87,
-    "listPrice": 178,
+    "after": 86,
+    "listPrice": 179,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
    },
@@ -59,13 +65,13 @@
     "name": "M-VAVE SMK-25",
     "before": 154,
     "api": {
-     "sale": "153.90",
-     "app": "153.90",
-     "original": "320.62",
+     "sale": "160.39",
+     "app": "160.39",
+     "original": "320.67",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 154,
+    "after": 160,
     "listPrice": 321,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
@@ -123,13 +129,13 @@
     "name": "Depusheng Mixer",
     "before": 76,
     "api": {
-     "sale": "76.39",
-     "app": "76.39",
-     "original": "159.15",
+     "sale": "79.39",
+     "app": "79.39",
+     "original": "158.75",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
-    "after": 76,
+    "after": 79,
     "listPrice": 159,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
     "active": true
@@ -139,13 +145,13 @@
     "name": "Oneodio Pro 50",
     "before": 143,
     "api": {
-     "sale": "142.69",
-     "app": "142.69",
-     "original": "297.26",
+     "sale": "148.69",
+     "app": "148.69",
+     "original": "297.32",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
-    "after": 143,
+    "after": 149,
     "listPrice": 297,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "active": true
@@ -170,7 +176,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 48,
+    "missing": 49,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
