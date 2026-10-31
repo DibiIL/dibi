@@ -1,12 +1,10 @@
 {
  "prices": {
-  "at": "2026-10-31T04:17:09.175Z",
+  "at": "2026-10-31T10:17:09.075Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [
-   "Oneodio Pro 50: ₪147 → ₪143"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -139,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 147,
+    "before": 143,
     "api": {
      "sale": "142.69",
      "app": "142.69",
@@ -172,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 47,
+    "missing": 48,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
