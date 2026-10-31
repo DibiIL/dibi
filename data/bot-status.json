@@ -179,29 +179,31 @@
   ]
  },
  "find": {
-  "at": "2026-10-30T03:43:34.219Z",
+  "at": "2026-10-31T03:43:33.951Z",
   "ok": true,
   "keywords": [
-   "mechanical keyboard",
-   "gaming headset",
-   "midi keyboard 49 keys",
-   "live sound card streaming",
-   "gimbal stabilizer smartphone",
-   "guitar multi effects pedal",
-   "streaming audio mixer",
-   "action camera 4k",
-   "led video light panel",
-   "dj controller",
-   "voice changer sound card",
-   "usb audio interface xlr",
-   "selfie stick tripod",
-   "wireless lavalier microphone"
+   "dj mixer controller usb",
+   "monitoring headphones podcast",
+   "midi pad controller",
+   "studio monitor speakers active",
+   "desktop studio monitors bluetooth",
+   "dj headphones",
+   "sound card audio interface 48v phantom",
+   "bookshelf speakers studio monitor",
+   "analog mixer 6 channel",
+   "midi controller knobs faders",
+   "studio monitor headphones closed back",
+   "dj controller 2 channel",
+   "open back studio headphones",
+   "dj mixer 2 channel"
   ],
-  "rawMatches": 239,
+  "rawMatches": 58,
   "added": [
-   105,
-   106,
-   107
+   108,
+   109,
+   110,
+   111,
+   112
   ],
   "pending": 60
  }
