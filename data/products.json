@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T04:17:07.588Z",
+ "updated": "2026-10-31T04:17:09.173Z",
  "niches": [
   {
    "id": "music",
@@ -365,13 +365,13 @@
    "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 147,
+   "price": 143,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 306,
+   "listPrice": 297,
    "commission": 7
   },
   {
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 46,
+   "missing": 47,
    "autoHidden": true
   }
  ]
