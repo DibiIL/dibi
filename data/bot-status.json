@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-01T10:17:09.219Z",
+  "at": "2026-11-01T16:17:08.618Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [],
+  "changes": [
+   "FIFINE A2: ₪71 → ₪69"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -27,14 +29,14 @@
     "name": "FIFINE A2",
     "before": 71,
     "api": {
-     "sale": "70.67",
-     "app": "70.67",
-     "original": "178.26",
+     "sale": "68.61",
+     "app": "68.61",
+     "original": "173.07",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05f2774f57cc4e78b170e471e0a07689k.jpg",
-    "after": 71,
-    "listPrice": 178,
+    "after": 69,
+    "listPrice": 173,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
    },
@@ -170,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 52,
+    "missing": 53,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
