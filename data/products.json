@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:17:09.598Z",
+ "updated": "2026-11-02T10:17:09.297Z",
  "niches": [
   {
    "id": "music",
@@ -169,7 +169,7 @@
    "desc": "ממשק אודיו USB נייד עם כניסת XLR להקלטה, סטרימינג ומוזיקה. Plug & Play, תואם לכל DAW — Focusrite Scarlett ישראלי במחיר קטן.",
    "rating": 4.9,
    "sold": "420 מכירות",
-   "price": 178,
+   "price": 179,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
    "link": "https://s.click.aliexpress.com/e/_c3Lvs4dJ",
@@ -194,13 +194,13 @@
    "desc": "מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.",
    "rating": 4.9,
    "sold": "4,000+ מכירות",
-   "price": 69,
+   "price": 71,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
    "link": "https://s.click.aliexpress.com/e/_c40ZMzpL",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 174,
+   "listPrice": 180,
    "commission": 7
   },
   {
@@ -316,7 +316,7 @@
    "desc": "מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.",
    "rating": 4.8,
    "sold": "600+ מכירות",
-   "price": 205,
+   "price": 187,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
    "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 55,
+   "missing": 56,
    "autoHidden": true
   }
  ]

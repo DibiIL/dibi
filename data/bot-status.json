@@ -1,31 +1,27 @@
 {
  "prices": {
-  "at": "2026-11-02T04:17:09.600Z",
+  "at": "2026-11-02T10:17:09.298Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
   "changes": [
-   "MAONO PS22: ₪177 → ₪178",
-   "FIFINE AM8: ₪167 → ₪168",
-   "M-VAVE SMK-25: ₪135 → ₪136",
-   "M-VAVE SMC PAD: ₪99 → ₪100",
-   "AIYIMA S4000: ₪664 → ₪669",
-   "FIFINE SC8: ₪204 → ₪205",
-   "Rowin Looper: ₪77 → ₪78"
+   "MAONO PS22: ₪178 → ₪179",
+   "FIFINE A2: ₪69 → ₪71",
+   "FIFINE SC8: ₪205 → ₪187"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 177,
+    "before": 178,
     "api": {
-     "sale": "178.47",
-     "app": "178.47",
+     "sale": "178.61",
+     "app": "178.61",
      "original": "447.28",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
-    "after": 178,
+    "after": 179,
     "listPrice": 447,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2fdc774edf4fea871ad34eb22eadacN.jpg",
     "active": true
@@ -35,21 +31,21 @@
     "name": "FIFINE A2",
     "before": 69,
     "api": {
-     "sale": "69.17",
-     "app": "69.17",
-     "original": "174.48",
+     "sale": "71.26",
+     "app": "71.26",
+     "original": "179.72",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05f2774f57cc4e78b170e471e0a07689k.jpg",
-    "after": 69,
-    "listPrice": 174,
+    "after": 71,
+    "listPrice": 180,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
    },
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 167,
+    "before": 168,
     "api": {
      "sale": "167.90",
      "app": "167.90",
@@ -65,7 +61,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 135,
+    "before": 136,
     "api": {
      "sale": "135.69",
      "app": "135.69",
@@ -81,7 +77,7 @@
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 99,
+    "before": 100,
     "api": {
      "sale": "99.99",
      "app": "99.99",
@@ -97,7 +93,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 664,
+    "before": 669,
     "api": {
      "sale": "668.90",
      "app": "668.90",
@@ -113,15 +109,15 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 204,
+    "before": 205,
     "api": {
-     "sale": "205.39",
-     "app": "205.39",
-     "original": "331.27",
+     "sale": "187.01",
+     "app": "187.01",
+     "original": "330.87",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 205,
+    "after": 187,
     "listPrice": 331,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
@@ -161,7 +157,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 77,
+    "before": 78,
     "api": {
      "sale": "77.99",
      "app": "77.99",
@@ -178,7 +174,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 55,
+    "missing": 56,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
