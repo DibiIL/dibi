@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T16:17:08.762Z",
+ "updated": "2026-11-02T22:17:09.485Z",
  "niches": [
   {
    "id": "music",
@@ -227,7 +227,7 @@
    "active": true,
    "added": "2026-10-06",
    "listPrice": 357,
-   "commission": 7
+   "commission": 8
   },
   {
    "id": "1005008077659125",
@@ -316,7 +316,7 @@
    "desc": "מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.",
    "rating": 4.8,
    "sold": "600+ מכירות",
-   "price": 187,
+   "price": 205,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
    "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
@@ -365,7 +365,7 @@
    "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 128,
+   "price": 136,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 57,
+   "missing": 58,
    "autoHidden": true
   }
  ]
