@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T10:17:09.297Z",
+ "updated": "2026-11-02T16:17:08.762Z",
  "niches": [
   {
    "id": "music",
@@ -194,13 +194,13 @@
    "desc": "מיקרופון קונדנסר USB עם תאורת RGB, כפתור מיוט חד-מגע וחצובה מובנית. מושלם לסטרימינג, גיימינג, פודקאסט והקלטה ביתית.",
    "rating": 4.9,
    "sold": "4,000+ מכירות",
-   "price": 71,
+   "price": 69,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
    "link": "https://s.click.aliexpress.com/e/_c40ZMzpL",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 180,
+   "listPrice": 174,
    "commission": 7
   },
   {
@@ -365,13 +365,13 @@
    "desc": "אוזניות מוניטורינג סגורות Over-Ear עם מיקרופון מובנה, דרייבר 50mm, HiFi Sound וחיבור לטלפון ו-PC. קול מלא, בס עמוק, עיצוב מקצועי.",
    "rating": 4.9,
    "sold": "5,000+ מכירות",
-   "price": 124,
+   "price": 128,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4KGDyB3",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 300,
+   "listPrice": 308,
    "commission": 7
   },
   {
@@ -420,7 +420,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 56,
+   "missing": 57,
    "autoHidden": true
   }
  ]
