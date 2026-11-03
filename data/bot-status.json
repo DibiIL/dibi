@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-03T16:17:08.741Z",
+  "at": "2026-11-03T22:17:08.938Z",
   "ok": true,
   "checked": 11,
   "returned": 10,
-  "changes": [],
+  "changes": [
+   "FIFINE SC8: ₪187 → ₪206"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -107,13 +109,13 @@
     "name": "FIFINE SC8",
     "before": 187,
     "api": {
-     "sale": "187.45",
-     "app": "187.45",
-     "original": "331.65",
+     "sale": "205.69",
+     "app": "205.69",
+     "original": "331.76",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 187,
+    "after": 206,
     "listPrice": 332,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
@@ -170,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 60,
+    "missing": 61,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
