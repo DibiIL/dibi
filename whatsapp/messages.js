@@ -120,6 +120,16 @@ const CLOSINGS = [
   'שווה לבדוק בעמוד המוצר אם יש קופון נוסף.',
 ];
 
+// קישור ההצטרפות לקבוצה — מופיע בסוף כל הודעה
+const INVITE = process.env.WA_INVITE_LINK || 'https://chat.whatsapp.com/DvEnXLhU2RY2DSl3z3tAzM';
+const SHARES = [
+  'מכירים מישהו שזה יתאים לו? מוזמנים לצרף אותו לקבוצה:',
+  'יש לכם חבר שמקליט, מצלם או מתקלט? שלחו לו את הקישור לקבוצה:',
+  'הקבוצה פתוחה לכל מי שאוהב ציוד טוב במחיר הוגן. מוזמנים להעביר הלאה:',
+  'אם נהניתם מהדילים — נשמח שתצרפו חברים:',
+  'דיל טוב שווה יותר כשמשתפים. הקישור לצירוף חברים:',
+];
+
 const fmt = n => '₪' + Math.round(n).toLocaleString('en-US');
 const firstSentence = t => String(t || '').split(/(?<=[.!?])\s|—/)[0].trim().replace(/\s*[—-]\s*$/, '');
 
@@ -131,6 +141,7 @@ function compose(p, date = new Date(), state = {}) {
   const opener = sp ? sp.line : pick(s.line, state.lastOpener);
   const intro = pick(INTROS[p.cat] || ['בחרנו בשבילכם משהו ששווה לראות.'], state.lastIntro);
   const closing = pick(CLOSINGS, state.lastClosing);
+  const share = pick(SHARES, state.lastShare);
 
   const proof = [];
   if (p.rating) proof.push(`דירוג ${p.rating}`);
@@ -152,13 +163,16 @@ function compose(p, date = new Date(), state = {}) {
     `🔗 ${p.waLink || p.link}`,
     '',
     `_${closing}_`,
+    '',
+    share,
+    INVITE,
   ].filter(l => l !== null);
 
   // לא להשאיר שתי שורות ריקות ברצף
   const text = lines.join('\n').replace(/\n{3,}/g, '\n\n');
   return {
     text, kind: sp ? sp.key : s.key,
-    state: { lastTitle: title, lastOpener: opener, lastIntro: intro, lastClosing: closing },
+    state: { lastTitle: title, lastOpener: opener, lastIntro: intro, lastClosing: closing, lastShare: share },
   };
 }
 
