@@ -1,0 +1,6 @@
+# פריסה חדשה רק כשקבצי האתר עצמם משתנים.
+# עדכוני הבוט (data/, finder/, whatsapp/) לא צריכים פריסה — האתר טוען את הנתונים ישר מ-GitHub —
+# וכך לא נשרפים הקרדיטים החודשיים של Netlify (כל פריסה = 15 קרדיטים).
+[build]
+  publish = "."
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)data' ':(exclude)finder' ':(exclude)whatsapp' ':(exclude)check.sh' ':(exclude)i.sh'"

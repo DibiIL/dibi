@@ -524,8 +524,12 @@ function fromHash(scroll){
 window.addEventListener('hashchange', () => fromHash(true));
 
 /* load data */
-fetch('data/products.json', {cache: 'no-cache'})
+/* הנתונים נטענים ישר מ-GitHub, כדי שעדכוני הבוט יופיעו מיד בלי פריסה חדשה של האתר. אם GitHub לא זמין — העותק המקומי. */
+const DATA_URL = f => `https://raw.githubusercontent.com/DibiIL/dibi/main/data/${f}`;
+const loadData = f => fetch(DATA_URL(f), {cache: 'no-cache'})
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .catch(() => fetch('data/' + f, {cache: 'no-cache'}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }));
+loadData('products.json')
   .then(d => { DATA = d; renderStatic(); if (!fromHash(true)) render(); animate('.niche-card'); })
   .catch(() => { $('catalog').innerHTML = '<div class="soon">לא הצלחנו לטעון את המוצרים כרגע — נסו לרענן את הדף.</div>'; });
 
