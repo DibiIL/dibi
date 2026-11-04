@@ -1,12 +1,23 @@
 {
  "prices": {
-  "at": "2026-11-04T16:17:10.171Z",
+  "at": "2026-11-04T22:17:14.404Z",
   "ok": true,
-  "checked": 11,
-  "returned": 10,
+  "checked": 24,
+  "returned": 23,
   "changes": [
-   "M-VAVE SMK-25: ₪140 → ₪136",
-   "Rowin Looper: ₪80 → ₪79"
+   "Wireless Guitar: ₪45 → ₪48",
+   "EMEET PIXY: ₪312 → ₪310",
+   "Softbox Kit: ₪130 → ₪134",
+   "MCHOSE V9 Pro: ₪159 → ₪170",
+   "BINNUNE BW06: ₪89 → ₪90",
+   "Art-Net DMX: ₪205 → ₪214",
+   "Haomuren Mic Kit: ₪118 → ₪119",
+   "MAONO PD400X: ₪485 → ₪429",
+   "HOMEFISH Light Bar: ₪42 → ₪36",
+   "Haomuren Pink Mic: ₪105 → ₪95",
+   "Ezcap326C: ₪220 → ₪225",
+   "MAONO PD100X: ₪146 → ₪170",
+   "Maono DGM20S: ₪213 → ₪209"
   ],
   "items": [
    {
@@ -60,7 +71,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 140,
+    "before": 136,
     "api": {
      "sale": "136.39",
      "app": "136.39",
@@ -156,7 +167,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 80,
+    "before": 79,
     "api": {
      "sale": "78.99",
      "app": "78.99",
@@ -173,11 +184,219 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 63,
+    "missing": 64,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
     "active": false
+   },
+   {
+    "id": "1005011653829651",
+    "name": "Wireless Guitar",
+    "before": 45,
+    "api": {
+     "sale": "48.39",
+     "app": "48.39",
+     "original": "96.78",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb38dc08277c4c7684803c70427d5fe43.png",
+    "after": 48,
+    "listPrice": 97,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S99fe2c093a5e456cb9d922f71d9d15cfw.jpg",
+    "active": true
+   },
+   {
+    "id": "1005009353113123",
+    "name": "EMEET PIXY",
+    "before": 312,
+    "api": {
+     "sale": "310.48",
+     "app": "310.48",
+     "original": "950.91",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
+    "after": 310,
+    "listPrice": 951,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
+    "active": true
+   },
+   {
+    "id": "1005006861879179",
+    "name": "Softbox Kit",
+    "before": 130,
+    "api": {
+     "sale": "134.39",
+     "app": "134.39",
+     "original": "268.78",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7156f824a8814bc48b0ac5a3e2e6a677r.jpg",
+    "after": 134,
+    "listPrice": 269,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S7156f824a8814bc48b0ac5a3e2e6a677r.jpg",
+    "active": true
+   },
+   {
+    "id": "1005009508910625",
+    "name": "MCHOSE V9 Pro",
+    "before": 159,
+    "api": {
+     "sale": "169.69",
+     "app": "169.69",
+     "original": "339.38",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6280ee1c80b545bf8d7f26ee105aabb1t.jpg",
+    "after": 170,
+    "listPrice": 339,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S3389f5f2b489479a9b127d51b8cc9b75k.jpg",
+    "active": true
+   },
+   {
+    "id": "1005009719114453",
+    "name": "BINNUNE BW06",
+    "before": 89,
+    "api": {
+     "sale": "89.69",
+     "app": "89.69",
+     "original": "194.98",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S069d23bc65fa4375a875c38be27f1af09.jpg",
+    "after": 90,
+    "listPrice": 195,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S069d23bc65fa4375a875c38be27f1af09.jpg",
+    "active": true
+   },
+   {
+    "id": "1005009116309896",
+    "name": "Art-Net DMX",
+    "before": 205,
+    "api": {
+     "sale": "214.39",
+     "app": "214.39",
+     "original": "428.78",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
+    "after": 214,
+    "listPrice": 429,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
+    "active": true
+   },
+   {
+    "id": "1005006994824375",
+    "name": "Haomuren Mic Kit",
+    "before": 118,
+    "api": {
+     "sale": "119.30",
+     "app": "119.30",
+     "original": "279.65",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5cddb1a36fbd4776ae3b36e8bca879f3o.jpg",
+    "after": 119,
+    "listPrice": 280,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5cddb1a36fbd4776ae3b36e8bca879f3o.jpg",
+    "active": true
+   },
+   {
+    "id": "1005004795387201",
+    "name": "MAONO PD400X",
+    "before": 485,
+    "api": {
+     "sale": "428.98",
+     "app": "428.98",
+     "original": "1102.37",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8216075e87d84747a26a87593385ba36E.jpg",
+    "after": 429,
+    "listPrice": 1102,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S938f462bd58144dc9775c590eb603532z.jpg",
+    "active": true
+   },
+   {
+    "id": "1005007805766024",
+    "name": "HOMEFISH Light Bar",
+    "before": 42,
+    "api": {
+     "sale": "36.19",
+     "app": "36.19",
+     "original": "93.36",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c709e83eb0e48098f0324ae35f71f8a6.jpg",
+    "after": 36,
+    "listPrice": 93,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5f07b510728442a48ce25a6e280b7effo.png",
+    "active": true
+   },
+   {
+    "id": "1005006782794822",
+    "name": "Haomuren Pink Mic",
+    "before": 105,
+    "api": {
+     "sale": "94.90",
+     "app": "94.90",
+     "original": "206.30",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
+    "after": 95,
+    "listPrice": 206,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
+    "active": true
+   },
+   {
+    "id": "1005008337928752",
+    "name": "Ezcap326C",
+    "before": 220,
+    "api": {
+     "sale": "225.39",
+     "app": "225.39",
+     "original": "278.26",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scdd1cdfd5cca456597e2925b946ca58aY.jpg",
+    "after": 225,
+    "listPrice": 278,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Scdd1cdfd5cca456597e2925b946ca58aY.jpg",
+    "active": true
+   },
+   {
+    "id": "1005008406447372",
+    "name": "MAONO PD100X",
+    "before": 146,
+    "api": {
+     "sale": "170.39",
+     "app": "170.39",
+     "original": "340.78",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S92d9f63fbf444086be5eb1fcabe32c54K.jpg",
+    "after": 170,
+    "listPrice": 341,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
+    "active": true
+   },
+   {
+    "id": "1005005709908265",
+    "name": "Maono DGM20S",
+    "before": 213,
+    "api": {
+     "sale": "208.69",
+     "app": "208.69",
+     "original": "229.72",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6b8d23897bde49d0aebd41526e8db3dd6.jpg",
+    "after": 209,
+    "listPrice": 230,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S58691dccd28c46579b4f9e3875b1de183.jpg",
+    "active": true
    }
   ]
  },
