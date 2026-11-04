@@ -40,10 +40,13 @@ const CFG = {
   minCommission: +(E.MIN_COMMISSION || 5),   // %
   minOrders: +(E.MIN_ORDERS || 100),
   minRating: +(E.MIN_RATING || 90),          // % ביקורות חיוביות
-  keywordsPerRun: +(E.KEYWORDS_PER_RUN || 14),
+  keywordsPerRun: +(E.KEYWORDS_PER_RUN || 20),
   perCat: +(E.CANDIDATES_PER_CAT || 4),
   maxPending: +(E.MAX_PENDING || 60),
   sleepMs: +(E.API_SLEEP_MS || 1100),
+  autoPerDay: +(E.AUTO_ADD_PER_DAY ?? 3),         // כמה מוצרים הבוט מוסיף לאתר בעצמו כל יום (0 = רק רשימת אישור)
+  publishMinOrders: +(E.PUBLISH_MIN_ORDERS || 200), // סף מחמיר יותר למוצר שעולה לאתר בלי אישור
+  publishMinRating: +(E.PUBLISH_MIN_RATING || 95),
   dryRun: E.DRY_RUN === '1',
 };
 
@@ -63,7 +66,7 @@ async function api(method, params) {
   const base = Object.keys(p).sort().map(k => k + p[k]).join('');
   p.sign = crypto.createHmac('sha256', CFG.secret).update(base, 'utf8').digest('hex').toUpperCase();
   let lastErr;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 4; attempt++) {
     try {
       const res = await fetch(CFG.api, {
         method: 'POST',
@@ -90,7 +93,7 @@ async function api(method, params) {
     } catch (e) {
       if (e instanceof FatalApiError) throw e;
       lastErr = e;
-      await sleep(1500 * attempt);
+      await sleep((/limit|frequency/i.test(String(e.message)) ? 3000 : 1500) * attempt);
     }
   }
   throw lastErr;
@@ -264,7 +267,7 @@ function modelKey(title) {
   if (!model) { const m = raw.match(/\b(pro|max|plus|lite|mini|air|studio)\s+(\d{1,4})\b/); if (m) model = m[1] + m[2]; }
   return model ? brand + '|' + model : w.slice(0, 3).join(' ');
 }
-const JUNK = /\b(replacement|spare|repair|parts?|sticker|decal|cover only|case only|ear ?pads?|cushions?|cable only|adapter only|dummy|toy|kids?|children|glow|party|cheer|foam|wedding|costume|chair|halloween|christmas)\b/i;
+const JUNK = /\b(replacement|spare|repair|parts?|sticker|decal|cover only|case only|ear ?pads?|cushions?|cable only|adapter only|dummy|toy|kids?|children|glow stick|glow sticks|cheer|foam stick|wedding|costume|halloween|christmas)\b/i;
 // מילים משמעותיות בכותרת — לזיהוי מוצרים כמעט זהים ממוכרים שונים (בלי מותג)
 const words = t => new Set(String(t || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter(w => w.length > 2 && !STOP.has(w) && !/^\d+$/.test(w)));
 function similar(a, b) {
@@ -279,6 +282,20 @@ function relevant(title, kw) {
   const words = kw.toLowerCase().split(/\s+/).filter(w => w.length > 2 && !/^\d/.test(w) && !['with', 'for', 'and'].includes(w));
   const hits = words.filter(w => t.includes(w.replace(/s$/, ''))).length;
   return words.length === 0 || hits >= Math.ceil(words.length * 0.6);
+}
+
+const esc = w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const hasWord = (title, w) => new RegExp('(^|[^a-z0-9])' + esc(w.toLowerCase()) + '(e?s)?($|[^a-z0-9])').test(title.toLowerCase());
+// כללי הקטגוריה מ-keywords.json: מילה נדרשת (need), מילים פוסלות (not), טווח מחיר
+function catRules(kwTree, niche, cat) { return ((kwTree || {})[niche] || {})[cat] || null; }
+function fitsCategory(title, price, conf) {
+  if (!conf) return true;
+  if (JUNK.test(title)) return false;
+  if (conf.need && conf.need.length && !conf.need.some(w => hasWord(title, w))) return false;
+  if (conf.not && conf.not.some(w => hasWord(title, w))) return false;
+  if (price && conf.min && price < conf.min * 0.9) return false;
+  if (price && conf.max && price > conf.max * 1.1) return false;
+  return true;
 }
 
 function pickKeywords(kwTree, state) {
@@ -334,6 +351,7 @@ async function findProducts() {
         if ((c.orders || 0) < CFG.minOrders) continue;
         if (c.rating !== null && c.rating < CFG.minRating) continue;
         if (JUNK.test(title) || !relevant(title, k.kw)) continue;
+        if (!fitsCategory(title, c.price, catRules(kwTree, k.niche, k.cat))) continue;
         c.model = modelKey(title);
         found.push(c); ok++;
       }
@@ -360,6 +378,10 @@ async function findProducts() {
     const rejModels = new Set(cand.rejected.map(r => r.model).filter(Boolean));
     // מנקים מהרשימה מוצרים שכבר נוספו לאתר
     cand.pending = cand.pending.filter(c => !siteIds.has(c.id) && !siteModels.has(c.model));
+    // מוצרים ישנים ברשימה שכבר לא עומדים בכללי הקטגוריה — יוצאים
+    const before = cand.pending.length;
+    cand.pending = cand.pending.filter(c => fitsCategory(c.title, c.price, catRules(kwTree, c.niche, c.cat)));
+    if (cand.pending.length < before) log(`ניקיתי ${before - cand.pending.length} מוצרים לא רלוונטיים מהרשימה`);
     const takenIds = new Set(cand.pending.map(c => c.id));
     const takenModels = new Set(cand.pending.map(c => c.model));
     const perCat = {};
@@ -394,12 +416,151 @@ async function findProducts() {
     if (cand.pending.length > CFG.maxPending) cand.pending = cand.pending.sort((a, b) => score(b) - score(a)).slice(0, CFG.maxPending);
     cand.pending.sort((a, b) => a.niche.localeCompare(b.niche) || a.cat.localeCompare(b.cat) || b.num - a.num);
     cand.updated = nowIso();
-    if (added.length) writeJson(path.join(REPO, 'data', 'candidates.json'), cand);
+    writeJson(path.join(REPO, 'data', 'candidates.json'), cand);
     writeStatus('find', { at: nowIso(), ok: true, keywords: picked.map(k => k.kw), rawMatches: found.length, added: added.map(c => c.num), pending: cand.pending.length });
     return true;
   });
   log(added.length ? `🆕 ${added.length} מועמדים חדשים:` : 'לא נמצאו מועמדים חדשים בריצה הזו.');
   added.forEach(c => log(`  #${c.num} [${c.niche}/${c.cat}] ₪${c.price} · ${c.orders} הזמנות · ${c.commission}% · ${c.title.slice(0, 70)}`));
+}
+
+// ---------- publish: מוסיף לאתר לבד את המועמדים הטובים ביותר ----------
+// כל מוצר נבדק שוב מול ה-API לפני שהוא עולה: קיים, יש מחיר, יש קישור Affiliate ויש עמלה.
+const FEATURES = [
+  [/\b2\.4 ?g(hz)?\b/i, 'חיבור אלחוטי 2.4GHz'], [/bluetooth|\bbt ?5/i, 'Bluetooth'],
+  [/\b(usb[- ]?c|type[- ]?c)\b/i, 'חיבור USB-C'], [/\bxlr\b/i, 'חיבור XLR'],
+  [/\b4k\b/i, 'תומך בתוכן 4K', ['projector'], 'res'], [/\b1080p|full ?hd/i, 'תומך Full HD', ['projector'], 'res'],
+  [/\b8k\b/i, 'רזולוציית 8K', null, 'res'], [/\b4k\b/i, 'רזולוציית 4K', null, 'res'], [/\b2k\b|1440p/i, 'רזולוציית 2K', null, 'res'], [/1080p|full ?hd/i, 'Full HD', null, 'res'],
+  [/\b(1[2-9]\d|2[0-4]\d)\s?hz\b/i, m => `קצב רענון ${m[1]}Hz`, ['display']],
+  [/(\d{3,5}) ?(ansi )?lumens?/i, m => `בהירות ${m[1]} לומן`, ['projector']],
+  [/android/i, 'מערכת Android מובנית', ['projector']], [/auto ?(focus|keystone)/i, 'פוקוס ויישור תמונה אוטומטיים', ['projector']],
+  [/(?<![\d.])(\d{1,3}(?:\.\d+)?) ?(inch|")/i, m => `${m[1]} אינץ'`, ['display', 'projector', 'screen-acc']],
+  [/(\d+) ?(tb|gb)\b/i, m => `נפח ${m[1]}${m[2].toUpperCase()}`, ['editing']],
+  [/(\d{2,3}) ?keys?\b/i, m => `${m[1]} קלידים`, ['midi']], [/(\d{1,2}) ?pads?\b/i, m => `${m[1]} פדים`, ['midi']],
+  [/(\d) ?-?channels?\b/i, m => `${m[1]} ערוצים`, ['mixer', 'interface', 'dj-controller']],
+  [/noise (cancel|reduc)|\banc\b/i, 'סינון רעשים'], [/7\.1/, 'סראונד 7.1'],
+  [/cardioid/i, 'קליטה כיוונית'], [/condenser/i, 'מיקרופון קונדנסר'], [/dynamic/i, 'מיקרופון דינמי'],
+  [/phantom|48v/i, 'פנטום 48V'], [/\bmute\b/i, 'כפתור השתקה'], [/monitoring|zero latency|headphone (jack|output)/i, 'האזנה בזמן אמת'],
+  [/serato|rekordbox|virtual ?dj|djay/i, 'תואם תוכנות DJ'], [/jog ?wheel/i, 'גלגלי Jog'],
+  [/sound activated|music activated|voice control/i, 'מגיב למוזיקה'], [/\bdmx\b/i, 'שליטת DMX'],
+  [/\brgb\b/i, 'תאורת RGB'], [/dimm(able|ing)|stepless/i, 'עוצמה מתכווננת'], [/cri ?9\d/i, 'צבעים נאמנים (CRI 95+)'],
+  [/auto ?focus/i, 'פוקוס אוטומטי'], [/(ai|face|auto) tracking/i, 'מעקב אוטומטי אחרי הפנים'], [/gesture/i, 'שליטה בתנועות יד'],
+  [/stabiliz|\beis\b|gimbal/i, 'ייצוב תמונה'], [/waterproof|ipx\d/i, 'עמיד במים'], [/remote/i, 'שלט רחוק'],
+  [/mechanical/i, 'מקלדת מכנית'], [/hot[- ]?swap/i, 'מתגים מתחלפים'], [/\bips\b/i, 'פאנל IPS'], [/\bhdr\b/i, 'HDR'],
+  [/touch ?screen|touchscreen/i, 'מסך מגע'], [/magnetic/i, 'הצמדה מגנטית'], [/fold(able|ing)/i, 'מתקפל'],
+  [/alumin(um|ium)|metal/i, 'גוף מתכת'], [/rechargeable|\d{3,5} ?mah/i, 'סוללה נטענת'],
+  [/plug ?(and|&|n) ?play/i, 'Plug & Play'], [/ps5|ps4|xbox|nintendo|switch/i, 'תואם קונסולות'],
+  [/iphone|\bios\b/i, 'תואם iPhone'],
+];
+function hebrewFeatures(title, cat) {
+  const out = [];
+  const groups = new Set();
+  for (const [re, label, cats, group] of FEATURES) {
+    if (cats && !cats.includes(cat)) continue;
+    if (group && groups.has(group)) continue;
+    const m = title.match(re);
+    if (!m) continue;
+    const l = typeof label === 'function' ? label(m) : label;
+    if (!out.includes(l)) out.push(l);
+    if (group) groups.add(group);
+    if (out.length >= 4) break;
+  }
+  return out;
+}
+function cleanName(title) {
+  let t = String(title || '').replace(/【[^】]*】|\[[^\]]*\]|\([^)]*\)|（[^）]*）/g, ' ').split(/[,，|;]/)[0].replace(/\s+/g, ' ').trim();
+  const words = t.split(' '), out = [];
+  for (const w of words) {
+    if (out.length >= 3 && /^(for|with|compatible|suitable)$/i.test(w)) break;
+    out.push(w);
+    if (out.join(' ').length > 42) break;
+  }
+  return out.join(' ').replace(/(\s+\d+)+$/, '').replace(/[-–:\s]+$/, '');
+}
+function soldLabel(n) {
+  if (!n) return '';
+  if (n < 100) return `${n} מכירות`;
+  const d = Math.pow(10, Math.floor(Math.log10(n)) - 1);
+  return `${(Math.floor(n / d) * d).toLocaleString('en-US')}+ מכירות`;
+}
+const todayIL = () => new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Jerusalem' });
+
+async function publishProducts(kwTree) {
+  if (!(CFG.autoPerDay > 0)) return;
+  const state = readJson(STATE_FILE, { kw: {} });
+  const day = todayIL();
+  const already = (state.published || {})[day] || 0;
+  const quota = CFG.autoPerDay - already;
+  if (quota <= 0) { log(`כבר נוספו היום ${already} מוצרים לאתר — ממשיך מחר.`); return; }
+
+  syncRepo();
+  const site = readJson(PRODUCTS(), { products: [], categories: {} });
+  const cand = readJson(path.join(REPO, 'data', 'candidates.json'), { pending: [] });
+  const count = {};
+  site.products.filter(p => p.active !== false).forEach(p => (p.niches || []).forEach(n => { const k = n + '/' + p.cat; count[k] = (count[k] || 0) + 1; }));
+  // עדיפות לקטגוריות שעדיין ריקות באתר, ואחר כך הזמנות, עמלה ודירוג
+  const score = c => Math.log10((c.orders || 1) + 1) * 10 + (c.commission || 0) - (count[c.niche + '/' + c.cat] || 0) * 6 + ((c.rating || 95) - 95);
+  const eligible = (cand.pending || [])
+    .filter(c => (c.orders || 0) >= CFG.publishMinOrders && (c.rating || 0) >= CFG.publishMinRating && (c.commission || 0) >= CFG.minCommission && c.link)
+    .filter(c => fitsCategory(c.title, c.price, catRules(kwTree, c.niche, c.cat)))
+    .filter(c => !site.products.some(p => String(p.id) === c.id || (p.cat === c.cat && similar(p.name, c.title))))
+    .sort((a, b) => score(b) - score(a));
+  // גיוון: מוצר אחד לכל קטגוריה, ועדיפות לתחומים שונים
+  const picks = [], usedCats = new Set(), usedNiches = new Set();
+  for (const pass of [0, 1]) for (const c of eligible) {
+    if (picks.length >= quota * 3) break;
+    const k = c.niche + '/' + c.cat;
+    if (picks.includes(c) || usedCats.has(k) || (pass === 0 && usedNiches.has(c.niche))) continue;
+    picks.push(c); usedCats.add(k); usedNiches.add(c.niche);
+  }
+  if (!picks.length) { log('אין כרגע מועמדים שעומדים בכל התנאים להוספה אוטומטית.'); return; }
+
+  // בדיקה חוזרת מול AliExpress — רק מה שבאמת קיים עם קישור ועמלה עולה לאתר
+  const details = await fetchDetails(picks.map(c => c.id));
+  const ready = [];
+  for (const c of picks) {
+    const d = details.get(c.id);
+    if (!d) { log(`  דילגתי (לא נמצא ב-API): ${c.title.slice(0, 60)}`); continue; }
+    const price = bestPrice(d), cr = commission(d) ?? c.commission, link = d.promotion_link || c.link;
+    if (!price || !link || !/^https:\/\/s\.click\.aliexpress\.com\//.test(link) || !(cr >= CFG.minCommission)) { log(`  דילגתי (אין מחיר/קישור/עמלה): ${c.title.slice(0, 60)}`); continue; }
+    const conf = catRules(kwTree, c.niche, c.cat) || {};
+    const title = d.product_title && similar(d.product_title, c.title) ? d.product_title : c.title;
+    const feats = hebrewFeatures(title, c.cat);
+    const lp = num(d.target_original_price);
+    ready.push({
+      id: c.id, name: cleanName(title), short: cleanName(title).split(' ').slice(0, 3).join(' '),
+      cat: c.cat, niches: [c.niche], tag: conf.tag || (site.categories[c.cat] || {}).name || '',
+      icon: (site.categories[c.cat] || {}).icon || '📦',
+      badge: c.orders >= 1000 ? `🔥 ${soldLabel(c.orders)}` : '✨ חדש באתר',
+      desc: (conf.pitch || '') + (feats.length ? ` כולל: ${feats.join(', ')}.` : ''),
+      positive: c.rating ? Math.round(c.rating) : undefined, sold: soldLabel(c.orders),
+      price: Math.round(price), ...(lp && lp > price * 1.05 ? { listPrice: Math.round(lp) } : {}),
+      commission: cr, freeShip: true, image: d.product_main_image_url || c.image || '', link,
+      active: true, auto: true, added: day,
+    });
+    if (ready.length >= quota) break;
+  }
+  if (!ready.length) { log('לא נמצא מוצר שעבר את הבדיקה החוזרת.'); return; }
+
+  await commitChange(['data/products.json', 'data/candidates.json', 'data/bot-status.json'], `הוספה אוטומטית: ${ready.map(r => r.short).join(', ')}`, () => {
+    const data = readJson(PRODUCTS(), null);
+    const cd = readJson(path.join(REPO, 'data', 'candidates.json'), { pending: [] });
+    const fresh = ready.filter(r => !data.products.some(p => String(p.id) === r.id));
+    if (!fresh.length) return false;
+    data.products.push(...fresh);
+    data.updated = nowIso();
+    cd.pending = (cd.pending || []).filter(c => !fresh.some(r => r.id === c.id));
+    writeJson(PRODUCTS(), data);
+    writeJson(path.join(REPO, 'data', 'candidates.json'), cd);
+    writeStatus('publish', { at: nowIso(), ok: true, added: fresh.map(r => ({ id: r.id, name: r.name, niche: r.niches[0], cat: r.cat, price: r.price, commission: r.commission })) });
+    return true;
+  });
+  state.published = state.published || {};
+  state.published[day] = already + ready.length;
+  Object.keys(state.published).sort().slice(0, -40).forEach(k => delete state.published[k]);
+  if (!CFG.dryRun) writeJson(STATE_FILE, state);
+  log(`🟢 נוספו לאתר ${ready.length} מוצרים:`);
+  ready.forEach(r => log(`  [${r.niches[0]}/${r.cat}] ₪${r.price} · ${r.commission}% · ${r.name}`));
 }
 
 // ---------- test ----------
@@ -456,7 +617,11 @@ async function selfTest() {
       if (!CFG.key || !CFG.secret || !CFG.tracking) throw new Error(`חסרים מפתחות בקובץ ${ENV_FILE} — הריצו שוב את install.sh`);
       if (cmd === 'prices' || cmd === 'all') { try { await updatePrices(); } catch (e) { log('❌ מחירים:', e.message); await reportFailure('prices', e.message); process.exitCode = 1; } }
       if (cmd === 'find' || cmd === 'all') { try { await findProducts(); } catch (e) { log('❌ חיפוש:', e.message); await reportFailure('find', e.message); process.exitCode = 1; } }
-      if (!['prices', 'find', 'all'].includes(cmd)) log('פקודות: prices | find | all | test');
+      if (cmd === 'find' || cmd === 'all' || cmd === 'publish') {
+        try { await publishProducts(readJson(path.join(REPO, 'finder', 'keywords.json'), {})); }
+        catch (e) { log('❌ הוספה לאתר:', e.message); await reportFailure('publish', e.message); process.exitCode = 1; }
+      }
+      if (!['prices', 'find', 'all', 'publish'].includes(cmd)) log('פקודות: prices | find | publish | all | test');
     }
   } catch (e) {
     log('❌', e.message);

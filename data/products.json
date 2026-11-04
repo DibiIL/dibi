@@ -9,13 +9,12 @@
    "desc": "ממשקים, קלידיות, מוניטורים וכל מה שצריך לאולפן ביתי.",
    "cats": [
     "interface",
-    "mic",
     "midi",
     "monitor",
-    "mixer",
+    "mic",
     "headphones",
     "guitar",
-    "soundcard"
+    "mixer"
    ]
   },
   {
@@ -23,44 +22,63 @@
    "name": "דיג'יי",
    "en": "DJ",
    "icon": "💿",
-   "desc": "קונטרולרים, אוזניות ומוניטורים לסטים בבית ובמועדון.",
+   "desc": "קונטרולרים, פטיפונים, אוזניות ותאורה לסטים בבית ובמועדון.",
    "cats": [
     "dj-controller",
+    "turntable",
     "headphones",
-    "midi",
+    "mixer",
     "monitor",
-    "mixer"
+    "dj-lights",
+    "dj-acc",
+    "midi"
    ]
   },
   {
    "id": "podcast",
-   "name": "פודקאסט וסטרימינג",
+   "name": "פודקאסט, סטרימינג ועריכה",
    "en": "PODCAST",
    "icon": "🎙️",
-   "desc": "מיקרופונים, זרועות, מיקסרים וכרטיסי לכידה לשידור נקי.",
+   "desc": "מיקרופונים, זרועות, מיקסרים, כרטיסי לכידה וציוד לעריכה.",
    "cats": [
     "mic",
     "mic-arm",
-    "interface",
     "mixer",
     "soundcard",
     "capture",
-    "headphones"
+    "editing",
+    "headphones",
+    "interface"
    ]
   },
   {
    "id": "creators",
-   "name": "יוצרי תוכן ויוטיוב",
+   "name": "יוצרי תוכן וצילום",
    "en": "CREATORS",
    "icon": "📸",
-   "desc": "מיקרופונים אלחוטיים, תאורה וחצובות לצילום בטלפון ובמצלמה.",
+   "desc": "מיקרופונים אלחוטיים, תאורה, חצובות, מצלמות ועדשות לצילום בטלפון ובמצלמה.",
    "cats": [
     "wireless-mic",
+    "mic",
     "lighting",
     "tripod",
     "camera",
-    "mic",
-    "creator-gear"
+    "action-cam",
+    "lens",
+    "creator-gear",
+    "mixer"
+   ]
+  },
+  {
+   "id": "screens",
+   "name": "מסכים ומקרנים",
+   "en": "SCREENS",
+   "icon": "📽️",
+   "desc": "מקרנים לסרטים וגיימינג, מסכים נוספים לעבודה ועריכה, ומעמדים.",
+   "cats": [
+    "projector",
+    "display",
+    "screen-acc"
    ]
   },
   {
@@ -72,10 +90,9 @@
    "cats": [
     "gaming-headset",
     "mic",
+    "desk",
     "mixer",
-    "soundcard",
-    "capture",
-    "desk"
+    "soundcard"
    ]
   }
  ],
@@ -110,7 +127,7 @@
   },
   "soundcard": {
    "name": "כרטיסי סאונד",
-   "icon": "🖥️"
+   "icon": "🔈"
   },
   "dj-controller": {
    "name": "קונטרולרים לדיג'יי",
@@ -151,6 +168,42 @@
   "creator-gear": {
    "name": "אביזרי צילום",
    "icon": "🎬"
+  },
+  "turntable": {
+   "name": "פטיפונים",
+   "icon": "🎶"
+  },
+  "dj-lights": {
+   "name": "תאורת במה",
+   "icon": "✨"
+  },
+  "dj-acc": {
+   "name": "אביזרי דיג'יי",
+   "icon": "🧳"
+  },
+  "editing": {
+   "name": "ציוד לעריכה",
+   "icon": "✂️"
+  },
+  "action-cam": {
+   "name": "מצלמות אקשן ווולוג",
+   "icon": "🎥"
+  },
+  "lens": {
+   "name": "עדשות ופילטרים",
+   "icon": "🔭"
+  },
+  "projector": {
+   "name": "מקרנים",
+   "icon": "📽️"
+  },
+  "display": {
+   "name": "מסכים",
+   "icon": "🖥️"
+  },
+  "screen-acc": {
+   "name": "זרועות ומעמדים למסך",
+   "icon": "🗜️"
   }
  },
  "products": [

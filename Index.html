@@ -266,7 +266,7 @@ footer{background:var(--s1);padding:48px;border-top:1px solid var(--border)}
     <div>
       <div class="hero-tag">ציוד ליוצרים ומוזיקאים</div>
       <h1>הסאונד<br/><span class="stroke">שלך</span><br/><span class="lime">מתחיל כאן.</span></h1>
-      <p class="hero-desc">אולפן, דיג'יי, פודקאסט, יוטיוב וגיימינג — <strong>ציוד נבחר במחיר שלא תמצא בישראל.</strong></p>
+      <p class="hero-desc">אולפן, דיג'יי, פודקאסט, צילום, מקרנים וגיימינג — <strong>ציוד נבחר במחיר שלא תמצא בישראל.</strong></p>
       <div class="hero-actions">
         <button class="btn-lime" onclick="goProducts()">גלה את הציוד</button>
         <button class="btn-ghost" onclick="document.getElementById('niches').scrollIntoView({behavior:'smooth'})">בחר תחום ←</button>
@@ -413,7 +413,9 @@ function card(p){
       <div class="product-cat-tag">${esc(p.tag || (DATA.categories[p.cat] || {}).name)}</div>
       <div class="product-name">${esc(p.name)}</div>
       <div class="product-desc">${esc(p.desc)}</div>
-      <div class="product-stars"><span class="stars">${stars}</span><span class="stars-score">${esc(p.rating)}</span>${p.sold ? `<span class="stars-count">(${esc(p.sold)})</span>` : ''}</div>
+      <div class="product-stars">${p.rating
+        ? `<span class="stars">${stars}</span><span class="stars-score">${esc(p.rating)}</span>`
+        : p.positive ? `<span class="stars">👍</span><span class="stars-score">${esc(p.positive)}%</span><span class="stars-count">חוות דעת חיוביות</span>` : ''}${p.sold ? `<span class="stars-count">(${esc(p.sold)})</span>` : ''}</div>
       <div class="product-footer">
         <div><div class="price-row"><div class="price-current">${fmt(p.price)}</div>${old}</div>${p.freeShip !== false ? '<div class="price-ship">✈ משלוח חינם</div>' : ''}</div>
         <a href="${esc(p.link)}" target="_blank" rel="sponsored noopener" class="btn-buy" data-track="${esc(p.short || p.name)}">לרכישה ←</a>
@@ -478,7 +480,9 @@ function setNiche(id, scroll){
 
 function renderStatic(){
   const prods = live();
-  const avg = prods.reduce((s, p) => s + (+p.rating || 0), 0) / (prods.length || 1);
+  // דירוג ממוצע: כוכבים כשיש, ואחוז חוות דעת חיוביות מומר לסולם 5 כשאין
+  const rated = prods.map(p => +p.rating || (p.positive ? p.positive / 20 : 0)).filter(Boolean);
+  const avg = rated.reduce((s, r) => s + r, 0) / (rated.length || 1);
   document.querySelectorAll('[data-stat="count"]').forEach(e => e.textContent = prods.length);
   document.querySelectorAll('[data-stat="rating"]').forEach(e => e.textContent = avg.toFixed(1));
   document.querySelectorAll('[data-stat="niches"]').forEach(e => e.textContent = DATA.niches.length);
@@ -486,7 +490,7 @@ function renderStatic(){
   const words = DATA.niches.flatMap(n => n.cats.slice(0, 3).map(c => DATA.categories[c].name));
   const uniq = [...new Set(words)];
   $('ticker').innerHTML = [...uniq, ...uniq].map(w => `<span class="ticker-item">${esc(w)}</span>`).join('');
-  const en = ['AUDIO INTERFACE','MICROPHONE','DJ CONTROLLER','PODCAST','STREAMING','CONTENT CREATOR','RING LIGHT','GAMING SETUP','STUDIO MONITOR','HEADPHONES'];
+  const en = ['AUDIO INTERFACE','MICROPHONE','DJ CONTROLLER','TURNTABLE','PODCAST','STREAMING','CONTENT CREATOR','ACTION CAMERA','RING LIGHT','PROJECTOR','MONITOR','GAMING SETUP','HEADPHONES'];
   $('marquee').innerHTML = [...en, ...en].map(w => `<span class="marquee-item">${w} <span>◆</span></span>`).join('');
 
   $('nichesGrid').innerHTML = DATA.niches.map(n => {
