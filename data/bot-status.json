@@ -455,5 +455,35 @@
    150
   ],
   "pending": 60
+ },
+ "publish": {
+  "at": "2026-11-05T03:43:53.643Z",
+  "ok": true,
+  "added": [
+   {
+    "id": "1005007741684423",
+    "name": "Original Redmi Stylus Pen 240Hz Draw Writing",
+    "niche": "podcast",
+    "cat": "editing",
+    "price": 199,
+    "commission": 7
+   },
+   {
+    "id": "1005010708281380",
+    "name": "TELESIN Mini Quick Release Universal Tripod",
+    "niche": "creators",
+    "cat": "tripod",
+    "price": 28,
+    "commission": 7
+   },
+   {
+    "id": "1005010653444372",
+    "name": "DJ Controller Case DJ Controller Hard Case 50x30x8cm",
+    "niche": "dj",
+    "cat": "dj-acc",
+    "price": 152,
+    "commission": 7
+   }
+  ]
  }
 }

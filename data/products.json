@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:17:14.403Z",
+ "updated": "2026-11-05T03:43:53.641Z",
  "niches": [
   {
    "id": "music",
@@ -774,6 +774,78 @@
    "active": true,
    "added": "2026-11-04",
    "listPrice": 230
+  },
+  {
+   "id": "1005007741684423",
+   "name": "Original Redmi Stylus Pen 240Hz Draw Writing",
+   "short": "Original Redmi Stylus",
+   "cat": "editing",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "ציוד לעריכה",
+   "icon": "✂️",
+   "badge": "🔥 3,300+ מכירות",
+   "desc": "ציוד לעריכה ולשידור — עבודה מהירה ונוחה יותר על וידאו, סאונד ותמונות.",
+   "positive": 98,
+   "sold": "3,300+ מכירות",
+   "price": 199,
+   "listPrice": 383,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3f29bc4488b4672b09231166048c216v.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2KjWFQKxg0TPU0i2zxRhalPqeWLSJPe6Z96NkxZPCcbHJkNcdwBYbfW1yKCWn38X08DJPQrawrL6JdcoLaO7qwbLM2sbexPO3nO8rly36nJRrAOo0n4Db8jeHGn3bGY6IqhOnss5beww9pHc8BIvWnydK8EWjCZLnlr8INprOUtJeq24773Iu8VLIoV4bEMHQLyjpmDDRq4nTmLEPTckE3fXHF5PGOoYFetok9B87tK9v0LK0iydn5CEgVgwtVlTzEQOqxgNagRKwurmGVrOyY4ohZmb6vqTMIwnYKROoa5euHuvj2Och9EKvpGKERejSEC8QFKA3yAQGhFOYcloeHVx4Y6Lyuld4GPz2kzgVQRvGVEjJD8yJdvEJBzJO81ewtlDi6yXt1REnmverQetwtura8YYh2aEyt9vUcGNSETVJdE34CDMys3Vl6gsOTWwzttMFfxxQAxFPJKUpiodjVzBAShDMqmdVVNGrhetMYqjVqwtxm2Y0103lTOd1dA59edHeDcJ2DKZB5BcM7Xz6aVjaT9i7FlbwZmvuSEDVvWa9ZyMEjYrDjTUKthvCsbAh6t0ufJ8mQHaiwVuw6KdgCM0E7RmJL65KHPuM9HUqQVxT5Go3jTduJq4NZVJjdiVnWUNynBDGbEnbEwQZ6UjCwb5DgnFzmfpqG8gdHWAIymDzjzaGioAsLoDmxPcywYPuoPm2zXM24wsu",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-05"
+  },
+  {
+   "id": "1005010708281380",
+   "name": "TELESIN Mini Quick Release Universal Tripod",
+   "short": "TELESIN Mini Quick",
+   "cat": "tripod",
+   "niches": [
+    "creators"
+   ],
+   "tag": "חצובה / מייצב",
+   "icon": "📸",
+   "badge": "🔥 2,300+ מכירות",
+   "desc": "חצובה או מייצב לצילום יציב — סרטונים חלקים ותמונות חדות.",
+   "positive": 97,
+   "sold": "2,300+ מכירות",
+   "price": 28,
+   "listPrice": 31,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb40b38f4b8a645eeb587be0851e8ccd2R.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4l3aMF4RS5tHNIuewzPdwvUTYvCbxS3rNpk1jCRsALzWfoFPypp9WVUQ4dpDTOwRN3v5bNoS68Dr1BEOztNlAbMUmQE4KDrvWyfTzopfvrtQlDtrrox1L7EBY1QuzuvrOLUO643h4WRWVab3vDMCGaIg7UKmztlYm80kFIGmJIjI0VEKnkljRQErfFbGvdTmqqLlzaiRKebSA3TAXuHeMOmwCpIWUIZCRN1HMkBkkGW7c9hzvKXAiLnnPnTCTAibFu51lhRbImPZbX1qzllh6wSXZZCVC9x1kDfroaAat1Ci1lpdao4d7fXvW1BaCQG9jjJvuQe5m7qLEY7lT7Rej1UdTnVfGJkZBsD9r2u0DF76JBZ5QvjQMcpaL4Nkte7Y2UYpc7lCk4Xtlsnlq3OOsBSaMD3ZHq7Pu6pXhGW3VKfoZgCp5vxz9YlpgAWKQg7FjMC8IlKoitSuzSeBqvT798Pc88ttxz50Z9ywmDSUruWUsJc23rJHrMoLW6XkuUDhZVIMWw3jGX7kRwuU3ojlDp2rObgRpfscoIgEYMrReqkWbrIUnK6Oj8PnQz5HEoH74lgDXmfAnRuDGL4ghvrp1IFrc1dMT4JZXoYOJ7eJoWnsLpcBHifCfmMoceEUrfalGnSmxUPYfj7LCEFQwTR9MrfN99NH6pbgyB7P5vpythBnEiuF4dBPu9X60xEmldOM9Og01Es6QJOrA",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-05"
+  },
+  {
+   "id": "1005010653444372",
+   "name": "DJ Controller Case DJ Controller Hard Case 50x30x8cm",
+   "short": "DJ Controller Case",
+   "cat": "dj-acc",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אביזר DJ",
+   "icon": "🧳",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות.",
+   "positive": 98,
+   "sold": "260+ מכירות",
+   "price": 152,
+   "listPrice": 305,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S573da2761a6e431ab68bf86dc9e8ea3aS.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C22tzikn5jKWuXiBSt6K8umcAS7E30qyfIwnWU5nfQZBl1dEnxXlkEDCBwgOsGlC2aoaLbiRe87BYTZmlctmk0qz1nNqVE4IC0Poy9McEZdWhgJJvTO3R3F96aRCVh1RYnM7jJpROquPedSUGjJkI1RqmKaMWgQ6WWznPfwv8W7S8YAYQeTbVAJJfyqC5poIhcQnZNzocyOvRoe6n2sRK74Yf60zNwsRXTVbUvfyRFxc4t5EapgzM4PjlkqWkUK5ow68jnMsN2SEYRAf5z2Z8sOX8qbcMFdCBHfdDqFryDEJcr2bLaK5tjHgRocC4pQmkbPfOxbDmbaamYmvTdyL3iEphPh7iGq7E6ymzdWKNJpg1Kp16OlxoYYltsYudTnkeWhRTY4W7ctayUoolQiowWeaCifhqwV19S76zGU6JgrNWh6eA9nzt3FNuPQqsKhl2vtGR22KQeesbkb5EDJPJZBedZKPVjsOlMlY0JiHdIcJreLh8d2JzVKycWJFePo25j4YmPypvySpOWtWYuJQu6ZzF2DFRNMqkYNxiT0XrAYVtFhbAN2VUNqABnrOrCxOX9BSEVfUDznLkr1Cm0BbVzdxpYxLiXY7TvWQ1RTan8lSx1Fu0UcCQEu7brouJc2A36TnOVpnupy86yUzts5Mdy9rR1CAJ2OBTYvsmU5CKTptZlmserLQhWbBILwE5mg2lniZXPkq65YofQ",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-05"
   }
  ]
 }
