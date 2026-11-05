@@ -1,13 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-05T10:17:10.764Z",
+  "at": "2026-11-05T16:17:10.407Z",
   "ok": true,
   "checked": 27,
   "returned": 26,
   "changes": [
-   "FIFINE SC8: ₪206 → ₪187",
-   "Wireless Guitar: ₪48 → ₪45",
-   "EMEET PIXY: ₪309 → ₪292"
+   "BINNUNE BW06: ₪89 → ₪90",
+   "MAONO PD100X: ₪169 → ₪170"
   ],
   "items": [
    {
@@ -109,7 +108,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 206,
+    "before": 187,
     "api": {
      "sale": "187.31",
      "app": "187.31",
@@ -174,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 66,
+    "missing": 67,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -183,7 +182,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 48,
+    "before": 45,
     "api": {
      "sale": "45.27",
      "app": "45.27",
@@ -199,7 +198,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 309,
+    "before": 292,
     "api": {
      "sale": "292.01",
      "app": "292.01",
@@ -249,14 +248,14 @@
     "name": "BINNUNE BW06",
     "before": 89,
     "api": {
-     "sale": "89.39",
-     "app": "89.39",
-     "original": "194.33",
+     "sale": "89.69",
+     "app": "89.69",
+     "original": "194.98",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S069d23bc65fa4375a875c38be27f1af09.jpg",
-    "after": 89,
-    "listPrice": 194,
+    "after": 90,
+    "listPrice": 195,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S069d23bc65fa4375a875c38be27f1af09.jpg",
     "active": true
    },
@@ -265,14 +264,14 @@
     "name": "Art-Net DMX",
     "before": 213,
     "api": {
-     "sale": "213.39",
-     "app": "213.39",
-     "original": "426.78",
+     "sale": "212.90",
+     "app": "212.90",
+     "original": "425.80",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
     "after": 213,
-    "listPrice": 427,
+    "listPrice": 426,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
     "active": true
    },
@@ -313,9 +312,9 @@
     "name": "HOMEFISH Light Bar",
     "before": 36,
     "api": {
-     "sale": "36.05",
-     "app": "36.05",
-     "original": "92.91",
+     "sale": "36.01",
+     "app": "36.01",
+     "original": "92.82",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c709e83eb0e48098f0324ae35f71f8a6.jpg",
@@ -361,14 +360,14 @@
     "name": "MAONO PD100X",
     "before": 169,
     "api": {
-     "sale": "169.39",
-     "app": "169.39",
-     "original": "338.78",
+     "sale": "169.90",
+     "app": "169.90",
+     "original": "339.80",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S92d9f63fbf444086be5eb1fcabe32c54K.jpg",
-    "after": 169,
-    "listPrice": 339,
+    "after": 170,
+    "listPrice": 340,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
     "active": true
    },
