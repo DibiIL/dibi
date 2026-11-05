@@ -1,30 +1,19 @@
 {
  "prices": {
-  "at": "2026-11-05T04:17:09.990Z",
+  "at": "2026-11-05T10:17:10.764Z",
   "ok": true,
   "checked": 27,
   "returned": 26,
   "changes": [
-   "MAONO PS22: ₪194 → ₪193",
-   "FIFINE AM8: ₪170 → ₪169",
-   "M-VAVE SMC PAD: ₪101 → ₪100",
-   "AIYIMA S4000: ₪676 → ₪672",
-   "FIFINE SC8: ₪207 → ₪206",
-   "EMEET PIXY: ₪310 → ₪309",
-   "MCHOSE V9 Pro: ₪170 → ₪169",
-   "BINNUNE BW06: ₪90 → ₪89",
-   "Art-Net DMX: ₪214 → ₪213",
-   "MAONO PD400X: ₪429 → ₪426",
-   "Haomuren Pink Mic: ₪95 → ₪94",
-   "Ezcap326C: ₪225 → ₪224",
-   "MAONO PD100X: ₪170 → ₪169",
-   "Maono DGM20S: ₪209 → ₪208"
+   "FIFINE SC8: ₪206 → ₪187",
+   "Wireless Guitar: ₪48 → ₪45",
+   "EMEET PIXY: ₪309 → ₪292"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 194,
+    "before": 193,
     "api": {
      "sale": "192.69",
      "app": "192.69",
@@ -56,7 +45,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 170,
+    "before": 169,
     "api": {
      "sale": "168.69",
      "app": "168.69",
@@ -88,7 +77,7 @@
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 101,
+    "before": 100,
     "api": {
      "sale": "100.39",
      "app": "100.39",
@@ -104,7 +93,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 676,
+    "before": 672,
     "api": {
      "sale": "671.90",
      "app": "671.90",
@@ -120,16 +109,16 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 207,
+    "before": 206,
     "api": {
-     "sale": "205.90",
-     "app": "205.90",
-     "original": "332.10",
+     "sale": "187.31",
+     "app": "187.31",
+     "original": "331.45",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 206,
-    "listPrice": 332,
+    "after": 187,
+    "listPrice": 331,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -185,7 +174,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 65,
+    "missing": 66,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -196,13 +185,13 @@
     "name": "Wireless Guitar",
     "before": 48,
     "api": {
-     "sale": "48.19",
-     "app": "48.19",
-     "original": "96.38",
+     "sale": "45.27",
+     "app": "45.27",
+     "original": "96.29",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb38dc08277c4c7684803c70427d5fe43.png",
-    "after": 48,
+    "after": 45,
     "listPrice": 96,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S99fe2c093a5e456cb9d922f71d9d15cfw.jpg",
     "active": true
@@ -210,15 +199,15 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 310,
+    "before": 309,
     "api": {
-     "sale": "309.01",
-     "app": "309.01",
+     "sale": "292.01",
+     "app": "292.01",
      "original": "946.41",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 309,
+    "after": 292,
     "listPrice": 946,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true
@@ -242,7 +231,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 170,
+    "before": 169,
     "api": {
      "sale": "168.90",
      "app": "168.90",
@@ -258,7 +247,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 90,
+    "before": 89,
     "api": {
      "sale": "89.39",
      "app": "89.39",
@@ -274,7 +263,7 @@
    {
     "id": "1005009116309896",
     "name": "Art-Net DMX",
-    "before": 214,
+    "before": 213,
     "api": {
      "sale": "213.39",
      "app": "213.39",
@@ -306,7 +295,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 429,
+    "before": 426,
     "api": {
      "sale": "426.46",
      "app": "426.46",
@@ -338,7 +327,7 @@
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 95,
+    "before": 94,
     "api": {
      "sale": "94.39",
      "app": "94.39",
@@ -354,7 +343,7 @@
    {
     "id": "1005008337928752",
     "name": "Ezcap326C",
-    "before": 225,
+    "before": 224,
     "api": {
      "sale": "224.39",
      "app": "224.39",
@@ -370,7 +359,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 170,
+    "before": 169,
     "api": {
      "sale": "169.39",
      "app": "169.39",
@@ -386,7 +375,7 @@
    {
     "id": "1005005709908265",
     "name": "Maono DGM20S",
-    "before": 209,
+    "before": 208,
     "api": {
      "sale": "207.69",
      "app": "207.69",
