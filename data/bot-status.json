@@ -1,12 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-05T16:17:10.407Z",
+  "at": "2026-11-05T22:17:09.408Z",
   "ok": true,
   "checked": 27,
   "returned": 26,
   "changes": [
-   "BINNUNE BW06: ₪89 → ₪90",
-   "MAONO PD100X: ₪169 → ₪170"
+   "FIFINE SC8: ₪187 → ₪206",
+   "EMEET PIXY: ₪292 → ₪309"
   ],
   "items": [
    {
@@ -110,14 +110,14 @@
     "name": "FIFINE SC8",
     "before": 187,
     "api": {
-     "sale": "187.31",
-     "app": "187.31",
-     "original": "331.45",
+     "sale": "205.69",
+     "app": "205.69",
+     "original": "331.76",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 187,
-    "listPrice": 331,
+    "after": 206,
+    "listPrice": 332,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -173,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 67,
+    "missing": 68,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -200,13 +200,13 @@
     "name": "EMEET PIXY",
     "before": 292,
     "api": {
-     "sale": "292.01",
-     "app": "292.01",
+     "sale": "309.01",
+     "app": "309.01",
      "original": "946.41",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 292,
+    "after": 309,
     "listPrice": 946,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true
@@ -246,7 +246,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 89,
+    "before": 90,
     "api": {
      "sale": "89.69",
      "app": "89.69",
@@ -358,7 +358,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 169,
+    "before": 170,
     "api": {
      "sale": "169.90",
      "app": "169.90",
