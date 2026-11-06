@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-06T10:17:10.649Z",
+  "at": "2026-11-06T16:17:11.531Z",
   "ok": true,
   "checked": 30,
   "returned": 29,
-  "changes": [],
+  "changes": [
+   "EMEET PIXY: ₪297 → ₪307"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -170,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 70,
+    "missing": 71,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -197,13 +199,13 @@
     "name": "EMEET PIXY",
     "before": 297,
     "api": {
-     "sale": "297.02",
-     "app": "297.02",
+     "sale": "306.50",
+     "app": "306.50",
      "original": "962.65",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 297,
+    "after": 307,
     "listPrice": 963,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true

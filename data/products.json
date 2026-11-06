@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T04:17:10.282Z",
+ "updated": "2026-11-06T16:17:11.530Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 70,
+   "missing": 71,
    "autoHidden": true
   },
   {
@@ -513,7 +513,7 @@
    "desc": "מצלמת רשת 4K עם שתי עדשות וחיישן Sony, שמסתובבת לבד ועוקבת אחריך בעזרת AI. שליטה בתנועות יד ופוקוס אוטומטי — לסטרימינג, שיעורים ושיחות וידאו.",
    "positive": 97,
    "sold": "750+ מכירות",
-   "price": 297,
+   "price": 307,
    "commission": 8,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
