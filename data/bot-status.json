@@ -1,11 +1,14 @@
 {
  "prices": {
-  "at": "2026-11-06T16:17:11.531Z",
+  "at": "2026-11-06T22:17:29.464Z",
   "ok": true,
   "checked": 30,
   "returned": 29,
   "changes": [
-   "EMEET PIXY: ₪297 → ₪307"
+   "FIFINE SC8: ₪190 → ₪209",
+   "Wireless Guitar: ₪46 → ₪49",
+   "EMEET PIXY: ₪307 → ₪314",
+   "Gaming Laptop Cooler: ₪72 → ₪76"
   ],
   "items": [
    {
@@ -109,13 +112,13 @@
     "name": "FIFINE SC8",
     "before": 190,
     "api": {
-     "sale": "190.47",
-     "app": "190.47",
-     "original": "337.03",
+     "sale": "208.90",
+     "app": "208.90",
+     "original": "336.94",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 190,
+    "after": 209,
     "listPrice": 337,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
@@ -172,7 +175,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 71,
+    "missing": 72,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -183,13 +186,13 @@
     "name": "Wireless Guitar",
     "before": 46,
     "api": {
-     "sale": "46.06",
-     "app": "46.06",
-     "original": "97.95",
+     "sale": "48.99",
+     "app": "48.99",
+     "original": "97.98",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb38dc08277c4c7684803c70427d5fe43.png",
-    "after": 46,
+    "after": 49,
     "listPrice": 98,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S99fe2c093a5e456cb9d922f71d9d15cfw.jpg",
     "active": true
@@ -197,15 +200,15 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 297,
+    "before": 307,
     "api": {
-     "sale": "306.50",
-     "app": "306.50",
+     "sale": "314.31",
+     "app": "314.31",
      "original": "962.65",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 307,
+    "after": 314,
     "listPrice": 963,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true
@@ -471,13 +474,13 @@
     "name": "Gaming Laptop Cooler",
     "before": 72,
     "api": {
-     "sale": "71.85",
-     "app": "71.85",
-     "original": "152.89",
+     "sale": "76.39",
+     "app": "76.39",
+     "original": "152.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
-    "after": 72,
+    "after": 76,
     "listPrice": 153,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
     "active": true
