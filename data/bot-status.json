@@ -483,31 +483,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-05T03:43:53.643Z",
+  "at": "2026-11-06T03:43:56.582Z",
   "ok": true,
   "added": [
    {
-    "id": "1005007741684423",
-    "name": "Original Redmi Stylus Pen 240Hz Draw Writing",
+    "id": "1005009184927989",
+    "name": "Spring-Free Microphone Arm Stand",
     "niche": "podcast",
-    "cat": "editing",
-    "price": 199,
+    "cat": "mic-arm",
+    "price": 56,
     "commission": 7
    },
    {
-    "id": "1005010708281380",
-    "name": "TELESIN Mini Quick Release Universal Tripod",
+    "id": "1005010241212987",
+    "name": "BOYA Mini 2 Wireless Lavalier Microphone AI",
     "niche": "creators",
-    "cat": "tripod",
-    "price": 28,
-    "commission": 7
+    "cat": "wireless-mic",
+    "price": 85,
+    "commission": 8
    },
    {
-    "id": "1005010653444372",
-    "name": "DJ Controller Case DJ Controller Hard Case 50x30x8cm",
-    "niche": "dj",
-    "cat": "dj-acc",
-    "price": 152,
+    "id": "1005006861793306",
+    "name": "Gaming Laptop Cooler Large Size",
+    "niche": "screens",
+    "cat": "screen-acc",
+    "price": 72,
     "commission": 7
    }
   ]

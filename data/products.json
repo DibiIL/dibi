@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:17:09.407Z",
+ "updated": "2026-11-06T03:43:56.580Z",
  "niches": [
   {
    "id": "music",
@@ -846,6 +846,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-05"
+  },
+  {
+   "id": "1005009184927989",
+   "name": "Spring-Free Microphone Arm Stand",
+   "short": "Spring-Free Microphone Arm",
+   "cat": "mic-arm",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "זרוע מיקרופון",
+   "icon": "🦾",
+   "badge": "🔥 1,700+ מכירות",
+   "desc": "זרוע למיקרופון — מחזיקה אותו בדיוק מול הפה ומשאירה את השולחן פנוי. כולל: מתקפל.",
+   "positive": 98,
+   "sold": "1,700+ מכירות",
+   "price": 56,
+   "listPrice": 113,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb82a2513a2e54a53b81944a723891fc7R.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmR4BcbnEyJ9pfZuWgJvtKfUIwoRSy8a2VLjII3snpeY4PqAG3wCZmhmZEYbMGQxT2Zy0sSw6Vw5apcSx8GHvtAQgVpaheWjmYz58trYrrozSZwWwJHf0N2HCJg8IIrIfBJ4MbeDwIJhpYXOd2iYMmpYYUsjacVil79cazSRiRSGV3gFxvRjjFGrfK6cfyC9EEprqRbVlTF4TF8IN2V8vHwLoD4O1yTGgH22Gqk78ckJhU8616saRVXlTRFI5j3DGLrvmnS9enKX4H4uZOaLHBFPadNOmOQykr0LNtDikYANfEae2UxJMt8IfpX2EkJJAVjs6V7Dbf1OyaQiNmnHP2iSLMBPOdCZJ5ug3g7SicvZBBUikxWwLSsxumLMQdTTnBYfymTlCegPnBCI1pOrjH9pZPhR2rJu7lI7FiHCrv5UxD9zE4rY4mcczJmj2P4idj3SzmON4A0IFJ0MqAn0L1Y4bQDyru1s3XOUXpuGdhj8Ln37jJ6g6Abc09ToxNL3Yawh9i3k4Zh5Nhtr4hB7b5Ng9Ce2dnRripUUyB4DjWQ7rXrOIDKgcjJyFeukeKSWNCRvKivmf7CYT9ctXinoPGe2FQNfElv0LI40rRQB9a27LSXHZ7ZB5s1TbcqhrK8z7AVY3RHXk7YK1ZmqMLwik6EZVCQGk0Kq58aPaxoyLOnW8XrNUmcurQ4C8qzPuCXHDpt1qA6r8TtEdM",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-06"
+  },
+  {
+   "id": "1005010241212987",
+   "name": "BOYA Mini 2 Wireless Lavalier Microphone AI",
+   "short": "BOYA Mini 2",
+   "cat": "wireless-mic",
+   "niches": [
+    "creators"
+   ],
+   "tag": "מיקרופון אלחוטי",
+   "icon": "📡",
+   "badge": "🔥 2,200+ מכירות",
+   "desc": "מיקרופון אלחוטי לצילום בטלפון ובמצלמה — סאונד נקי לסרטונים, ראיונות ולייבים. כולל: חיבור USB-C, סינון רעשים, תואם iPhone.",
+   "positive": 96,
+   "sold": "2,200+ מכירות",
+   "price": 85,
+   "listPrice": 203,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S565664042b8e4e6fab739b87509e3459s.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CpbHJTVaOrzu2rUoq4eFGsl6cnqgj6i9xibCArEobNhFMJDFq5lAK0ehccmfnlRX4fLWR5QBTP5S9qJ73xkqFvdTxi9UX6I17QsRK89ru13m9RYnuMTJbFA4IkGvfLX5TTyzNl7agXXzxu5EzyRkIzztgl3JHmo3tCYWprFuJD1HsQXW3zTRtDYFojMCqJvP86ESh2jGpuyftGqW14WN0Xvzk1feQioLe8qCTvAvgwJLDe5pqv6EIrYloqNF21pKwOVBOl4X9tvbHigUv0pnmml1llqnrR0PgiTA3AqQEWiECLa3YMqPVCzhJnUa1PpvdjjFlxYURe7budqCD6IphEiWtPkCZyDAQmOD3EDit77CF7MRV4XNhV2EesG2XNpMtD1kf92pF2uJO0tGjWfW4PnGF5BLkLhVYMK09Sy11a6hymLIROyHT2EuiP7pUdBezq2Xx5UPAst2hf3id6ZuenQAlDT3rlIooaYwKByoBQgOntV2v5WeCi3rZjLLvlmAiA3HPOHYf0Pd9fQGfB7xKkDDKxSpxISdld3KiCiEtmTszSjjkKDf29yL5HEb5sPQCTLNeFXY7LUKl2GHG4l5JeLW2sBWsJ1JTJaSWByEBWqAddgfD4rLjLzoDSE18UcNckd8xN4pussRzJOOehBGJDvhfUA8dHKUnjiuWpMbKVnH6TVJuCBYgWNG72UsD0pvw18HXtoYl2atWf",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-06"
+  },
+  {
+   "id": "1005006861793306",
+   "name": "Gaming Laptop Cooler Large Size",
+   "short": "Gaming Laptop Cooler",
+   "cat": "screen-acc",
+   "niches": [
+    "screens"
+   ],
+   "tag": "אביזר למסך",
+   "icon": "🗜️",
+   "badge": "🔥 1,100+ מכירות",
+   "desc": "אביזר למסך ולמקרן — העמדה נוחה, מסודרת ובגובה הנכון. כולל: 16 אינץ'.",
+   "positive": 98,
+   "sold": "1,100+ מכירות",
+   "price": 72,
+   "listPrice": 153,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4naamFuBtCnTxohr3UwEKKJ4R78oIi2uoFUSX86XE2rJ9s9GJCMFjV92znCe4ZhGDQpPkmyDw6pFUeoDBwKvDZDT01NwChWUyUu0j53PQ0gOai17EqINSsAfEc98WrHoqjCT2mDxw0xopAnKFwPc5V2vZIpqKdgGTq05R4z6aVg2lIES5Oyix9XPCCh84En7G2RAYyZfWEKcR0AQfvbdj3HG6Twl8bwGHyXsuOZoabZD9eG6YYwIB4WiIpQiyZAvpU0MWqpC8fxFJnIpfRiyEtGNf56AzSTDQKsX1RoHu4xlxxaPtqLu6uAUT9vwLUWiRbqf4MhjhUPyOrhOetWoPyULcc4csMf3WaipWbKDo8WZ7bsPVNZZ4YCuHbqg2d2sBvVaisFNav7PJFdeXvWmQot8yF46wdK5VHd7rDZNp40NU9i8oAABEYp1dNTvGIlxW3cGKWA2Brd2tDMIYszDRrsfaGYsgRdY2qupeFoQfH5V8Q7NokAGOianhiF6DGSl3QKZH9JfYdfWr9vigjACAdmjO5BRy4BtgRVnJUSSc6fn7XSPKHHTHjlR9KO46ipWOWHoNPQV4WAdlg4JZsZIafRY2otDQLaFQjXnfjQlSp9YFJJXS17Q16jhsLFrn9OSAxGlGoUTTeCz2AcmRHpKY6zG4pl3nN1517KrG5ino1XIxhASMu68tHzQxko4db26kPJHSBdbYCNCO",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-06"
   }
  ]
 }
