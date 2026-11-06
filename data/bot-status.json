@@ -1,42 +1,15 @@
 {
  "prices": {
-  "at": "2026-11-06T04:17:10.283Z",
+  "at": "2026-11-06T10:17:10.649Z",
   "ok": true,
   "checked": 30,
   "returned": 29,
-  "changes": [
-   "MAONO PS22: ₪193 → ₪196",
-   "FIFINE A2: ₪75 → ₪76",
-   "FIFINE AM8: ₪169 → ₪171",
-   "M-VAVE SMK-25: ₪136 → ₪138",
-   "M-VAVE SMC PAD: ₪100 → ₪102",
-   "AIYIMA S4000: ₪672 → ₪683",
-   "FIFINE SC8: ₪206 → ₪190",
-   "Depusheng Mixer: ₪74 → ₪75",
-   "Oneodio Pro 50: ₪126 → ₪128",
-   "Rowin Looper: ₪79 → ₪80",
-   "Wireless Guitar: ₪45 → ₪46",
-   "EMEET PIXY: ₪309 → ₪297",
-   "Softbox Kit: ₪134 → ₪136",
-   "MCHOSE V9 Pro: ₪169 → ₪172",
-   "BINNUNE BW06: ₪90 → ₪91",
-   "Art-Net DMX: ₪213 → ₪217",
-   "Haomuren Mic Kit: ₪119 → ₪121",
-   "MAONO PD400X: ₪426 → ₪434",
-   "HOMEFISH Light Bar: ₪36 → ₪37",
-   "Haomuren Pink Mic: ₪94 → ₪96",
-   "Ezcap326C: ₪224 → ₪228",
-   "MAONO PD100X: ₪170 → ₪173",
-   "Maono DGM20S: ₪208 → ₪211",
-   "Original Redmi Stylus: ₪199 → ₪203",
-   "TELESIN Mini Quick: ₪28 → ₪29",
-   "DJ Controller Case: ₪152 → ₪155"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 193,
+    "before": 196,
     "api": {
      "sale": "195.90",
      "app": "195.90",
@@ -52,7 +25,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 75,
+    "before": 76,
     "api": {
      "sale": "75.98",
      "app": "75.98",
@@ -68,7 +41,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 169,
+    "before": 171,
     "api": {
      "sale": "171.39",
      "app": "171.39",
@@ -84,7 +57,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 136,
+    "before": 138,
     "api": {
      "sale": "137.90",
      "app": "137.90",
@@ -100,7 +73,7 @@
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 100,
+    "before": 102,
     "api": {
      "sale": "101.90",
      "app": "101.90",
@@ -116,7 +89,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 672,
+    "before": 683,
     "api": {
      "sale": "682.90",
      "app": "682.90",
@@ -132,7 +105,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 206,
+    "before": 190,
     "api": {
      "sale": "190.47",
      "app": "190.47",
@@ -148,7 +121,7 @@
    {
     "id": "1005008248050829",
     "name": "Depusheng Mixer",
-    "before": 74,
+    "before": 75,
     "api": {
      "sale": "74.90",
      "app": "74.90",
@@ -164,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 126,
+    "before": 128,
     "api": {
      "sale": "127.69",
      "app": "127.69",
@@ -180,7 +153,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 79,
+    "before": 80,
     "api": {
      "sale": "79.99",
      "app": "79.99",
@@ -197,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 69,
+    "missing": 70,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -206,7 +179,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 45,
+    "before": 46,
     "api": {
      "sale": "46.06",
      "app": "46.06",
@@ -222,7 +195,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 309,
+    "before": 297,
     "api": {
      "sale": "297.02",
      "app": "297.02",
@@ -238,7 +211,7 @@
    {
     "id": "1005006861879179",
     "name": "Softbox Kit",
-    "before": 134,
+    "before": 136,
     "api": {
      "sale": "135.90",
      "app": "135.90",
@@ -254,7 +227,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 169,
+    "before": 172,
     "api": {
      "sale": "171.90",
      "app": "171.90",
@@ -270,7 +243,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 90,
+    "before": 91,
     "api": {
      "sale": "91.39",
      "app": "91.39",
@@ -286,7 +259,7 @@
    {
     "id": "1005009116309896",
     "name": "Art-Net DMX",
-    "before": 213,
+    "before": 217,
     "api": {
      "sale": "216.69",
      "app": "216.69",
@@ -302,7 +275,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 119,
+    "before": 121,
     "api": {
      "sale": "120.90",
      "app": "120.90",
@@ -318,7 +291,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 426,
+    "before": 434,
     "api": {
      "sale": "433.66",
      "app": "433.66",
@@ -334,7 +307,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 36,
+    "before": 37,
     "api": {
      "sale": "36.63",
      "app": "36.63",
@@ -350,7 +323,7 @@
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 94,
+    "before": 96,
     "api": {
      "sale": "95.99",
      "app": "95.99",
@@ -366,7 +339,7 @@
    {
     "id": "1005008337928752",
     "name": "Ezcap326C",
-    "before": 224,
+    "before": 228,
     "api": {
      "sale": "227.90",
      "app": "227.90",
@@ -382,7 +355,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 170,
+    "before": 173,
     "api": {
      "sale": "172.69",
      "app": "172.69",
@@ -398,7 +371,7 @@
    {
     "id": "1005005709908265",
     "name": "Maono DGM20S",
-    "before": 208,
+    "before": 211,
     "api": {
      "sale": "210.99",
      "app": "210.99",
@@ -414,7 +387,7 @@
    {
     "id": "1005007741684423",
     "name": "Original Redmi Stylus",
-    "before": 199,
+    "before": 203,
     "api": {
      "sale": "202.69",
      "app": "202.69",
@@ -430,7 +403,7 @@
    {
     "id": "1005010708281380",
     "name": "TELESIN Mini Quick",
-    "before": 28,
+    "before": 29,
     "api": {
      "sale": "28.99",
      "app": "28.99",
@@ -446,7 +419,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 152,
+    "before": 155,
     "api": {
      "sale": "154.90",
      "app": "154.90",
