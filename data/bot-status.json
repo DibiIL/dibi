@@ -1,15 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-07T10:17:11.257Z",
+  "at": "2026-11-07T16:17:11.791Z",
   "ok": true,
   "checked": 33,
   "returned": 32,
-  "changes": [
-   "FIFINE SC8: ₪209 → ₪190",
-   "Wireless Guitar: ₪49 → ₪46",
-   "EMEET PIXY: ₪314 → ₪297",
-   "Gaming Laptop Cooler: ₪76 → ₪72"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -110,7 +105,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 209,
+    "before": 190,
     "api": {
      "sale": "190.47",
      "app": "190.47",
@@ -175,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 74,
+    "missing": 75,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -184,7 +179,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 49,
+    "before": 46,
     "api": {
      "sale": "46.06",
      "app": "46.06",
@@ -200,7 +195,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 314,
+    "before": 297,
     "api": {
      "sale": "297.02",
      "app": "297.02",
@@ -472,7 +467,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 76,
+    "before": 72,
     "api": {
      "sale": "71.85",
      "app": "71.85",
