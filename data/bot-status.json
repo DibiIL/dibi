@@ -1,15 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-06T22:17:29.464Z",
+  "at": "2026-11-07T04:17:09.770Z",
   "ok": true,
-  "checked": 30,
-  "returned": 29,
-  "changes": [
-   "FIFINE SC8: ₪190 → ₪209",
-   "Wireless Guitar: ₪46 → ₪49",
-   "EMEET PIXY: ₪307 → ₪314",
-   "Gaming Laptop Cooler: ₪72 → ₪76"
-  ],
+  "checked": 33,
+  "returned": 32,
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -110,7 +105,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 190,
+    "before": 209,
     "api": {
      "sale": "208.90",
      "app": "208.90",
@@ -175,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 72,
+    "missing": 73,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -184,7 +179,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 46,
+    "before": 49,
     "api": {
      "sale": "48.99",
      "app": "48.99",
@@ -200,7 +195,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 307,
+    "before": 314,
     "api": {
      "sale": "314.31",
      "app": "314.31",
@@ -282,8 +277,8 @@
     "name": "Haomuren Mic Kit",
     "before": 121,
     "api": {
-     "sale": "120.90",
-     "app": "120.90",
+     "sale": "120.86",
+     "app": "120.86",
      "original": "283.11",
      "currency": "ILS"
     },
@@ -472,7 +467,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 72,
+    "before": 76,
     "api": {
      "sale": "76.39",
      "app": "76.39",
@@ -483,6 +478,54 @@
     "after": 76,
     "listPrice": 153,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
+    "active": true
+   },
+   {
+    "id": "1005008108618534",
+    "name": "Ulanzi TT88 1.44M",
+    "before": 72,
+    "api": {
+     "sale": "72.40",
+     "app": "72.40",
+     "original": "190.10",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
+    "after": 72,
+    "listPrice": 190,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
+    "active": true
+   },
+   {
+    "id": "1005006648408257",
+    "name": "FIFINE USB Gaming",
+    "before": 134,
+    "api": {
+     "sale": "133.91",
+     "app": "133.91",
+     "original": "243.12",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
+    "after": 134,
+    "listPrice": 243,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
+    "active": true
+   },
+   {
+    "id": "1005013120140830",
+    "name": "DITONG Full HD",
+    "before": 884,
+    "api": {
+     "sale": "883.67",
+     "app": "883.67",
+     "original": "1602.09",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
+    "after": 884,
+    "listPrice": 1602,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
    }
   ]
