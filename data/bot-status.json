@@ -1,10 +1,16 @@
 {
  "prices": {
-  "at": "2026-11-07T16:17:11.791Z",
+  "at": "2026-11-07T22:17:10.132Z",
   "ok": true,
   "checked": 33,
   "returned": 32,
-  "changes": [],
+  "changes": [
+   "FIFINE SC8: ₪190 → ₪209",
+   "EMEET PIXY: ₪297 → ₪314",
+   "Ulanzi TT88 1.44M: ₪72 → ₪78",
+   "FIFINE USB Gaming: ₪134 → ₪148",
+   "DITONG Full HD: ₪884 → ₪930"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -107,13 +113,13 @@
     "name": "FIFINE SC8",
     "before": 190,
     "api": {
-     "sale": "190.47",
-     "app": "190.47",
-     "original": "337.03",
+     "sale": "208.90",
+     "app": "208.90",
+     "original": "336.94",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 190,
+    "after": 209,
     "listPrice": 337,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
@@ -170,7 +176,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 75,
+    "missing": 76,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -197,13 +203,13 @@
     "name": "EMEET PIXY",
     "before": 297,
     "api": {
-     "sale": "297.02",
-     "app": "297.02",
+     "sale": "314.31",
+     "app": "314.31",
      "original": "962.65",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 297,
+    "after": 314,
     "listPrice": 963,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true
@@ -485,13 +491,13 @@
     "name": "Ulanzi TT88 1.44M",
     "before": 72,
     "api": {
-     "sale": "72.40",
-     "app": "72.40",
-     "original": "190.10",
+     "sale": "77.90",
+     "app": "77.90",
+     "original": "190.00",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
-    "after": 72,
+    "after": 78,
     "listPrice": 190,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
     "active": true
@@ -501,13 +507,13 @@
     "name": "FIFINE USB Gaming",
     "before": 134,
     "api": {
-     "sale": "133.91",
-     "app": "133.91",
-     "original": "243.12",
+     "sale": "148.39",
+     "app": "148.39",
+     "original": "243.26",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
-    "after": 134,
+    "after": 148,
     "listPrice": 243,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
     "active": true
@@ -517,14 +523,14 @@
     "name": "DITONG Full HD",
     "before": 884,
     "api": {
-     "sale": "883.63",
-     "app": "883.63",
-     "original": "1602.09",
+     "sale": "929.90",
+     "app": "929.90",
+     "original": "1603.28",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 884,
-    "listPrice": 1602,
+    "after": 930,
+    "listPrice": 1603,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
    }
