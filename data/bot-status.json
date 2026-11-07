@@ -526,32 +526,32 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-06T03:43:56.582Z",
+  "at": "2026-11-07T03:43:54.134Z",
   "ok": true,
   "added": [
    {
-    "id": "1005009184927989",
-    "name": "Spring-Free Microphone Arm Stand",
-    "niche": "podcast",
-    "cat": "mic-arm",
-    "price": 56,
-    "commission": 7
-   },
-   {
-    "id": "1005010241212987",
-    "name": "BOYA Mini 2 Wireless Lavalier Microphone AI",
+    "id": "1005008108618534",
+    "name": "Ulanzi TT88 1.44M Overhead Selfie Stick Phone",
     "niche": "creators",
-    "cat": "wireless-mic",
-    "price": 85,
+    "cat": "tripod",
+    "price": 72,
     "commission": 8
    },
    {
-    "id": "1005006861793306",
-    "name": "Gaming Laptop Cooler Large Size",
+    "id": "1005006648408257",
+    "name": "FIFINE USB Gaming Mixer",
+    "niche": "podcast",
+    "cat": "soundcard",
+    "price": 134,
+    "commission": 8
+   },
+   {
+    "id": "1005013120140830",
+    "name": "DITONG Full HD Projector Native 1080P Support",
     "niche": "screens",
-    "cat": "screen-acc",
-    "price": 72,
-    "commission": 7
+    "cat": "projector",
+    "price": 884,
+    "commission": 8
    }
   ]
  }

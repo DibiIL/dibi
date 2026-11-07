@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:17:29.462Z",
+ "updated": "2026-11-07T03:43:54.132Z",
  "niches": [
   {
    "id": "music",
@@ -918,6 +918,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-06"
+  },
+  {
+   "id": "1005008108618534",
+   "name": "Ulanzi TT88 1.44M Overhead Selfie Stick Phone",
+   "short": "Ulanzi TT88 1.44M",
+   "cat": "tripod",
+   "niches": [
+    "creators"
+   ],
+   "tag": "חצובה / מייצב",
+   "icon": "📸",
+   "badge": "🔥 7,000+ מכירות",
+   "desc": "חצובה או מייצב לצילום יציב — סרטונים חלקים ותמונות חדות. כולל: שלט רחוק, הצמדה מגנטית.",
+   "positive": 98,
+   "sold": "7,000+ מכירות",
+   "price": 72,
+   "listPrice": 190,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqiIeE45lzcOkPW0q0epbnhrAyRJJKO1N79PO0KXEYVHOC9H9Exq48ppcbkmM43cApODDxXlYTodPXpgYV2F2xtDdrrzFvNdvHd50A18Qfa2docz4hMHZ8fsOk6Hjzr8mlIuUkkCTiS7vjreqfvWBloM07kmLVQ4UPcAJpOZanghP3EyvPzT9aGfalm4cdcNia0eSjJhnViFbFB9NhvuUfaRq66wbqIYzEUCXgtOOM8YasAy6kMjpBA1y2BfXg7G3wbIkiUYxNAuN2xFVEJ30Mz6Nw2zV15RC87y20qiWrNTBVIeCpia4mjejP4qPedLOydmWSC3KvJpmRl8iFxciQIrqzsc7lsBHrvwoYhmGxleHnrYTbsZqANxwSMGSIUcuZOiednele2bsmAFOFgk9SkvcYpPIngvqwhFJjsXFxirGJ9BWZHUiPQGSrbJIQJcPevyWN7fzMF3034GU3hlSMVdO2dDBjfiNSpCT3NB5Ecvu2OObbPygHIMqOOs3JhkEGrb4aBWeuO6vmXsy5IQXVgjdeSMm1Avaya5FhN6TSGg2nFEmYvXUqvGjdAMIUCbOHhqI5dRAjyedMTjecx2VHCCQtYGfPnyGNxineJl9ZHD8MG4oECFgtrBQ3ANKa9H3ruHOt1guwI8txPDw3ppAESIL114qLVNF9RuJz8SowF6WYVhhX8o5nuIOpFEzTOO4oq0mQzvECbz",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-07"
+  },
+  {
+   "id": "1005006648408257",
+   "name": "FIFINE USB Gaming Mixer",
+   "short": "FIFINE USB Gaming",
+   "cat": "soundcard",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "כרטיס סאונד",
+   "icon": "🔈",
+   "badge": "✨ חדש באתר",
+   "desc": "כרטיס סאונד לשידור חי — מחברים מיקרופון וטלפון ומשדרים עם אפקטים. כולל: חיבור XLR, פנטום 48V, תאורת RGB.",
+   "positive": 97,
+   "sold": "820+ מכירות",
+   "price": 134,
+   "listPrice": 243,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnlCpQA73oyJPYYr1sDwa1KkGzFjPwXpk7mWkkJmBLf995gpUm506VZOv1LVSN5HakoMJDlkbFPoVKkzDDRRd8KdzENDUYTwYTzXstaB5Nz5MF2Iii9C3N8IrjWlPnjaUdNtb9b0qfC9DrnYn5RpEsH9IYMe0RZqtopNF2mlnZXj0QJ193HCxQ7M6jFKtVCe4wQZqRjn8Wbe8nwmqEcVQcVnfRuq3oQae1RULP1h6427qTim5NkFDY2QzupqknYY46eqTRjkdNKhdoUt3GkcR36NaShty6ZycIYxp7DwWtcYJrtAkNMhDur9WvjYvJJvMth1edNYqN3LCGqX50eC22yT8E4NYeI31WibwfSNME6UcCuFowTEzqfyQha8oYQWqMauvCRVnP64TKzB4pZRztsCZe3GQXXKMqSMU4m1TxVIOIFYElY1StlbUUTZvtQ0mSMCPetD4Juo0XdCcvfEFgbEHzTXuqc3ATuu1uiV9Z0f3QVaUK0BR2AQvwfbqOsIbdX41A87lsuqcsJTUBn9wVAMgbI6LcgN9we8J15u2YOoBKbpG7lLcTqXtPIqLGoh2USyGZUAh6l28k3kvf408PTw6Q7eqRNeyFxWiCwocFRslStTB784FI1GDeA5TcOIhcWDoEZE9zoLcefJot4hHsGsgSWNuMQShYYjA4hhj7w5l0BdL4bypCahUklRzWB21Rt7gsgOWCc3r0",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-07"
+  },
+  {
+   "id": "1005013120140830",
+   "name": "DITONG Full HD Projector Native 1080P Support",
+   "short": "DITONG Full HD",
+   "cat": "projector",
+   "niches": [
+    "screens"
+   ],
+   "tag": "מקרן",
+   "icon": "📽️",
+   "badge": "✨ חדש באתר",
+   "desc": "מקרן לסרטים, גיימינג ומצגות — מסך ענק על כל קיר. כולל: Bluetooth, תומך בתוכן 4K, מערכת Android מובנית.",
+   "positive": 100,
+   "sold": "240+ מכירות",
+   "price": 884,
+   "listPrice": 1602,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoT1khbVtOF7GlnOp6o7eTIpvcvwfeQ8CrYA0JCMCQOT3henV7rqWic5AmETBlHhvyMLAg1DvvanflaZHvn0XvOAniYtJW1GUuVut5021eqss9kSS0UOhiDVKFFhPqChE7huJHm3OIOhRhk1TVEPcmEjoqVw8gvH1MySnb2VIEFGgXApl4qOuKcrBMRfCf5r8u1qjq4KmN13lXYLxx5hl0kslVYGOcXUhGS0KpOa46v5hcmjGYzSpQV4JL5xzqQem8anxFaZBpp3hNfW2RZlOF6e60XJVxavaFsAyT40pE36qi4Q3COZ7kNIlrFeEnc86MgoRI6VvNBRNBugEmkVUbENLmqvqMtOMS2WyUbTmZoA3zweivYvVFCcoOf1zTlnDN3XkOVuPeb80t9YkxEIDikrdtLtX31XgrINKVwZyPSM7yWxzOQKGHdZdIQlc85ijMuB0hcym2mqv3cRPG3JZJW7qVKZTI7aZNoFKtWS7sxqgcbDySdoJQ0wY1NFdFclSFc4GcV2GwF0UR5xl0LEuUnofqBZq1oOjWZXpULjBHNBqx1ctqjG2ecNNR2ZHXZyanKcgk7ZLr9vkKKKVk15cjI5MhlG4z535IlgDAOMUfoKUnKmN0ER8cymEWBQ7J9uru5xs2CPonfgjX726gKgOL6ajVpUHuLv4Mi3P7WKBF6MVByzjfIxQzEog8WnT4mv8swx2QQlhXwKvw",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-07"
   }
  ]
 }
