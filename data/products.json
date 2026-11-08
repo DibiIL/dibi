@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:17:10.131Z",
+ "updated": "2026-11-08T03:43:52.995Z",
  "niches": [
   {
    "id": "music",
@@ -990,6 +990,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-07"
+  },
+  {
+   "id": "1005010449127740",
+   "name": "K&F CONCEPT ND100000 16.6 Stops ND Lens Solar",
+   "short": "K&F CONCEPT ND100000",
+   "cat": "lens",
+   "niches": [
+    "creators"
+   ],
+   "tag": "עדשה / פילטר",
+   "icon": "🔭",
+   "badge": "✨ חדש באתר",
+   "desc": "עדשה או פילטר לטלפון ולמצלמה — זווית רחבה, מאקרו ומראה קולנועי.",
+   "positive": 98,
+   "sold": "460+ מכירות",
+   "price": 76,
+   "listPrice": 182,
+   "commission": 10,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S76b1a1b2088d4f998debbf5f5a1981afD.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyiaStlSWtpDkYrOcfKtxxFu8qhqLcrZYJvauFPcusBawtVdAHkdhlvbIMS4h02J4XxBcx0uk4ZRQ8RCqfSpiumsMzp2fwIVZFTUzqAOs2BYUGQOTVfrsGL3z5mbHGf2hSQFm7PCjtVlc4Rz4AnRNWxNo8YAbx7lilpCbOE34wrGUx4DZypyZEro5S7PUasDD0WV3kFmbb59SW0WgnadfrXRsteFMp9F2BwY4qpTMa7uwbC4LSytHmaFIs6r8SNJdej4lnq5ps9KsZ8zvUPcFsBYOxM0eAqWErIv8CDhSFRBIIZMuN6JSe5XVIkcCux9JFHbHEwSZlzz3TbCpQjQphGF7t92ZOkLesaB8ZoT0IXnD9w8zqmGPZbeG8BIZ1sO8DBycxMc1b2h1C5g5Y1a8WuT5WqpmItZB9jOs23mnhMF4Y7iIfePqRgKTYo5Q13vecpD8BXSGRpJOx0iLnEQEOXOqVlfyghrzdmNsCn2zScYa8DdkDZtMRXXN0nvXC6khmno3BerZ8Xq1B47l3wXxD4qA7kzo5EvPWKLuDQbK7ryss3y7IPTWFHE4B1TNaMoBwzVibSEBuvxswD9jq9t14LpOcc8g0jfob7pf2V7FODnAKQ3Zz5pe5RTtEoP5OYX53wZAovxjUhVPWAVkrMu9HTacluhS0TrIUvvTwvx5rjg9YnhiVVB0GrupecJGhEoKmhHAzClXkdp5",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-08"
+  },
+  {
+   "id": "1005009695617845",
+   "name": "MCHOSE X9 Tri-Mode Wireless Gaming Headset",
+   "short": "MCHOSE X9 Tri-Mode",
+   "cat": "headphones",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אוזניות DJ",
+   "icon": "🎧",
+   "badge": "🔥 1,800+ מכירות",
+   "desc": "אוזניות לדיג'יי — סגורות, עם בס חזק ומבנה שמחזיק גם בסטים ארוכים. כולל: סינון רעשים, סראונד 7.1.",
+   "positive": 98,
+   "sold": "1,800+ מכירות",
+   "price": 208,
+   "listPrice": 453,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S80767f1876f3462d8a2f6cfd1e264d97j.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmIdc3kNRKJNN3Yx30lguypijL9tP75mkNBI1CeqdoDU5ta7RSg576nMlG7wnFGVDc0AWuvxoc4r0meV9mLNTDiLGVNsyx2gQzRYtdOpLlz35uLBP3TroNceTPmJB7Yjz7tg5ave9Yw1rIfS0vOQL6UeJFK9vxzokDORLdfN6XWZdWjh8RpOcypn6JYHibrg8tf5m4ENP2VFmmNKyf55vO1suJoZ2ZrypUhFgKj7615PAluzWgE20FtewrapLvdJvG3ZmWj7aYWZ2DwcT94fX0FThyYzmW2pS6IVuSKd3wdQV7MST1l20KlgcROQKO8JFb0eY1jNGyYgNJdKzPOY1Muw7jmuVX3WuzJpvTge6kFHw9M6nSnVEvwr4ZIlvxJGN5Z5UYbh8OcHfiZzLguInO4rKKxcnBsgdRyUKeqXOCd3kJ3CjBZMxaAzpVtg8F41ZcCJWQQPp33zIovELR005oOedsDVByT2jCk5JQjEwCDxdUVNI9r4RUCAThg3KoJdV2wG0AlSOzoJcTEMM4ySoVfD5bRaAnUAa0dk4rnn7vQbfJPHQfrny7tZM3uqWUZFZc8Jw3nKFzWWuWLiDjn019UGqyHfBXOhfBJOZjGy5RePF83dbyeFNH1XO2vKgoaEojlt50TQKiXOyTm539MskSCsZAjOsvDgl7r4fuauHzlmjku6dU8wXguEMQBHPmrVMfqXNQsWk7rMnW",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-08"
+  },
+  {
+   "id": "1005009874196617",
+   "name": "Lenovo Original Stylus Pen",
+   "short": "Lenovo Original Stylus",
+   "cat": "editing",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "ציוד לעריכה",
+   "icon": "✂️",
+   "badge": "🔥 1,100+ מכירות",
+   "desc": "ציוד לעריכה ולשידור — עבודה מהירה ונוחה יותר על וידאו, סאונד ותמונות. כולל: חיבור USB-C, הצמדה מגנטית.",
+   "positive": 98,
+   "sold": "1,100+ מכירות",
+   "price": 95,
+   "listPrice": 191,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b68f699abf74d439cb9dcfd930975292.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C23UgYwuTePTIAinkE6p0RGxvBiB8EBoydBeMMZEugstf66G8aqrBKL3eIlgxxRNI5emzvdTV1ycdQAbc5I8hejVO8kXJuUtsPPnqAQv7DLtYXCUIwD5ohuPobrN6BpmDokVLLkMSpLsAZ7K5hGMXUjSeaJWHsHh46a4CXusI23kqDCPzAeMGcG9mxjrtIA7pSPn7iMsJd2LGUCPG2NYW239F2C7CSmswnlHwlb5zXorClpb9zkIWizZhpRiEBDsMQqBLCsZEmt6m6Yd1q0opXYtnxGrrIY4hK2cUFvZEOxSwcBb0Xbkwc1zxU68g8kMoI4dgfLsazIgGuZotJfrxq2aFxqXfPR7CKsvkjEH2IqbZZ2MBbvF1bs8Kj7alF4xTBjg2fTFTyGFGwVKEePOJnoc3rB6hqrJsqRmx86NVEfWlxk4hbr6FOFwG74744D1IsoVJbQjX5rbnix5pysovjaE8AZXCiDUOg0Bv68FqrtemwxpAZppSkU2LbSzhxBP5ArFO13JJWtSz7cmw7kCqBDH08Vh0Fc0f2Fy4ISOM5wruSkirXUGRKe2BbDSmU4b8ywDrPlUo0nRFNPFaH8JB1drPV7Bgw5lQjthmTyYJ7lBFj0aqhvy0UTBqv6p1cVQGT6Nx5ejF6KX8tRql5xBIRg52Xzbciy7PDwgCBONn8C5IMjejTJr0SZERPrCf2ZeDdmNI5IiBoZDXG",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-08"
   }
  ]
 }

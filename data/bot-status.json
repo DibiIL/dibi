@@ -571,32 +571,32 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-07T03:43:54.134Z",
+  "at": "2026-11-08T03:43:52.997Z",
   "ok": true,
   "added": [
    {
-    "id": "1005008108618534",
-    "name": "Ulanzi TT88 1.44M Overhead Selfie Stick Phone",
+    "id": "1005010449127740",
+    "name": "K&F CONCEPT ND100000 16.6 Stops ND Lens Solar",
     "niche": "creators",
-    "cat": "tripod",
-    "price": 72,
-    "commission": 8
+    "cat": "lens",
+    "price": 76,
+    "commission": 10
    },
    {
-    "id": "1005006648408257",
-    "name": "FIFINE USB Gaming Mixer",
+    "id": "1005009695617845",
+    "name": "MCHOSE X9 Tri-Mode Wireless Gaming Headset",
+    "niche": "dj",
+    "cat": "headphones",
+    "price": 208,
+    "commission": 7
+   },
+   {
+    "id": "1005009874196617",
+    "name": "Lenovo Original Stylus Pen",
     "niche": "podcast",
-    "cat": "soundcard",
-    "price": 134,
-    "commission": 8
-   },
-   {
-    "id": "1005013120140830",
-    "name": "DITONG Full HD Projector Native 1080P Support",
-    "niche": "screens",
-    "cat": "projector",
-    "price": 884,
-    "commission": 8
+    "cat": "editing",
+    "price": 95,
+    "commission": 7
    }
   ]
  }
