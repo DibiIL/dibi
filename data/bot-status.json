@@ -1,13 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-08T04:17:10.433Z",
+  "at": "2026-11-08T10:17:11.193Z",
   "ok": true,
   "checked": 36,
   "returned": 35,
-  "changes": [
-   "Wireless Guitar: ₪46 → ₪44",
-   "BINNUNE BW06: ₪91 → ₪82"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -173,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 77,
+    "missing": 78,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -182,7 +179,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 46,
+    "before": 44,
     "api": {
      "sale": "44.16",
      "app": "44.16",
@@ -246,7 +243,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 91,
+    "before": 82,
     "api": {
      "sale": "82.24",
      "app": "82.24",
