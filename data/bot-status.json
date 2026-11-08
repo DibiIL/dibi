@@ -1,15 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-07T22:17:10.132Z",
+  "at": "2026-11-08T04:17:10.433Z",
   "ok": true,
-  "checked": 33,
-  "returned": 32,
+  "checked": 36,
+  "returned": 35,
   "changes": [
-   "FIFINE SC8: ₪190 → ₪209",
-   "EMEET PIXY: ₪297 → ₪314",
-   "Ulanzi TT88 1.44M: ₪72 → ₪78",
-   "FIFINE USB Gaming: ₪134 → ₪148",
-   "DITONG Full HD: ₪884 → ₪930"
+   "Wireless Guitar: ₪46 → ₪44",
+   "BINNUNE BW06: ₪91 → ₪82"
   ],
   "items": [
    {
@@ -111,7 +108,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 190,
+    "before": 209,
     "api": {
      "sale": "208.90",
      "app": "208.90",
@@ -176,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 76,
+    "missing": 77,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -187,13 +184,13 @@
     "name": "Wireless Guitar",
     "before": 46,
     "api": {
-     "sale": "46.06",
-     "app": "46.06",
+     "sale": "44.16",
+     "app": "44.16",
      "original": "97.95",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb38dc08277c4c7684803c70427d5fe43.png",
-    "after": 46,
+    "after": 44,
     "listPrice": 98,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S99fe2c093a5e456cb9d922f71d9d15cfw.jpg",
     "active": true
@@ -201,7 +198,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 297,
+    "before": 314,
     "api": {
      "sale": "314.31",
      "app": "314.31",
@@ -251,14 +248,14 @@
     "name": "BINNUNE BW06",
     "before": 91,
     "api": {
-     "sale": "91.39",
-     "app": "91.39",
-     "original": "198.67",
+     "sale": "82.24",
+     "app": "82.24",
+     "original": "198.11",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S069d23bc65fa4375a875c38be27f1af09.jpg",
-    "after": 91,
-    "listPrice": 199,
+    "after": 82,
+    "listPrice": 198,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S069d23bc65fa4375a875c38be27f1af09.jpg",
     "active": true
    },
@@ -489,7 +486,7 @@
    {
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
-    "before": 72,
+    "before": 78,
     "api": {
      "sale": "77.90",
      "app": "77.90",
@@ -505,7 +502,7 @@
    {
     "id": "1005006648408257",
     "name": "FIFINE USB Gaming",
-    "before": 134,
+    "before": 148,
     "api": {
      "sale": "148.39",
      "app": "148.39",
@@ -521,7 +518,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 884,
+    "before": 930,
     "api": {
      "sale": "929.90",
      "app": "929.90",
@@ -532,6 +529,54 @@
     "after": 930,
     "listPrice": 1603,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
+    "active": true
+   },
+   {
+    "id": "1005010449127740",
+    "name": "K&F CONCEPT ND100000",
+    "before": 76,
+    "api": {
+     "sale": "75.81",
+     "app": "75.81",
+     "original": "182.30",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S76b1a1b2088d4f998debbf5f5a1981afD.png",
+    "after": 76,
+    "listPrice": 182,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S76b1a1b2088d4f998debbf5f5a1981afD.png",
+    "active": true
+   },
+   {
+    "id": "1005009695617845",
+    "name": "MCHOSE X9 Tri-Mode",
+    "before": 208,
+    "api": {
+     "sale": "208.39",
+     "app": "208.39",
+     "original": "453.02",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S80767f1876f3462d8a2f6cfd1e264d97j.jpg",
+    "after": 208,
+    "listPrice": 453,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S80767f1876f3462d8a2f6cfd1e264d97j.jpg",
+    "active": true
+   },
+   {
+    "id": "1005009874196617",
+    "name": "Lenovo Original Stylus",
+    "before": 95,
+    "api": {
+     "sale": "95.39",
+     "app": "95.39",
+     "original": "190.78",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b68f699abf74d439cb9dcfd930975292.png",
+    "after": 95,
+    "listPrice": 191,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2b68f699abf74d439cb9dcfd930975292.png",
     "active": true
    }
   ]
