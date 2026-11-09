@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T04:17:10.424Z",
+ "updated": "2026-11-09T03:43:58.244Z",
  "niches": [
   {
    "id": "music",
@@ -1062,6 +1062,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-08"
+  },
+  {
+   "id": "1005007539994621",
+   "name": "XinMic Wireless Lavalier Lapel Microphone Noise",
+   "short": "XinMic Wireless Lavalier",
+   "cat": "wireless-mic",
+   "niches": [
+    "creators"
+   ],
+   "tag": "מיקרופון אלחוטי",
+   "icon": "📡",
+   "badge": "🔥 2,400+ מכירות",
+   "desc": "מיקרופון אלחוטי לצילום בטלפון ובמצלמה — סאונד נקי לסרטונים, ראיונות ולייבים. כולל: חיבור USB-C, סינון רעשים.",
+   "positive": 98,
+   "sold": "2,400+ מכירות",
+   "price": 53,
+   "listPrice": 121,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3f4187aaff8e4770ae17284bf42976e7O.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cowf7Xuotw188VZitfbvGfsGUgmPZzaTsjnZXeLgtFGsmOVBUUJl6c0crovsdhuK5uu8tGTUtLxUaWDl38FbRDhFI8DeWiDsjDPsY4UqCxvA5eehcpbLEmpBEW8ZakSviRgU0Vv8L3tzZ9MvFKZnowiujvw0CaOTCaCif6G08RkdHNKWTxm2GgU4zygNFwn4x8JrKc9dQJqJB6pZkGUJ7uigV8Dlv7URco8ftlGEv4Q4nSjb7AEDfU0LO1NhqUUqEEdN2xvHV8An2cRYi27jWwju2WUpVdCmSE2jjD4hgijtTxFetkFW3w49EpW0hdS82gvcCfAnd2yysOkg4VFxfAgcBUkDgjeajzYjSi6Zo0fHKkXJALfdPGF8KGe8LzqH4KKxDhYFaqFAa6tMOkUjjnd9gHBqrd6rnsGn0kmzwTrHAmayk8YILwfvRNuFf01NlsQRAadX8g0mg3bDmCUbG7vzlJVY1Ft2mCFk2Zr0jey7VW6eJAKUyloXpKQ07ufL4pr8HmefUvAMVT9MRzEFi4DM65vHEXk35dGvMdwlElsRIhl7YtgSnsVD81fzXWzNotccAa0QIcNOJygrZyNnpr8JH38VJES9G9VjkeTn0FzKsDzKhqlyMCOE0EK3GVGiHrWg9Dw3VSz4bSruQWBJEbRYXrcN4aSexptIcQGPnQhTU7QG9dGqANo3zpXwmChki9tEHdZDevwF1u",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-09"
+  },
+  {
+   "id": "1005010155315423",
+   "name": "DT-02B Foldable Adjustable Aluminum Alloy Cooling",
+   "short": "DT-02B Foldable Adjustable",
+   "cat": "screen-acc",
+   "niches": [
+    "screens"
+   ],
+   "tag": "אביזר למסך",
+   "icon": "🗜️",
+   "badge": "🔥 1,000+ מכירות",
+   "desc": "אביזר למסך ולמקרן — העמדה נוחה, מסודרת ובגובה הנכון. כולל: מתקפל, גוף מתכת.",
+   "positive": 98,
+   "sold": "1,000+ מכירות",
+   "price": 85,
+   "listPrice": 170,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9f605b0c1f4481baaf2ea82c963d53aM.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C43DqqI71c9xl21WhsTnzIH7nZvBd3LLkUrv7wTZAkDLW0y4F1vTwYaZGB2d2wksxM8CGTPyXkgDINjJUZZ4IqTZsznAh68vDw1gKP2l3GnhSRQEe9XmBU5vEbUMrsBzQsEQzAWOIY2X8F4zdcgd0KsfhaeYxNEq6ztoCLXN0tk1JhBnIoJuIQVWl6KU9aICK1uvt9x1vwgrQtWqRhSV4wNAHpPR80IzsQqOuXxtlZNZTKUieKUkuoEEWSW2TSIj33HaeMFHz5twNy3IKzltjpCJJ5UFtUX1TJoSgUmQUVZwMCkevQTHh8RJuN0Uemi5sg8aC5zL0CQLuTFJKXE2pm8ylisEkV7mulZDTj2xCyOSldo3q7dD37tCsLbI7LaS5sULtkeSaA54G5dXluDpOmlUE90GCZLPYkwiWhnCjDdiNm91MqGCDbS2FG6mjtmKDyvwL0GtdxyAUwZecwHj3Qt8lyivU1D3Ng9tfX0DYM4Get6ENXnAKmGgK5ttXhiuC67g2q4gCtTKniNHiKFsE3fTCmfAUIBHjisWlxuqYeRT6ohSY27TiNYi5XYl7T0j31txrAt1gc4KypQqKLme7QWgQQUJ6XrS2zqICbJH0Oi5DpYQAgT7EbUknlHRkPrV4CAKqr74UsSM0NVk3ePKdU5is1zcyYLQgsp2LnR7qbRyJYJQUetcI8MonM8G8dQQs6RB0m9towjrce",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-09"
+  },
+  {
+   "id": "1005005950115658",
+   "name": "FIFINE Gaming USB Mixer",
+   "short": "FIFINE Gaming USB",
+   "cat": "mixer",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "מיקסר פודקאסט",
+   "icon": "🎚️",
+   "badge": "✨ חדש באתר",
+   "desc": "עמדת שידור לפודקאסט ולסטרימינג — כמה מיקרופונים, אפקטים ושליטה מלאה בקול. כולל: חיבור XLR, 4 ערוצים, תאורת RGB.",
+   "positive": 97,
+   "sold": "800+ מכירות",
+   "price": 143,
+   "listPrice": 247,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff6438218e64e95981eceec6f8fb927O.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoRpSOCM3q5t6PBT7sC7j75sbpHneBgidKWDFSVgT9BnnR2MTy2wVDWWEJMWExo94nYUCHl2dTkhZ8euSg3N0PR8y33CIsM8bxN9tVSCLKqpkVR5QGhHNgwzqXno77NiYrgyESX5dpSbTi5l94NXu0xzSIYcz09BwsOKM7KK6YQjkgrbWLJYrazYladH1MI4TQLJ0AmiNHqbMUHu8YSotUuX2YEplc9Zg0Fbh4oROuwYEBgelsrzqa0SUm6Tnde3vhb8LN4YJgV1yxaO7NhqUTaqlwupUgaU0SQYxq2uJU3gF0FCWMjJhMgMG3c42Gfmk46uirzICyJIYXyot7u4jV6jtb9UmRAs4OBEVvNU8ZPdt0G46vGrmQITlKbYxMpSsKhLG5AXvlHhV8EwQI2pTuLANbrSrRL0C8S59O5NekAFCEBJaBz0ZZ70JUPa1svnW9FeB5ckhcoQk2DV7DUkxQYikAC47Uh95fD6toiFWozpWP93zOHS7PWqaGWkIbMgtMVaSPOVQaO9xuCVjHMPaLlUOEqjGeWPP5sfHT6vaDINRg84VR3T8NYpHQdWNK1XMsmA2cEtPDulB4Wbtj0vhr6b6sytQGtQlQWPjaqjVkcSqT9QUbFdw6hEmWc46nP7qqyPCqROeRuzo6h9sklmkOVG69RYDelCpsV3x4yDm6AEwg4iBrSHW3EybohAKLNNkrJmqdzMXZXHAA",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-09"
   }
  ]
 }

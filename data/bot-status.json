@@ -615,32 +615,32 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-08T03:43:52.997Z",
+  "at": "2026-11-09T03:43:58.246Z",
   "ok": true,
   "added": [
    {
-    "id": "1005010449127740",
-    "name": "K&F CONCEPT ND100000 16.6 Stops ND Lens Solar",
+    "id": "1005007539994621",
+    "name": "XinMic Wireless Lavalier Lapel Microphone Noise",
     "niche": "creators",
-    "cat": "lens",
-    "price": 76,
-    "commission": 10
-   },
-   {
-    "id": "1005009695617845",
-    "name": "MCHOSE X9 Tri-Mode Wireless Gaming Headset",
-    "niche": "dj",
-    "cat": "headphones",
-    "price": 208,
+    "cat": "wireless-mic",
+    "price": 53,
     "commission": 7
    },
    {
-    "id": "1005009874196617",
-    "name": "Lenovo Original Stylus Pen",
+    "id": "1005010155315423",
+    "name": "DT-02B Foldable Adjustable Aluminum Alloy Cooling",
+    "niche": "screens",
+    "cat": "screen-acc",
+    "price": 85,
+    "commission": 7
+   },
+   {
+    "id": "1005005950115658",
+    "name": "FIFINE Gaming USB Mixer",
     "niche": "podcast",
-    "cat": "editing",
-    "price": 95,
-    "commission": 7
+    "cat": "mixer",
+    "price": 143,
+    "commission": 8
    }
   ]
  }
