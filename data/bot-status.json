@@ -1,12 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-09T16:17:11.254Z",
+  "at": "2026-11-09T22:17:16.628Z",
   "ok": true,
   "checked": 39,
   "returned": 38,
-  "changes": [
-   "DITONG Full HD: ₪875 → ₪867"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -172,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 83,
+    "missing": 84,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -517,7 +515,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 875,
+    "before": 867,
     "api": {
      "sale": "867.04",
      "app": "867.04",
