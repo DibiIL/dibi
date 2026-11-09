@@ -1,48 +1,17 @@
 {
  "prices": {
-  "at": "2026-11-09T04:17:10.511Z",
+  "at": "2026-11-09T10:17:15.002Z",
   "ok": true,
   "checked": 39,
   "returned": 38,
   "changes": [
-   "MAONO PS22: ₪196 → ₪194",
-   "FIFINE A2: ₪76 → ₪75",
-   "FIFINE AM8: ₪171 → ₪170",
-   "M-VAVE SMK-25: ₪138 → ₪136",
-   "M-VAVE SMC PAD: ₪102 → ₪101",
-   "AIYIMA S4000: ₪683 → ₪676",
-   "FIFINE SC8: ₪209 → ₪207",
-   "Depusheng Mixer: ₪75 → ₪74",
-   "Oneodio Pro 50: ₪128 → ₪126",
-   "Rowin Looper: ₪80 → ₪79",
-   "EMEET PIXY: ₪314 → ₪311",
-   "Softbox Kit: ₪136 → ₪134",
-   "MCHOSE V9 Pro: ₪172 → ₪170",
-   "BINNUNE BW06: ₪82 → ₪81",
-   "Art-Net DMX: ₪217 → ₪214",
-   "Haomuren Mic Kit: ₪121 → ₪120",
-   "MAONO PD400X: ₪434 → ₪429",
-   "HOMEFISH Light Bar: ₪37 → ₪36",
-   "Haomuren Pink Mic: ₪96 → ₪95",
-   "Ezcap326C: ₪228 → ₪226",
-   "MAONO PD100X: ₪173 → ₪171",
-   "Maono DGM20S: ₪211 → ₪209",
-   "Original Redmi Stylus: ₪203 → ₪201",
-   "DJ Controller Case: ₪155 → ₪153",
-   "BOYA Mini 2: ₪85 → ₪84",
-   "Gaming Laptop Cooler: ₪72 → ₪71",
-   "Ulanzi TT88 1.44M: ₪78 → ₪77",
-   "FIFINE USB Gaming: ₪148 → ₪147",
-   "DITONG Full HD: ₪930 → ₪921",
-   "K&F CONCEPT ND100000: ₪76 → ₪75",
-   "MCHOSE X9 Tri-Mode: ₪208 → ₪206",
-   "Lenovo Original Stylus: ₪95 → ₪94"
+   "DITONG Full HD: ₪921 → ₪875"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 196,
+    "before": 194,
     "api": {
      "sale": "193.90",
      "app": "193.90",
@@ -58,7 +27,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 76,
+    "before": 75,
     "api": {
      "sale": "75.14",
      "app": "75.14",
@@ -74,7 +43,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 171,
+    "before": 170,
     "api": {
      "sale": "169.69",
      "app": "169.69",
@@ -90,7 +59,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 138,
+    "before": 136,
     "api": {
      "sale": "136.39",
      "app": "136.39",
@@ -106,7 +75,7 @@
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 102,
+    "before": 101,
     "api": {
      "sale": "100.90",
      "app": "100.90",
@@ -122,7 +91,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 683,
+    "before": 676,
     "api": {
      "sale": "675.90",
      "app": "675.90",
@@ -138,7 +107,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 209,
+    "before": 207,
     "api": {
      "sale": "206.90",
      "app": "206.90",
@@ -154,7 +123,7 @@
    {
     "id": "1005008248050829",
     "name": "Depusheng Mixer",
-    "before": 75,
+    "before": 74,
     "api": {
      "sale": "74.39",
      "app": "74.39",
@@ -170,7 +139,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 128,
+    "before": 126,
     "api": {
      "sale": "126.29",
      "app": "126.29",
@@ -186,7 +155,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 80,
+    "before": 79,
     "api": {
      "sale": "79.39",
      "app": "79.39",
@@ -203,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 81,
+    "missing": 82,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -228,7 +197,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 314,
+    "before": 311,
     "api": {
      "sale": "310.93",
      "app": "310.93",
@@ -244,7 +213,7 @@
    {
     "id": "1005006861879179",
     "name": "Softbox Kit",
-    "before": 136,
+    "before": 134,
     "api": {
      "sale": "134.39",
      "app": "134.39",
@@ -260,7 +229,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 172,
+    "before": 170,
     "api": {
      "sale": "169.99",
      "app": "169.99",
@@ -276,7 +245,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 82,
+    "before": 81,
     "api": {
      "sale": "81.35",
      "app": "81.35",
@@ -292,7 +261,7 @@
    {
     "id": "1005009116309896",
     "name": "Art-Net DMX",
-    "before": 217,
+    "before": 214,
     "api": {
      "sale": "214.39",
      "app": "214.39",
@@ -308,7 +277,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 121,
+    "before": 120,
     "api": {
      "sale": "119.55",
      "app": "119.55",
@@ -324,7 +293,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 434,
+    "before": 429,
     "api": {
      "sale": "429.45",
      "app": "429.45",
@@ -340,7 +309,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 37,
+    "before": 36,
     "api": {
      "sale": "36.23",
      "app": "36.23",
@@ -356,7 +325,7 @@
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 96,
+    "before": 95,
     "api": {
      "sale": "94.90",
      "app": "94.90",
@@ -372,7 +341,7 @@
    {
     "id": "1005008337928752",
     "name": "Ezcap326C",
-    "before": 228,
+    "before": 226,
     "api": {
      "sale": "225.69",
      "app": "225.69",
@@ -388,7 +357,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 173,
+    "before": 171,
     "api": {
      "sale": "170.90",
      "app": "170.90",
@@ -404,7 +373,7 @@
    {
     "id": "1005005709908265",
     "name": "Maono DGM20S",
-    "before": 211,
+    "before": 209,
     "api": {
      "sale": "208.99",
      "app": "208.99",
@@ -420,7 +389,7 @@
    {
     "id": "1005007741684423",
     "name": "Original Redmi Stylus",
-    "before": 203,
+    "before": 201,
     "api": {
      "sale": "200.69",
      "app": "200.69",
@@ -452,7 +421,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 155,
+    "before": 153,
     "api": {
      "sale": "153.39",
      "app": "153.39",
@@ -484,7 +453,7 @@
    {
     "id": "1005010241212987",
     "name": "BOYA Mini 2",
-    "before": 85,
+    "before": 84,
     "api": {
      "sale": "84.39",
      "app": "84.39",
@@ -500,7 +469,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 72,
+    "before": 71,
     "api": {
      "sale": "71.08",
      "app": "71.08",
@@ -516,23 +485,23 @@
    {
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
-    "before": 78,
+    "before": 77,
     "api": {
-     "sale": "77.39",
-     "app": "77.39",
-     "original": "188.76",
+     "sale": "77.10",
+     "app": "77.10",
+     "original": "188.26",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
     "after": 77,
-    "listPrice": 189,
+    "listPrice": 188,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
     "active": true
    },
    {
     "id": "1005006648408257",
     "name": "FIFINE USB Gaming",
-    "before": 148,
+    "before": 147,
     "api": {
      "sale": "146.90",
      "app": "146.90",
@@ -548,23 +517,23 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 930,
+    "before": 921,
     "api": {
-     "sale": "920.90",
-     "app": "920.90",
-     "original": "1587.76",
+     "sale": "875.10",
+     "app": "875.10",
+     "original": "1586.55",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 921,
-    "listPrice": 1588,
+    "after": 875,
+    "listPrice": 1587,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
    },
    {
     "id": "1005010449127740",
     "name": "K&F CONCEPT ND100000",
-    "before": 76,
+    "before": 75,
     "api": {
      "sale": "75.06",
      "app": "75.06",
@@ -580,7 +549,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 208,
+    "before": 206,
     "api": {
      "sale": "206.39",
      "app": "206.39",
@@ -596,7 +565,7 @@
    {
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
-    "before": 95,
+    "before": 94,
     "api": {
      "sale": "94.39",
      "app": "94.39",
@@ -646,9 +615,9 @@
     "name": "FIFINE Gaming USB",
     "before": 143,
     "api": {
-     "sale": "143.39",
-     "app": "143.39",
-     "original": "247.22",
+     "sale": "143.10",
+     "app": "143.10",
+     "original": "246.97",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff6438218e64e95981eceec6f8fb927O.jpg",
