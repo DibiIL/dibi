@@ -1,13 +1,23 @@
 {
  "prices": {
-  "at": "2026-11-10T10:17:16.024Z",
+  "at": "2026-11-10T16:17:15.881Z",
   "ok": true,
   "checked": 42,
   "returned": 41,
   "changes": [
-   "Original Redmi Stylus: ₪201 → ₪200",
-   "DITONG Full HD: ₪862 → ₪851",
-   "MCHOSE X9 Tri-Mode: ₪204 → ₪205"
+   "M-VAVE SMK-25: ₪136 → ₪139",
+   "Depusheng Mixer: ₪74 → ₪73",
+   "Rowin Looper: ₪79 → ₪78",
+   "MCHOSE V9 Pro: ₪169 → ₪164",
+   "Art-Net DMX: ₪213 → ₪214",
+   "Haomuren Mic Kit: ₪119 → ₪116",
+   "MAONO PD100X: ₪170 → ₪169",
+   "DJ Controller Case: ₪152 → ₪150",
+   "Spring-Free Microphone Arm: ₪55 → ₪57",
+   "MCHOSE X9 Tri-Mode: ₪205 → ₪210",
+   "XinMic Wireless Lavalier: ₪53 → ₪54",
+   "DT-02B Foldable Adjustable: ₪84 → ₪87",
+   "TAVOSOP Portable 4: ₪101 → ₪100"
   ],
   "items": [
    {
@@ -63,14 +73,14 @@
     "name": "M-VAVE SMK-25",
     "before": 136,
     "api": {
-     "sale": "135.69",
-     "app": "135.69",
-     "original": "315.56",
+     "sale": "139.39",
+     "app": "139.39",
+     "original": "324.16",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 136,
-    "listPrice": 316,
+    "after": 139,
+    "listPrice": 324,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
@@ -127,14 +137,14 @@
     "name": "Depusheng Mixer",
     "before": 74,
     "api": {
-     "sale": "73.69",
-     "app": "73.69",
-     "original": "160.20",
+     "sale": "72.69",
+     "app": "72.69",
+     "original": "158.02",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
-    "after": 74,
-    "listPrice": 160,
+    "after": 73,
+    "listPrice": 158,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sa379a99d3fa142288966c87bbeae01691.jpg",
     "active": true
    },
@@ -159,13 +169,13 @@
     "name": "Rowin Looper",
     "before": 79,
     "api": {
-     "sale": "78.69",
-     "app": "78.69",
-     "original": "157.38",
+     "sale": "78.39",
+     "app": "78.39",
+     "original": "156.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
-    "after": 79,
+    "after": 78,
     "listPrice": 157,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sefc9f3fb4c6343b2acbf98d2946aee97L.png",
     "active": true
@@ -174,7 +184,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 86,
+    "missing": 87,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -185,9 +195,9 @@
     "name": "Wireless Guitar",
     "before": 43,
     "api": {
-     "sale": "43.44",
-     "app": "43.44",
-     "original": "96.37",
+     "sale": "43.35",
+     "app": "43.35",
+     "original": "96.19",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb38dc08277c4c7684803c70427d5fe43.png",
@@ -233,14 +243,14 @@
     "name": "MCHOSE V9 Pro",
     "before": 169,
     "api": {
-     "sale": "169.39",
-     "app": "169.39",
-     "original": "338.78",
+     "sale": "164.39",
+     "app": "164.39",
+     "original": "328.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6280ee1c80b545bf8d7f26ee105aabb1t.jpg",
-    "after": 169,
-    "listPrice": 339,
+    "after": 164,
+    "listPrice": 329,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S3389f5f2b489479a9b127d51b8cc9b75k.jpg",
     "active": true
    },
@@ -265,13 +275,13 @@
     "name": "Art-Net DMX",
     "before": 213,
     "api": {
-     "sale": "213.39",
-     "app": "213.39",
-     "original": "426.78",
+     "sale": "213.69",
+     "app": "213.69",
+     "original": "427.38",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
-    "after": 213,
+    "after": 214,
     "listPrice": 427,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
     "active": true
@@ -281,14 +291,14 @@
     "name": "Haomuren Mic Kit",
     "before": 119,
     "api": {
-     "sale": "118.91",
-     "app": "118.91",
-     "original": "278.56",
+     "sale": "115.52",
+     "app": "115.52",
+     "original": "270.98",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5cddb1a36fbd4776ae3b36e8bca879f3o.jpg",
-    "after": 119,
-    "listPrice": 279,
+    "after": 116,
+    "listPrice": 271,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5cddb1a36fbd4776ae3b36e8bca879f3o.jpg",
     "active": true
    },
@@ -313,9 +323,9 @@
     "name": "HOMEFISH Light Bar",
     "before": 36,
     "api": {
-     "sale": "36.04",
-     "app": "36.04",
-     "original": "92.90",
+     "sale": "36.00",
+     "app": "36.00",
+     "original": "92.81",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c709e83eb0e48098f0324ae35f71f8a6.jpg",
@@ -361,14 +371,14 @@
     "name": "MAONO PD100X",
     "before": 170,
     "api": {
-     "sale": "169.90",
-     "app": "169.90",
-     "original": "339.80",
+     "sale": "168.90",
+     "app": "168.90",
+     "original": "337.80",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S92d9f63fbf444086be5eb1fcabe32c54K.jpg",
-    "after": 170,
-    "listPrice": 340,
+    "after": 169,
+    "listPrice": 338,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
     "active": true
    },
@@ -391,7 +401,7 @@
    {
     "id": "1005007741684423",
     "name": "Original Redmi Stylus",
-    "before": 201,
+    "before": 200,
     "api": {
      "sale": "199.69",
      "app": "199.69",
@@ -425,14 +435,14 @@
     "name": "DJ Controller Case",
     "before": 152,
     "api": {
-     "sale": "152.39",
-     "app": "152.39",
-     "original": "304.78",
+     "sale": "149.69",
+     "app": "149.69",
+     "original": "299.38",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S573da2761a6e431ab68bf86dc9e8ea3aS.jpg",
-    "after": 152,
-    "listPrice": 305,
+    "after": 150,
+    "listPrice": 299,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S573da2761a6e431ab68bf86dc9e8ea3aS.jpg",
     "active": true
    },
@@ -441,14 +451,14 @@
     "name": "Spring-Free Microphone Arm",
     "before": 55,
     "api": {
-     "sale": "55.39",
-     "app": "55.39",
-     "original": "110.78",
+     "sale": "56.59",
+     "app": "56.59",
+     "original": "113.18",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb82a2513a2e54a53b81944a723891fc7R.png",
-    "after": 55,
-    "listPrice": 111,
+    "after": 57,
+    "listPrice": 113,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb82a2513a2e54a53b81944a723891fc7R.png",
     "active": true
    },
@@ -519,7 +529,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 862,
+    "before": 851,
     "api": {
      "sale": "851.16",
      "app": "851.16",
@@ -551,16 +561,16 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 204,
+    "before": 205,
     "api": {
-     "sale": "204.99",
-     "app": "204.99",
-     "original": "445.63",
+     "sale": "210.39",
+     "app": "210.39",
+     "original": "457.37",
      "currency": "ILS"
     },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S80767f1876f3462d8a2f6cfd1e264d97j.jpg",
-    "after": 205,
-    "listPrice": 446,
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6181cbcce8af48e392c88ccac33a8d1bw.jpg",
+    "after": 210,
+    "listPrice": 457,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S80767f1876f3462d8a2f6cfd1e264d97j.jpg",
     "active": true
    },
@@ -585,14 +595,14 @@
     "name": "XinMic Wireless Lavalier",
     "before": 53,
     "api": {
-     "sale": "52.79",
-     "app": "52.79",
-     "original": "119.98",
+     "sale": "53.59",
+     "app": "53.59",
+     "original": "121.80",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3f4187aaff8e4770ae17284bf42976e7O.jpg",
-    "after": 53,
-    "listPrice": 120,
+    "after": 54,
+    "listPrice": 122,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S3f4187aaff8e4770ae17284bf42976e7O.jpg",
     "active": true
    },
@@ -601,14 +611,14 @@
     "name": "DT-02B Foldable Adjustable",
     "before": 84,
     "api": {
-     "sale": "84.39",
-     "app": "84.39",
-     "original": "168.78",
+     "sale": "86.69",
+     "app": "86.69",
+     "original": "173.38",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9f605b0c1f4481baaf2ea82c963d53aM.jpg",
-    "after": 84,
-    "listPrice": 169,
+    "after": 87,
+    "listPrice": 173,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9f605b0c1f4481baaf2ea82c963d53aM.jpg",
     "active": true
    },
@@ -665,14 +675,14 @@
     "name": "TAVOSOP Portable 4",
     "before": 101,
     "api": {
-     "sale": "101.39",
-     "app": "101.39",
-     "original": "202.78",
+     "sale": "99.69",
+     "app": "99.69",
+     "original": "199.38",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S251a2c045db34026bd23de8b2c84db312.png",
-    "after": 101,
-    "listPrice": 203,
+    "after": 100,
+    "listPrice": 199,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S251a2c045db34026bd23de8b2c84db312.png",
     "active": true
    }
