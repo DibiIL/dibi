@@ -1,23 +1,13 @@
 {
  "prices": {
-  "at": "2026-11-10T16:17:15.881Z",
+  "at": "2026-11-10T22:17:11.558Z",
   "ok": true,
   "checked": 42,
   "returned": 41,
   "changes": [
-   "M-VAVE SMK-25: ₪136 → ₪139",
-   "Depusheng Mixer: ₪74 → ₪73",
-   "Rowin Looper: ₪79 → ₪78",
-   "MCHOSE V9 Pro: ₪169 → ₪164",
-   "Art-Net DMX: ₪213 → ₪214",
-   "Haomuren Mic Kit: ₪119 → ₪116",
-   "MAONO PD100X: ₪170 → ₪169",
-   "DJ Controller Case: ₪152 → ₪150",
-   "Spring-Free Microphone Arm: ₪55 → ₪57",
-   "MCHOSE X9 Tri-Mode: ₪205 → ₪210",
-   "XinMic Wireless Lavalier: ₪53 → ₪54",
-   "DT-02B Foldable Adjustable: ₪84 → ₪87",
-   "TAVOSOP Portable 4: ₪101 → ₪100"
+   "FIFINE A2: ₪75 → ₪85",
+   "Gaming Laptop Cooler: ₪71 → ₪75",
+   "Professional Studio Low: ₪161 → ₪172"
   ],
   "items": [
    {
@@ -41,13 +31,13 @@
     "name": "FIFINE A2",
     "before": 75,
     "api": {
-     "sale": "74.76",
-     "app": "74.76",
-     "original": "180.13",
+     "sale": "84.69",
+     "app": "84.69",
+     "original": "180.19",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05f2774f57cc4e78b170e471e0a07689k.jpg",
-    "after": 75,
+    "after": 85,
     "listPrice": 180,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
@@ -71,7 +61,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 136,
+    "before": 139,
     "api": {
      "sale": "139.39",
      "app": "139.39",
@@ -135,7 +125,7 @@
    {
     "id": "1005008248050829",
     "name": "Depusheng Mixer",
-    "before": 74,
+    "before": 73,
     "api": {
      "sale": "72.69",
      "app": "72.69",
@@ -167,7 +157,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 79,
+    "before": 78,
     "api": {
      "sale": "78.39",
      "app": "78.39",
@@ -184,7 +174,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 87,
+    "missing": 88,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -241,7 +231,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 169,
+    "before": 164,
     "api": {
      "sale": "164.39",
      "app": "164.39",
@@ -273,7 +263,7 @@
    {
     "id": "1005009116309896",
     "name": "Art-Net DMX",
-    "before": 213,
+    "before": 214,
     "api": {
      "sale": "213.69",
      "app": "213.69",
@@ -289,7 +279,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 119,
+    "before": 116,
     "api": {
      "sale": "115.52",
      "app": "115.52",
@@ -369,7 +359,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 170,
+    "before": 169,
     "api": {
      "sale": "168.90",
      "app": "168.90",
@@ -433,7 +423,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 152,
+    "before": 150,
     "api": {
      "sale": "149.69",
      "app": "149.69",
@@ -449,7 +439,7 @@
    {
     "id": "1005009184927989",
     "name": "Spring-Free Microphone Arm",
-    "before": 55,
+    "before": 57,
     "api": {
      "sale": "56.59",
      "app": "56.59",
@@ -483,14 +473,14 @@
     "name": "Gaming Laptop Cooler",
     "before": 71,
     "api": {
-     "sale": "70.70",
-     "app": "70.70",
-     "original": "150.43",
+     "sale": "75.39",
+     "app": "75.39",
+     "original": "150.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
-    "after": 71,
-    "listPrice": 150,
+    "after": 75,
+    "listPrice": 151,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
     "active": true
    },
@@ -561,7 +551,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 205,
+    "before": 210,
     "api": {
      "sale": "210.39",
      "app": "210.39",
@@ -593,7 +583,7 @@
    {
     "id": "1005007539994621",
     "name": "XinMic Wireless Lavalier",
-    "before": 53,
+    "before": 54,
     "api": {
      "sale": "53.59",
      "app": "53.59",
@@ -609,7 +599,7 @@
    {
     "id": "1005010155315423",
     "name": "DT-02B Foldable Adjustable",
-    "before": 84,
+    "before": 87,
     "api": {
      "sale": "86.69",
      "app": "86.69",
@@ -659,13 +649,13 @@
     "name": "Professional Studio Low",
     "before": 161,
     "api": {
-     "sale": "161.18",
-     "app": "161.18",
-     "original": "366.76",
+     "sale": "172.39",
+     "app": "172.39",
+     "original": "366.79",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44cb8ab6b9de48a9afaa5853fa461a53C.jpg",
-    "after": 161,
+    "after": 172,
     "listPrice": 367,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S44cb8ab6b9de48a9afaa5853fa461a53C.jpg",
     "active": true
@@ -673,7 +663,7 @@
    {
     "id": "1005011940113445",
     "name": "TAVOSOP Portable 4",
-    "before": 101,
+    "before": 100,
     "api": {
      "sale": "99.69",
      "app": "99.69",
