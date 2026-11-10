@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T16:17:11.246Z",
+ "updated": "2026-11-10T03:43:57.070Z",
  "niches": [
   {
    "id": "music",
@@ -1134,6 +1134,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-09"
+  },
+  {
+   "id": "1005009960273547",
+   "name": "Ourlife Compact Digital Camera 5K 72MP 2.8''",
+   "short": "Ourlife Compact Digital",
+   "cat": "action-cam",
+   "niches": [
+    "creators"
+   ],
+   "tag": "מצלמת אקשן",
+   "icon": "🎥",
+   "badge": "✨ חדש באתר",
+   "desc": "מצלמה קטנה לוולוגים, טיולים וספורט — מצלמים מכל מקום.",
+   "positive": 98,
+   "sold": "540+ מכירות",
+   "price": 117,
+   "listPrice": 234,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8fb76117bf9a44458ea3e313f3b035390.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4o207IkBk0nCR91ox2KIrZZzrqzvRO8l6enCSKOy0zynHKYFGsDtvq6Mf0GGDcHrzJzfvWXZ4p35r0WMTDpb1MbdlNaanfTLJFvlTub9g1mCBZWSsmO1BW1Nq0Ubiv1yKV2Bug8dUZPIQ59wBHyPB5ABeyi9kjnGkWTOCpxB2KPieOZuQDNBUuxNm0peJ1dJKOoMwTKjZ1MEVNBcF0QXDfFauz8FYNrtKQBOeyZVbzU8dribPanJGRSegjQ16DsMRot0ivviak2AuP1UlUT6GNDnOKBQGOwYN2dzTOLiD0j5keMofFNkRIgS1qpy3x3VWVForcY7p4cc1YTaxt7kTfcaBNpVomwnwdcdbg7w5ahFArIDGlgUSXvwhvq91gotwWbRiqjty0MikpXpSnywOqMumGbKAa1MUlSlQXXB95DDtZrQnJJh9ieNFR68Ouv3S26iJ9xUBzZIYB71OqTXNQ5DoHlTGfArwEAhSStLweruLXW7w0hDLGA7P8h1gxp56EQrBxrq3Wpnxy1BUJbo0xbnlvFU85j7QPpahDBoCAktbarzAESQ0NBLSaSpMNrbpbEI3zzRA5uWBLYt3seqjZqynTLUbV7SbhbU3yCAeumhw96wNQX292JArY1Q78loJYmB52p8yqFrpNgyoYRShTSFSdKkrcf8sOvxMH9k5fNoNTsrj1e8nVvNvGevTK4iEEy0Rsoqf6VnK",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-10"
+  },
+  {
+   "id": "1005007670533393",
+   "name": "Professional Studio Low Profile Mic Arm",
+   "short": "Professional Studio Low",
+   "cat": "mic-arm",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "זרוע מיקרופון",
+   "icon": "🦾",
+   "badge": "✨ חדש באתר",
+   "desc": "זרוע למיקרופון — מחזיקה אותו בדיוק מול הפה ומשאירה את השולחן פנוי.",
+   "positive": 98,
+   "sold": "630+ מכירות",
+   "price": 161,
+   "listPrice": 367,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44cb8ab6b9de48a9afaa5853fa461a53C.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2gZfIGaRWmYxv7eG6Bv4RRvRX17s3IIagzUEzkJ0rU4ZVYDowAQurONcYgbkUCEXvn8VpkkZke2LNA0Y5mnkXtCSx6onkNM05ktO1v010ERwcjnbqa7lQSNZq8sut6MuP1cIWbUEjMnzNej04lMXbto4jKPRviY69xD9DIFx4AgIFI9n66xzReIZ6SiyngVpe9wbZsVhaJAXwzfEjoGssVR4PJVqi9yq5fUGgFfrnyZzMCw7NxpAJvcDYh9mDdXWfd9vYsmUYdznGesihrah7PnRRc1EAE3s33EtCTKtbmCm6FKe1Ivdxyvlj3wdNFgEyleEoDX6nmI6On36AAeMu4jF4s90cvWQrYZMpdUKild3kOvy2KKrqJJbNWDioD61ZBKOkMoPFnpaJKWGMn4Y7ulG7ZvW2gNFBmsowd2mO0NSMCfWibEiolQxsCfDprDAY952qfhWpvfr3utdDCXEf8fHRaSGUiy88qrT7Mqg3ZkE04DTxcX4vVhuLPLmV41hsm1OEUsGafNpRUmarFdBc50DoIYVu0lEaKPvhbTFzRaVWVM6P3HvVwryejnSUiGAHOetgn9V2w9Wu3xzjJJPkaUDsfFOwMBigpNbZxnDLH90DLone2OYGoZBcBHALTCARfOhM8H3yI9yGqEiK6GdvsDwOcndodoKeJVzsFjROlkycGeg95I3wduMzDe58IrviG4KORFest5PS",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-10"
+  },
+  {
+   "id": "1005011940113445",
+   "name": "TAVOSOP Portable 4 Channel Audio Mixer Recording",
+   "short": "TAVOSOP Portable 4",
+   "cat": "mixer",
+   "niches": [
+    "music"
+   ],
+   "tag": "מיקסר",
+   "icon": "🎚️",
+   "badge": "✨ חדש באתר",
+   "desc": "מיקסר לחיבור מיקרופונים וכלים, להקלטה ולשידור חי. כולל: 4 ערוצים, פנטום 48V.",
+   "positive": 98,
+   "sold": "370+ מכירות",
+   "price": 101,
+   "listPrice": 203,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S251a2c045db34026bd23de8b2c84db312.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoRAASQeSI3nH4CsNKx1XnMf3dHS0Y6zFJilugOy1D7k7ugnUkbNgvmnlYfP6X3oODDfvmLzkSTgGbLBMfsn79NcYXsOAS0L3TlFY5EI2LTBLY1vpLaWO2FoiifXqCa2EcspMB2rSwAglED5FV0jN36mGO42fgLoCE0qR2cCk3VddNC3xuftFQlBMfTjJ6r4NYS6vSjXcJghaPDFUO8eU8WSzyUPDQEY5KxEh1D5HNjyGkKjkY8JoFdbBT7dWyTltKqYPhw04uXQJBFlCJpVhrs3fPsDgffQJ3BGkeVTumQJ814gXq6NDGfxDzEPOPviZrDa6baHW3NAdq7w3bgPAOjGySgtT9wW4E9IHiOsPgcnxA5voDcDukJSTyD1xqan1oyblKsR9UsksCQtZL51A9mjOLOqf9Buz912yj3TRWSuInt6H1AFarYh3D84LaQz3ls79ffVpmDNSxFNsLFREp7IiZ6tUgYYGbDv6LopvUkQLBBbhCqELJA58y9muSI68ODTzgYe79bvc4TwOqXhXFFmzOiSIhd5McvwQiT5taDApKlleb35l6Ei3i8gbDT31dOJmablScmSKTYG9SnrsZ6GFI7c3ZNhXKVKyHM3zO070VY9B1TL2Nop1bJIus8oVsneI51mXvyBVrOgsMIbZmEOAgZIPp55EOXmo0Hm5Xgvy42HmW8BcgmJ3jKiMl2CRtGY8Zi47QFaH6",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-10"
   }
  ]
 }

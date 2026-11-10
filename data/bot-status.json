@@ -661,32 +661,32 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-09T03:43:58.246Z",
+  "at": "2026-11-10T03:43:57.072Z",
   "ok": true,
   "added": [
    {
-    "id": "1005007539994621",
-    "name": "XinMic Wireless Lavalier Lapel Microphone Noise",
+    "id": "1005009960273547",
+    "name": "Ourlife Compact Digital Camera 5K 72MP 2.8''",
     "niche": "creators",
-    "cat": "wireless-mic",
-    "price": 53,
+    "cat": "action-cam",
+    "price": 117,
     "commission": 7
    },
    {
-    "id": "1005010155315423",
-    "name": "DT-02B Foldable Adjustable Aluminum Alloy Cooling",
-    "niche": "screens",
-    "cat": "screen-acc",
-    "price": 85,
-    "commission": 7
-   },
-   {
-    "id": "1005005950115658",
-    "name": "FIFINE Gaming USB Mixer",
+    "id": "1005007670533393",
+    "name": "Professional Studio Low Profile Mic Arm",
     "niche": "podcast",
+    "cat": "mic-arm",
+    "price": 161,
+    "commission": 7
+   },
+   {
+    "id": "1005011940113445",
+    "name": "TAVOSOP Portable 4 Channel Audio Mixer Recording",
+    "niche": "music",
     "cat": "mixer",
-    "price": 143,
-    "commission": 8
+    "price": 101,
+    "commission": 7
    }
   ]
  }
