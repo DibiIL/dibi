@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T04:17:14.078Z",
+ "updated": "2026-11-10T10:17:16.021Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 85,
+   "missing": 86,
    "autoHidden": true
   },
   {
@@ -789,16 +789,15 @@
    "desc": "ציוד לעריכה ולשידור — עבודה מהירה ונוחה יותר על וידאו, סאונד ותמונות.",
    "positive": 98,
    "sold": "3,300+ מכירות",
-   "price": 201,
-   "listPrice": 386,
+   "price": 200,
+   "listPrice": 384,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3f29bc4488b4672b09231166048c216v.jpg",
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2KjWFQKxg0TPU0i2zxRhalPqeWLSJPe6Z96NkxZPCcbHJkNcdwBYbfW1yKCWn38X08DJPQrawrL6JdcoLaO7qwbLM2sbexPO3nO8rly36nJRrAOo0n4Db8jeHGn3bGY6IqhOnss5beww9pHc8BIvWnydK8EWjCZLnlr8INprOUtJeq24773Iu8VLIoV4bEMHQLyjpmDDRq4nTmLEPTckE3fXHF5PGOoYFetok9B87tK9v0LK0iydn5CEgVgwtVlTzEQOqxgNagRKwurmGVrOyY4ohZmb6vqTMIwnYKROoa5euHuvj2Och9EKvpGKERejSEC8QFKA3yAQGhFOYcloeHVx4Y6Lyuld4GPz2kzgVQRvGVEjJD8yJdvEJBzJO81ewtlDi6yXt1REnmverQetwtura8YYh2aEyt9vUcGNSETVJdE34CDMys3Vl6gsOTWwzttMFfxxQAxFPJKUpiodjVzBAShDMqmdVVNGrhetMYqjVqwtxm2Y0103lTOd1dA59edHeDcJ2DKZB5BcM7Xz6aVjaT9i7FlbwZmvuSEDVvWa9ZyMEjYrDjTUKthvCsbAh6t0ufJ8mQHaiwVuw6KdgCM0E7RmJL65KHPuM9HUqQVxT5Go3jTduJq4NZVJjdiVnWUNynBDGbEnbEwQZ6UjCwb5DgnFzmfpqG8gdHWAIymDzjzaGioAsLoDmxPcywYPuoPm2zXM24wsu",
    "active": true,
    "auto": true,
-   "added": "2026-11-05",
-   "missing": 1
+   "added": "2026-11-05"
   },
   {
    "id": "1005010708281380",
@@ -982,8 +981,8 @@
    "desc": "מקרן לסרטים, גיימינג ומצגות — מסך ענק על כל קיר. כולל: Bluetooth, תומך בתוכן 4K, מערכת Android מובנית.",
    "positive": 100,
    "sold": "240+ מכירות",
-   "price": 862,
-   "listPrice": 1563,
+   "price": 851,
+   "listPrice": 1545,
    "commission": 8,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
@@ -1030,8 +1029,8 @@
    "desc": "אוזניות לדיג'יי — סגורות, עם בס חזק ומבנה שמחזיק גם בסטים ארוכים. כולל: סינון רעשים, סראונד 7.1.",
    "positive": 98,
    "sold": "1,800+ מכירות",
-   "price": 204,
-   "listPrice": 444,
+   "price": 205,
+   "listPrice": 446,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S80767f1876f3462d8a2f6cfd1e264d97j.jpg",
