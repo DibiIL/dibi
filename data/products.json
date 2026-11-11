@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:17:11.553Z",
+ "updated": "2026-11-11T03:43:55.462Z",
  "niches": [
   {
    "id": "music",
@@ -1206,6 +1206,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-10"
+  },
+  {
+   "id": "1005007604218807",
+   "name": "Multi-Layer Transparent Acrylic Keyboard Stand",
+   "short": "Multi-Layer Transparent Acrylic",
+   "cat": "desk",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "סטאפ ושולחן",
+   "icon": "🖱️",
+   "badge": "🔥 3,500+ מכירות",
+   "desc": "אביזר לעמדת גיימינג ועבודה — שולחן מסודר שנראה טוב. כולל: מקלדת מכנית.",
+   "positive": 98,
+   "sold": "3,500+ מכירות",
+   "price": 17,
+   "listPrice": 37,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd58874f115d04cc58147a5fcfe4781cdm.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmQG7mtGxOEI1ifi5BFugcTrmzSmJT28EvaE3f25AxunN0wRaDlsbcqmW9w4neFo8TagVrK3QfoGLcBwbFacWgdTTlrmRCr2uYZDhyuEoYoialuK5cAxY4Qwh78SiV9dj6eKjg88KtPH8yu1jzvXJkKQ61C8OE6nqvLSOm34uDOTZugSog16eb8t00hFg4WXlVkdoicrtEqD4NTQmgJU3M9ilsUhxxDl7QEzLApmyDbqMSHr7DjcNPK2ZJUtOn4hES0sx3N9XSzQSrGHojux0lgOdO2UiZtl1o1CFMiBP5ffk3JgxEuRREbJPkcNLQOquaNjMFyxGTGEk2xhkxrrhiUwnbGmc4uyncbcNj322oHQvIHvBUnqqn1AuMlRAkc7hb1bUXunJCvzufVT4sIgDyWSt1XNx8gif5U5oQbv94u5iG3XuAcR6HPSirWJfLMZTetwbBXPqYaUxixpaTzQpveCss4t4QoCm7XoCClydUsv8UofIqSPtA0ZpbYxD75Gp7yWgXIDhcxxDPYJ81C7IN3dgp9OQeDaAVWpLkiMnhfMoUNpQ5a5QH7Iw2vG1gpvRbXDmMPZaBxzqzgxTLpqnAX0dDxviBDdUfZ1rTMbb2ry91orKAVPIjzrPybtYsAAYRnfFdgLycepzl2TcBpHXjTeOdK1a0iT3wS5NSMYbb73YwMPaoeJNRfvLY8hCfu1NXGMql0jUxbJmP",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-11"
+  },
+  {
+   "id": "1005006966166974",
+   "name": "Ambitful Phone and DSLR Recording Mini Teleprompter",
+   "short": "Ambitful Phone and",
+   "cat": "creator-gear",
+   "niches": [
+    "creators"
+   ],
+   "tag": "אביזר צילום",
+   "icon": "🎬",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר ליוצרי תוכן — סטודיו קטן ומסודר בבית. כולל: שלט רחוק.",
+   "positive": 98,
+   "sold": "440+ מכירות",
+   "price": 156,
+   "listPrice": 313,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S533260b1601f4424ba9735964e83be9dJ.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2075o0AsdlGnotcfCaHvk6zLNWfZycgETm8CNtaloamTqSFQuxN03ydyS31FlzVCPkbmlFT8yu08hTlZ4AScYSMvPdlNwelaZ04Np264zU3tzYH9KTjPlGU766zZNzDjqBVq9C0XoW3IQxB3QvX3pDLOJV3kNlOU556ynntE5ZSvv8iBmYcBObnlVrhbmSrygaimEq4GQLUO4ponFjQmbOqayV0CXJj1945Ubg3lEz6qKJ1mUCjVnHYWkNPSlLYTqOPA4ks6f4VUppfvVfU5D9t57PNlxTHz1lzQIa85k30TyLjr2reDsA4buzjW7nneEe1HWkIWlHCUPRoW8Cto7oo3AHA7Xgh6sXNevGOuDIUofV6ORgrkjSxjOcMF079XW9FM1YK0zFLxFa2cKPod1i6J4F51LJPRdvbC41urzYsuEzoALrCOtGhG32dVssWBjSd4VRV6fjTrYUnwXH4YTrJwUiyB9FWyD7iHvr7C5DkG8m7eHp2RC6ng8oqsfcCRqrSLM0FF5dM3FQF1BUoqEHyIZqAGdUIuYaiigLUznhENWG0ElkA7kSllF6SUkxX008ojRup3pjkpCBVMOb4GxUnMYidzXMxVKI0MYABiZjUSn7VIqlwr22FKrnKdTu1qK5EppqRGn9hRgTRCAwFvUZN9NtWXRWzRmFwOYaYyW50qdxAvOvUqkxIeGxSOjtIf6V19YZBYYdvPi",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-11"
+  },
+  {
+   "id": "1005012011163395",
+   "name": "JOYO Portable Pocket USB Sound Card Guitar Headphone",
+   "short": "JOYO Portable Pocket",
+   "cat": "soundcard",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "כרטיס סאונד",
+   "icon": "🔈",
+   "badge": "✨ חדש באתר",
+   "desc": "כרטיס סאונד לשידור חי — מחברים מיקרופון וטלפון ומשדרים עם אפקטים. כולל: Plug & Play.",
+   "positive": 98,
+   "sold": "450+ מכירות",
+   "price": 57,
+   "listPrice": 114,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb6cd76bb57724b888987639187563fbeB.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cof3wPWyqigTpLibBjjb8J8ME0F2TbtAZ5518ZE8AlriVICSKwl5sNtf5bPARN1opziqJBPSdiON3F7UXZfMWB2uVuFECgKy4E3SahxpAocdKFdBK1tXD7SbTgjj0yIqmnP6hpriwfqGAUbCpzHLLAjqZRJeiDw7v3vqVnNhmnBqYHCUFzTDSfE4ulggL29hgNTZmZn5JOxjgH1yZr9YRwuWB6bvJZNaiS5LCUuLT7O5teVHTKiiTKBifvwPBPuJxeNx3BMfQKzPW8U5s0xdnRfI7Js19dckbDxP0L2HaxgjhqQ2UU7ooKvTaVIgUxu6ypK1W4CD3QS78nPGREvmv8NZFjr39VGcOmGlDZHS1sDs8E0Ejjt4VLV90X2IO9BieAd8c2mCQqXnU9MxArMPYBXGfnDN4k99Fmu1OsO9XH87DbkVrF3ZzkI7hXU9TDayXE34ZHPyNCrQFG7IT4nVIcjBIHWPOXz5ZL9TTGe3DAk7CUJdUzbZjfHkgpMvAEqXsecbWVZPLHMWNREmgWTUp6W89nLRsTSlmrn9zGWO2YqEfYxE4OHJvHIJlLFSjMx8Ytwjy5FNZ22T5jOsmNVxbOX8c23XAuOjyNtRZmFlAvlpgAvxm3GmXKSTr88bA4gZENEbpdoxsnRL7ioI4UjT4dGY5Riv0AoP4FT8J7Kq33i42mc9D9CPTLTVwQMrVbDxJevD2gsEr7pcp8",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-11"
   }
  ]
 }

@@ -713,31 +713,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-10T03:43:57.072Z",
+  "at": "2026-11-11T03:43:55.465Z",
   "ok": true,
   "added": [
    {
-    "id": "1005009960273547",
-    "name": "Ourlife Compact Digital Camera 5K 72MP 2.8''",
+    "id": "1005007604218807",
+    "name": "Multi-Layer Transparent Acrylic Keyboard Stand",
+    "niche": "gaming",
+    "cat": "desk",
+    "price": 17,
+    "commission": 7
+   },
+   {
+    "id": "1005006966166974",
+    "name": "Ambitful Phone and DSLR Recording Mini Teleprompter",
     "niche": "creators",
-    "cat": "action-cam",
-    "price": 117,
+    "cat": "creator-gear",
+    "price": 156,
     "commission": 7
    },
    {
-    "id": "1005007670533393",
-    "name": "Professional Studio Low Profile Mic Arm",
+    "id": "1005012011163395",
+    "name": "JOYO Portable Pocket USB Sound Card Guitar Headphone",
     "niche": "podcast",
-    "cat": "mic-arm",
-    "price": 161,
-    "commission": 7
-   },
-   {
-    "id": "1005011940113445",
-    "name": "TAVOSOP Portable 4 Channel Audio Mixer Recording",
-    "niche": "music",
-    "cat": "mixer",
-    "price": 101,
+    "cat": "soundcard",
+    "price": 57,
     "commission": 7
    }
   ]
