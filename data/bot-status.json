@@ -1,10 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-11T16:17:16.861Z",
+  "at": "2026-11-11T22:17:11.920Z",
   "ok": true,
   "checked": 45,
   "returned": 44,
-  "changes": [],
+  "changes": [
+   "Original Redmi Stylus: ₪200 → ₪185"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -170,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 91,
+    "missing": 92,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -389,14 +391,14 @@
     "name": "Original Redmi Stylus",
     "before": 200,
     "api": {
-     "sale": "200.39",
-     "app": "200.39",
-     "original": "385.37",
+     "sale": "184.69",
+     "app": "184.69",
+     "original": "369.31",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3f29bc4488b4672b09231166048c216v.jpg",
-    "after": 200,
-    "listPrice": 385,
+    "after": 185,
+    "listPrice": 369,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3f29bc4488b4672b09231166048c216v.jpg",
     "active": true
    },
