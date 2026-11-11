@@ -1,21 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-11T10:17:15.404Z",
+  "at": "2026-11-11T16:17:16.861Z",
   "ok": true,
   "checked": 45,
   "returned": 44,
-  "changes": [
-   "FIFINE A2: ₪85 → ₪75",
-   "FIFINE SC8: ₪207 → ₪188",
-   "Oneodio Pro 50: ₪140 → ₪132",
-   "Wireless Guitar: ₪48 → ₪45",
-   "EMEET PIXY: ₪311 → ₪294",
-   "Haomuren Mic Kit: ₪128 → ₪120",
-   "HOMEFISH Light Bar: ₪36 → ₪38",
-   "Gaming Laptop Cooler: ₪76 → ₪71",
-   "FIFINE USB Gaming: ₪147 → ₪133",
-   "Professional Studio Low: ₪173 → ₪162"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -36,7 +25,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 85,
+    "before": 75,
     "api": {
      "sale": "75.08",
      "app": "75.08",
@@ -116,7 +105,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 207,
+    "before": 188,
     "api": {
      "sale": "188.49",
      "app": "188.49",
@@ -148,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 140,
+    "before": 132,
     "api": {
      "sale": "131.61",
      "app": "131.61",
@@ -181,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 90,
+    "missing": 91,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -190,7 +179,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 48,
+    "before": 45,
     "api": {
      "sale": "45.42",
      "app": "45.42",
@@ -206,7 +195,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 311,
+    "before": 294,
     "api": {
      "sale": "293.57",
      "app": "293.57",
@@ -286,7 +275,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 128,
+    "before": 120,
     "api": {
      "sale": "120.26",
      "app": "120.26",
@@ -318,7 +307,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 36,
+    "before": 38,
     "api": {
      "sale": "37.72",
      "app": "37.72",
@@ -478,7 +467,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 76,
+    "before": 71,
     "api": {
      "sale": "71.03",
      "app": "71.03",
@@ -510,7 +499,7 @@
    {
     "id": "1005006648408257",
     "name": "FIFINE USB Gaming",
-    "before": 147,
+    "before": 133,
     "api": {
      "sale": "132.52",
      "app": "132.52",
@@ -654,7 +643,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 173,
+    "before": 162,
     "api": {
      "sale": "161.93",
      "app": "161.93",
