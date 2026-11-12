@@ -1,13 +1,11 @@
 {
  "prices": {
-  "at": "2026-11-12T10:17:16.394Z",
+  "at": "2026-11-12T16:17:12.971Z",
   "ok": true,
   "checked": 48,
   "returned": 47,
   "changes": [
-   "Wireless Guitar: ₪46 → ₪45",
-   "DJ Controller Case: ₪150 → ₪154",
-   "DITONG Full HD: ₪856 → ₪850"
+   "FIFINE SC8: ₪189 → ₪207"
   ],
   "items": [
    {
@@ -111,14 +109,14 @@
     "name": "FIFINE SC8",
     "before": 189,
     "api": {
-     "sale": "189.01",
-     "app": "189.01",
-     "original": "334.41",
+     "sale": "207.39",
+     "app": "207.39",
+     "original": "334.50",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 189,
-    "listPrice": 334,
+    "after": 207,
+    "listPrice": 335,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
@@ -174,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 94,
+    "missing": 95,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -183,7 +181,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 46,
+    "before": 45,
     "api": {
      "sale": "45.46",
      "app": "45.46",
@@ -395,7 +393,7 @@
     "api": {
      "sale": "184.90",
      "app": "184.90",
-     "original": "369.87",
+     "original": "369.71",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3f29bc4488b4672b09231166048c216v.jpg",
@@ -423,7 +421,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 150,
+    "before": 154,
     "api": {
      "sale": "153.69",
      "app": "153.69",
@@ -519,7 +517,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 856,
+    "before": 850,
     "api": {
      "sale": "849.58",
      "app": "849.58",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T10:17:16.392Z",
+ "updated": "2026-11-12T16:17:12.969Z",
  "niches": [
   {
    "id": "music",
@@ -369,13 +369,13 @@
    "desc": "מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.",
    "rating": 4.8,
    "sold": "600+ מכירות",
-   "price": 189,
+   "price": 207,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
    "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 334,
+   "listPrice": 335,
    "commission": 8
   },
   {
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 94,
+   "missing": 95,
    "autoHidden": true
   },
   {
