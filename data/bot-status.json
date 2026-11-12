@@ -1,27 +1,19 @@
 {
  "prices": {
-  "at": "2026-11-12T04:17:11.814Z",
+  "at": "2026-11-12T10:17:16.394Z",
   "ok": true,
   "checked": 48,
   "returned": 47,
   "changes": [
-   "MAONO PS22: ₪194 → ₪184",
-   "FIFINE SC8: ₪188 → ₪189",
-   "Rowin Looper: ₪78 → ₪79",
-   "Wireless Guitar: ₪45 → ₪46",
-   "Softbox Kit: ₪134 → ₪135",
-   "MCHOSE V9 Pro: ₪165 → ₪166",
-   "Ezcap326C: ₪267 → ₪268",
-   "MCHOSE X9 Tri-Mode: ₪211 → ₪212",
-   "Ourlife Compact Digital: ₪117 → ₪118",
-   "Professional Studio Low: ₪162 → ₪157",
-   "Ambitful Phone and: ₪156 → ₪157"
+   "Wireless Guitar: ₪46 → ₪45",
+   "DJ Controller Case: ₪150 → ₪154",
+   "DITONG Full HD: ₪856 → ₪850"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 194,
+    "before": 184,
     "api": {
      "sale": "184.45",
      "app": "184.45",
@@ -117,11 +109,11 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 188,
+    "before": 189,
     "api": {
-     "sale": "188.62",
-     "app": "188.62",
-     "original": "333.76",
+     "sale": "189.01",
+     "app": "189.01",
+     "original": "334.41",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
@@ -165,7 +157,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 78,
+    "before": 79,
     "api": {
      "sale": "78.69",
      "app": "78.69",
@@ -182,7 +174,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 93,
+    "missing": 94,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -191,15 +183,15 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 45,
+    "before": 46,
     "api": {
-     "sale": "45.51",
-     "app": "45.51",
-     "original": "96.80",
+     "sale": "45.46",
+     "app": "45.46",
+     "original": "96.70",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb38dc08277c4c7684803c70427d5fe43.png",
-    "after": 46,
+    "after": 45,
     "listPrice": 97,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S99fe2c093a5e456cb9d922f71d9d15cfw.jpg",
     "active": true
@@ -223,7 +215,7 @@
    {
     "id": "1005006861879179",
     "name": "Softbox Kit",
-    "before": 134,
+    "before": 135,
     "api": {
      "sale": "134.69",
      "app": "134.69",
@@ -239,7 +231,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 165,
+    "before": 166,
     "api": {
      "sale": "165.69",
      "app": "165.69",
@@ -273,14 +265,14 @@
     "name": "Art-Net DMX",
     "before": 215,
     "api": {
-     "sale": "215.39",
-     "app": "215.39",
-     "original": "430.78",
+     "sale": "214.90",
+     "app": "214.90",
+     "original": "429.80",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
     "after": 215,
-    "listPrice": 431,
+    "listPrice": 430,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S487cf89fda36404b967ede9c992e6e50O.jpg",
     "active": true
    },
@@ -351,7 +343,7 @@
    {
     "id": "1005008337928752",
     "name": "Ezcap326C",
-    "before": 267,
+    "before": 268,
     "api": {
      "sale": "267.69",
      "app": "267.69",
@@ -369,14 +361,14 @@
     "name": "MAONO PD100X",
     "before": 170,
     "api": {
-     "sale": "169.99",
-     "app": "169.99",
-     "original": "339.98",
+     "sale": "170.39",
+     "app": "170.39",
+     "original": "340.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S92d9f63fbf444086be5eb1fcabe32c54K.jpg",
     "after": 170,
-    "listPrice": 340,
+    "listPrice": 341,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
     "active": true
    },
@@ -433,14 +425,14 @@
     "name": "DJ Controller Case",
     "before": 150,
     "api": {
-     "sale": "150.39",
-     "app": "150.39",
-     "original": "300.78",
+     "sale": "153.69",
+     "app": "153.69",
+     "original": "307.38",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S573da2761a6e431ab68bf86dc9e8ea3aS.jpg",
-    "after": 150,
-    "listPrice": 301,
+    "after": 154,
+    "listPrice": 307,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S573da2761a6e431ab68bf86dc9e8ea3aS.jpg",
     "active": true
    },
@@ -529,14 +521,14 @@
     "name": "DITONG Full HD",
     "before": 856,
     "api": {
-     "sale": "856.36",
-     "app": "856.36",
-     "original": "1554.21",
+     "sale": "849.58",
+     "app": "849.58",
+     "original": "1541.87",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 856,
-    "listPrice": 1554,
+    "after": 850,
+    "listPrice": 1542,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
    },
@@ -559,7 +551,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 211,
+    "before": 212,
     "api": {
      "sale": "211.69",
      "app": "211.69",
@@ -639,7 +631,7 @@
    {
     "id": "1005009960273547",
     "name": "Ourlife Compact Digital",
-    "before": 117,
+    "before": 118,
     "api": {
      "sale": "117.69",
      "app": "117.69",
@@ -655,7 +647,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 162,
+    "before": 157,
     "api": {
      "sale": "156.63",
      "app": "156.63",
@@ -703,7 +695,7 @@
    {
     "id": "1005006966166974",
     "name": "Ambitful Phone and",
-    "before": 156,
+    "before": 157,
     "api": {
      "sale": "156.69",
      "app": "156.69",
@@ -753,9 +745,9 @@
     "name": "F16 Selfie Stick",
     "before": 38,
     "api": {
-     "sale": "37.62",
-     "app": "37.62",
-     "original": "88.93",
+     "sale": "37.70",
+     "app": "37.70",
+     "original": "89.11",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb91e80db9dc8423795f6df5311ad72f3X.jpg",
@@ -769,14 +761,14 @@
     "name": "SMAILWOLF L80 Bluetooth",
     "before": 85,
     "api": {
-     "sale": "84.90",
-     "app": "84.90",
-     "original": "180.64",
+     "sale": "84.69",
+     "app": "84.69",
+     "original": "180.19",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdec259192db943bebcd7b7a5065b192c1.jpg",
     "after": 85,
-    "listPrice": 181,
+    "listPrice": 180,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdec259192db943bebcd7b7a5065b192c1.jpg",
     "active": true
    }
