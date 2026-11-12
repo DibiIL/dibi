@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:17:11.917Z",
+ "updated": "2026-11-12T03:43:53.060Z",
  "niches": [
   {
    "id": "music",
@@ -1277,6 +1277,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-11"
+  },
+  {
+   "id": "1005002593012680",
+   "name": "UGREEN Laptop Stand",
+   "short": "UGREEN Laptop Stand",
+   "cat": "dj-acc",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אביזר DJ",
+   "icon": "🧳",
+   "badge": "🔥 1,300+ מכירות",
+   "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות. כולל: מתקפל, גוף מתכת.",
+   "positive": 100,
+   "sold": "1,300+ מכירות",
+   "price": 56,
+   "listPrice": 107,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4e7ada4785c7496ca6d6e437d165a620K.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C22KsicdwvNOUQ56rvp3xo9lN6nOPWoZI9Z0PnFADBPP2tTymNZHz1YvqrbG6xFaWYB7FUGLAZjMCIzjvtEMrDidp1EI0mAoYFbyHtAFSkzb183MRIQWCIwH81ZW3efarZuHxKnOIN0CG0SVMdZ5t2AIU2WuXlL2f9BCPGwMCevMwH1qyBjdq5JMBSP21fXRFJhVftcyLQTWEhc4KoO2mYq1qJshc3Mk38iR3n3pFEGB8GHTy054MZK6syAxvUD3JWqc4yjMlul47exe9H2o8OySgkMkzpuDRu615e1IoFLGlGalxneQFQsnN9SaYqa2yQphDyrVyLyPU8Pw5tv6IPy68SiwI3DF3Xizozf2SDmn4WQmKv94Arl5QZuaeYOM41sBZzbrlo6tMwdUQPQzc02dVh7a4mqDB7gJtD3IKcZpm4jUDHTkKtM9FlDgFr3nlhwu4n0DW1PX7yhzi9qXgTEiRpQ3Vbjhq6H89DyOtgHnKctWp87SZljo1Kej1ZR9K90yTvAtvXAp3T6ViJlqK0csyrMjPEXp7DKQFfq80rh2McbVZCf4HxEcB9XEPgHyAX6tu4UEH9k8HSbxYixKi3wzSwnqxFN8newR9M3LPFgSwRmmdDzmF80tj50gi0IC54WFB837SNtLuErpp5dbfcqcECabzWTXFekVRlCHoSIA5EelaBesNI1pEZDrPbLIpReijFzM2FoYQT",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-12"
+  },
+  {
+   "id": "1005013266020643",
+   "name": "F16 Selfie Stick Tripod",
+   "short": "F16 Selfie Stick",
+   "cat": "tripod",
+   "niches": [
+    "creators"
+   ],
+   "tag": "חצובה / מייצב",
+   "icon": "📸",
+   "badge": "🔥 5,600+ מכירות",
+   "desc": "חצובה או מייצב לצילום יציב — סרטונים חלקים ותמונות חדות. כולל: Bluetooth, שלט רחוק.",
+   "positive": 98,
+   "sold": "5,600+ מכירות",
+   "price": 38,
+   "listPrice": 89,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb91e80db9dc8423795f6df5311ad72f3X.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4b7R0VBtjd7lbLSySpIR8fPXlbruAlHp5LYEZrU7LH1cm650XLWED1dTslaekGfrT3vLKCTw9a44dAgSRQ4QM0wLsKfSux89Emw3HnddB8S5ztPetXwJc9P6jU1l6Bz9bIiZM8QHbYpLB0kOKKbkYm44w149Ylvzj0n6zkFdbn0GTdzs7Xtd6ou546TOBza2gxftkDts1zmiHV1CzcmL6fCyxmXUuKW6IauPccb5XrmsDPYp8xxqzVk1ozoWsAMx29YeWjlpmfuzblwtFbiZ8YrQhT7HoqYqbl85C67eoUQx8cstU1L4tRohjYGafqkF2kqpu02mMjL9gVNMC2IeMVwJ4OvApopaRCf6xi4rzaIhXg7dik42E5hbGWBpU0c4bIu8gfi0XcFTW1ioam0pFC8MuPRnkovgjdd2iKED71HeDKzab66Pd7jat4w3fou5IdyBTzsC1cKuuoFLvogfVBMafBfoeFf1lHbPdeFGLCQy5k0oKuJ3zgY01njAKywtFidEg3oN7qcnSXKi171qYRg59mNsCiLFvmXQGhxbeY74Ot4DjW4OVylGA14PqrUSLPCndKMOz2lDb8JmCHNqO7FuJad5LFWNbgetM56gFGSoB9IxE5C4ZLpN98n6faPB52g7itUmEhpblXKQohKqXksVejXPBeEQGu4uePFz4qkkwPGAfFJuNK0UqlZY6ciqC3ggD125ZGGsA",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-12"
+  },
+  {
+   "id": "1005009120888793",
+   "name": "SMAILWOLF L80 Bluetooth wireless wired three-mode",
+   "short": "SMAILWOLF L80 Bluetooth",
+   "cat": "gaming-headset",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "אוזניות גיימינג",
+   "icon": "🎮",
+   "badge": "🔥 3,500+ מכירות",
+   "desc": "אוזניות גיימינג עם מיקרופון — שומעים כל צעד ומדברים עם הקבוצה בבירור. כולל: Bluetooth.",
+   "positive": 98,
+   "sold": "3,500+ מכירות",
+   "price": 85,
+   "listPrice": 181,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdec259192db943bebcd7b7a5065b192c1.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnEz4Wx4gxhc5aDRjJPIU90Y5bKEoF8mGG0WPI8tMwRkeaKzdXYDZAS3rpwD0vuX0Uwv3dyqnv8C97a3nn2FiwP8BgR29mj9GQ8KV5Cc5ehrCCjo3al5aHKXQfIsbb7UB2mRxjHzIBfHsQxRcdWZeXXuvSEExdCXNzyWHqQGaCCGvlQxKvLoO7dcrSgH8V4OKZoFetwtkjQU3sTae0NPifJVUGA7c8bDKlIMdrK8fNsI0XnUEBDiE9LgfmS2UIJ66By1spdTDYg2ZNqt46EGWYIaF5xtoEZGQujC2WU0LWP5JfA5InX6KDycMi0mflDsldTpL1xonFa2vLsylm0mPZaCsfEz5gCQNomFbi6KCcK4IVR1i5Daj6uU4kDEk5s3xjLFpGSioXmt0lWJyPHHK5g01tbsP2iEom6RTXnrqhsqr3RewyFgdbIGDiwDMzsQtvIq848bferwYkvLwfAld0jWibtn8x5BwjOV8PU39QewHT71OVmRccvc8fUx3lF28CKpclfOC127IjJnDFinG0DxtELGvebfPCmAZKVY0ZsWUwqlr57cOc4soRSVHuLe2et9YKQP3MGyOXNKbyTLDgVpk5Gjo9Ac9vPbYY25Du6ZhPDx0hPM1mJVz3PRQYWh3hbKYhiLGO0pgjr8t84HPFkBNP9t17I5JAsqoaFOcbZ8tPMAbcjqVLEi80wW56SbuFdcpkC6sghK3Y",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-12"
   }
  ]
 }

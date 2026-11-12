@@ -764,31 +764,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-11T03:43:55.465Z",
+  "at": "2026-11-12T03:43:53.062Z",
   "ok": true,
   "added": [
    {
-    "id": "1005007604218807",
-    "name": "Multi-Layer Transparent Acrylic Keyboard Stand",
-    "niche": "gaming",
-    "cat": "desk",
-    "price": 17,
+    "id": "1005002593012680",
+    "name": "UGREEN Laptop Stand",
+    "niche": "dj",
+    "cat": "dj-acc",
+    "price": 56,
     "commission": 7
    },
    {
-    "id": "1005006966166974",
-    "name": "Ambitful Phone and DSLR Recording Mini Teleprompter",
+    "id": "1005013266020643",
+    "name": "F16 Selfie Stick Tripod",
     "niche": "creators",
-    "cat": "creator-gear",
-    "price": 156,
+    "cat": "tripod",
+    "price": 38,
     "commission": 7
    },
    {
-    "id": "1005012011163395",
-    "name": "JOYO Portable Pocket USB Sound Card Guitar Headphone",
-    "niche": "podcast",
-    "cat": "soundcard",
-    "price": 57,
+    "id": "1005009120888793",
+    "name": "SMAILWOLF L80 Bluetooth wireless wired three-mode",
+    "niche": "gaming",
+    "cat": "gaming-headset",
+    "price": 85,
     "commission": 7
    }
   ]
