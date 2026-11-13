@@ -809,31 +809,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-12T03:43:53.062Z",
+  "at": "2026-11-13T03:43:50.493Z",
   "ok": true,
   "added": [
    {
-    "id": "1005002593012680",
-    "name": "UGREEN Laptop Stand",
-    "niche": "dj",
-    "cat": "dj-acc",
-    "price": 56,
-    "commission": 7
+    "id": "1005004110574958",
+    "name": "HIFIMAN Edition XS Full-Size Over-Ear Open-Back",
+    "niche": "music",
+    "cat": "headphones",
+    "price": 600,
+    "commission": 8
    },
    {
-    "id": "1005013266020643",
-    "name": "F16 Selfie Stick Tripod",
+    "id": "1005010044183032",
+    "name": "Photo Studio 8-inch Led Fill Light Video Fill",
     "niche": "creators",
-    "cat": "tripod",
-    "price": 38,
+    "cat": "lighting",
+    "price": 30,
     "commission": 7
    },
    {
-    "id": "1005009120888793",
-    "name": "SMAILWOLF L80 Bluetooth wireless wired three-mode",
+    "id": "1005011743097337",
+    "name": "30CM LED Desk Lamp Monitor Light Bar Eye-Care",
     "niche": "gaming",
-    "cat": "gaming-headset",
-    "price": 85,
+    "cat": "desk",
+    "price": 28,
     "commission": 7
    }
   ]

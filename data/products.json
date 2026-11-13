@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T16:17:12.969Z",
+ "updated": "2026-11-13T03:43:50.490Z",
  "niches": [
   {
    "id": "music",
@@ -1349,6 +1349,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-12"
+  },
+  {
+   "id": "1005004110574958",
+   "name": "HIFIMAN Edition XS Full-Size Over-Ear Open-Back",
+   "short": "HIFIMAN Edition XS",
+   "cat": "headphones",
+   "niches": [
+    "music"
+   ],
+   "tag": "אוזניות סטודיו",
+   "icon": "🎧",
+   "badge": "🔥 1,800+ מכירות",
+   "desc": "אוזניות סטודיו לשמיעה מדויקת בזמן הקלטה, מיקס והפקה. כולל: הצמדה מגנטית.",
+   "positive": 96,
+   "sold": "1,800+ מכירות",
+   "price": 600,
+   "listPrice": 2774,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CohOt9SL8ABGTlJuI7J1NlGm9Xl2xkA1p0tN3pu3TQ17oVkTOjOTAeMKb7FsCX2ZqGjTO7P6LjuSIUvqvCZ29lILKqoYBcxLi6xmmFChVojjFNnGxdLTdiz6tsD2TZYTCL4u0tDUrgixRZM4xoj4cXJgAwhWpt5E4zuNhCglaGKJwXgGDiXV6JZpb0MbvacHRNfUfVdUgliv3rIY3aPFDBYpDHUE29Vx31hUhw0fR9qKXVAU4CFQegZm61sumRTWo6YAH1d2aHsRKBAG3Hqnqzq0yTdKhzeym51hVVJpR0xnxWLNt1BfRBJATs4GKTIY0P47BQ5hZM1t3qwSeDWLXSoRNcDyPnIVA8rv2pFxFQ1M66MmBvQRumv2ZIwxxyt9bFUHSN49m2xtD83lEpMZfmcxSmyeVvbrSloOaXQ5Wp3PCl38yGJ8S8NDiEVG6W9jOEenEbrpP8lLiCf99IuzoP4D1q57w7uLvtVXP9mZJmCtnkNuyCbKODOsjws2bFYwY6gtgXWC4teNsPyRZDFkHa0awIfgiOMdTSACzP8iZKj71jWW37cLPNBECpsqbXktSjZXCQNDCgSoOT79dd96qTCerJUHfdHCPallgBpUi7f0IJlszFYOMpE8QZ45xioV361ERycEpFB54NaeYi2CYvWVJoa4aeu1beGokyEQmnhhGK0XPixyMBUbbLQqtO96amIRKyyVat0a8d",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-13"
+  },
+  {
+   "id": "1005010044183032",
+   "name": "Photo Studio 8-inch Led Fill Light Video Fill",
+   "short": "Photo Studio 8-inch",
+   "cat": "lighting",
+   "niches": [
+    "creators"
+   ],
+   "tag": "תאורת צילום",
+   "icon": "💡",
+   "badge": "🔥 1,200+ מכירות",
+   "desc": "תאורה לצילום ולוידאו — תמונה מוארת ונקייה גם בבית. כולל: תאורת RGB.",
+   "positive": 98,
+   "sold": "1,200+ מכירות",
+   "price": 30,
+   "listPrice": 64,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf6b51b19b2084763b5a57f404177263eH.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4ktyxcM2mnY2biIfGjl9XlpTc91hBMSgGnF5JnWtCAP5UHtIKGiKsk818ki49iy4hnVmq08CNcbe8gAx8hazwwqOJ4bKIiv6y65Zx1RFZidCvu3HUECIlA5dtQ1T7LM1UYPy3oqFnzUnm9Dzm4BkTUOsmfVa9HqNY6XX0koC9TB9fAI3PxDCgrjvpAoX77haJOMAv4ppZmIuRGxwWdsT3YYm6gLTGHkKEcdPkvRAUQ3ock33S9pDP1yqrnqifgh1q4rjIdqGwb4sIN5rdjO22dW76W5Rlt44mFUZG1iRT9orpJkjIULF2Muzv1yqvC3ta0NVBSrW7nrBv13WLsy0ypFvjUV2gVsrexXQaNajrcOw03Dr4ChRf3XnisnDNtel7HWFNwjx9HIDmwLLKCevVyKflJWCAPCVdKEhX8lzk0B3sqVCWulY2Yd8VmtI7wCiJCOBLu2BwROPrenrn1fVnNtxUn9WhTMcjGfOp0o4cpRlHSmfGvLUDPiEaaSOF0j9YnWNGD4MSspUBCreCaSEc2AQmwSp6VY6fbQj5IMOslILZQRUrRbTklKKbG8Coww68KvN3vzBxwb8rzq5BWQpMqtAbwD72UIm20pgeSJOmdHxPwatQCFVtjotylVOw1yX6XI8WBcNqLt1X7zw70MP7phd39RXTU7zg7U0Dh37ynY3caNZq7Jz1Qp86sESWbYdkyDJfDjIkX9OO",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-13"
+  },
+  {
+   "id": "1005011743097337",
+   "name": "30CM LED Desk Lamp Monitor Light Bar Eye-Care",
+   "short": "30CM LED Desk",
+   "cat": "desk",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "סטאפ ושולחן",
+   "icon": "🖱️",
+   "badge": "🔥 2,900+ מכירות",
+   "desc": "אביזר לעמדת גיימינג ועבודה — שולחן מסודר שנראה טוב. כולל: עוצמה מתכווננת.",
+   "positive": 98,
+   "sold": "2,900+ מכירות",
+   "price": 28,
+   "listPrice": 57,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S36dfdd38f9f7454d91dde6843441bdb9A.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmIx1QYSjU6I9VJ57VjhbPkHHVu5YtNT81epzTKSRuCvueBlC2NUmr5USYTp70xCY1rPXzAKWbKWGyTKtkXBY648XElrtpp1cPUmN3Xmpzj4MYqE4g43g5TJxmCy1rhgqkoFkRK8nhLutG97228gIpo9g694rBYFuaOrm1XHasX2gmdy2M7RqdDU99anr6jgUzMOekDoH2on7RrskJP0Hs9RrxBfEKf7esfjaNNJot93pcNWKlkPUynXwEpEQxkRUIsngQ7HRKu7buXpj7khezZ2EGzO8I0gRkq8yPpJ1iaAj12DkEjkI64dWyV3ZJSxc5JpnWq2D8RKI4QIIB0OYFCcOBOIOVHiUCTGIY4Izl4LMBVebaKy2aIg9TYk31Lr5sSEOLThl9cXVxuupnyii35Y3CBPWeiS1P1GhQCoIOUIJUmp9XwFHa26DegNuWcbUUwwHgayeSd0V9466RlA7jqdfdubb8mgX3FjI0PFJsy1Hda86eVEmIHhkChOLAmphDsXYQbSrBy7wAXoiKqrpLLX6ryOl8fOgeMf74qdgkKr0n4lWdUZOMDM82l7g6Fj3ihUufxwwG4k6Vc1dZugHTloFiJeUF5sgs7tqsq9C1qbISVk0q0eL3wVr5AIT3VdHwOIuaJu7SeRregPswxYRnbceKmd6fFFflxnSCOq8DmehY36oRnUcgKxS3nVe6Xm9cLp9zPhI5AclC",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-13"
   }
  ]
 }
