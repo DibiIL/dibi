@@ -1,12 +1,17 @@
 {
  "prices": {
-  "at": "2026-11-13T10:17:13.895Z",
+  "at": "2026-11-13T16:17:32.638Z",
   "ok": true,
   "checked": 51,
   "returned": 50,
   "changes": [
-   "FIFINE SC8: ₪209 → ₪208",
-   "DITONG Full HD: ₪855 → ₪880"
+   "EMEET PIXY: ₪296 → ₪313",
+   "Ulanzi TT88 1.44M: ₪70 → ₪78",
+   "FIFINE USB Gaming: ₪133 → ₪148",
+   "DITONG Full HD: ₪880 → ₪926",
+   "FIFINE Gaming USB: ₪130 → ₪144",
+   "UGREEN Laptop Stand: ₪56 → ₪62",
+   "HIFIMAN Edition XS: ₪600 → ₪666"
   ],
   "items": [
    {
@@ -108,7 +113,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 209,
+    "before": 208,
     "api": {
      "sale": "208.39",
      "app": "208.39",
@@ -173,7 +178,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 97,
+    "missing": 98,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -200,13 +205,13 @@
     "name": "EMEET PIXY",
     "before": 296,
     "api": {
-     "sale": "295.88",
-     "app": "295.88",
+     "sale": "313.10",
+     "app": "313.10",
      "original": "958.93",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 296,
+    "after": 313,
     "listPrice": 959,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true
@@ -488,13 +493,13 @@
     "name": "Ulanzi TT88 1.44M",
     "before": 70,
     "api": {
-     "sale": "69.96",
-     "app": "69.96",
-     "original": "189.41",
+     "sale": "77.69",
+     "app": "77.69",
+     "original": "189.49",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
-    "after": 70,
+    "after": 78,
     "listPrice": 189,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
     "active": true
@@ -504,13 +509,13 @@
     "name": "FIFINE USB Gaming",
     "before": 133,
     "api": {
-     "sale": "133.42",
-     "app": "133.42",
-     "original": "242.24",
+     "sale": "147.69",
+     "app": "147.69",
+     "original": "242.11",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
-    "after": 133,
+    "after": 148,
     "listPrice": 242,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
     "active": true
@@ -518,15 +523,15 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 855,
+    "before": 880,
     "api": {
-     "sale": "880.43",
-     "app": "880.43",
-     "original": "1596.27",
+     "sale": "925.90",
+     "app": "925.90",
+     "original": "1596.38",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 880,
+    "after": 926,
     "listPrice": 1596,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
@@ -616,14 +621,14 @@
     "name": "FIFINE Gaming USB",
     "before": 130,
     "api": {
-     "sale": "130.08",
-     "app": "130.08",
-     "original": "248.48",
+     "sale": "144.39",
+     "app": "144.39",
+     "original": "248.95",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff6438218e64e95981eceec6f8fb927O.jpg",
-    "after": 130,
-    "listPrice": 248,
+    "after": 144,
+    "listPrice": 249,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff6438218e64e95981eceec6f8fb927O.jpg",
     "active": true
    },
@@ -728,14 +733,14 @@
     "name": "UGREEN Laptop Stand",
     "before": 56,
     "api": {
-     "sale": "56.07",
-     "app": "56.07",
-     "original": "107.28",
+     "sale": "62.39",
+     "app": "62.39",
+     "original": "107.57",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4e7ada4785c7496ca6d6e437d165a620K.jpg",
-    "after": 56,
-    "listPrice": 107,
+    "after": 62,
+    "listPrice": 108,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S4e7ada4785c7496ca6d6e437d165a620K.jpg",
     "active": true
    },
@@ -776,14 +781,14 @@
     "name": "HIFIMAN Edition XS",
     "before": 600,
     "api": {
-     "sale": "599.77",
-     "app": "599.77",
-     "original": "2773.60",
+     "sale": "665.90",
+     "app": "665.90",
+     "original": "2774.58",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
-    "after": 600,
-    "listPrice": 2774,
+    "after": 666,
+    "listPrice": 2775,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
     "active": true
    },
