@@ -1,50 +1,18 @@
 {
  "prices": {
-  "at": "2026-11-13T04:17:13.511Z",
+  "at": "2026-11-13T10:17:13.895Z",
   "ok": true,
   "checked": 51,
   "returned": 50,
   "changes": [
-   "MAONO PS22: ₪184 → ₪186",
-   "FIFINE A2: ₪75 → ₪76",
-   "FIFINE AM8: ₪170 → ₪171",
-   "M-VAVE SMK-25: ₪140 → ₪141",
-   "M-VAVE SMC PAD: ₪101 → ₪102",
-   "AIYIMA S4000: ₪676 → ₪680",
-   "FIFINE SC8: ₪207 → ₪209",
-   "Depusheng Mixer: ₪73 → ₪74",
-   "Oneodio Pro 50: ₪132 → ₪133",
-   "Wireless Guitar: ₪45 → ₪46",
-   "EMEET PIXY: ₪294 → ₪296",
-   "MCHOSE V9 Pro: ₪166 → ₪167",
-   "BINNUNE BW06: ₪90 → ₪91",
-   "Art-Net DMX: ₪215 → ₪216",
-   "Haomuren Mic Kit: ₪120 → ₪121",
-   "MAONO PD400X: ₪429 → ₪432",
-   "Haomuren Pink Mic: ₪95 → ₪96",
-   "Ezcap326C: ₪268 → ₪269",
-   "MAONO PD100X: ₪170 → ₪171",
-   "Maono DGM20S: ₪209 → ₪210",
-   "Original Redmi Stylus: ₪185 → ₪186",
-   "DJ Controller Case: ₪154 → ₪155",
-   "BOYA Mini 2: ₪84 → ₪85",
-   "Gaming Laptop Cooler: ₪71 → ₪72",
-   "Ulanzi TT88 1.44M: ₪72 → ₪70",
-   "DITONG Full HD: ₪850 → ₪855",
-   "K&F CONCEPT ND100000: ₪75 → ₪76",
-   "MCHOSE X9 Tri-Mode: ₪212 → ₪213",
-   "Lenovo Original Stylus: ₪94 → ₪95",
-   "DT-02B Foldable Adjustable: ₪87 → ₪88",
-   "FIFINE Gaming USB: ₪129 → ₪130",
-   "Professional Studio Low: ₪157 → ₪163",
-   "TAVOSOP Portable 4: ₪100 → ₪101",
-   "JOYO Portable Pocket: ₪57 → ₪58"
+   "FIFINE SC8: ₪209 → ₪208",
+   "DITONG Full HD: ₪855 → ₪880"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 184,
+    "before": 186,
     "api": {
      "sale": "185.56",
      "app": "185.56",
@@ -60,7 +28,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 75,
+    "before": 76,
     "api": {
      "sale": "75.68",
      "app": "75.68",
@@ -76,7 +44,7 @@
    {
     "id": "1005006356702381",
     "name": "FIFINE AM8",
-    "before": 170,
+    "before": 171,
     "api": {
      "sale": "170.90",
      "app": "170.90",
@@ -92,7 +60,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 140,
+    "before": 141,
     "api": {
      "sale": "140.99",
      "app": "140.99",
@@ -108,7 +76,7 @@
    {
     "id": "1005008239764437",
     "name": "M-VAVE SMC PAD",
-    "before": 101,
+    "before": 102,
     "api": {
      "sale": "101.69",
      "app": "101.69",
@@ -124,7 +92,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 676,
+    "before": 680,
     "api": {
      "sale": "679.99",
      "app": "679.99",
@@ -140,23 +108,23 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 207,
+    "before": 209,
     "api": {
-     "sale": "208.69",
-     "app": "208.69",
-     "original": "336.60",
+     "sale": "208.39",
+     "app": "208.39",
+     "original": "336.11",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 209,
-    "listPrice": 337,
+    "after": 208,
+    "listPrice": 336,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
    },
    {
     "id": "1005008248050829",
     "name": "Depusheng Mixer",
-    "before": 73,
+    "before": 74,
     "api": {
      "sale": "73.69",
      "app": "73.69",
@@ -172,7 +140,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 132,
+    "before": 133,
     "api": {
      "sale": "132.65",
      "app": "132.65",
@@ -205,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 96,
+    "missing": 97,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -214,7 +182,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 45,
+    "before": 46,
     "api": {
      "sale": "45.73",
      "app": "45.73",
@@ -230,7 +198,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 294,
+    "before": 296,
     "api": {
      "sale": "295.88",
      "app": "295.88",
@@ -262,7 +230,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 166,
+    "before": 167,
     "api": {
      "sale": "166.69",
      "app": "166.69",
@@ -278,7 +246,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 90,
+    "before": 91,
     "api": {
      "sale": "90.69",
      "app": "90.69",
@@ -294,7 +262,7 @@
    {
     "id": "1005009116309896",
     "name": "Art-Net DMX",
-    "before": 215,
+    "before": 216,
     "api": {
      "sale": "216.39",
      "app": "216.39",
@@ -310,7 +278,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 120,
+    "before": 121,
     "api": {
      "sale": "121.20",
      "app": "121.20",
@@ -326,7 +294,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 429,
+    "before": 432,
     "api": {
      "sale": "432.08",
      "app": "432.08",
@@ -358,7 +326,7 @@
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 95,
+    "before": 96,
     "api": {
      "sale": "95.69",
      "app": "95.69",
@@ -374,7 +342,7 @@
    {
     "id": "1005008337928752",
     "name": "Ezcap326C",
-    "before": 268,
+    "before": 269,
     "api": {
      "sale": "269.39",
      "app": "269.39",
@@ -390,7 +358,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 170,
+    "before": 171,
     "api": {
      "sale": "171.39",
      "app": "171.39",
@@ -406,7 +374,7 @@
    {
     "id": "1005005709908265",
     "name": "Maono DGM20S",
-    "before": 209,
+    "before": 210,
     "api": {
      "sale": "210.39",
      "app": "210.39",
@@ -422,7 +390,7 @@
    {
     "id": "1005007741684423",
     "name": "Original Redmi Stylus",
-    "before": 185,
+    "before": 186,
     "api": {
      "sale": "185.90",
      "app": "185.90",
@@ -454,7 +422,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 154,
+    "before": 155,
     "api": {
      "sale": "154.69",
      "app": "154.69",
@@ -486,7 +454,7 @@
    {
     "id": "1005010241212987",
     "name": "BOYA Mini 2",
-    "before": 84,
+    "before": 85,
     "api": {
      "sale": "84.90",
      "app": "84.90",
@@ -502,7 +470,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 71,
+    "before": 72,
     "api": {
      "sale": "71.58",
      "app": "71.58",
@@ -518,7 +486,7 @@
    {
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
-    "before": 72,
+    "before": 70,
     "api": {
      "sale": "69.96",
      "app": "69.96",
@@ -550,23 +518,23 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 850,
+    "before": 855,
     "api": {
-     "sale": "854.78",
-     "app": "854.78",
-     "original": "1551.32",
+     "sale": "880.43",
+     "app": "880.43",
+     "original": "1596.27",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 855,
-    "listPrice": 1551,
+    "after": 880,
+    "listPrice": 1596,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
    },
    {
     "id": "1005010449127740",
     "name": "K&F CONCEPT ND100000",
-    "before": 75,
+    "before": 76,
     "api": {
      "sale": "75.53",
      "app": "75.53",
@@ -582,7 +550,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 212,
+    "before": 213,
     "api": {
      "sale": "212.90",
      "app": "212.90",
@@ -598,7 +566,7 @@
    {
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
-    "before": 94,
+    "before": 95,
     "api": {
      "sale": "94.99",
      "app": "94.99",
@@ -630,7 +598,7 @@
    {
     "id": "1005010155315423",
     "name": "DT-02B Foldable Adjustable",
-    "before": 87,
+    "before": 88,
     "api": {
      "sale": "87.90",
      "app": "87.90",
@@ -646,7 +614,7 @@
    {
     "id": "1005005950115658",
     "name": "FIFINE Gaming USB",
-    "before": 129,
+    "before": 130,
     "api": {
      "sale": "130.08",
      "app": "130.08",
@@ -678,7 +646,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 157,
+    "before": 163,
     "api": {
      "sale": "163.22",
      "app": "163.22",
@@ -694,7 +662,7 @@
    {
     "id": "1005011940113445",
     "name": "TAVOSOP Portable 4",
-    "before": 100,
+    "before": 101,
     "api": {
      "sale": "100.90",
      "app": "100.90",
@@ -742,7 +710,7 @@
    {
     "id": "1005012011163395",
     "name": "JOYO Portable Pocket",
-    "before": 57,
+    "before": 58,
     "api": {
      "sale": "57.79",
      "app": "57.79",
