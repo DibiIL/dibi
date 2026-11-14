@@ -1,26 +1,15 @@
 {
  "prices": {
-  "at": "2026-11-13T22:17:12.578Z",
+  "at": "2026-11-14T04:17:12.040Z",
   "ok": true,
-  "checked": 51,
-  "returned": 50,
-  "changes": [
-   "MAONO PS22: ₪186 → ₪195",
-   "FIFINE A2: ₪76 → ₪86",
-   "Oneodio Pro 50: ₪133 → ₪141",
-   "Wireless Guitar: ₪46 → ₪49",
-   "Haomuren Mic Kit: ₪121 → ₪129",
-   "MAONO PD400X: ₪432 → ₪467",
-   "HOMEFISH Light Bar: ₪38 → ₪40",
-   "Gaming Laptop Cooler: ₪72 → ₪76",
-   "Professional Studio Low: ₪163 → ₪175",
-   "F16 Selfie Stick: ₪38 → ₪40"
-  ],
+  "checked": 54,
+  "returned": 53,
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 186,
+    "before": 195,
     "api": {
      "sale": "195.39",
      "app": "195.39",
@@ -36,7 +25,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 76,
+    "before": 86,
     "api": {
      "sale": "85.69",
      "app": "85.69",
@@ -148,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 133,
+    "before": 141,
     "api": {
      "sale": "140.90",
      "app": "140.90",
@@ -181,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 99,
+    "missing": 100,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -190,7 +179,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 46,
+    "before": 49,
     "api": {
      "sale": "48.59",
      "app": "48.59",
@@ -286,7 +275,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 121,
+    "before": 129,
     "api": {
      "sale": "128.90",
      "app": "128.90",
@@ -302,7 +291,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 432,
+    "before": 467,
     "api": {
      "sale": "466.90",
      "app": "466.90",
@@ -318,7 +307,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 38,
+    "before": 40,
     "api": {
      "sale": "40.39",
      "app": "40.39",
@@ -478,7 +467,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 72,
+    "before": 76,
     "api": {
      "sale": "76.39",
      "app": "76.39",
@@ -654,7 +643,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 163,
+    "before": 175,
     "api": {
      "sale": "174.69",
      "app": "174.69",
@@ -750,7 +739,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 38,
+    "before": 40,
     "api": {
      "sale": "40.39",
      "app": "40.39",
@@ -825,6 +814,54 @@
     "after": 28,
     "listPrice": 57,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S36dfdd38f9f7454d91dde6843441bdb9A.png",
+    "active": true
+   },
+   {
+    "id": "1005008932500509",
+    "name": "APEXEL 10-20X Zoom",
+    "before": 112,
+    "api": {
+     "sale": "111.69",
+     "app": "111.69",
+     "original": "259.74",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se860d30b25254a65903ec9ea52e9196bZ.jpg",
+    "after": 112,
+    "listPrice": 260,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Se860d30b25254a65903ec9ea52e9196bZ.jpg",
+    "active": true
+   },
+   {
+    "id": "1005005875379717",
+    "name": "Baseus GH02 Gaming",
+    "before": 196,
+    "api": {
+     "sale": "196.39",
+     "app": "196.39",
+     "original": "516.82",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S569bc178484c484580182579363d4a1f3.jpg",
+    "after": 196,
+    "listPrice": 517,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S569bc178484c484580182579363d4a1f3.jpg",
+    "active": true
+   },
+   {
+    "id": "1005012218261540",
+    "name": "AMX 103 XLR",
+    "before": 135,
+    "api": {
+     "sale": "134.90",
+     "app": "134.90",
+     "original": "269.80",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7f3c3d0c27894541b4510952074d6a0df.png",
+    "after": 135,
+    "listPrice": 270,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S7f3c3d0c27894541b4510952074d6a0df.png",
     "active": true
    }
   ]
