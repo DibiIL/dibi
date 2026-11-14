@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:17:12.576Z",
+ "updated": "2026-11-14T03:43:53.764Z",
  "niches": [
   {
    "id": "music",
@@ -1421,6 +1421,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-13"
+  },
+  {
+   "id": "1005008932500509",
+   "name": "APEXEL 10-20X Zoom Macro Lens HD Micro Phone",
+   "short": "APEXEL 10-20X Zoom",
+   "cat": "lens",
+   "niches": [
+    "creators"
+   ],
+   "tag": "עדשה / פילטר",
+   "icon": "🔭",
+   "badge": "✨ חדש באתר",
+   "desc": "עדשה או פילטר לטלפון ולמצלמה — זווית רחבה, מאקרו ומראה קולנועי. כולל: תואם iPhone.",
+   "positive": 98,
+   "sold": "670+ מכירות",
+   "price": 112,
+   "listPrice": 260,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se860d30b25254a65903ec9ea52e9196bZ.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C3RuKdhXLXzOKG9VyccoRlH9kGGadtr0k90c4WbtvQ6kXNzFFmvb8PrKtHwm42ypmvGu8DUgl4WC62dXwRqBpTevAQOH9r1fEduNIXwtjDIq6tWMkHbzz8eS3PymlW5OyrA9Cf5Ojh8xbVeqCA3vh3iWGjVgf53LH9tQMuF5mrxeWI6UpF30CyxLdni9PMkQARKOKO2ItTY9Tc1qZJgKcyxQlWN4jek2gJ999LZwc6aeOdOua5pO9a4UXQw12n1yq7BfIbUeeceSViQDOjHLmaAAKjzQOoWT4wsZ7kkMoUi7UjzX76MNT4t93CYaja7RdO66X7YNtvMPwvySuulHDEo7C7aRXE2kDIAC7OViqNchG2KDtzGpDqtr3bxABZ9WzK4XQEcbmILuu0emU44ZcCIsxv427Mbt610dgUrfvsp6ATBBaYOeCIG0eFxeIe8rlkoIzZ1cQhBAZxZpUrGeKssDUyZv3u6u29Vd9eqxikU02fmBwHPlnfz8pizmgVACbqw0t2pp5g4Z2TbJ1YgEgYCkfMfcD7ZgmuW1GPS9TOXNCNpXxZceZcWBwPSPZWYm1CR1ynBl9I6ugILNjzPWHIr7aEgbBKBS2ha6CVQhAGLAQHAJy9PiwX8UEKvnUMYjy7V9DsAY40bNS3OI1W0HhaYmZjVqpGDbhSbm3LQEXM4p6ixdKYSRV7a2ySKCnlTwH19WBJwONfRDDe",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-14"
+  },
+  {
+   "id": "1005005875379717",
+   "name": "Baseus GH02 Gaming Wireless Headphone",
+   "short": "Baseus GH02 Gaming",
+   "cat": "headphones",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אוזניות DJ",
+   "icon": "🎧",
+   "badge": "🔥 2,500+ מכירות",
+   "desc": "אוזניות לדיג'יי — סגורות, עם בס חזק ומבנה שמחזיק גם בסטים ארוכים. כולל: חיבור אלחוטי 2.4GHz, Bluetooth, תאורת RGB.",
+   "positive": 95,
+   "sold": "2,500+ מכירות",
+   "price": 196,
+   "listPrice": 517,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S569bc178484c484580182579363d4a1f3.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4pxwO18EXRc39hgFoxFtNgijsytInZTcseW3zWy95Xg4ERFyQzJzIoGBvdtCEIPxJeb3pjKFGsU1D7tAJB2rozohtYxztzDlzHf24ZiAZRyxaqYAYJwls0ODAUc0AFBfYThYWtcjc5IlpnrUyB0QBrU6wyTMfr5ZlKfybRzAAQnpZKddrlHTZUWKaiuR32m1MnBDSbONLcqgCNaWLB4auAluLLajNSeh1gNFYEH8fjoaiQLUsdwN5Omuap8w7erqcOgBZRgj5cLdYX95mpyzHvNnm7uxRVMwZM6yg6JgIbRy1iaVmDTyLGs0BjYipPX9oNi8udDkC2EzYLPhn5WyGRds7b0UeawN9in14eIdx0UXdlpNinSLyDjJ5rxa6DmqAzcX6zo9tSh63atlen4xCeQFJCb6N8AsMXMtH9JrNacraM1XadtFYR7Dq98eu73bOv15KCQHRHznt6BcQwQgSBBCgGwm95yHOoSucw1yE7Z4ZUuwE0J5uFZlkjCwek4xTDDiqeaULlJeeN3PWsFenaoke2jS3ArD5HphHyUpwXQ9l8N8OF0uhOrK5Ipg0dpMwJheQC7Lrhm0Lb8dNFZiD3yf8QY54sKReaw8emr28mgm9V20mViU4IK6VfcEs66oCmWsSntu0APM7RTgy0w5pT1JjADFrX2IuxrIfPlbnOB6HJAaZixYP2EtBGovHKgoNcZS1qlgIaiF9",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-14"
+  },
+  {
+   "id": "1005012218261540",
+   "name": "AMX 103 XLR Condenser Microphone 48V Phantom",
+   "short": "AMX 103 XLR",
+   "cat": "interface",
+   "niches": [
+    "music"
+   ],
+   "tag": "ממשק אודיו",
+   "icon": "🎛️",
+   "badge": "✨ חדש באתר",
+   "desc": "ממשק אודיו להקלטה ביתית של שירה, כלים ופודקאסט — מחברים למחשב ומתחילים להקליט. כולל: חיבור XLR, מיקרופון קונדנסר, פנטום 48V.",
+   "positive": 98,
+   "sold": "280+ מכירות",
+   "price": 135,
+   "listPrice": 270,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7f3c3d0c27894541b4510952074d6a0df.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Co7y5PmhmVhstFZw9ROE8Uszu1J7svzOnnGHOSNd91o0JN8928MMg1EYeE2HpERwm8LpOy1gwW3U5BMuNQKuQfisH18lMZC9YchnruMmRqKVrvBxjXV1PXJwY2QyvjdPWULZs30sNU5JtrSQd9ejVIo1ja0HjpHlvwhoq8ssEKCrqNmA3dGxdsYpvfGbgazOuvruMKl21nLQzMtiNkmf1RK9JZECf8yMx9FAtPSKrv8MpeOY2xyG2FYE3HBRkVOLBLoutMVpXoZce5hdFcPxaNYn2agmxOJ7Ddxp4WORCR7GtIHGHLGW7lNELdlymVZqd7Wy2J43BbO2qQj7RdckIWS844IL2UctFGjkVWlswn1xYXY7rHuYFZu8H2HHbhJyzyOUY79gGkWanxeN0WbTEqtspHMxEG5uNfuIIm8xGvD43CxpjHDjB0iNBeCE8eD5oUp48fettC1g7WctlB2o6L8cc9ikNpVQSOuRjiXOxCeQ5N9yQhAPJIkiok1iARgvLuUc5ZCLK2o7ltz4d2cHWwXRj6l5oWOAhn3X26EyCB878GYuJgh1ZHwFKkaEj9kSPP3p6JNd4S0jplt64UMwkHb5r1oiOONDEuuiFdp5qObkdrw5N3eGqELMYLS9obXbZIy2GIpZ2d1omTOZ8b7fw4tGwtnKX2cGdzh74K19VS03pxYYx2LZUjH21lryeoApQnkX57Ia1yY0rQ",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-14"
   }
  ]
 }

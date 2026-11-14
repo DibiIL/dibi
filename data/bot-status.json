@@ -861,31 +861,31 @@
   "pending": 58
  },
  "publish": {
-  "at": "2026-11-13T03:43:50.493Z",
+  "at": "2026-11-14T03:43:53.767Z",
   "ok": true,
   "added": [
    {
-    "id": "1005004110574958",
-    "name": "HIFIMAN Edition XS Full-Size Over-Ear Open-Back",
-    "niche": "music",
-    "cat": "headphones",
-    "price": 600,
-    "commission": 8
-   },
-   {
-    "id": "1005010044183032",
-    "name": "Photo Studio 8-inch Led Fill Light Video Fill",
+    "id": "1005008932500509",
+    "name": "APEXEL 10-20X Zoom Macro Lens HD Micro Phone",
     "niche": "creators",
-    "cat": "lighting",
-    "price": 30,
+    "cat": "lens",
+    "price": 112,
     "commission": 7
    },
    {
-    "id": "1005011743097337",
-    "name": "30CM LED Desk Lamp Monitor Light Bar Eye-Care",
-    "niche": "gaming",
-    "cat": "desk",
-    "price": 28,
+    "id": "1005005875379717",
+    "name": "Baseus GH02 Gaming Wireless Headphone",
+    "niche": "dj",
+    "cat": "headphones",
+    "price": 196,
+    "commission": 7
+   },
+   {
+    "id": "1005012218261540",
+    "name": "AMX 103 XLR Condenser Microphone 48V Phantom",
+    "niche": "music",
+    "cat": "interface",
+    "price": 135,
     "commission": 7
    }
   ]
