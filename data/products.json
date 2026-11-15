@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:17:15.907Z",
+ "updated": "2026-11-15T03:43:56.808Z",
  "niches": [
   {
    "id": "music",
@@ -1494,6 +1494,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-14"
+  },
+  {
+   "id": "1005010241698060",
+   "name": "4K Webcam EMEET S600 SmartCam",
+   "short": "4K Webcam EMEET",
+   "cat": "camera",
+   "niches": [
+    "creators"
+   ],
+   "tag": "מצלמת רשת",
+   "icon": "📷",
+   "badge": "✨ חדש באתר",
+   "desc": "מצלמת רשת לשידורים, לשיחות וידאו ולהקלטה מול המחשב. כולל: רזולוציית 4K, פוקוס אוטומטי.",
+   "positive": 98,
+   "sold": "370+ מכירות",
+   "price": 169,
+   "listPrice": 606,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S681547b0d3d74b418550ca927e9988941.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Coi2dANxhjwaYscBFeK0swgS0eLGgJeuYCuF7ZQBejFGbYHzPqEtC3HrJurFDiPaLAv3vKZFvoAZsPmDAtOt2ljgLi74idhXlufri2rtaYvAx8eSBz5c51PLsgAIG6bi6dxBUH01VVQPBkluzBj2f321pSqtsBZHRKxcZ9U3IJkBPY8qKzKihqQco1iRn4GU89g73xNxH9dNvKlKu6kpi8WNxS72eHTwVSPomllyo9yVwY3zZ4reSmnVF1Q0ccCJ5mOrpmV52vNV877EuVEuh5ZLA7ReXvWteuumei2Kt8ioqsphTbrPI7llBVNkNuqfVfSMaCcZygS0DWo5EFQCNeG5YvnJySQcxIN2fqVSR7fNG3RU5KxG6GtJRo3PbGsDMhqcR6xYJGzrNckXj1F0gLzk56EnHz2fdRjAfehHwrvpodsIAuQMidzgFB9ZfDAwOtjXt460sFTatRvWdJtFU0oA1I1fy5jIZAHC5eujxOqROdzODKY4KukQebZ6CB8t22CKmzhGsKZFYBluET1Puuuh9nkSR0AKgqRUxqO9E2SMNdap0LsqhASolfN68yL9qVNr3xDqzqFPCclfT0l9SWvRGPFNybVulnDy3Xr87zrK7qEIOn9STswmOMTRU40bw99PrtGTUVL5sAquckXk66dEVMUzu2Q6DgfVs7ACxgETv4VplQNs7WIkRLUk9EhTuKTtqTZytDysMl",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-15"
+  },
+  {
+   "id": "1005013111098039",
+   "name": "LIVTRA NANOCORE Pocket Multi-Effects Processor",
+   "short": "LIVTRA NANOCORE Pocket",
+   "cat": "guitar",
+   "niches": [
+    "music"
+   ],
+   "tag": "אביזר גיטרה",
+   "icon": "🎸",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר לגיטריסטים — לתרגול, להופעות ולהקלטה בבית. כולל: Bluetooth.",
+   "positive": 99,
+   "sold": "890+ מכירות",
+   "price": 155,
+   "listPrice": 310,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9a79bb8c90454829813543a74e67baedF.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmyf4KhAENj85X6VNdjyOlvA2Jj0BUptWijh0EaqY7fJaS9NRxxCtlgHOGFMw4VpsWydUsxl54wFPC1ON8FRhJE99sfnsgr6RG9EOaClClhbrYvtshfrZ7jSjmQe0PnAUfDNX8yRWHdiTgGjOIk6k1DMGJNdTUHUerAIy3nwezcTH7DdsL6iAGIoUQjiBUuEIOw3JX5BlyFfhDmYblp24e78Cg3juusj0dQpdWCtDcowvJL1o54T7OSYENma4Ld5DEhonQyfcH2qpKauZeKDpgOAqjoxZXVC4ingQaMRWxTb9OvcbMKw8xZumvbk7I8Ff6XD3EUL5Lrb4p0TSenfcaIfEUqhD7J18S79LMTaGWGoyYua7SgVxowDfLHD4SoqfF2Uq7lemNeNdkmduBgFP8QA19DUr4vl4DFTy3hqGl7EL7v4KoEzrzyjyETgpw6aT0s6yg50Q0lzadvmmnYFicS1LBstvrwS4wVHKp4A0SS0twWnQz2e1R8M4EecIKDZZAnfQtRHdfK3tRhaJGVi98J8usAONvFH23iITNOzN6zEpQtW9bkHIOAZL77qKNsKdZomvgYkKJG26LvfOjA6XgHoSUvO9CjbdEkGTgWRG4cFrcM7DRWTN9Jk1Prl457OoqCVG8QXjFfQgW160Xp5xnEZirnHk3Nya7zi2Gg1hVMod96IP9AoUfqLdNiC84P8HevxnpfbeyDffK",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-15"
+  },
+  {
+   "id": "1005010457504861",
+   "name": "Foldable Magnetic Laptop Stand Aluminum Alloy",
+   "short": "Foldable Magnetic Laptop",
+   "cat": "dj-acc",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אביזר DJ",
+   "icon": "🧳",
+   "badge": "🔥 1,700+ מכירות",
+   "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות. כולל: הצמדה מגנטית, מתקפל, גוף מתכת.",
+   "positive": 95,
+   "sold": "1,700+ מכירות",
+   "price": 41,
+   "listPrice": 93,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnpgqiAADs1UjqBwYADmdo5dQN5NFJoJgDj2xTqOzW6QQzgnL8UFA62lA78zrW0GggTvovlCinFROruqfei7zmFTtO77A1mWfpSVKSjUNZFlksWdCnR196HX5mS8R9SH7wYhZnaT0TuEieAEF2iNLgowOaUGGt5yFZTWc6Eg3IN8EtvU6RL21I0kTNBpCIZp4MAqf3fQhUYsBVZNtHrSHi7ymMVcCp0SBjPlpouRusn9wwCF4fw9O0KQljG7kw1MVqrHOjIfmU91KuLo4ThAIaW937LbYoJmn3OojsAPdh5K57EjITsdSwiI8qzPKCkb7y0JrqD1wHnpVMoc5Wxl8n1RqZUHiwOPEbvq4CRYfVfZAOZJen1qmRhxI9k5b1iMiUfoAGfJcdasKwaQzNdIGJFYMmmDdTpNy9ExeZ0axm4DiWK0Ty7XLjqarplU76uiZMzgNyFMpNr911t7kUEGw8uDUVVnZENOSK4nrRrKejvrmwW3fCGK6GIU4Ql5otpb4KIupIlIcWqBinzCduWk7AAy5wgPmF4OwBRScg5X9xDK6D4MgwzBz30TSihbvoX5VyU1eXJVsfALP2lqLohQ34UJVm6zvX3EyAZgCrlzZbH2HMXJz9gzOkycaoUbjOJMhTpVMeE1jQNPDoe561cFiwuw59aPoI7q4gjftyEHidNzMfu5Fcy9XR9p5Ni5uqZ62g4sMDvb9saxIm",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-15"
   }
  ]
 }
