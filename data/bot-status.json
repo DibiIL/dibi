@@ -1,20 +1,11 @@
 {
  "prices": {
-  "at": "2026-11-15T16:17:15.412Z",
+  "at": "2026-11-15T22:17:16.761Z",
   "ok": true,
   "checked": 57,
   "returned": 55,
   "changes": [
-   "FIFINE A2: ₪76 → ₪86",
-   "Oneodio Pro 50: ₪133 → ₪141",
-   "Wireless Guitar: ₪46 → ₪48",
-   "Haomuren Mic Kit: ₪121 → ₪129",
-   "HOMEFISH Light Bar: ₪38 → ₪40",
-   "Gaming Laptop Cooler: ₪74 → ₪78",
-   "Professional Studio Low: ₪163 → ₪175",
-   "F16 Selfie Stick: ₪38 → ₪40",
-   "APEXEL 10-20X Zoom: ₪105 → ₪111",
-   "Foldable Magnetic Laptop: ₪36 → ₪41"
+   "FIFINE SC8: ₪190 → ₪208"
   ],
   "items": [
    {
@@ -36,7 +27,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 76,
+    "before": 86,
     "api": {
      "sale": "85.69",
      "app": "85.69",
@@ -118,13 +109,13 @@
     "name": "FIFINE SC8",
     "before": 190,
     "api": {
-     "sale": "189.76",
-     "app": "189.76",
-     "original": "335.80",
+     "sale": "208.39",
+     "app": "208.39",
+     "original": "336.11",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 190,
+    "after": 208,
     "listPrice": 336,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
@@ -148,7 +139,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 133,
+    "before": 141,
     "api": {
      "sale": "140.90",
      "app": "140.90",
@@ -181,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 106,
+    "missing": 107,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -190,7 +181,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 46,
+    "before": 48,
     "api": {
      "sale": "48.39",
      "app": "48.39",
@@ -286,7 +277,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 121,
+    "before": 129,
     "api": {
      "sale": "128.90",
      "app": "128.90",
@@ -318,7 +309,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 38,
+    "before": 40,
     "api": {
      "sale": "40.39",
      "app": "40.39",
@@ -478,7 +469,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 74,
+    "before": 78,
     "api": {
      "sale": "78.39",
      "app": "78.39",
@@ -575,7 +566,7 @@
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
     "before": 94,
-    "missing": 5,
+    "missing": 6,
     "after": 94,
     "listPrice": 188,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2b68f699abf74d439cb9dcfd930975292.png",
@@ -648,7 +639,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 163,
+    "before": 175,
     "api": {
      "sale": "174.69",
      "app": "174.69",
@@ -744,7 +735,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 38,
+    "before": 40,
     "api": {
      "sale": "39.90",
      "app": "39.90",
@@ -824,7 +815,7 @@
    {
     "id": "1005008932500509",
     "name": "APEXEL 10-20X Zoom",
-    "before": 105,
+    "before": 111,
     "api": {
      "sale": "111.39",
      "app": "111.39",
@@ -904,7 +895,7 @@
    {
     "id": "1005010457504861",
     "name": "Foldable Magnetic Laptop",
-    "before": 36,
+    "before": 41,
     "api": {
      "sale": "40.79",
      "app": "40.79",
