@@ -1,37 +1,26 @@
 {
  "prices": {
-  "at": "2026-11-15T10:17:19.412Z",
+  "at": "2026-11-15T16:17:15.412Z",
   "ok": true,
   "checked": 57,
   "returned": 55,
   "changes": [
-   "MAONO PS22: ₪195 → ₪186",
-   "FIFINE A2: ₪86 → ₪76",
-   "FIFINE SC8: ₪208 → ₪190",
-   "Oneodio Pro 50: ₪141 → ₪133",
-   "Wireless Guitar: ₪48 → ₪46",
-   "EMEET PIXY: ₪313 → ₪296",
-   "Haomuren Mic Kit: ₪129 → ₪121",
-   "MAONO PD400X: ₪467 → ₪432",
-   "HOMEFISH Light Bar: ₪40 → ₪38",
-   "Gaming Laptop Cooler: ₪78 → ₪74",
-   "Ulanzi TT88 1.44M: ₪78 → ₪70",
-   "FIFINE USB Gaming: ₪148 → ₪133",
-   "DITONG Full HD: ₪926 → ₪924",
-   "FIFINE Gaming USB: ₪144 → ₪130",
-   "Professional Studio Low: ₪175 → ₪163",
-   "UGREEN Laptop Stand: ₪62 → ₪56",
-   "F16 Selfie Stick: ₪40 → ₪38",
-   "HIFIMAN Edition XS: ₪666 → ₪600",
-   "APEXEL 10-20X Zoom: ₪111 → ₪105",
-   "4K Webcam EMEET: ₪169 → ₪157",
-   "Foldable Magnetic Laptop: ₪41 → ₪36"
+   "FIFINE A2: ₪76 → ₪86",
+   "Oneodio Pro 50: ₪133 → ₪141",
+   "Wireless Guitar: ₪46 → ₪48",
+   "Haomuren Mic Kit: ₪121 → ₪129",
+   "HOMEFISH Light Bar: ₪38 → ₪40",
+   "Gaming Laptop Cooler: ₪74 → ₪78",
+   "Professional Studio Low: ₪163 → ₪175",
+   "F16 Selfie Stick: ₪38 → ₪40",
+   "APEXEL 10-20X Zoom: ₪105 → ₪111",
+   "Foldable Magnetic Laptop: ₪36 → ₪41"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 195,
+    "before": 186,
     "api": {
      "sale": "185.56",
      "app": "185.56",
@@ -47,15 +36,15 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 86,
+    "before": 76,
     "api": {
-     "sale": "75.68",
-     "app": "75.68",
-     "original": "182.36",
+     "sale": "85.69",
+     "app": "85.69",
+     "original": "182.32",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05f2774f57cc4e78b170e471e0a07689k.jpg",
-    "after": 76,
+    "after": 86,
     "listPrice": 182,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
     "active": true
@@ -127,7 +116,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 208,
+    "before": 190,
     "api": {
      "sale": "189.76",
      "app": "189.76",
@@ -159,15 +148,15 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 141,
+    "before": 133,
     "api": {
-     "sale": "132.62",
-     "app": "132.62",
-     "original": "313.21",
+     "sale": "140.90",
+     "app": "140.90",
+     "original": "313.11",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
-    "after": 133,
+    "after": 141,
     "listPrice": 313,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf650824503484ea7b761be6ab3a7f244M.jpg",
     "active": true
@@ -192,7 +181,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 105,
+    "missing": 106,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -201,15 +190,15 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 48,
+    "before": 46,
     "api": {
-     "sale": "45.50",
-     "app": "45.50",
-     "original": "96.80",
+     "sale": "48.39",
+     "app": "48.39",
+     "original": "96.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb38dc08277c4c7684803c70427d5fe43.png",
-    "after": 46,
+    "after": 48,
     "listPrice": 97,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S99fe2c093a5e456cb9d922f71d9d15cfw.jpg",
     "active": true
@@ -217,7 +206,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 313,
+    "before": 296,
     "api": {
      "sale": "295.88",
      "app": "295.88",
@@ -297,15 +286,15 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 129,
+    "before": 121,
     "api": {
-     "sale": "121.20",
-     "app": "121.20",
-     "original": "274.34",
+     "sale": "128.90",
+     "app": "128.90",
+     "original": "274.26",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5cddb1a36fbd4776ae3b36e8bca879f3o.jpg",
-    "after": 121,
+    "after": 129,
     "listPrice": 274,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5cddb1a36fbd4776ae3b36e8bca879f3o.jpg",
     "active": true
@@ -313,7 +302,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 467,
+    "before": 432,
     "api": {
      "sale": "432.08",
      "app": "432.08",
@@ -329,15 +318,15 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 40,
+    "before": 38,
     "api": {
-     "sale": "37.99",
-     "app": "37.99",
-     "original": "93.87",
+     "sale": "40.39",
+     "app": "40.39",
+     "original": "93.93",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c709e83eb0e48098f0324ae35f71f8a6.jpg",
-    "after": 38,
+    "after": 40,
     "listPrice": 94,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5f07b510728442a48ce25a6e280b7effo.png",
     "active": true
@@ -489,15 +478,15 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 78,
+    "before": 74,
     "api": {
-     "sale": "73.71",
-     "app": "73.71",
-     "original": "156.56",
+     "sale": "78.39",
+     "app": "78.39",
+     "original": "156.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
-    "after": 74,
+    "after": 78,
     "listPrice": 157,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/H8da0a6d1f90f4d28a8fd1a9efbeda9ddC.jpg",
     "active": true
@@ -505,7 +494,7 @@
    {
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
-    "before": 78,
+    "before": 70,
     "api": {
      "sale": "69.96",
      "app": "69.96",
@@ -521,7 +510,7 @@
    {
     "id": "1005006648408257",
     "name": "FIFINE USB Gaming",
-    "before": 148,
+    "before": 133,
     "api": {
      "sale": "133.42",
      "app": "133.42",
@@ -537,7 +526,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 926,
+    "before": 924,
     "api": {
      "sale": "923.99",
      "app": "923.99",
@@ -586,7 +575,7 @@
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
     "before": 94,
-    "missing": 4,
+    "missing": 5,
     "after": 94,
     "listPrice": 188,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2b68f699abf74d439cb9dcfd930975292.png",
@@ -627,7 +616,7 @@
    {
     "id": "1005005950115658",
     "name": "FIFINE Gaming USB",
-    "before": 144,
+    "before": 130,
     "api": {
      "sale": "130.08",
      "app": "130.08",
@@ -659,16 +648,16 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 175,
+    "before": 163,
     "api": {
-     "sale": "163.18",
-     "app": "163.18",
-     "original": "371.31",
+     "sale": "174.69",
+     "app": "174.69",
+     "original": "371.68",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44cb8ab6b9de48a9afaa5853fa461a53C.jpg",
-    "after": 163,
-    "listPrice": 371,
+    "after": 175,
+    "listPrice": 372,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S44cb8ab6b9de48a9afaa5853fa461a53C.jpg",
     "active": true
    },
@@ -739,7 +728,7 @@
    {
     "id": "1005002593012680",
     "name": "UGREEN Laptop Stand",
-    "before": 62,
+    "before": 56,
     "api": {
      "sale": "56.07",
      "app": "56.07",
@@ -755,15 +744,15 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 40,
+    "before": 38,
     "api": {
-     "sale": "37.54",
-     "app": "37.54",
-     "original": "88.75",
+     "sale": "39.90",
+     "app": "39.90",
+     "original": "88.67",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb91e80db9dc8423795f6df5311ad72f3X.jpg",
-    "after": 38,
+    "after": 40,
     "listPrice": 89,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb91e80db9dc8423795f6df5311ad72f3X.jpg",
     "active": true
@@ -787,7 +776,7 @@
    {
     "id": "1005004110574958",
     "name": "HIFIMAN Edition XS",
-    "before": 666,
+    "before": 600,
     "api": {
      "sale": "599.77",
      "app": "599.77",
@@ -835,15 +824,15 @@
    {
     "id": "1005008932500509",
     "name": "APEXEL 10-20X Zoom",
-    "before": 111,
+    "before": 105,
     "api": {
-     "sale": "104.88",
-     "app": "104.88",
-     "original": "259.25",
+     "sale": "111.39",
+     "app": "111.39",
+     "original": "259.05",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se860d30b25254a65903ec9ea52e9196bZ.jpg",
-    "after": 105,
+    "after": 111,
     "listPrice": 259,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Se860d30b25254a65903ec9ea52e9196bZ.jpg",
     "active": true
@@ -883,7 +872,7 @@
    {
     "id": "1005010241698060",
     "name": "4K Webcam EMEET",
-    "before": 169,
+    "before": 157,
     "api": {
      "sale": "157.37",
      "app": "157.37",
@@ -915,15 +904,15 @@
    {
     "id": "1005010457504861",
     "name": "Foldable Magnetic Laptop",
-    "before": 41,
+    "before": 36,
     "api": {
-     "sale": "36.01",
-     "app": "36.01",
-     "original": "92.88",
+     "sale": "40.79",
+     "app": "40.79",
+     "original": "92.70",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
-    "after": 36,
+    "after": 41,
     "listPrice": 93,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
     "active": true
