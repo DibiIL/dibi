@@ -1,6 +1,6 @@
 {
  "prices": {
-  "at": "2026-11-16T16:17:16.505Z",
+  "at": "2026-11-16T22:17:15.980Z",
   "ok": true,
   "checked": 60,
   "returned": 58,
@@ -170,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 110,
+    "missing": 111,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -564,7 +564,7 @@
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
     "before": 94,
-    "missing": 9,
+    "missing": 10,
     "after": 94,
     "listPrice": 188,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2b68f699abf74d439cb9dcfd930975292.png",
