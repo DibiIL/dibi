@@ -1,21 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-16T10:17:12.871Z",
+  "at": "2026-11-16T16:17:16.505Z",
   "ok": true,
   "checked": 60,
   "returned": 58,
-  "changes": [
-   "EMEET PIXY: ₪298 → ₪315",
-   "MAONO PD400X: ₪435 → ₪441",
-   "Ulanzi TT88 1.44M: ₪73 → ₪78",
-   "FIFINE USB Gaming: ₪134 → ₪149",
-   "DITONG Full HD: ₪889 → ₪933",
-   "FIFINE Gaming USB: ₪131 → ₪145",
-   "UGREEN Laptop Stand: ₪56 → ₪63",
-   "HIFIMAN Edition XS: ₪604 → ₪671",
-   "4K Webcam EMEET: ₪158 → ₪170",
-   "Ulanzi D200X 8: ₪282 → ₪297"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -181,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 109,
+    "missing": 110,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -206,7 +195,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 298,
+    "before": 315,
     "api": {
      "sale": "315.26",
      "app": "315.26",
@@ -302,7 +291,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 435,
+    "before": 441,
     "api": {
      "sale": "441.38",
      "app": "441.38",
@@ -494,7 +483,7 @@
    {
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
-    "before": 73,
+    "before": 78,
     "api": {
      "sale": "78.39",
      "app": "78.39",
@@ -510,7 +499,7 @@
    {
     "id": "1005006648408257",
     "name": "FIFINE USB Gaming",
-    "before": 134,
+    "before": 149,
     "api": {
      "sale": "148.90",
      "app": "148.90",
@@ -526,7 +515,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 889,
+    "before": 933,
     "api": {
      "sale": "932.90",
      "app": "932.90",
@@ -575,7 +564,7 @@
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
     "before": 94,
-    "missing": 8,
+    "missing": 9,
     "after": 94,
     "listPrice": 188,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2b68f699abf74d439cb9dcfd930975292.png",
@@ -616,7 +605,7 @@
    {
     "id": "1005005950115658",
     "name": "FIFINE Gaming USB",
-    "before": 131,
+    "before": 145,
     "api": {
      "sale": "145.39",
      "app": "145.39",
@@ -728,7 +717,7 @@
    {
     "id": "1005002593012680",
     "name": "UGREEN Laptop Stand",
-    "before": 56,
+    "before": 63,
     "api": {
      "sale": "62.69",
      "app": "62.69",
@@ -776,7 +765,7 @@
    {
     "id": "1005004110574958",
     "name": "HIFIMAN Edition XS",
-    "before": 604,
+    "before": 671,
     "api": {
      "sale": "670.90",
      "app": "670.90",
@@ -872,7 +861,7 @@
    {
     "id": "1005010241698060",
     "name": "4K Webcam EMEET",
-    "before": 158,
+    "before": 170,
     "api": {
      "sale": "169.83",
      "app": "169.83",
@@ -936,7 +925,7 @@
    {
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
-    "before": 282,
+    "before": 297,
     "api": {
      "sale": "296.90",
      "app": "296.90",
