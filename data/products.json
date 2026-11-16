@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:17:16.759Z",
+ "updated": "2026-11-16T03:43:54.296Z",
  "niches": [
   {
    "id": "music",
@@ -1567,6 +1567,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-15"
+  },
+  {
+   "id": "1005012177106297",
+   "name": "Ourlife 4K Action Camera 330° Face Tracking",
+   "short": "Ourlife 4K Action",
+   "cat": "action-cam",
+   "niches": [
+    "creators"
+   ],
+   "tag": "מצלמת אקשן",
+   "icon": "🎥",
+   "badge": "✨ חדש באתר",
+   "desc": "מצלמה קטנה לוולוגים, טיולים וספורט — מצלמים מכל מקום. כולל: רזולוציית 4K, מעקב אוטומטי אחרי הפנים, ייצוב תמונה, מסך מגע.",
+   "positive": 98,
+   "sold": "870+ מכירות",
+   "price": 209,
+   "listPrice": 464,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4e4f33d5e9ed47b39e76134bd6823063U.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4m0NW9LYboBIH1qQtKlM42IylU0ToQBXghwSnxSGE46sooFMB69kEvOtgkGhI4PbbHuTRLWHbp0ZfdiKa4XY6ZacpsWaKNaq5U7rwkGVY0DO7rQf85nr8QsT0g0eJjEu6xo7vewN0VYYLeeocPMqd47ZxSzRaW7RkTFhym2vxMLfVIdGEEWvjDHsxSKCrJmX0AHBPuzdkmn1sWtbKrm4axPKYxIdC9ApfPBGivQ2cV4NJqK6C9hJllyJYb0Z0i7NFbdcVisK9f7oT61CV2Tu0UCTrxGbOdIQH4nj5lRLwjtyX1v9aEuw6Qlsejr1yOk8LHkkEhrQgLQjZRSTZcpVvHG1dYR3Vo3FPf3nStGcEfX66XB08g6Tje7kkvlEuJvY09oZ0EeS5AHl9Ta7iMFiCiCaBBn5te0lN7GI2ZklBogpA5gnGqtYVmBEGqTLNrfqs4KA7FFa7bVbKpfPsBNgVe1wSG383dwQew0XTjVabfiSyOHFgdb2LF83Lfrqg1QADr7GkLvkHFgRjsSuZwQ96hizLwIUfppyHYyhpjqOIWItlUbfJfkaWSji4iMyuMoIg4zTc4l20JYkOO6pq0BzkujrEKFHZ0eovYhE2PCfWA1KTKJe7GU3M1Etb2mgfM8TwjVR9E2g35V1kNpbqM21dcJ5RoaUWDv5jKj3Qoc7uegPcGbYrWCYuy5S8u9BORfV0IEAhxtYZu9vO",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-16"
+  },
+  {
+   "id": "1005011918971877",
+   "name": "Ulanzi D200X 8 in 1 Stream Deck Keyboard",
+   "short": "Ulanzi D200X 8",
+   "cat": "editing",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "ציוד לעריכה",
+   "icon": "✂️",
+   "badge": "✨ חדש באתר",
+   "desc": "ציוד לעריכה ולשידור — עבודה מהירה ונוחה יותר על וידאו, סאונד ותמונות.",
+   "positive": 99,
+   "sold": "210+ מכירות",
+   "price": 282,
+   "listPrice": 746,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnetvlwqM7tiWyNqRZpcfDuNr3muFYnkSNgr4GVxDifcq9t1ocYZ5fI5Df0nSAE7iZsvoS09U8n1bntlmpp67PzpArOEZ9XbcR6XKji5OxEEuaOJMw6cTNBMK5f3ygR6WxyLg0GPAtsYdxLMtabD85TShiRI37GXazmznZdYv9JChyaY65Yp04bn7i0pHodvf5FH7yXW76v5ZlFcIcERVd0Tt0a5E3MBgyVBHb9UAij7RcNmdzBvs3xgDXRBcLrdNUxfTHJXdrdIwsxG4yRr1Bp7WbJxyEAxrMuQWvxCTQXtpWvAFTS2Wews3GDP7n8iCv9jQAv8GnyWrzyKPhkOahp8ttpkUOBemwhalr70PJmTIGbnsuueEhqBK9MKf778ntDMgn2VsuY2jXgXP1U2o1Lt5vqlhkKbENnAD7yoxVAUjIPgzXlitVAmuDX7ZQrcpAuTmpS2PwboUrHSI3EN9oGtJJRBqsUdwkZHeFCp40DEIqjbpe90w9QXm6pNNz3hvG8crgEnmwGy6ytNoy9LRPtR9YU4v3rEB8jAa6FcPzVIzwsL2oYN4QtvNLuMONc1mhhzwIBTw7EQ2mic7NlqarGUSjcF7sv5L51WLIcCr9cgPCg2bsAfNBGaYlsUfhFSKFUGBIZeoIbRyCRAKJedmVoyDs4BEdsaMl2m6LzGepXYC1r3bcfOChayCB3OO2p4ZucRvJoWBv0mnV",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-16"
+  },
+  {
+   "id": "1005010439207982",
+   "name": "10Pcs/lot 1M Length 3-PIN DMX Cable DJ Stage",
+   "short": "10Pcs/lot 1M Length",
+   "cat": "dj-lights",
+   "niches": [
+    "dj"
+   ],
+   "tag": "תאורת במה",
+   "icon": "✨",
+   "badge": "✨ חדש באתר",
+   "desc": "תאורת במה לדיג'יי ולהופעות — אפקטים שמגיבים למוזיקה. כולל: שליטת DMX, גוף מתכת.",
+   "positive": 98,
+   "sold": "210+ מכירות",
+   "price": 123,
+   "listPrice": 247,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0fdccca8e1a47b0acc378691f9a0ad3T.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoJ5YN6Ha6e8mPho7I9YBDOaf7ynm4auuk1HkjxHrHygSsUgd4xz0svPObBXt0bDNOb2k85PPQ66uvXcL4dlo881V5Ppa7TI5VgpEjzh4POkT4Ln85E36McQbvENim4Y8iiZ6bfJWb3XoDPrTebTn7zuSevegbqtkTnrN8LYZ2IqB4sv8Qtke1h2KHN8OR8hsjwgFjSstsDwigt82EsE2tIajunxsztpOKvA9NnAxaWMYlPk88m41bTRmBW6Sqq15Z6kKFGfh1VbJug7KOsINlDSccL5AzP23tgj9nl81RGVTy357SmBZZobgPQMsLUCqY2p8qHv4Fn1b8fRjGHoc6gGMtyqgvmWePZBDawLExh09nhGLeZTtcglwZLuBaLQQZZ3bNQtTuXdBW2jprp2Kq7VcuCStE4sZ4HFzX7tNmBVoap7pLvE9LkjYNQzB7PKdZfiREwToSZ4QDwLvTrl9onYhn2KFPtPZBVqgxOEBO5LSlxLc8nsICiMijmQuuapfqfBFjmmvYz86viBZdMUUGG3OFoLn65S97V55QgxpB4q1uaS3DhpTVPfEkBjaq2OBjvBrfehDNWATVW9ITER3N3NTDS8UI4FmuAS0GjKrsiQS1lvMeWuUCMaPnzxl6qDqBMA1TUVMERr5USRFeOqO247oiPMrkmpFcJuGPxhqxXWr3iwkCWphpi0A38575KuWuK7iMddBxEt2g",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-16"
   }
  ]
 }

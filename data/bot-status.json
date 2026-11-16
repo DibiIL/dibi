@@ -948,31 +948,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-15T03:43:56.810Z",
+  "at": "2026-11-16T03:43:54.300Z",
   "ok": true,
   "added": [
    {
-    "id": "1005010241698060",
-    "name": "4K Webcam EMEET S600 SmartCam",
+    "id": "1005012177106297",
+    "name": "Ourlife 4K Action Camera 330° Face Tracking",
     "niche": "creators",
-    "cat": "camera",
-    "price": 169,
-    "commission": 8
-   },
-   {
-    "id": "1005013111098039",
-    "name": "LIVTRA NANOCORE Pocket Multi-Effects Processor",
-    "niche": "music",
-    "cat": "guitar",
-    "price": 155,
+    "cat": "action-cam",
+    "price": 209,
     "commission": 7
    },
    {
-    "id": "1005010457504861",
-    "name": "Foldable Magnetic Laptop Stand Aluminum Alloy",
+    "id": "1005011918971877",
+    "name": "Ulanzi D200X 8 in 1 Stream Deck Keyboard",
+    "niche": "podcast",
+    "cat": "editing",
+    "price": 282,
+    "commission": 7
+   },
+   {
+    "id": "1005010439207982",
+    "name": "10Pcs/lot 1M Length 3-PIN DMX Cable DJ Stage",
     "niche": "dj",
-    "cat": "dj-acc",
-    "price": 41,
+    "cat": "dj-lights",
+    "price": 123,
     "commission": 7
    }
   ]
