@@ -1,10 +1,17 @@
 {
  "prices": {
-  "at": "2026-11-17T16:17:14.503Z",
+  "at": "2026-11-17T22:17:14.665Z",
   "ok": true,
   "checked": 63,
   "returned": 62,
-  "changes": [],
+  "changes": [
+   "EMEET PIXY: ₪301 → ₪318",
+   "FIFINE USB Gaming: ₪136 → ₪150",
+   "DITONG Full HD: ₪940 → ₪941",
+   "UGREEN Laptop Stand: ₪57 → ₪63",
+   "HIFIMAN Edition XS: ₪610 → ₪677",
+   "4K Webcam EMEET: ₪160 → ₪171"
+  ],
   "items": [
    {
     "id": "1005012329009344",
@@ -170,7 +177,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 114,
+    "missing": 115,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -197,13 +204,13 @@
     "name": "EMEET PIXY",
     "before": 301,
     "api": {
-     "sale": "300.82",
-     "app": "300.82",
+     "sale": "318.34",
+     "app": "318.34",
      "original": "974.98",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 301,
+    "after": 318,
     "listPrice": 975,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true
@@ -485,14 +492,14 @@
     "name": "Ulanzi TT88 1.44M",
     "before": 79,
     "api": {
-     "sale": "78.85",
-     "app": "78.85",
-     "original": "192.51",
+     "sale": "78.90",
+     "app": "78.90",
+     "original": "192.44",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
     "after": 79,
-    "listPrice": 193,
+    "listPrice": 192,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
     "active": true
    },
@@ -501,14 +508,14 @@
     "name": "FIFINE USB Gaming",
     "before": 136,
     "api": {
-     "sale": "135.60",
-     "app": "135.60",
-     "original": "246.20",
+     "sale": "150.39",
+     "app": "150.39",
+     "original": "246.54",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
-    "after": 136,
-    "listPrice": 246,
+    "after": 150,
+    "listPrice": 247,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
     "active": true
    },
@@ -517,13 +524,13 @@
     "name": "DITONG Full HD",
     "before": 940,
     "api": {
-     "sale": "940.04",
-     "app": "940.04",
-     "original": "1622.36",
+     "sale": "940.90",
+     "app": "940.90",
+     "original": "1622.24",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 940,
+    "after": 941,
     "listPrice": 1622,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
@@ -725,13 +732,13 @@
     "name": "UGREEN Laptop Stand",
     "before": 57,
     "api": {
-     "sale": "56.99",
-     "app": "56.99",
-     "original": "109.04",
+     "sale": "63.39",
+     "app": "63.39",
+     "original": "109.29",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4e7ada4785c7496ca6d6e437d165a620K.jpg",
-    "after": 57,
+    "after": 63,
     "listPrice": 109,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S4e7ada4785c7496ca6d6e437d165a620K.jpg",
     "active": true
@@ -773,14 +780,14 @@
     "name": "HIFIMAN Edition XS",
     "before": 610,
     "api": {
-     "sale": "609.56",
-     "app": "609.56",
-     "original": "2818.93",
+     "sale": "676.90",
+     "app": "676.90",
+     "original": "2820.42",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
-    "after": 610,
-    "listPrice": 2819,
+    "after": 677,
+    "listPrice": 2820,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
     "active": true
    },
@@ -869,13 +876,13 @@
     "name": "4K Webcam EMEET",
     "before": 160,
     "api": {
-     "sale": "160.00",
-     "app": "160.00",
+     "sale": "171.49",
+     "app": "171.49",
      "original": "615.78",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S681547b0d3d74b418550ca927e9988941.jpg",
-    "after": 160,
+    "after": 171,
     "listPrice": 616,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S681547b0d3d74b418550ca927e9988941.jpg",
     "active": true
