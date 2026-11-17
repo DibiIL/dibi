@@ -1,38 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-17T10:17:14.403Z",
+  "at": "2026-11-17T16:17:14.503Z",
   "ok": true,
   "checked": 63,
   "returned": 62,
-  "changes": [
-   "FIFINE A2: ₪87 → ₪77",
-   "Oneodio Pro 50: ₪143 → ₪135",
-   "Rowin Looper: ₪81 → ₪80",
-   "Wireless Guitar: ₪49 → ₪46",
-   "EMEET PIXY: ₪318 → ₪301",
-   "Art-Net DMX: ₪217 → ₪219",
-   "Haomuren Mic Kit: ₪131 → ₪123",
-   "MAONO PD400X: ₪462 → ₪439",
-   "HOMEFISH Light Bar: ₪41 → ₪39",
-   "MAONO PD100X: ₪177 → ₪174",
-   "TELESIN Mini Quick: ₪29 → ₪30",
-   "DJ Controller Case: ₪157 → ₪156",
-   "Gaming Laptop Cooler: ₪80 → ₪75",
-   "FIFINE USB Gaming: ₪150 → ₪136",
-   "DITONG Full HD: ₪941 → ₪940",
-   "♻️ חזר למלאי: Lenovo Original Stylus",
-   "Lenovo Original Stylus: ₪94 → ₪95",
-   "XinMic Wireless Lavalier: ₪55 → ₪54",
-   "DT-02B Foldable Adjustable: ₪87 → ₪88",
-   "Professional Studio Low: ₪177 → ₪166",
-   "UGREEN Laptop Stand: ₪63 → ₪57",
-   "F16 Selfie Stick: ₪41 → ₪38",
-   "HIFIMAN Edition XS: ₪677 → ₪610",
-   "APEXEL 10-20X Zoom: ₪113 → ₪107",
-   "4K Webcam EMEET: ₪171 → ₪160",
-   "Foldable Magnetic Laptop: ₪42 → ₪37",
-   "Ourlife 4K Action: ₪211 → ₪199"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -53,7 +25,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 87,
+    "before": 77,
     "api": {
      "sale": "76.96",
      "app": "76.96",
@@ -165,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 143,
+    "before": 135,
     "api": {
      "sale": "134.83",
      "app": "134.83",
@@ -181,7 +153,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 81,
+    "before": 80,
     "api": {
      "sale": "79.99",
      "app": "79.99",
@@ -198,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 113,
+    "missing": 114,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -207,7 +179,7 @@
    {
     "id": "1005011653829651",
     "name": "Wireless Guitar",
-    "before": 49,
+    "before": 46,
     "api": {
      "sale": "46.16",
      "app": "46.16",
@@ -223,7 +195,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 318,
+    "before": 301,
     "api": {
      "sale": "300.82",
      "app": "300.82",
@@ -287,7 +259,7 @@
    {
     "id": "1005009116309896",
     "name": "Art-Net DMX",
-    "before": 217,
+    "before": 219,
     "api": {
      "sale": "218.69",
      "app": "218.69",
@@ -303,7 +275,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 131,
+    "before": 123,
     "api": {
      "sale": "123.22",
      "app": "123.22",
@@ -319,7 +291,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 462,
+    "before": 439,
     "api": {
      "sale": "439.14",
      "app": "439.14",
@@ -335,7 +307,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 41,
+    "before": 39,
     "api": {
      "sale": "38.74",
      "app": "38.74",
@@ -383,7 +355,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 177,
+    "before": 174,
     "api": {
      "sale": "173.69",
      "app": "173.69",
@@ -431,7 +403,7 @@
    {
     "id": "1005010708281380",
     "name": "TELESIN Mini Quick",
-    "before": 29,
+    "before": 30,
     "api": {
      "sale": "29.69",
      "app": "29.69",
@@ -447,7 +419,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 157,
+    "before": 156,
     "api": {
      "sale": "155.90",
      "app": "155.90",
@@ -495,7 +467,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 80,
+    "before": 75,
     "api": {
      "sale": "74.93",
      "app": "74.93",
@@ -527,7 +499,7 @@
    {
     "id": "1005006648408257",
     "name": "FIFINE USB Gaming",
-    "before": 150,
+    "before": 136,
     "api": {
      "sale": "135.60",
      "app": "135.60",
@@ -543,7 +515,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 941,
+    "before": 940,
     "api": {
      "sale": "940.04",
      "app": "940.04",
@@ -591,7 +563,7 @@
    {
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
-    "before": 94,
+    "before": 95,
     "api": {
      "sale": "95.39",
      "app": "95.39",
@@ -607,7 +579,7 @@
    {
     "id": "1005007539994621",
     "name": "XinMic Wireless Lavalier",
-    "before": 55,
+    "before": 54,
     "api": {
      "sale": "54.39",
      "app": "54.39",
@@ -623,7 +595,7 @@
    {
     "id": "1005010155315423",
     "name": "DT-02B Foldable Adjustable",
-    "before": 87,
+    "before": 88,
     "api": {
      "sale": "87.99",
      "app": "87.99",
@@ -671,7 +643,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 177,
+    "before": 166,
     "api": {
      "sale": "165.91",
      "app": "165.91",
@@ -751,7 +723,7 @@
    {
     "id": "1005002593012680",
     "name": "UGREEN Laptop Stand",
-    "before": 63,
+    "before": 57,
     "api": {
      "sale": "56.99",
      "app": "56.99",
@@ -767,7 +739,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 41,
+    "before": 38,
     "api": {
      "sale": "38.10",
      "app": "38.10",
@@ -799,7 +771,7 @@
    {
     "id": "1005004110574958",
     "name": "HIFIMAN Edition XS",
-    "before": 677,
+    "before": 610,
     "api": {
      "sale": "609.56",
      "app": "609.56",
@@ -847,7 +819,7 @@
    {
     "id": "1005008932500509",
     "name": "APEXEL 10-20X Zoom",
-    "before": 113,
+    "before": 107,
     "api": {
      "sale": "106.63",
      "app": "106.63",
@@ -895,7 +867,7 @@
    {
     "id": "1005010241698060",
     "name": "4K Webcam EMEET",
-    "before": 171,
+    "before": 160,
     "api": {
      "sale": "160.00",
      "app": "160.00",
@@ -927,7 +899,7 @@
    {
     "id": "1005010457504861",
     "name": "Foldable Magnetic Laptop",
-    "before": 42,
+    "before": 37,
     "api": {
      "sale": "36.61",
      "app": "36.61",
@@ -943,7 +915,7 @@
    {
     "id": "1005012177106297",
     "name": "Ourlife 4K Action",
-    "before": 211,
+    "before": 199,
     "api": {
      "sale": "198.57",
      "app": "198.57",
