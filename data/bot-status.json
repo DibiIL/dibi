@@ -993,31 +993,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-16T03:43:54.300Z",
+  "at": "2026-11-17T03:43:52.108Z",
   "ok": true,
   "added": [
    {
-    "id": "1005012177106297",
-    "name": "Ourlife 4K Action Camera 330° Face Tracking",
+    "id": "1005011656171989",
+    "name": "BRDRC Pocket 4 Magnetic Mount Vlog Live Streaming",
     "niche": "creators",
-    "cat": "action-cam",
-    "price": 209,
+    "cat": "creator-gear",
+    "price": 77,
+    "commission": 8
+   },
+   {
+    "id": "1005007477012085",
+    "name": "3 Rod Tablet Stand",
+    "niche": "screens",
+    "cat": "screen-acc",
+    "price": 111,
     "commission": 7
    },
    {
-    "id": "1005011918971877",
-    "name": "Ulanzi D200X 8 in 1 Stream Deck Keyboard",
-    "niche": "podcast",
-    "cat": "editing",
-    "price": 282,
-    "commission": 7
-   },
-   {
-    "id": "1005010439207982",
-    "name": "10Pcs/lot 1M Length 3-PIN DMX Cable DJ Stage",
-    "niche": "dj",
-    "cat": "dj-lights",
-    "price": 123,
+    "id": "1005008908865943",
+    "name": "Wireless Gaming Headset",
+    "niche": "gaming",
+    "cat": "gaming-headset",
+    "price": 99,
     "commission": 7
    }
   ]

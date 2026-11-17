@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:17:12.869Z",
+ "updated": "2026-11-17T03:43:52.103Z",
  "niches": [
   {
    "id": "music",
@@ -1639,6 +1639,77 @@
    "active": true,
    "auto": true,
    "added": "2026-11-16"
+  },
+  {
+   "id": "1005011656171989",
+   "name": "BRDRC Pocket 4 Magnetic Mount Vlog Live Streaming",
+   "short": "BRDRC Pocket 4",
+   "cat": "creator-gear",
+   "niches": [
+    "creators"
+   ],
+   "tag": "אביזר צילום",
+   "icon": "🎬",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר ליוצרי תוכן — סטודיו קטן ומסודר בבית. כולל: הצמדה מגנטית.",
+   "positive": 97,
+   "sold": "380+ מכירות",
+   "price": 77,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2L18DeoUdBCRlx2ZTf9faFCKOIC5DWD1iag8thOjqx3yVG1JSmoIYtbeoYfPRZT5dF1D0Y0vpIYR1InkATUC9yHv4orI4FAfecvhQpMsFGScVWRgT5zeMoh5hN4bMn17gb7WtbbAAZLEGdwF6wvbpeLHUqcfkQRskWjEwrDkpGD2K863e1Fa7QfkPcbScbaxeLh0kXXaQtpoQUK12EBER5ujM5rFTthOFk7V8PJqQxL9q1NRcMd1RjFQPdUBxD9difGytPT0N54h9MjV6hNYe4Gs1pRZieb5JF0dQHtmE2UUnzmCtx0F6XJqn0eNiJuAOarj3pLmGQIluuIsNCrGfjipnxbHOO8XeiRnXVOfdVIkaLzSYT7FIfgCoinmyI6IDL1UTSVph5vhI8yLxmwfLxfc5rxzlhF4Dg5AAmch8PhUgynlWytq7W1MZwAXto6PtdUHSCMKcccVhvf7P7rKP3rBeHdCly4Egxi3ujfHfc9vta1ykoywkoY5ZFzMSxUGfV5nEfdv6UjCAbiEK1edQCTGprETUv5l5PQGUV4O20nFe7euTkUiQaqfqbosRZWvw3mnogDXkulyfv16ZF44Xpv78fOzJZZxTQK4B6h3pLOF5aDFXDq9wm9TRCbmBzj62sVw2e9wkyy4TuhrkZ3GpKLGF19zA5wyoEJwdv66kCXJ9pvbJ6pirJZhCwvEPkhxIokqgOeTLM73B",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-17"
+  },
+  {
+   "id": "1005007477012085",
+   "name": "3 Rod Tablet Stand",
+   "short": "3 Rod Tablet",
+   "cat": "screen-acc",
+   "niches": [
+    "screens"
+   ],
+   "tag": "אביזר למסך",
+   "icon": "🗜️",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר למסך ולמקרן — העמדה נוחה, מסודרת ובגובה הנכון. כולל: מתקפל.",
+   "positive": 98,
+   "sold": "950+ מכירות",
+   "price": 111,
+   "listPrice": 241,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa28eb7348de94e5694629a2a9e111c17S.png",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoUtST6XnG9DCvZWZigncBIHHoqfQYAkgJB5wgIDdvsGwLWbWTn8tTLjKhSen7aa5ILQlYqg2JVzFzPoVA507dIztJInV9z8QmIBwLbkRAuG7CMfWhzIfNozrSA5dRL4OGMOzcpnq1RC69zxaReVWmt66dN77bJBLIsrlhAl5BUFB7uAfkx9y5CjBOw0BpTGzf905aTYR6NB9kjbt3WYUP0TBaUUDMuTobnxDLWcLqbJ3nEQ8RWQSLM8FekO6MP9ewnrLI78D7R09gAmxifvKuwrhP8NrD51oPloAD4hBaVoGMCxMTZZgz9UbF36EGwhjWlZDmjb4T9RY8qktzEs4VaiOop1MlZdG3VU6jPBgFm2lbCCc89ualkFyMruSpAwlaBjqqrrKS1E2DCI45nSz0v9hJgmfAXy4ygrmzDU3mt0pyjSithlXs2cGk5nV36uHIUs4IefWJTtn7MAN9qUkf8aBghE6xOsrrqxu9MzQNZz5R2kNDmu8qm6dEQz8H6ZnfrBqFN3e6QOcKuh1slunUlXGOISNSpBrSfaDBuqfdRsygqxH4ciCQrah4efWgOZbefDjD5TRy9ZoIn5nxrYBfJCFd1OG2MwcFuCoXSAQBA7Taa0Bb7H3T0hVs8XOAPZUllmodWIwnaGz38Utpfau0Ic8K8niRTu0Sq7VmWXzhMnPRjTseLLIguzGoXIcER8pTj1RIFFuPAJjw",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-17"
+  },
+  {
+   "id": "1005008908865943",
+   "name": "Wireless Gaming Headset",
+   "short": "Wireless Gaming Headset",
+   "cat": "gaming-headset",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "אוזניות גיימינג",
+   "icon": "🎮",
+   "badge": "🔥 3,200+ מכירות",
+   "desc": "אוזניות גיימינג עם מיקרופון — שומעים כל צעד ומדברים עם הקבוצה בבירור. כולל: חיבור אלחוטי 2.4GHz, Bluetooth, סינון רעשים.",
+   "positive": 98,
+   "sold": "3,200+ מכירות",
+   "price": 99,
+   "listPrice": 199,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S74446511e02945b29b2dd931aadf29acx.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4pPwi7YNIN0CERfGwScg4LXq6nJE2y1mfYS3hYVIzbNnhRgm7hSl7sBoSTBcyhCxtpqDeEstogoSXZqe3a0CaxpY5azgbzfTAJehng7GUNViN8fS9zVSEcJQZ24g7NyJV7o4WKuEckB6oEuoBx1i6dDUZZPhhH61GczY4F8b0LEfwt33BLHzoaTJoSbfOSy2o1DZKWhQ3lExD5pkp13rowbWYyaoDa1oZYw7h1HtWlVUioU8nD2Yxqtt53elGfbkJooAMnXCdCO5Fw9RM4fzhAHVsaiDPRNDkg6yUPxupF4mnz3Jnoiw82H5U2Yk1yQR7b5lq0GxQuVlyBvQtKSpY4mAenHW6TzfVCCXIsbxbjqQMzJnieg2BJR9QY5KMXobGzM64sHzrNKu9clBcLHlS5oo8b5zxcPMieuGQNOtO8K7OMwE5Sj2CQUh19M06I48pP8MZZ2FKniLRBiQl6EJDCQfedeL2Uj1rJTZrDj0KGFrafAatRflAU9rvyBWtyKyBjwtI6tPurZuJj7Gpq7W1PUBvIirAnFrIGUf9M4QKX4MTbMlIMj87DJsDDQWwXY8eAhtfY7II5zH0X1PIEmiNZ1DXpMQ66HDORepSlP3oE6EAaR7etztiHK7FU7K5E3iHULW1IAO8tNl6KxSxgn0k5dk0HNmR9ZLOrFu2XbFf36qK7CI7x4HHnv0TSz84QvJK2OXseyUlReuS",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-17"
   }
  ]
 }
