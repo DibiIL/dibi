@@ -1,21 +1,18 @@
 {
  "prices": {
-  "at": "2026-11-18T04:17:14.417Z",
+  "at": "2026-11-18T10:17:14.693Z",
   "ok": true,
   "checked": 66,
-  "returned": 65,
+  "returned": 64,
   "changes": [
-   "AIYIMA S4000: ₪692 → ₪693",
-   "EMEET PIXY: ₪318 → ₪319",
-   "MAONO PD400X: ₪439 → ₪440",
-   "DITONG Full HD: ₪941 → ₪943",
-   "FIFINE Gaming USB: ₪146 → ₪147",
-   "Professional Studio Low: ₪166 → ₪160",
-   "SMAILWOLF L80 Bluetooth: ₪87 → ₪82",
-   "HIFIMAN Edition XS: ₪677 → ₪678",
-   "Baseus GH02 Gaming: ₪199 → ₪200",
-   "4K Webcam EMEET: ₪171 → ₪172",
-   "LIVTRA NANOCORE Pocket: ₪157 → ₪158"
+   "EMEET PIXY: ₪319 → ₪301",
+   "Ulanzi TT88 1.44M: ₪79 → ₪73",
+   "FIFINE USB Gaming: ₪150 → ₪136",
+   "DITONG Full HD: ₪943 → ₪936",
+   "FIFINE Gaming USB: ₪147 → ₪132",
+   "UGREEN Laptop Stand: ₪63 → ₪57",
+   "HIFIMAN Edition XS: ₪678 → ₪610",
+   "4K Webcam EMEET: ₪172 → ₪160"
   ],
   "items": [
    {
@@ -44,7 +41,7 @@
      "original": "185.56",
      "currency": "ILS"
     },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05f2774f57cc4e78b170e471e0a07689k.jpg",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e7ba8e514e24355839e11ebd69867c7D.jpg",
     "after": 77,
     "listPrice": 186,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5b6c726f9d374bd49f4368f3b7256c9aS.jpg",
@@ -101,7 +98,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 692,
+    "before": 693,
     "api": {
      "sale": "692.90",
      "app": "692.90",
@@ -182,7 +179,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 116,
+    "missing": 117,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -207,15 +204,15 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 318,
+    "before": 319,
     "api": {
-     "sale": "318.59",
-     "app": "318.59",
+     "sale": "301.07",
+     "app": "301.07",
      "original": "975.76",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
-    "after": 319,
+    "after": 301,
     "listPrice": 976,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
     "active": true
@@ -303,7 +300,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 439,
+    "before": 440,
     "api": {
      "sale": "439.77",
      "app": "439.77",
@@ -336,13 +333,7 @@
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
     "before": 96,
-    "api": {
-     "sale": "95.90",
-     "app": "95.90",
-     "original": "208.48",
-     "currency": "ILS"
-    },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
+    "missing": 1,
     "after": 96,
     "listPrice": 208,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
@@ -470,7 +461,7 @@
      "original": "205.69",
      "currency": "ILS"
     },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S565664042b8e4e6fab739b87509e3459s.jpg",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05d66e7de82b491f8d9d90d5c3c4b62cl.jpg",
     "after": 86,
     "listPrice": 206,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S565664042b8e4e6fab739b87509e3459s.jpg",
@@ -497,13 +488,13 @@
     "name": "Ulanzi TT88 1.44M",
     "before": 79,
     "api": {
-     "sale": "78.99",
-     "app": "78.99",
-     "original": "192.66",
+     "sale": "73.43",
+     "app": "73.43",
+     "original": "192.79",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
-    "after": 79,
+    "after": 73,
     "listPrice": 193,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
     "active": true
@@ -513,13 +504,13 @@
     "name": "FIFINE USB Gaming",
     "before": 150,
     "api": {
-     "sale": "150.39",
-     "app": "150.39",
-     "original": "246.54",
+     "sale": "135.80",
+     "app": "135.80",
+     "original": "246.56",
      "currency": "ILS"
     },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
-    "after": 150,
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3be9cb12261945fa90a9f330f72f638br.jpg",
+    "after": 136,
     "listPrice": 247,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sba94f7129a3547abb52ed2ce4039984ca.jpg",
     "active": true
@@ -527,16 +518,16 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 941,
+    "before": 943,
     "api": {
-     "sale": "942.90",
-     "app": "942.90",
-     "original": "1625.69",
+     "sale": "935.73",
+     "app": "935.73",
+     "original": "1624.71",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 943,
-    "listPrice": 1626,
+    "after": 936,
+    "listPrice": 1625,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
    },
@@ -623,15 +614,15 @@
    {
     "id": "1005005950115658",
     "name": "FIFINE Gaming USB",
-    "before": 146,
+    "before": 147,
     "api": {
-     "sale": "146.69",
-     "app": "146.69",
+     "sale": "132.41",
+     "app": "132.41",
      "original": "252.91",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff6438218e64e95981eceec6f8fb927O.jpg",
-    "after": 147,
+    "after": 132,
     "listPrice": 253,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff6438218e64e95981eceec6f8fb927O.jpg",
     "active": true
@@ -655,7 +646,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 166,
+    "before": 160,
     "api": {
      "sale": "160.31",
      "app": "160.31",
@@ -737,13 +728,13 @@
     "name": "UGREEN Laptop Stand",
     "before": 63,
     "api": {
-     "sale": "63.39",
-     "app": "63.39",
-     "original": "109.29",
+     "sale": "57.08",
+     "app": "57.08",
+     "original": "109.20",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4e7ada4785c7496ca6d6e437d165a620K.jpg",
-    "after": 63,
+    "after": 57,
     "listPrice": 109,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S4e7ada4785c7496ca6d6e437d165a620K.jpg",
     "active": true
@@ -767,7 +758,7 @@
    {
     "id": "1005009120888793",
     "name": "SMAILWOLF L80 Bluetooth",
-    "before": 87,
+    "before": 82,
     "api": {
      "sale": "82.32",
      "app": "82.32",
@@ -783,16 +774,16 @@
    {
     "id": "1005004110574958",
     "name": "HIFIMAN Edition XS",
-    "before": 677,
+    "before": 678,
     "api": {
-     "sale": "677.90",
-     "app": "677.90",
-     "original": "2824.58",
+     "sale": "610.45",
+     "app": "610.45",
+     "original": "2823.01",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
-    "after": 678,
-    "listPrice": 2825,
+    "after": 610,
+    "listPrice": 2823,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
     "active": true
    },
@@ -847,7 +838,7 @@
    {
     "id": "1005005875379717",
     "name": "Baseus GH02 Gaming",
-    "before": 199,
+    "before": 200,
     "api": {
      "sale": "199.69",
      "app": "199.69",
@@ -879,15 +870,15 @@
    {
     "id": "1005010241698060",
     "name": "4K Webcam EMEET",
-    "before": 171,
+    "before": 172,
     "api": {
-     "sale": "171.62",
-     "app": "171.62",
+     "sale": "160.12",
+     "app": "160.12",
      "original": "616.27",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S681547b0d3d74b418550ca927e9988941.jpg",
-    "after": 172,
+    "after": 160,
     "listPrice": 616,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S681547b0d3d74b418550ca927e9988941.jpg",
     "active": true
@@ -895,7 +886,7 @@
    {
     "id": "1005013111098039",
     "name": "LIVTRA NANOCORE Pocket",
-    "before": 157,
+    "before": 158,
     "api": {
      "sale": "157.69",
      "app": "157.69",
