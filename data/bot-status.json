@@ -1052,31 +1052,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-17T03:43:52.108Z",
+  "at": "2026-11-18T03:43:53.636Z",
   "ok": true,
   "added": [
    {
-    "id": "1005011656171989",
-    "name": "BRDRC Pocket 4 Magnetic Mount Vlog Live Streaming",
+    "id": "1005009278189244",
+    "name": "Wireless Microphone Lavalier",
     "niche": "creators",
-    "cat": "creator-gear",
-    "price": 77,
-    "commission": 8
-   },
-   {
-    "id": "1005007477012085",
-    "name": "3 Rod Tablet Stand",
-    "niche": "screens",
-    "cat": "screen-acc",
-    "price": 111,
+    "cat": "wireless-mic",
+    "price": 36,
     "commission": 7
    },
    {
-    "id": "1005008908865943",
-    "name": "Wireless Gaming Headset",
-    "niche": "gaming",
-    "cat": "gaming-headset",
-    "price": 99,
+    "id": "1005008932977208",
+    "name": "Adjustable Microphone Stand Desktop Boom Holder",
+    "niche": "podcast",
+    "cat": "mic-arm",
+    "price": 51,
+    "commission": 7
+   },
+   {
+    "id": "1005007548059106",
+    "name": "FiiO FT1-New version Closed-Back Over-Ear Fiber",
+    "niche": "music",
+    "cat": "headphones",
+    "price": 492,
     "commission": 7
    }
   ]

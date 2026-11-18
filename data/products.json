@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:17:14.661Z",
+ "updated": "2026-11-18T03:43:53.633Z",
  "niches": [
   {
    "id": "music",
@@ -1708,6 +1708,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-17"
+  },
+  {
+   "id": "1005009278189244",
+   "name": "Wireless Microphone Lavalier",
+   "short": "Wireless Microphone Lavalier",
+   "cat": "wireless-mic",
+   "niches": [
+    "creators"
+   ],
+   "tag": "מיקרופון אלחוטי",
+   "icon": "📡",
+   "badge": "🔥 1,200+ מכירות",
+   "desc": "מיקרופון אלחוטי לצילום בטלפון ובמצלמה — סאונד נקי לסרטונים, ראיונות ולייבים. כולל: סינון רעשים.",
+   "positive": 98,
+   "sold": "1,200+ מכירות",
+   "price": 36,
+   "listPrice": 88,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf940cbcb17c7453b925fde211190c1feT.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CojxVJgdBXjsMrYRS43OKgKUQm0nMCkKbbMywwICbnPrEOZB2O4tXbVgTQNHLULfjbVm0Qe9U8zIZh8xuviSIOmdvs72T2vQBjd3uoHB9nE9ccgLM2CtYrEStCmjlGJUvlGwA7WFmFHPiUyqmIvmaX3A6dzPalwmNMeJ4qOZtaB59LKXeTycrrzaXVNiadR5bKSKfnNiSKFsVi5bX34eptAkvur4tyj2KFTJbCGcLj8j8GLgO0lWWbSzfwbrPEDm5qGyjXoPeIsn65UNHq6vx0TSX3ssNj84Seh5k7GpCzABwBPzvreKlk2Mm8FsRrow5keUHnQGC7OOSOxqEahpLz3ll0anhBKSN9z5n8b14TacDNIeJ4JIYIStDdJq0zjy6Z0N10KL5VabWiNuQCUa6YGff8GrGzns4b8fls7CLeqgWQf6ikDZSDn0e8Cfp4ZvRfydQxXI6jxurjNvnV0Krf92XLZEZCjBAcLLs74MTEAYZZAnyfK7TTMl2kPlLBidazb7LwktNL2EIGS300E4vTWPTPnoOjSvZ3nEsAI9lydIaBDVQCZ5LYzhOqwULSGJr5TAU3pkLJbDSHVDiveUxi5IKOIUM9rm966FWXS9rqFsMKYumLfpC1d4Xohm6c8YHULdWlzmSQphaQHd3SUJo9gooPYaPjXIzZNc64ZpiImf1EbPj6QJxA7NXeL8d2rTgxoJ68pMz3c2hC",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-18"
+  },
+  {
+   "id": "1005008932977208",
+   "name": "Adjustable Microphone Stand Desktop Boom Holder",
+   "short": "Adjustable Microphone Stand",
+   "cat": "mic-arm",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "זרוע מיקרופון",
+   "icon": "🦾",
+   "badge": "✨ חדש באתר",
+   "desc": "זרוע למיקרופון — מחזיקה אותו בדיוק מול הפה ומשאירה את השולחן פנוי.",
+   "positive": 98,
+   "sold": "700+ מכירות",
+   "price": 51,
+   "listPrice": 102,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0b7a0f4c24d54e2a82284c626f509948D.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2LlnEzvcPbC29DXgd8AJ2WfV6vlykqfxLgCrTEhJgCgukAw0vMpFMGkM11CpPWsPqtn6BcLpUAwxkOOJN4kgNywE5iK7hdSwayRs0cmIXSS1wjZeJ8733f2SvjfbpIOeAjjPsiN1ANQflJImOQ8Yw8PAD5RCAkwlbbJ57k4ZSHjXegZqSCniW0gZ1ZwXsx7gJqTW5oUDdiRL0okIkiF2ZhWx48RfbjmIDI9ENcTP4AAvOy9jK3ydfEgwJJkmvGjbMPaTUWy8Z2nqI9OdWB4UxGBnj1mbItCAC9Y93J4brvriZO95GdC1saAybHrLQ4XKbBCHI22ZxPNoIqOtbPxKMMpBco04VAc4j5Uli6SghCFubsMQlfPfI9oz0nr2A1IEoQdswnBCcGEVzya1AJEBSaqS1bVxq5xsUa2ac2aTEtiv8IcVVEidXUcuPhDz4h8aoWtNI4q5kVlIx0Jvs95UI22fBQqICShTfNERE2IgF0GaKacqmYnhq9ReiIFKgoUzYf2xsnsr98jOGTcvmMM0RR1MLiO6C0FcVUlhGCbRmlszi09y9j2GOY8mppozXWm0Xa4sJ6niLWKiYQocYRbgXUthKmtYhpp0I1BbZHD2wdxRKbFm6UXv1ligOxKNIh35jFHER4sHqKxz6lfRpc2c9vDEWivTGJHoirYOhEcpRPucj5LqHCjv2NU1hfwO6WmiCe7cDuv2fXpCI",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-18"
+  },
+  {
+   "id": "1005007548059106",
+   "name": "FiiO FT1-New version Closed-Back Over-Ear Fiber",
+   "short": "FiiO FT1-New version",
+   "cat": "headphones",
+   "niches": [
+    "music"
+   ],
+   "tag": "אוזניות סטודיו",
+   "icon": "🎧",
+   "badge": "✨ חדש באתר",
+   "desc": "אוזניות סטודיו לשמיעה מדויקת בזמן הקלטה, מיקס והפקה.",
+   "positive": 98,
+   "sold": "610+ מכירות",
+   "price": 492,
+   "listPrice": 547,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S19a09af00f55428c94e00a78c09c4b5aw.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4Lk22KHjS2LFjAlkFIcq2fAHJdceSZthkNjOF3Q5IXPCIXkzBI7nl0Kj4hq94EjPbGUquVaFS2WuE6guwvsHolWfoglOtiFrgbQCcEHxD76uGYrDRzVLmCfnEQTZveb3g1ny1SwuDvjZICD4FGgr9xxTZH9WjTzAbLEmcLDSB3lGY3EtBBxPlZgxvsfhkG4ULqT9PGE2st8hFNAOotGcH8YaqRYyuZZCAXFPxUd1DMYlaGq1WgqCvt2EevSklVNsIaG09tT6CbQ1FwLzACa4I4lWxMOrHFUkVtwuLxARj7O76ak3QQLwDWAC2Dcma1TsLk4PqFuxIIglFHWBaZOwKPzCVHm0MI9jGnusYCZyjFkUWuYNTdTkYsOfv6pZYN0a9uEs5Ky1ufJA13glxj8E3KKA4keNHbuaZ3VAeHauDIHHU6AewVT2i1JAxmuNwNBAnnvs6IhTg75nVUsYTO56K3GafhENT7UysdfT93hVWbdz58eitSef3hGw6blzXwA3Ykonb4F6zO406nlAaLlp2Vr6z42JUrIs4oSBTvS6aAI15TifEIKWUOfdQaQCbTYd32kEGme2JC9VlCZNLaj7zvYwzKYCdPPTUs9XTguDH6xLWJJlEzusSiYCR05cJBnGvcMOS0ZJScfMdZE0bBUH2awXrEy20RvXQm3WdtUR1AM6jbQPW3xly3BO90lylP5eHnoXkF6odWOnF",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-18"
   }
  ]
 }
