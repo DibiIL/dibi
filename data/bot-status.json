@@ -1132,31 +1132,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-18T03:43:53.636Z",
+  "at": "2026-11-19T03:43:56.942Z",
   "ok": true,
   "added": [
    {
-    "id": "1005009278189244",
-    "name": "Wireless Microphone Lavalier",
+    "id": "1005003911060887",
+    "name": "Ulanzi VL49 Mini LED Video Light 2000mAh CRI",
     "niche": "creators",
-    "cat": "wireless-mic",
+    "cat": "lighting",
     "price": 36,
     "commission": 7
    },
    {
-    "id": "1005008932977208",
-    "name": "Adjustable Microphone Stand Desktop Boom Holder",
+    "id": "1005007938007660",
+    "name": "MAONO G1 NEO Gaming Audio Mixer Custom Sound",
     "niche": "podcast",
-    "cat": "mic-arm",
-    "price": 51,
+    "cat": "mixer",
+    "price": 149,
     "commission": 7
    },
    {
-    "id": "1005007548059106",
-    "name": "FiiO FT1-New version Closed-Back Over-Ear Fiber",
-    "niche": "music",
-    "cat": "headphones",
-    "price": 492,
+    "id": "1005007344994416",
+    "name": "Gaming Laptop Cooling Pad",
+    "niche": "screens",
+    "cat": "screen-acc",
+    "price": 73,
     "commission": 7
    }
   ]
