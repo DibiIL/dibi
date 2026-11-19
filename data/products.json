@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:17:15.062Z",
+ "updated": "2026-11-19T16:17:18.688Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 121,
+   "missing": 122,
    "autoHidden": true
   },
   {
@@ -702,11 +702,9 @@
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m8BeDMvCtbpzzHwqHdmgUrL1vljTkj504hgNTzd1ZOWgrBeNaCXTbNucdgap9oiONgrn5FCGh1YnO8Kc3EBb10ASTrDxkCZEk1wpyCCTF0C20DGGKkuazWDbZzXAZmscL770Gv3zjXISOj8H8bayDE38uP3aTJPt79ZR2Jtz9jdQorT7d2AVxIstsFbBw9uAo7ylguNTu9OEl1mWxmjwKsPeX4lYR68nZGSMj1IEVvJhshe0I73huAxgfmn2YKaJT75okglzgUoHUw8mZ5UwtD9pegdbIVilksVBYi3mbxYv4OOGcVFvB47HZR2ZcuKHkHWgq24MJNrAeL4DTLeqWbr2etdqhqCyz2jrUqTrY2yC1Wvslaq8wCKfqazFi4X80mhWXGlNvnWC1BYjhrwj6FimIibMmaetszc5lQ48p90oVBA1tmEaIpXROVQIaN9foCuq29Np1yn1vxm3CWDeHWm49ufbPpT6kmBf5UD7xY8GBcOZrCjgkGt1VlUzaVUew8pwdTP1pHHW6ZrC4STpXLRpQOKVW0KShoyldJMWcleXfgJ8XAY9xkU64G2o9S1oE2rKGrKCdN6mPI41REwnmEl9tyVmCiEFSQ9BTSCj0eurrneIugNXIFFOgACi5JArHTDiNhMqJMOyibG5iRAAGdhDNonu7QXXsFh54suYVcoP65QsLgGz5aGIAbs8n46yYEhEAMJuNLQdy",
-   "active": false,
+   "active": true,
    "added": "2026-11-04",
-   "listPrice": 208,
-   "missing": 5,
-   "autoHidden": true
+   "listPrice": 210
   },
   {
    "id": "1005008337928752",

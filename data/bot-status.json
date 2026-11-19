@@ -1,31 +1,11 @@
 {
  "prices": {
-  "at": "2026-11-19T10:17:15.066Z",
+  "at": "2026-11-19T16:17:18.691Z",
   "ok": true,
   "checked": 69,
-  "returned": 67,
+  "returned": 68,
   "changes": [
-   "FIFINE SC8: ₪214 → ₪195",
-   "Oneodio Pro 50: ₪138 → ₪137",
-   "Rowin Looper: ₪73 → ₪74",
-   "EMEET PIXY: ₪304 → ₪290",
-   "MAONO PD400X: ₪443 → ₪432",
-   "HOMEFISH Light Bar: ₪42 → ₪41",
-   "Maono DGM20S: ₪216 → ₪211",
-   "DJ Controller Case: ₪153 → ₪154",
-   "Spring-Free Microphone Arm: ₪56 → ₪55",
-   "Ulanzi TT88 1.44M: ₪74 → ₪72",
-   "DITONG Full HD: ₪917 → ₪905",
-   "K&F CONCEPT ND100000: ₪77 → ₪74",
-   "MCHOSE X9 Tri-Mode: ₪214 → ₪215",
-   "DT-02B Foldable Adjustable: ₪86 → ₪85",
-   "Professional Studio Low: ₪160 → ₪156",
-   "TAVOSOP Portable 4: ₪95 → ₪94",
-   "F16 Selfie Stick: ₪40 → ₪39",
-   "4K Webcam EMEET: ₪161 → ₪156",
-   "Ourlife 4K Action: ₪203 → ₪202",
-   "BRDRC Pocket 4: ₪70 → ₪69",
-   "Gaming Laptop Cooling: ₪69 → ₪73"
+   "♻️ חזר למלאי: Haomuren Pink Mic"
   ],
   "items": [
    {
@@ -127,7 +107,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 214,
+    "before": 195,
     "api": {
      "sale": "194.67",
      "app": "194.67",
@@ -159,7 +139,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 138,
+    "before": 137,
     "api": {
      "sale": "137.29",
      "app": "137.29",
@@ -175,7 +155,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 73,
+    "before": 74,
     "api": {
      "sale": "73.90",
      "app": "73.90",
@@ -192,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 121,
+    "missing": 122,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -217,14 +197,14 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 304,
+    "before": 290,
     "api": {
      "sale": "290.37",
      "app": "290.37",
      "original": "983.78",
      "currency": "ILS"
     },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S67f2159518b344418b6447e42766319bg.jpg",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa4232a68020e4f359d113c5ce4ea8866t.jpg",
     "after": 290,
     "listPrice": 984,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2c17b2fa3c3045b1a45b98a2a874aff8Q.jpg",
@@ -313,7 +293,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 443,
+    "before": 432,
     "api": {
      "sale": "431.92",
      "app": "431.92",
@@ -329,7 +309,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 42,
+    "before": 41,
     "api": {
      "sale": "41.28",
      "app": "41.28",
@@ -346,11 +326,17 @@
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
     "before": 96,
-    "missing": 5,
+    "api": {
+     "sale": "95.69",
+     "app": "95.69",
+     "original": "210.32",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
     "after": 96,
-    "listPrice": 208,
+    "listPrice": 210,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
-    "active": false
+    "active": true
    },
    {
     "id": "1005008337928752",
@@ -387,7 +373,7 @@
    {
     "id": "1005005709908265",
     "name": "Maono DGM20S",
-    "before": 216,
+    "before": 211,
     "api": {
      "sale": "211.39",
      "app": "211.39",
@@ -435,7 +421,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 153,
+    "before": 154,
     "api": {
      "sale": "153.69",
      "app": "153.69",
@@ -451,7 +437,7 @@
    {
     "id": "1005009184927989",
     "name": "Spring-Free Microphone Arm",
-    "before": 56,
+    "before": 55,
     "api": {
      "sale": "55.19",
      "app": "55.19",
@@ -499,7 +485,7 @@
    {
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
-    "before": 74,
+    "before": 72,
     "api": {
      "sale": "71.77",
      "app": "71.77",
@@ -531,7 +517,7 @@
    {
     "id": "1005013120140830",
     "name": "DITONG Full HD",
-    "before": 917,
+    "before": 905,
     "api": {
      "sale": "905.13",
      "app": "905.13",
@@ -547,7 +533,7 @@
    {
     "id": "1005010449127740",
     "name": "K&F CONCEPT ND100000",
-    "before": 77,
+    "before": 74,
     "api": {
      "sale": "73.69",
      "app": "73.69",
@@ -563,7 +549,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 214,
+    "before": 215,
     "api": {
      "sale": "214.69",
      "app": "214.69",
@@ -611,7 +597,7 @@
    {
     "id": "1005010155315423",
     "name": "DT-02B Foldable Adjustable",
-    "before": 86,
+    "before": 85,
     "api": {
      "sale": "85.39",
      "app": "85.39",
@@ -659,7 +645,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 160,
+    "before": 156,
     "api": {
      "sale": "156.25",
      "app": "156.25",
@@ -675,7 +661,7 @@
    {
     "id": "1005011940113445",
     "name": "TAVOSOP Portable 4",
-    "before": 95,
+    "before": 94,
     "api": {
      "sale": "94.39",
      "app": "94.39",
@@ -755,7 +741,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 40,
+    "before": 39,
     "api": {
      "sale": "38.68",
      "app": "38.68",
@@ -883,14 +869,14 @@
    {
     "id": "1005010241698060",
     "name": "4K Webcam EMEET",
-    "before": 161,
+    "before": 156,
     "api": {
      "sale": "155.92",
      "app": "155.92",
      "original": "621.34",
      "currency": "ILS"
     },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S681547b0d3d74b418550ca927e9988941.jpg",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sadc08d707ba647bcada9954f6572ae57U.jpg",
     "after": 156,
     "listPrice": 621,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S681547b0d3d74b418550ca927e9988941.jpg",
@@ -931,7 +917,7 @@
    {
     "id": "1005012177106297",
     "name": "Ourlife 4K Action",
-    "before": 203,
+    "before": 202,
     "api": {
      "sale": "202.40",
      "app": "202.40",
@@ -979,7 +965,7 @@
    {
     "id": "1005011656171989",
     "name": "BRDRC Pocket 4",
-    "before": 70,
+    "before": 69,
     "api": {
      "sale": "68.69",
      "app": "68.69",
@@ -1107,7 +1093,7 @@
    {
     "id": "1005007344994416",
     "name": "Gaming Laptop Cooling",
-    "before": 69,
+    "before": 73,
     "api": {
      "sale": "72.90",
      "app": "72.90",
