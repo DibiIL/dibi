@@ -1,11 +1,14 @@
 {
  "prices": {
-  "at": "2026-11-19T16:17:18.691Z",
+  "at": "2026-11-19T22:17:24.217Z",
   "ok": true,
   "checked": 69,
   "returned": 68,
   "changes": [
-   "♻️ חזר למלאי: Haomuren Pink Mic"
+   "FIFINE SC8: ₪195 → ₪198",
+   "Maono DGM20S: ₪211 → ₪216",
+   "DITONG Full HD: ₪905 → ₪941",
+   "BRDRC Pocket 4: ₪69 → ₪70"
   ],
   "items": [
    {
@@ -109,13 +112,13 @@
     "name": "FIFINE SC8",
     "before": 195,
     "api": {
-     "sale": "194.67",
-     "app": "194.67",
+     "sale": "198.02",
+     "app": "198.02",
      "original": "344.46",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
-    "after": 195,
+    "after": 198,
     "listPrice": 344,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
     "active": true
@@ -172,7 +175,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 122,
+    "missing": 123,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -375,13 +378,13 @@
     "name": "Maono DGM20S",
     "before": 211,
     "api": {
-     "sale": "211.39",
-     "app": "211.39",
-     "original": "237.45",
+     "sale": "215.69",
+     "app": "215.69",
+     "original": "237.44",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S58691dccd28c46579b4f9e3875b1de183.jpg",
-    "after": 211,
+    "after": 216,
     "listPrice": 237,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S58691dccd28c46579b4f9e3875b1de183.jpg",
     "active": true
@@ -407,8 +410,8 @@
     "name": "TELESIN Mini Quick",
     "before": 30,
     "api": {
-     "sale": "29.69",
-     "app": "29.69",
+     "sale": "29.99",
+     "app": "29.99",
      "original": "32.22",
      "currency": "ILS"
     },
@@ -519,13 +522,13 @@
     "name": "DITONG Full HD",
     "before": 905,
     "api": {
-     "sale": "905.13",
-     "app": "905.13",
+     "sale": "941.15",
+     "app": "941.15",
      "original": "1637.41",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 905,
+    "after": 941,
     "listPrice": 1637,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
@@ -967,13 +970,13 @@
     "name": "BRDRC Pocket 4",
     "before": 69,
     "api": {
-     "sale": "68.69",
-     "app": "68.69",
-     "original": "77.27",
+     "sale": "69.99",
+     "app": "69.99",
+     "original": "77.15",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
-    "after": 69,
+    "after": 70,
     "listPrice": 77,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
     "active": true
