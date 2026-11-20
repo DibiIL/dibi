@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:17:24.216Z",
+ "updated": "2026-11-20T03:43:58.114Z",
  "niches": [
   {
    "id": "music",
@@ -1853,6 +1853,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-19"
+  },
+  {
+   "id": "1005007475545125",
+   "name": "Ulanzi A100 Wireless Microphone Lavalier MIC",
+   "short": "Ulanzi A100 Wireless",
+   "cat": "mic",
+   "niches": [
+    "creators"
+   ],
+   "tag": "מיקרופון למצלמה",
+   "icon": "🎙️",
+   "badge": "🔥 1,100+ מכירות",
+   "desc": "מיקרופון שמתחבר למצלמה או לטלפון — קול ברור יותר בכל צילום. כולל: האזנה בזמן אמת, תואם iPhone.",
+   "positive": 96,
+   "sold": "1,100+ מכירות",
+   "price": 81,
+   "listPrice": 241,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S047560e37cad40c6b5ac4fccefbbc6f0T.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CovvHvOddr9940saxzSe9cnK9N11MDDpfacWFxoqExlCYhf7H6SqI83JMbhRbUmmWal99KuKvuCFL842e4gKafrlMZof0bWSiMqQJPS2X8ihscpfv9msPAQH0wpSkD8x0J9UyIaOtfJMcLGsLTYl2q54nS5lEZwM84C2umr2lxoOUoc3TpTzQeufjgFSpBLMT0SnJwpUSBeXl2bJf6c9Db6E65z8ykkNc8AZWYDxtVYPF6Qnc1AItWozHo3XTyQe8SJZuidTqkdB35ZNOBSG6gkC7G0tjjGae1l7wKuONmDrLO5WcgI9aCifg1IgbBV1vBLG4r3FdZSY22QMEWwvaCZZ6e1sHzsRSwPgDEvx8oa3hhh33PPB0GNBQIAyANZpWedwIFjqdF9SHcfe6HyOH0KqrLJYYMnfu07tLPWhfwVVnBA9QCdswuSJDp4dKAVuILXCiJD7khDqhTAjE8ziCIfVOUnZfsIfzYPnSAWdP7bAf4laiUBzNUNRBGQRPhRui6DMNUE7Hm8qiFrTLZNZH2WUUKqVTyeX9uK75VUkop1TlMb8wuFx9AY8pc3TQ68My0Rvitb6hKFPMZGE4iDsXFRNgs8wVWhB7f7vuhLu3eeegyLttWYxVn42QOEwgEftNKFjDZJollhs3xRpZhsXdvp1dZjHUxGSstxGy58aNhd3ritjoBJQUhAaMxsLMpX1xYdb593pxrHpzd",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-20"
+  },
+  {
+   "id": "1005007635109339",
+   "name": "FIFINE Recording XLR Dynamic Microphone",
+   "short": "FIFINE Recording XLR",
+   "cat": "mic",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "מיקרופון פודקאסט",
+   "icon": "🎙️",
+   "badge": "🔥 10,000+ מכירות",
+   "desc": "מיקרופון לפודקאסט ולסטרימינג — קול חם ונקי, בלי רעשי חדר. כולל: חיבור XLR, מיקרופון דינמי, כפתור השתקה, האזנה בזמן אמת.",
+   "positive": 98,
+   "sold": "10,000+ מכירות",
+   "price": 171,
+   "listPrice": 364,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S05797e169fe34b0ca0de55fe912254c0o.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4sXIOUwYMwSCvIlkbysXGnBq7EwFpk7XLAXABQRkYu8hWwU2pZ1EjeYZFUzVOngJNOIp7zn5TIQd0qqTH6U37PsF1jfjGmE7LP6sQtAbYnuhKVI5vFpWcjI2Kf4WZm7Av4kp3ZunKZMTI7kUN05hJo8xwWGKJRYNNGGOR2jzZPTfxhMkCbB2EzqMMKj5HueRjsl2M0PjrJRNVTvD8BQOB2P3gBkjCVQVBRtTOaraKebbvzQwYkqbyD3StPr0jNBlu09ezgKikxAxd6HvL8C8kKGplBWg5TQ1hoyMeHNnpatkrZJ7Yl8m0w6Oqph9eoobJ3JlvXYcyWYty3OWbtL7ioXdGnR0UJJ1qqC4Xgf0FW3JJULpRCvRTLLMobxojQx00UdMvRAozM0rWqfO3Huxjqh8WbEqPkL1PkCyXovYrdAKp1FMeHAmCXZs991Qja3DpaFqKW9opbvVqaxA5xkU5eLpAoFH9ex9YEpMvts9yiiq0guDFY6uZJLarbpDtuDNvbWvdEoqSNW3WE8gZIVU9rFGIooeh0OQSKCo9jfkFHHVBt0WVS39rh1OiMmeZrqxTOwzyH9Lhyb7JSeuL1LfRnztVLPuUETT7VuX09Wn8ue8RRd4PalS7W2l9nQCWtGsQhrvnfolaooIgqBTyVCMbdDkQKr8IKNATujWN9jguxgvPdKLJvDYFKZyeQdOSMIg4SejodTfw0Gqk",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-20"
+  },
+  {
+   "id": "1005007096854664",
+   "name": "Zealsound RGB Recording Microphone",
+   "short": "Zealsound RGB Recording",
+   "cat": "mic",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "מיקרופון גיימינג",
+   "icon": "🎙️",
+   "badge": "🔥 3,700+ מכירות",
+   "desc": "מיקרופון לגיימינג ולסטרימינג — הקול שלך ברור בכל משחק ושידור. כולל: מיקרופון קונדנסר, תאורת RGB.",
+   "positive": 98,
+   "sold": "3,700+ מכירות",
+   "price": 141,
+   "listPrice": 300,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sadb180197bfc4233935b8b6b735f2776O.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4c0sq06WNzbEpY6nnr8D6xl9hLV1XTlSPeIz0jw8UNJRoTus0vfdYRoKqyxLEpSwouEbJhejMjyeAkF9MuZiCeqfi9MrBavhQjr4iJyGJKZ8pCmSBAe2w6de5gUrd6mKUJ4vRq8y0JYzJA51eoFkZanIKosoiZYNdG1uMddWlQb1XOvTAelRLTu77ytsBexjnSjNo9X6dcYISzobRXZyAbtZvWZgcC3HaoSZrkIDSxAupZDM3Csj7mgiScoY8KRy9lMBhRhSP124abQVNornD6h6xlghDIfMXtuR08r78csx6nZOKVyFhICYsmjNypXvBkNn9G50P9DG1aO2Kl0aZoaPgZXUPe2VEv19iw49hyHJ6ApwWP4cY4dadkcrWIXZanzqvhCxUDNvywrWFDOaOLxbwmWjn5THjHLR9ZEoPfVJ5ybhk01cpkyFd8B74QsjPYxHgLaHoL7tyLSSformc7ROQ2VwWHKxWOCvIN5qeg9dif0pRd8JjORWgzkn1t6YPU7tlP6JEHYuWZ7b2jmph9Y84XTb6v0BBu5Fj0eVEitaVRo0lSmSXFPmrX9g5Pdh4xjAFhpU8COUnUMF4R8ujac0hzfx8Mvc9ezmxsrTmlMEZMwgQNcmENuc95ogiD5AaLWDArPtnJt6jngYpPw81sRxucBbmsyobFuAmZulwUBhQadTs4HzppGZEMaaeTeYmACLwD8kHApNe",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-20"
   }
  ]
 }

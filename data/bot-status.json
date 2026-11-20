@@ -1157,31 +1157,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-19T03:43:56.942Z",
+  "at": "2026-11-20T03:43:58.118Z",
   "ok": true,
   "added": [
    {
-    "id": "1005003911060887",
-    "name": "Ulanzi VL49 Mini LED Video Light 2000mAh CRI",
+    "id": "1005007475545125",
+    "name": "Ulanzi A100 Wireless Microphone Lavalier MIC",
     "niche": "creators",
-    "cat": "lighting",
-    "price": 36,
+    "cat": "mic",
+    "price": 81,
     "commission": 7
    },
    {
-    "id": "1005007938007660",
-    "name": "MAONO G1 NEO Gaming Audio Mixer Custom Sound",
+    "id": "1005007635109339",
+    "name": "FIFINE Recording XLR Dynamic Microphone",
     "niche": "podcast",
-    "cat": "mixer",
-    "price": 149,
+    "cat": "mic",
+    "price": 171,
     "commission": 7
    },
    {
-    "id": "1005007344994416",
-    "name": "Gaming Laptop Cooling Pad",
-    "niche": "screens",
-    "cat": "screen-acc",
-    "price": 73,
+    "id": "1005007096854664",
+    "name": "Zealsound RGB Recording Microphone",
+    "niche": "gaming",
+    "cat": "mic",
+    "price": 141,
     "commission": 7
    }
   ]
