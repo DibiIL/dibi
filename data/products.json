@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:17:14.844Z",
+ "updated": "2026-11-20T16:17:25.737Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 125,
+   "missing": 126,
    "autoHidden": true
   },
   {
@@ -980,7 +980,7 @@
    "desc": "מקרן לסרטים, גיימינג ומצגות — מסך ענק על כל קיר. כולל: Bluetooth, תומך בתוכן 4K, מערכת Android מובנית.",
    "positive": 100,
    "sold": "240+ מכירות",
-   "price": 941,
+   "price": 915,
    "listPrice": 1657,
    "commission": 3,
    "freeShip": true,
@@ -1652,7 +1652,7 @@
    "desc": "אביזר ליוצרי תוכן — סטודיו קטן ומסודר בבית. כולל: הצמדה מגנטית.",
    "positive": 97,
    "sold": "380+ מכירות",
-   "price": 66,
+   "price": 65,
    "commission": 8,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",

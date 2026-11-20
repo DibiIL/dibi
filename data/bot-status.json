@@ -1,34 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-20T10:17:14.847Z",
+  "at": "2026-11-20T16:17:25.740Z",
   "ok": true,
   "checked": 72,
   "returned": 71,
   "changes": [
-   "Oneodio Pro 50: ₪153 → ₪139",
-   "Rowin Looper: ₪82 → ₪75",
-   "MCHOSE V9 Pro: ₪178 → ₪162",
-   "BINNUNE BW06: ₪102 → ₪93",
-   "Art-Net DMX: ₪225 → ₪205",
-   "Haomuren Mic Kit: ₪134 → ₪122",
-   "MAONO PD400X: ₪437 → ₪424",
-   "HOMEFISH Light Bar: ₪46 → ₪42",
-   "Haomuren Pink Mic: ₪106 → ₪97",
-   "Ezcap326C: ₪283 → ₪275",
-   "MAONO PD100X: ₪177 → ₪163",
-   "Maono DGM20S: ₪218 → ₪216",
-   "MCHOSE X9 Tri-Mode: ₪238 → ₪204",
-   "Lenovo Original Stylus: ₪97 → ₪89",
-   "XinMic Wireless Lavalier: ₪63 → ₪57",
-   "TAVOSOP Portable 4: ₪105 → ₪96",
-   "F16 Selfie Stick: ₪43 → ₪39",
-   "SMAILWOLF L80 Bluetooth: ₪89 → ₪81",
-   "30CM LED Desk: ₪29 → ₪27",
-   "APEXEL 10-20X Zoom: ₪126 → ₪115",
-   "Ourlife 4K Action: ₪225 → ₪205",
-   "BRDRC Pocket 4: ₪70 → ₪66",
-   "Adjustable Microphone Stand: ₪47 → ₪48",
-   "Gaming Laptop Cooling: ₪74 → ₪69"
+   "DITONG Full HD: ₪941 → ₪915",
+   "BRDRC Pocket 4: ₪66 → ₪65"
   ],
   "items": [
    {
@@ -162,7 +140,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 153,
+    "before": 139,
     "api": {
      "sale": "138.77",
      "app": "138.77",
@@ -178,7 +156,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 82,
+    "before": 75,
     "api": {
      "sale": "74.90",
      "app": "74.90",
@@ -195,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 125,
+    "missing": 126,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -252,7 +230,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 178,
+    "before": 162,
     "api": {
      "sale": "161.69",
      "app": "161.69",
@@ -268,7 +246,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 102,
+    "before": 93,
     "api": {
      "sale": "93.39",
      "app": "93.39",
@@ -284,7 +262,7 @@
    {
     "id": "1005009116309896",
     "name": "Art-Net DMX",
-    "before": 225,
+    "before": 205,
     "api": {
      "sale": "204.69",
      "app": "204.69",
@@ -300,7 +278,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 134,
+    "before": 122,
     "api": {
      "sale": "121.67",
      "app": "121.67",
@@ -316,7 +294,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 437,
+    "before": 424,
     "api": {
      "sale": "423.52",
      "app": "423.52",
@@ -332,7 +310,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 46,
+    "before": 42,
     "api": {
      "sale": "41.79",
      "app": "41.79",
@@ -348,7 +326,7 @@
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 106,
+    "before": 97,
     "api": {
      "sale": "96.69",
      "app": "96.69",
@@ -364,7 +342,7 @@
    {
     "id": "1005008337928752",
     "name": "Ezcap326C",
-    "before": 283,
+    "before": 275,
     "api": {
      "sale": "274.90",
      "app": "274.90",
@@ -380,7 +358,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 177,
+    "before": 163,
     "api": {
      "sale": "163.39",
      "app": "163.39",
@@ -396,7 +374,7 @@
    {
     "id": "1005005709908265",
     "name": "Maono DGM20S",
-    "before": 218,
+    "before": 216,
     "api": {
      "sale": "216.39",
      "app": "216.39",
@@ -542,13 +520,13 @@
     "name": "DITONG Full HD",
     "before": 941,
     "api": {
-     "sale": "941.23",
-     "app": "941.23",
+     "sale": "914.51",
+     "app": "914.51",
      "original": "1657.25",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
-    "after": 941,
+    "after": 915,
     "listPrice": 1657,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
@@ -572,7 +550,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 238,
+    "before": 204,
     "api": {
      "sale": "203.98",
      "app": "203.98",
@@ -588,7 +566,7 @@
    {
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
-    "before": 97,
+    "before": 89,
     "api": {
      "sale": "88.69",
      "app": "88.69",
@@ -604,7 +582,7 @@
    {
     "id": "1005007539994621",
     "name": "XinMic Wireless Lavalier",
-    "before": 63,
+    "before": 57,
     "api": {
      "sale": "57.39",
      "app": "57.39",
@@ -684,7 +662,7 @@
    {
     "id": "1005011940113445",
     "name": "TAVOSOP Portable 4",
-    "before": 105,
+    "before": 96,
     "api": {
      "sale": "95.69",
      "app": "95.69",
@@ -764,7 +742,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 43,
+    "before": 39,
     "api": {
      "sale": "39.24",
      "app": "39.24",
@@ -780,7 +758,7 @@
    {
     "id": "1005009120888793",
     "name": "SMAILWOLF L80 Bluetooth",
-    "before": 89,
+    "before": 81,
     "api": {
      "sale": "81.12",
      "app": "81.12",
@@ -828,7 +806,7 @@
    {
     "id": "1005011743097337",
     "name": "30CM LED Desk",
-    "before": 29,
+    "before": 27,
     "api": {
      "sale": "26.69",
      "app": "26.69",
@@ -844,7 +822,7 @@
    {
     "id": "1005008932500509",
     "name": "APEXEL 10-20X Zoom",
-    "before": 126,
+    "before": 115,
     "api": {
      "sale": "115.20",
      "app": "115.20",
@@ -940,7 +918,7 @@
    {
     "id": "1005012177106297",
     "name": "Ourlife 4K Action",
-    "before": 225,
+    "before": 205,
     "api": {
      "sale": "204.57",
      "app": "204.57",
@@ -988,15 +966,15 @@
    {
     "id": "1005011656171989",
     "name": "BRDRC Pocket 4",
-    "before": 70,
+    "before": 66,
     "api": {
-     "sale": "65.96",
-     "app": "65.96",
+     "sale": "64.56",
+     "app": "64.56",
      "original": "78.14",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
-    "after": 66,
+    "after": 65,
     "listPrice": 78,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
     "active": true
@@ -1052,7 +1030,7 @@
    {
     "id": "1005008932977208",
     "name": "Adjustable Microphone Stand",
-    "before": 47,
+    "before": 48,
     "api": {
      "sale": "47.79",
      "app": "47.79",
@@ -1116,7 +1094,7 @@
    {
     "id": "1005007344994416",
     "name": "Gaming Laptop Cooling",
-    "before": 74,
+    "before": 69,
     "api": {
      "sale": "69.32",
      "app": "69.32",
