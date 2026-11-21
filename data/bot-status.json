@@ -1200,31 +1200,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-20T03:43:58.118Z",
+  "at": "2026-11-21T03:43:57.190Z",
   "ok": true,
   "added": [
    {
-    "id": "1005007475545125",
-    "name": "Ulanzi A100 Wireless Microphone Lavalier MIC",
+    "id": "1005007170734905",
+    "name": "ND2-ND1000 SLR DSLR Camera Variable ND Filter",
     "niche": "creators",
-    "cat": "mic",
-    "price": 81,
+    "cat": "lens",
+    "price": 61,
     "commission": 7
    },
    {
-    "id": "1005007635109339",
-    "name": "FIFINE Recording XLR Dynamic Microphone",
+    "id": "1005007586588050",
+    "name": "TOPPING E2x2 Professional Audio Interface Computer",
     "niche": "podcast",
-    "cat": "mic",
-    "price": 171,
+    "cat": "soundcard",
+    "price": 506,
     "commission": 7
    },
    {
-    "id": "1005007096854664",
-    "name": "Zealsound RGB Recording Microphone",
+    "id": "1005010109669246",
+    "name": "Mouse Pads Gundam Mouse Pad Gaming Large Dywan",
     "niche": "gaming",
-    "cat": "mic",
-    "price": 141,
+    "cat": "desk",
+    "price": 28,
     "commission": 7
    }
   ]

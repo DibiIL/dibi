@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:17:15.410Z",
+ "updated": "2026-11-21T03:43:57.185Z",
  "niches": [
   {
    "id": "music",
@@ -1925,6 +1925,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-20"
+  },
+  {
+   "id": "1005007170734905",
+   "name": "ND2-ND1000 SLR DSLR Camera Variable ND Filter",
+   "short": "ND2-ND1000 SLR DSLR",
+   "cat": "lens",
+   "niches": [
+    "creators"
+   ],
+   "tag": "עדשה / פילטר",
+   "icon": "🔭",
+   "badge": "✨ חדש באתר",
+   "desc": "עדשה או פילטר לטלפון ולמצלמה — זווית רחבה, מאקרו ומראה קולנועי.",
+   "positive": 98,
+   "sold": "600+ מכירות",
+   "price": 61,
+   "listPrice": 123,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sed2a0779b6a24465a2ee4479b0a4a6d6b.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CohKBXLb2GrkIKDeubeumpEnknKVqeX2YaIKvGCSueOo2zDrmw4HhWABwSWVM9SDWKc8MVUs0HUlXXhq4WMRLSyy2vsFvPdzJfWLPQCElSYWkVpYGFSEYMsIgjMnML5UzJRYibhWXm4Sp9I4YyGejJUezOnYViomQRp4as0hisA7jdVknwpBfgJbS2YscBUUEzQPEPbf1APCdAv2qdDz22i4jtk3qne1YnNFh3HVbXk2jyBrszSI6KutHsKqZlLEYieeuUeKUyWtmskTFHOPSQlaPB2DDO8VmuI5tHBPyKKqW4yy0AeDy018hq0jCDAW93LRH0dCW4jxa8eQXwNwPGd4Yb5CjlkUPP8QVGnDTZoR9OLKl45beIzQtN8KHszr7Kj4LdET8q6sB2zCZ3exiy5I4dGbgFhhjQdRgJABPRCNZ7xgfYlHoloNnDWD2xcXC0B782FWxA8Ep6SSZCqEHeKAnqNB8f8bgjTIMEnq3MhnDhFouUx2qDLku9offLAXZP3AIUH7JluiLy3lEf6BEKEwqtPD26JgntZtV6axAWWsbdn6iKcc7x4AigovY9Zb5e5oR8ojIXZTjepP3Cm3fnbPwkL6KxwroUYrcutiLwB6IX8TvuQ5AU6TZxNgMNZtAfr1E9vrn23dzoysbmEoBzPNpWSmhe2WpEhQebo9kcdSAGm3IQLCrTrMtoJvzFPR6vUCLfkuHIBqpU",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-21"
+  },
+  {
+   "id": "1005007586588050",
+   "name": "TOPPING E2x2 Professional Audio Interface Computer",
+   "short": "TOPPING E2x2 Professional",
+   "cat": "soundcard",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "כרטיס סאונד",
+   "icon": "🔈",
+   "badge": "✨ חדש באתר",
+   "desc": "כרטיס סאונד לשידור חי — מחברים מיקרופון וטלפון ומשדרים עם אפקטים.",
+   "positive": 97,
+   "sold": "450+ מכירות",
+   "price": 506,
+   "listPrice": 703,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa127c3691957421f9856ff103b99a4abh.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4OCuPxhlpl1OeOTip7OqFa9S31NNc0Uqb4B3I9Xhtspik7dLJMglGdMi3IFOj67a7YRGDKEUiujBV3U9G1B8gAociX68xATrPPzotMYf4K8VJPaf2bz01P87Dfyy95CfRVR8Rk8JUA35SkWOMKU0ivX0b5nFoFvDhp7g1S4PzpJsD8BdwCPTrjuAyotKh9wSKzwh5cqfAI9F9KnI1SaV01ZA3FeDmgDzLDZM4s3AUQsqNEhtX76aU3mB0vkWlz4IX4l9Fd4hP0n7WjeYln7I4RDDnXZmEeHfh3Ir4k0JCHombSUXSXUxPuBs7AhHRdnGwdax2UFY7568bi091hFrzMSfUvYPZHK1hp4a9vjP0orw3YHFZgaTn4xJTTQvD8L2crDzZHWkmiSkulW8J19bYAFfU1DsnlXg2w1zC3R65j0yCBSmq7YKEFWegrgGPxqgUo0AruyGg8ZGq7ZhfPhS3RtIdTpBO9fKCtMnuzBV7De7xZN3oG9iHuG23wFHTuXC3L2qHDD9E4rrHoXv9nCMxizIiCk24Oe4TeGxpNm2iIWRWyjBGFF2htBnyjchISLG4wmJJMi9FKLlPYBaCsl5E3PJADtlaI0w0HLDTVBPcxsf8zcVgB2CwCgMfw0VIqooEllgxksxoTPSq7j3h89bygamVCVmuw8ni3eXxn46peD10kkK3wbmdvbneQMlCxfuuSfFf7ZVRH8cH",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-21"
+  },
+  {
+   "id": "1005010109669246",
+   "name": "Mouse Pads Gundam Mouse Pad Gaming Large Dywan",
+   "short": "Mouse Pads Gundam",
+   "cat": "desk",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "סטאפ ושולחן",
+   "icon": "🖱️",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר לעמדת גיימינג ועבודה — שולחן מסודר שנראה טוב.",
+   "positive": 98,
+   "sold": "900+ מכירות",
+   "price": 28,
+   "listPrice": 57,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S186cf0e5832f48fca42ea3888d0ccd7b3.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnaXEitr8fUeS25jbMgcnmanPFHN44zHgOmUR8kK7YxGqqFEbz7A0JEPPYrWLHmuHMhX9JvPgSfci12Q7d9Py52JZIvsU4JvrT7SGk7kU2LpgXvE4su7FnoGMTrwEnTX4FQNWKXxQPbbCBnuuqHGeuntdZ2HAF2w1WScB5zagrNLNf9ve9vc2F0tlrw7v9fqihfiCxEUilplJ7zdXJCL3fSgEFo57Bb8KcNppcIZYuAOmRACrMJeyEKlWvCC4oRkEQG8sFIiBCirIDYFtqVtrP8jKkfKzbsCtfCQW97pc6SmuhY84VnDATzLlyI0kTyirIvlbGrkzM4I3eAiCZpEKYd3vLajG9b8mPmbHMMFBj8Y86k7SPFEob7uIcrvnGkBfCcjY5t2od7C8Ztw7gVRnv1E8FSH5LZyFrFNwWmHgPDplQKLqfmD7ZpBD4OSsR9YxJP7Fw8qnXFr5iEE7QKU1uxChgubqH4AvIuQpM7FILyGq90b2fdAAk84omhMtRw1kW6nfJOVIZ3eC3u64tNQmJX2TY0lq80kKza1H5ZFNeCnncMtCBJtPcCHzBtD5ZFgItpPussbuM49jdO0DQpiiOmJqzst8KjySMIOQr6FwaPWkQOOKCxEwVcwkCUGCy6G9gcQ4547FWWhQPjhYIASdi6h0yZiBy7pj5apnP8dvWgYFxV5ZXiV5aJ9YWbt2bTQabexOctOwXDdwq",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-21"
   }
  ]
 }
