@@ -1249,31 +1249,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-21T03:43:57.190Z",
+  "at": "2026-11-22T03:43:55.924Z",
   "ok": true,
   "added": [
    {
-    "id": "1005007170734905",
-    "name": "ND2-ND1000 SLR DSLR Camera Variable ND Filter",
-    "niche": "creators",
-    "cat": "lens",
-    "price": 61,
+    "id": "1005011649524654",
+    "name": "XIWBSY 4K Ultra HD Projectors 46000Lumens Home",
+    "niche": "screens",
+    "cat": "projector",
+    "price": 788,
+    "commission": 8
+   },
+   {
+    "id": "1005005466762416",
+    "name": "SONICAKE Octaver Analog Classic Octave Guitar",
+    "niche": "music",
+    "cat": "guitar",
+    "price": 100,
     "commission": 7
    },
    {
-    "id": "1005007586588050",
-    "name": "TOPPING E2x2 Professional Audio Interface Computer",
+    "id": "1005010332459192",
+    "name": "Extendable Recording Microphone Holder Suspension",
     "niche": "podcast",
-    "cat": "soundcard",
-    "price": 506,
-    "commission": 7
-   },
-   {
-    "id": "1005010109669246",
-    "name": "Mouse Pads Gundam Mouse Pad Gaming Large Dywan",
-    "niche": "gaming",
-    "cat": "desk",
-    "price": 28,
+    "cat": "mic-arm",
+    "price": 54,
     "commission": 7
    }
   ]

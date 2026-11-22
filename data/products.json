@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:17:13.191Z",
+ "updated": "2026-11-22T03:43:55.921Z",
  "niches": [
   {
    "id": "music",
@@ -1997,6 +1997,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-21"
+  },
+  {
+   "id": "1005011649524654",
+   "name": "XIWBSY 4K Ultra HD Projectors 46000Lumens Home",
+   "short": "XIWBSY 4K Ultra",
+   "cat": "projector",
+   "niches": [
+    "screens"
+   ],
+   "tag": "מקרן",
+   "icon": "📽️",
+   "badge": "✨ חדש באתר",
+   "desc": "מקרן לסרטים, גיימינג ומצגות — מסך ענק על כל קיר. כולל: תומך בתוכן 4K, בהירות 46000 לומן.",
+   "positive": 99,
+   "sold": "260+ מכירות",
+   "price": 788,
+   "listPrice": 3252,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7cda828b8ab431aa2511d0b3a070a60m.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C20232NPg6xkGpl315FowRNJvPrvLaZxkmbEzFg8t0CGnaDSfmLhFYjYxpT860ggViBOZMEkeFDD9kur770jXeUV65y5rZmRCHA4k0PIykbhe0n6mlj3VE9LTmlbrmucXKr86gV77CIAKWCm47PzbvxYW8za3edYy65zbBOFf41ROuwBCpMi8DPddwD0mN8dVR7ov1JbpR6WQkV0GH2yIncGJZ8ALDgsxjytmrzJMI7EWmMQkmURpNONr944hwAHQrBnN00Uyj131K2qf9gwqbDTzctSRyVCyBigDtXhC278vsT3M9lTOL3Wq56PK9xyRmv7JIv4njAZI8aW7XyqbiD5qghRWoneTtIbZgKGBUwsEwTjnE2uAX6ZWxfzXKYpODns4ho8kngii6Ajbm7rSYJ0YIqeWH9ceXWZnFKcir2l6wH9YiWcnayEmTmPsBrI90MKHfl4ZOHXLgzKG1QSS7Rref6BjNrozw7F3WviJQLvWpKl2yy5LDKMMmYB1WnL7kHpabEiTEovTxeJSfIzJMbdcmIhmVMZvia886ojyaltEURHGsRmVMoZug64io4yitfrGuQs7jWs7Hvz8XJD1E1IOrBkUOzD9DCheAIfp3ErI27k0wlrhLWvxMO0CtR9f35gzWBbzauXCSatM9tg1Y6sPefGj0vtsCxsqR4pAcccMfimjUKoGrf5J8bkgxfyLHOwP0p5NI6Z6f",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-22"
+  },
+  {
+   "id": "1005005466762416",
+   "name": "SONICAKE Octaver Analog Classic Octave Guitar",
+   "short": "SONICAKE Octaver Analog",
+   "cat": "guitar",
+   "niches": [
+    "music"
+   ],
+   "tag": "אביזר גיטרה",
+   "icon": "🎸",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר לגיטריסטים — לתרגול, להופעות ולהקלטה בבית.",
+   "positive": 98,
+   "sold": "680+ מכירות",
+   "price": 100,
+   "listPrice": 228,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2d44e2c6a58e4a7ab87b69abbe1957afM.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2AOIhaybVRk5lTY8TimAPlaxCbZAgj3DXZ88bMejTOrQEeCrW90JQgRtwwBXA8HKIWZZ85emZ0WDVzlSSnrffpVeoPVnwjXiSOycepEcU5HGUSSaLbqJr5iptBQNvU7JcSFqHFJI13JfxAsMgJHirOr253fha0GbEc2C4LKxWHwpLCJIFwyz6e9fzAsJTX4OYU7ulCwg2yqXfgcMWrMVLhllRmsb953SSlSxxVXRt95RfPMJ56rfWem6wyzMhhErznlV7WXONI0tXA0W0Ym29PYLxFQ0yrofixTRWsAnn4M22Luocs7oxTy8VaZT5XfX4bkOvw3J0ndfhFCsqW1OMZdMcWo9h4MV9pEZ8iSEByNL7szW9GU9T7eFKF6w9pFcjDqRaxQuPp4ViwAJsteXHnqNxsnqGUCIeEhfiZSKl0H5sEbtQR1QON6LHIhw1I8peFYrz7itF9KblEwLmP5gpZ9bdAQWF2qzIveTlB6dxoVAs19GiNvEJX6yZq6ZCXheOKmtKXIoXepMbPwN7ZSt3gizHKdRR0dE6B6WGOV1bLQjswpUse5Xx3CRfwN3f7nTS8QccADoFUms3NVPXXObHRCkdZMW8VarDBJTSoT7h4yJbwMNPadddo7pJQfOmZwE9mzZpnh9VeIrK0nHf2KW2b3Z7MS29U3GbxK1Vp8irXGCa3ROCr2NmvTKnX5zY2WHviriQlXavZdnU",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-22"
+  },
+  {
+   "id": "1005010332459192",
+   "name": "Extendable Recording Microphone Holder Suspension",
+   "short": "Extendable Recording Microphone",
+   "cat": "mic-arm",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "זרוע מיקרופון",
+   "icon": "🦾",
+   "badge": "✨ חדש באתר",
+   "desc": "זרוע למיקרופון — מחזיקה אותו בדיוק מול הפה ומשאירה את השולחן פנוי.",
+   "positive": 98,
+   "sold": "370+ מכירות",
+   "price": 54,
+   "listPrice": 118,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se45a4fe1b6424a1daa2601cb3e1c20c6d.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CohateSqjk35eIVJ3mFqD4t3EJ99iBqlIjpScz9CHf59XlHA33AZNgyzeRK98BSo18cVxAGasE3I1sUSprIevMxYgWbsjNjq2c5YmY6ORAoHWekO7zXAJrszDSvFlh23MHcfdioPLhWM0EK97Sd8QoZpbNzQ9QGNV9nGHf0BX7eqpboXzqfE7Zu3aNFZbUt3iwCaVf4d4kgcnW8urHDj6Tr0pbQLwVZIHFyxsfVw11kglSwikX0daYQxPepKdSpTxQMh20c9Wy9PpyvBfEEG5o49aO53OIdmSLsFbs6TPlkOqukaeFJjplex3VevwZhYl6J3fuUev4ZiOtCLzlM3cStSvdb3AK4JaQcG42oMqgdNv5sDV8iXaQeDHTH5gts6qnQlINhTVkSmbG29x0aWKQEXb6Yt2aBAXz2elDGhOTU0hRRZvJvnfd63nhRlJyLBO3NuxDPB1Czj3EHVnhySiPh8BvTMZgnr34Wi0PIeunvnL61KbOf0F3mWaTivtCffc4iXiiTCCBWysEoZ5V34OWJcZjJysazCagq7yGTqXegKzYKGWTK0ok3V1J7HAHaEwagD8K5yxexeux43W3xb7CNDbJ4uMI7OpfDWCgu897NzjUEhe3Zg3WpVICWkLnpMN5oiXGbRAq6omraOP5nPKR0LbVX7EBr4dtWFs6Peam589ITLkQvx1BmaqjgEHBUprGqgkSVMlo4euw",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-22"
   }
  ]
 }
