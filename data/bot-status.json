@@ -1,39 +1,15 @@
 {
  "prices": {
-  "at": "2026-11-22T16:17:22.080Z",
+  "at": "2026-11-22T22:17:16.879Z",
   "ok": true,
   "checked": 78,
   "returned": 77,
-  "changes": [
-   "MAONO PS22: ₪198 → ₪196",
-   "FIFINE A2: ₪79 → ₪78",
-   "Oneodio Pro 50: ₪140 → ₪149",
-   "Softbox Kit: ₪139 → ₪138",
-   "MCHOSE V9 Pro: ₪153 → ₪162",
-   "Haomuren Mic Kit: ₪122 → ₪130",
-   "Maono DGM20S: ₪216 → ₪214",
-   "DJ Controller Case: ₪158 → ₪157",
-   "Spring-Free Microphone Arm: ₪54 → ₪57",
-   "Gaming Laptop Cooler: ₪71 → ₪76",
-   "MCHOSE X9 Tri-Mode: ₪207 → ₪220",
-   "DT-02B Foldable Adjustable: ₪90 → ₪89",
-   "Professional Studio Low: ₪183 → ₪181",
-   "Ambitful Phone and: ₪162 → ₪160",
-   "F16 Selfie Stick: ₪40 → ₪42",
-   "APEXEL 10-20X Zoom: ₪116 → ₪123",
-   "Ourlife 4K Action: ₪206 → ₪219",
-   "BRDRC Pocket 4: ₪68 → ₪67",
-   "3 Rod Tablet: ₪122 → ₪120",
-   "Wireless Microphone Lavalier: ₪39 → ₪41",
-   "Adjustable Microphone Stand: ₪49 → ₪48",
-   "Gaming Laptop Cooling: ₪64 → ₪68",
-   "Zealsound RGB Recording: ₪128 → ₪136"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 198,
+    "before": 196,
     "api": {
      "sale": "196.17",
      "app": "196.17",
@@ -49,7 +25,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 79,
+    "before": 78,
     "api": {
      "sale": "77.96",
      "app": "77.96",
@@ -161,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 140,
+    "before": 149,
     "api": {
      "sale": "148.69",
      "app": "148.69",
@@ -194,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 134,
+    "missing": 135,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -235,7 +211,7 @@
    {
     "id": "1005006861879179",
     "name": "Softbox Kit",
-    "before": 139,
+    "before": 138,
     "api": {
      "sale": "137.69",
      "app": "137.69",
@@ -251,7 +227,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 153,
+    "before": 162,
     "api": {
      "sale": "162.39",
      "app": "162.39",
@@ -299,7 +275,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 122,
+    "before": 130,
     "api": {
      "sale": "130.39",
      "app": "130.39",
@@ -395,7 +371,7 @@
    {
     "id": "1005005709908265",
     "name": "Maono DGM20S",
-    "before": 216,
+    "before": 214,
     "api": {
      "sale": "214.39",
      "app": "214.39",
@@ -443,7 +419,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 158,
+    "before": 157,
     "api": {
      "sale": "156.69",
      "app": "156.69",
@@ -459,7 +435,7 @@
    {
     "id": "1005009184927989",
     "name": "Spring-Free Microphone Arm",
-    "before": 54,
+    "before": 57,
     "api": {
      "sale": "57.39",
      "app": "57.39",
@@ -491,7 +467,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 71,
+    "before": 76,
     "api": {
      "sale": "75.90",
      "app": "75.90",
@@ -571,7 +547,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 207,
+    "before": 220,
     "api": {
      "sale": "220.39",
      "app": "220.39",
@@ -619,7 +595,7 @@
    {
     "id": "1005010155315423",
     "name": "DT-02B Foldable Adjustable",
-    "before": 90,
+    "before": 89,
     "api": {
      "sale": "89.39",
      "app": "89.39",
@@ -667,7 +643,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 183,
+    "before": 181,
     "api": {
      "sale": "180.94",
      "app": "180.94",
@@ -715,7 +691,7 @@
    {
     "id": "1005006966166974",
     "name": "Ambitful Phone and",
-    "before": 162,
+    "before": 160,
     "api": {
      "sale": "159.99",
      "app": "159.99",
@@ -763,7 +739,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 40,
+    "before": 42,
     "api": {
      "sale": "42.39",
      "app": "42.39",
@@ -843,7 +819,7 @@
    {
     "id": "1005008932500509",
     "name": "APEXEL 10-20X Zoom",
-    "before": 116,
+    "before": 123,
     "api": {
      "sale": "123.39",
      "app": "123.39",
@@ -939,7 +915,7 @@
    {
     "id": "1005012177106297",
     "name": "Ourlife 4K Action",
-    "before": 206,
+    "before": 219,
     "api": {
      "sale": "218.90",
      "app": "218.90",
@@ -987,7 +963,7 @@
    {
     "id": "1005011656171989",
     "name": "BRDRC Pocket 4",
-    "before": 68,
+    "before": 67,
     "api": {
      "sale": "67.34",
      "app": "67.34",
@@ -1003,7 +979,7 @@
    {
     "id": "1005007477012085",
     "name": "3 Rod Tablet",
-    "before": 122,
+    "before": 120,
     "api": {
      "sale": "120.39",
      "app": "120.39",
@@ -1035,7 +1011,7 @@
    {
     "id": "1005009278189244",
     "name": "Wireless Microphone Lavalier",
-    "before": 39,
+    "before": 41,
     "api": {
      "sale": "41.19",
      "app": "41.19",
@@ -1051,7 +1027,7 @@
    {
     "id": "1005008932977208",
     "name": "Adjustable Microphone Stand",
-    "before": 49,
+    "before": 48,
     "api": {
      "sale": "48.39",
      "app": "48.39",
@@ -1115,7 +1091,7 @@
    {
     "id": "1005007344994416",
     "name": "Gaming Laptop Cooling",
-    "before": 64,
+    "before": 68,
     "api": {
      "sale": "67.90",
      "app": "67.90",
@@ -1163,7 +1139,7 @@
    {
     "id": "1005007096854664",
     "name": "Zealsound RGB Recording",
-    "before": 128,
+    "before": 136,
     "api": {
      "sale": "135.69",
      "app": "135.69",
