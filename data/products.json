@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:17:22.078Z",
+ "updated": "2026-11-23T03:43:59.368Z",
  "niches": [
   {
    "id": "music",
@@ -2069,6 +2069,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-22"
+  },
+  {
+   "id": "1005010504458955",
+   "name": "HORLAT 50000Lumens Google TV Projector 64GB",
+   "short": "HORLAT 50000Lumens Google",
+   "cat": "projector",
+   "niches": [
+    "screens"
+   ],
+   "tag": "מקרן",
+   "icon": "📽️",
+   "badge": "✨ חדש באתר",
+   "desc": "מקרן לסרטים, גיימינג ומצגות — מסך ענק על כל קיר. כולל: תומך בתוכן 4K, בהירות 50000 לומן.",
+   "positive": 97,
+   "sold": "220+ מכירות",
+   "price": 910,
+   "listPrice": 2408,
+   "commission": 8,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se1cee2189227414787fa2c8e61aa4d86W.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmzQUkUOY4SW4vIlGMqQzY8KIgLX6wEGT3AVZkLq7iPegqZyqBZJXyFwbrI8TF2B6WhTPPVq7urSLaDaChWAcFdPJzzj1l14QkiT2A5hBw59sqNoW5KNAEPavBrQGTimVk3ZKeiOY6YSSuLrJOlzUyyusD8wZzO0DXyGfynPTa1rpZyeKCB66ASO25Lqvq8nHlK9TgizPvb9s3DNwAnntleumNdikwkTIi2tf6fCwVMFdNqkkBtS4YyYicZ40XHLNP9euJaOrpasKDeiEUe3YrNbKDGbQ7agcBgRwN1ZzHuMwrITQfNivXX7M1uX3nxaqLn7ObXObozLS8VjU70hu7D9QlPziEagFbkQpEKSOtQDWAWPKDFxnvtWtZpDyCPvbKxCj2wm6AVJPt4Dvyo4qUmodVOGMYtClGqLCcMmC2T5S8CirAilBedk3gUDRyRFUzVeXbb7fOLybWzbSzS6mmBnZR9Ex5gxVzOMsKsWWrBthhb7CUQdYpxRI9ik0WcjZ04eeO5MyRTSdWkbCjn2lrm5mOt0CYuG0mmy2dBr9VQJ7NwE3b7AoNHF1JuAIv9cxVlcv2rr4tGObHzIhW5KOlpXQvE4MDDrduniMOHGNkp6DS8fQlJ5ANWztxrJsDCc8frEn49KqzEAu7L4uJKa1o6oUol1rBTOBJtDOQ6hPdS1voBPKUrWIgE70jSpuINctaUccFUUAZma8P",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-23"
+  },
+  {
+   "id": "1005012263114252",
+   "name": "10-Level Reverb Sound Card Headphones",
+   "short": "10-Level Reverb Sound",
+   "cat": "soundcard",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "כרטיס סאונד",
+   "icon": "🔈",
+   "badge": "✨ חדש באתר",
+   "desc": "כרטיס סאונד לשידור חי — מחברים מיקרופון וטלפון ומשדרים עם אפקטים. כולל: Bluetooth, חיבור USB-C.",
+   "positive": 99,
+   "sold": "250+ מכירות",
+   "price": 55,
+   "listPrice": 109,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc008f0d8db774f379c713c4e3a78eea9l.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CojDDa2jyeNtqnmQFEk3FAzAWVPO9krdculxhkRG2KuMI0ELrxRWR9pT5XVj65ntiOfB0WtKMp2wRknBd8EG0MbLCYlCbHJPIOEqQs5PDuvnvb51TSGHq33bQ5TKknaTME5Y2j0FUBnU14sU8CQGKAh765GPL9EWSmtVdxltDmLlC4k8PyiHD09nzU0MPHp9Yhe2ioREqL2EYCTiYFQaOm1Gih1Jfi65ZujsJA89vy5eDi07eNEcvOJcuOPqXMpN29TMDWpJvQPo8XEi1rr3Zxvapzp4cCDDfhXaC24aJnDRRWCY8wlm5Aax77Okw2VuHXT6mUqzAfhrulj9JwTnwqkhIHD6gHRWjXfffbGQsRyeAUTcXK3Mb8Mwy8sIBz24Cwaiku4HK6m41QaTBAYw85NTsoRaAdvagwWruw7OhLekCVd4tFGAkdtD5Tihp0wk9XQlyJcbZoPRrIVH4sK6wKUQdOJjx1wifccbSsxgangpXxQWxhOQxd8wscAzSoAzmvy4BIuT4upILFR4Vd3XRYHktb98fw84tyA91PcpSCQVbx2NTD8ZSqriqGwOfhTll4F2FsK4RjBVKENsN1zIWYPQ3DhupUQN6zcH9GwWFL9zgIkd2bYox6U2sMqD8toxNESVtLYrHKCP5tiVXKnWDx6gjsVr1hHWR2CRurPSQLEDJEqBw0pifTbkn2IRK4R7X4hzcNPj2z6Zce",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-23"
+  },
+  {
+   "id": "1005007298532263",
+   "name": "Picun B8 Bluetooth Headphones 120H Playtime",
+   "short": "Picun B8 Bluetooth",
+   "cat": "headphones",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אוזניות DJ",
+   "icon": "🎧",
+   "badge": "✨ חדש באתר",
+   "desc": "אוזניות לדיג'יי — סגורות, עם בס חזק ומבנה שמחזיק גם בסטים ארוכים. כולל: Bluetooth.",
+   "positive": 97,
+   "sold": "350+ מכירות",
+   "price": 75,
+   "listPrice": 165,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S97fe1d0f78134eeba7d76300a042b849q.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cnlz0Deg15vQyupLAJ91wG5bbMuHXOjHhsrmju4v7Rl0Z9kaTfTBZAXtHp47CZGFbPWLtqZKJax4wYHbyIfTq9mYuFV468xPbIyajv8fiA8VWCnSffLJOrOnMqjrWqXWapE013txSKvn9tuYbwEa5LtmdCPlNK4TzeFNN4mAp64hHCWs0VZWkNjwZPOKTydxZS9E9RgvgQzWpSdbdo5gH3DlrWMaSdxG8XgAAp8bRP4rMQ2r1JN3hJN9zXLAtmfY8qFL9zMQAP3msukKOjNTmGvfARxtnSk16sXvjnCLQPDZgqWu1LVAWt8IdEISrCL9pelGt5e2LyqOsFKDOE7pJbKeMPrbC0ana0QbmUZcTZvMSh8zVbqvCwWEHSBNYASXAOqzLRlkNpZG2bXbq1PGd3F3qUumkAqxcz57jRePJo2WYkeOt9NEfGYpUgnCQHsWloqLPabbo6I3KVlM2n44UUnUJ2RvdjNneDmwIyt6DkhnMYgTao60AOsYUBDcfHzcHdIuPXDpJeh9ETTWlOKgQKO84G9z1cIJm4sCuWOHDgipaQY2Mm9C2QGNz2M5dhOZYm1KcoRfjqtDsQdCBwUcADZxmxV7BFkV0tdZ6rAdgoMATmdtumeoenYtAOV7SRo1nC7LO6XcpG7R8TEg9rFtF8rR2XI5oQgVqqfWMw3KlNte2oJf3KYCZK5BuO9qCx5zTP2VmV4j2MGKIe",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-23"
   }
  ]
 }
