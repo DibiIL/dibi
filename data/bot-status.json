@@ -1,14 +1,14 @@
 {
  "prices": {
-  "at": "2026-11-23T16:17:27.039Z",
+  "at": "2026-11-23T22:17:15.602Z",
   "ok": true,
   "checked": 81,
   "returned": 77,
   "changes": [
-   "HOMEFISH Light Bar: ₪42 → ₪45",
-   "🚫 הוסתר (לא זמין): Ulanzi TT88 1.44M",
-   "🚫 הוסתר (לא זמין): Ulanzi D200X 8",
-   "🚫 הוסתר (לא זמין): Ulanzi VL49 Mini"
+   "M-VAVE SMK-25: ₪152 → ₪161",
+   "Haomuren Pink Mic: ₪93 → ₪98",
+   "MAONO PD100X: ₪156 → ₪165",
+   "Professional Studio Low: ₪180 → ₪182"
   ],
   "items": [
    {
@@ -64,14 +64,14 @@
     "name": "M-VAVE SMK-25",
     "before": 152,
     "api": {
-     "sale": "152.43",
-     "app": "152.43",
-     "original": "343.57",
+     "sale": "161.39",
+     "app": "161.39",
+     "original": "343.40",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 152,
-    "listPrice": 344,
+    "after": 161,
+    "listPrice": 343,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
    },
@@ -175,7 +175,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 138,
+    "missing": 139,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -312,7 +312,7 @@
    {
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
-    "before": 42,
+    "before": 45,
     "api": {
      "sale": "44.55",
      "app": "44.55",
@@ -330,13 +330,13 @@
     "name": "Haomuren Pink Mic",
     "before": 93,
     "api": {
-     "sale": "92.58",
-     "app": "92.58",
-     "original": "214.83",
+     "sale": "98.39",
+     "app": "98.39",
+     "original": "215.04",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
-    "after": 93,
+    "after": 98,
     "listPrice": 215,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
     "active": true
@@ -362,13 +362,13 @@
     "name": "MAONO PD100X",
     "before": 156,
     "api": {
-     "sale": "155.52",
-     "app": "155.52",
-     "original": "361.65",
+     "sale": "165.39",
+     "app": "165.39",
+     "original": "361.52",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S92d9f63fbf444086be5eb1fcabe32c54K.jpg",
-    "after": 156,
+    "after": 165,
     "listPrice": 362,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
     "active": true
@@ -489,7 +489,7 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 3,
+    "missing": 4,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
@@ -644,13 +644,13 @@
     "name": "Professional Studio Low",
     "before": 180,
     "api": {
-     "sale": "180.07",
-     "app": "180.07",
+     "sale": "181.54",
+     "app": "181.54",
      "original": "388.28",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44cb8ab6b9de48a9afaa5853fa461a53C.jpg",
-    "after": 180,
+    "after": 182,
     "listPrice": 388,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S44cb8ab6b9de48a9afaa5853fa461a53C.jpg",
     "active": true
@@ -931,7 +931,7 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 3,
+    "missing": 4,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
@@ -1053,7 +1053,7 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 3,
+    "missing": 4,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:17:27.037Z",
+ "updated": "2026-11-23T22:17:15.599Z",
  "niches": [
   {
    "id": "music",
@@ -296,13 +296,13 @@
    "desc": "קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.",
    "rating": 4.9,
    "sold": "129 מכירות",
-   "price": 152,
+   "price": 161,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4E0aQhJ",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 344,
+   "listPrice": 343,
    "commission": 7
   },
   {
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 138,
+   "missing": 139,
    "autoHidden": true
   },
   {
@@ -697,7 +697,7 @@
    "desc": "מיקרופון קונדנסר USB בצבע ורוד — חיבור פשוט למחשב, ל-Mac ולטלפון, להקלטה, סטרימינג ופודקאסט.",
    "positive": 98,
    "sold": "510+ מכירות",
-   "price": 93,
+   "price": 98,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
@@ -742,7 +742,7 @@
    "desc": "מיקרופון דינמי לגיימינג ולסטרימינג, עם חיבור USB וגם XLR, סינון רעשים, יציאת אוזניות ותאורת RGB.",
    "positive": 98,
    "sold": "430+ מכירות",
-   "price": 156,
+   "price": 165,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
@@ -941,7 +941,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 3,
+   "missing": 4,
    "autoHidden": true
   },
   {
@@ -1174,7 +1174,7 @@
    "desc": "זרוע למיקרופון — מחזיקה אותו בדיוק מול הפה ומשאירה את השולחן פנוי.",
    "positive": 98,
    "sold": "630+ מכירות",
-   "price": 180,
+   "price": 182,
    "listPrice": 388,
    "commission": 7,
    "freeShip": true,
@@ -1615,7 +1615,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 3,
+   "missing": 4,
    "autoHidden": true
   },
   {
@@ -1809,7 +1809,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 3,
+   "missing": 4,
    "autoHidden": true
   },
   {
