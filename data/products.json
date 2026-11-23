@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:17:16.551Z",
+ "updated": "2026-11-23T16:17:27.037Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 137,
+   "missing": 138,
    "autoHidden": true
   },
   {
@@ -674,14 +674,14 @@
    "desc": "מנורת מסך באורך 50 ס\"מ שנתלית על המסך ומאירה את השולחן בלי לסנוור. חיבור USB ועוצמה מתכווננת — לעבודה, ללימודים ולגיימינג בלילה.",
    "positive": 98,
    "sold": "2,000+ מכירות",
-   "price": 42,
+   "price": 45,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f07b510728442a48ce25a6e280b7effo.png",
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m1Qhg6kiUy6olGHsRrVanz6OTLGW0sMEj7SaxZBT3a8lq9O0LynadP8iIkyYJRhpzz6V6bgM7DPvkub5uIQcEtmk5qzoiCAEIN2Q4gWsFqXqXGVjir02sWTygpEx7P8IqZFtN1ysoxQOJN9iwEG1dE1pzjdQJqvJj7WeA8Kba7jyIABLmVeuyHKUVAhFcJLX6moZ2Up8TRT5yonwFhFL6kIs8iGWqiEKuzNR9GnmaYwhLsPv6ELk4LdZK63ZOvYDZ4V27Tm8T5nxiSdZU7zjQmgVQO7QHo0zr0PngYAGuAc7U25F4ugrZq2YV7UEKjYxLHJQWE6TpKTlQLdFbLAxKMvEVTIUbKSFTVXePBmtiTcMIrYcRAV8N02sbKtI28loGd91vEgo11nDGKQTSPmIGJIEY85IFIpWv27hqPVQ6cnMmObQPt7UDomusXVW4thGNBYNLX9xJKBrSmAlGcyjCn5jBOGMYZBThskaIKndlS74XPa03iBf6oaeOAD2a0fIU0pccRja4WflEJDrrzWHZa12fM7W7E7rBUgCNMJO7n8e9Hmxm2qGYmIlhVwBDw0SAil6Tvph9jz2VkKCh8fpi5XZKTYBObMHuvZbGYohH7KCJYMTI2NXbrI2YSdGIO7JRabp36lIcidCxJPRhr2C2PuqmHaWp0DTn4Fvyuy6Er88XfhDHnRzuZbZOvopbrBDHRpAD2vrPWM3l",
    "active": true,
    "added": "2026-11-04",
-   "listPrice": 98
+   "listPrice": 104
   },
   {
    "id": "1005006782794822",
@@ -938,10 +938,11 @@
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqiIeE45lzcOkPW0q0epbnhrAyRJJKO1N79PO0KXEYVHOC9H9Exq48ppcbkmM43cApODDxXlYTodPXpgYV2F2xtDdrrzFvNdvHd50A18Qfa2docz4hMHZ8fsOk6Hjzr8mlIuUkkCTiS7vjreqfvWBloM07kmLVQ4UPcAJpOZanghP3EyvPzT9aGfalm4cdcNia0eSjJhnViFbFB9NhvuUfaRq66wbqIYzEUCXgtOOM8YasAy6kMjpBA1y2BfXg7G3wbIkiUYxNAuN2xFVEJ30Mz6Nw2zV15RC87y20qiWrNTBVIeCpia4mjejP4qPedLOydmWSC3KvJpmRl8iFxciQIrqzsc7lsBHrvwoYhmGxleHnrYTbsZqANxwSMGSIUcuZOiednele2bsmAFOFgk9SkvcYpPIngvqwhFJjsXFxirGJ9BWZHUiPQGSrbJIQJcPevyWN7fzMF3034GU3hlSMVdO2dDBjfiNSpCT3NB5Ecvu2OObbPygHIMqOOs3JhkEGrb4aBWeuO6vmXsy5IQXVgjdeSMm1Avaya5FhN6TSGg2nFEmYvXUqvGjdAMIUCbOHhqI5dRAjyedMTjecx2VHCCQtYGfPnyGNxineJl9ZHD8MG4oECFgtrBQ3ANKa9H3ruHOt1guwI8txPDw3ppAESIL114qLVNF9RuJz8SowF6WYVhhX8o5nuIOpFEzTOO4oq0mQzvECbz",
-   "active": true,
+   "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 2
+   "missing": 3,
+   "autoHidden": true
   },
   {
    "id": "1005006648408257",
@@ -1611,10 +1612,11 @@
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CnetvlwqM7tiWyNqRZpcfDuNr3muFYnkSNgr4GVxDifcq9t1ocYZ5fI5Df0nSAE7iZsvoS09U8n1bntlmpp67PzpArOEZ9XbcR6XKji5OxEEuaOJMw6cTNBMK5f3ygR6WxyLg0GPAtsYdxLMtabD85TShiRI37GXazmznZdYv9JChyaY65Yp04bn7i0pHodvf5FH7yXW76v5ZlFcIcERVd0Tt0a5E3MBgyVBHb9UAij7RcNmdzBvs3xgDXRBcLrdNUxfTHJXdrdIwsxG4yRr1Bp7WbJxyEAxrMuQWvxCTQXtpWvAFTS2Wews3GDP7n8iCv9jQAv8GnyWrzyKPhkOahp8ttpkUOBemwhalr70PJmTIGbnsuueEhqBK9MKf778ntDMgn2VsuY2jXgXP1U2o1Lt5vqlhkKbENnAD7yoxVAUjIPgzXlitVAmuDX7ZQrcpAuTmpS2PwboUrHSI3EN9oGtJJRBqsUdwkZHeFCp40DEIqjbpe90w9QXm6pNNz3hvG8crgEnmwGy6ytNoy9LRPtR9YU4v3rEB8jAa6FcPzVIzwsL2oYN4QtvNLuMONc1mhhzwIBTw7EQ2mic7NlqarGUSjcF7sv5L51WLIcCr9cgPCg2bsAfNBGaYlsUfhFSKFUGBIZeoIbRyCRAKJedmVoyDs4BEdsaMl2m6LzGepXYC1r3bcfOChayCB3OO2p4ZucRvJoWBv0mnV",
-   "active": true,
+   "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 2
+   "missing": 3,
+   "autoHidden": true
   },
   {
    "id": "1005010439207982",
@@ -1804,10 +1806,11 @@
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CojFqecspHeCWwnhm0nFCeF9yveZkmAl4EyzYNhz27OlyvH6TBzwQmJdUwLrNg7jyQmcO3JXDvMRkgg62F7IS3y9rL0GPFcmldSWCH94oQG0yq9whAv2kl7Xi26TqV1dQpIki6o5tbC5Fzg11KYA11PaLPwqB3gxfPZrXCHvviJ50qE0pGRVdzSILAjzmXcJ0t5YtoY3sWIIrDKlDAJXCySNhKngB1FxCx79Qz2BpAkGsa7fA3Tz9ooyEjbejZlZk7NJGHNwsX2DG3Io6D5YHfezou1CHFGyDnQjrC22cYEav1TbmpbT5UXAJjh6pmiwY0TUb9ds5Pmh4m9r3xj1b40d1WFphxmF3Itk64mxQQfxsyG9BbV1BOoy8XhaCKjZcg5PEawcXG4wb1VIGokkyFrhIpOJkCNSaTrUV26rBxb94qRGSe9uAXrBjgi3hgfE1684koXL0jsWtBow0rzwVBOHq5FbJQfGB0u3nU60CFMAiw3kHJtBHNBIxN00o3rBC36dBZslZ4iriPKYioO8ly8P30apsDz850lh74YjJa5qhkgENZkxDOWonT5C0qcfPPeoR9RN2QwtIt3eR5ggMunq46G8J45lPBIM9QiwDXIpiF9Ig7rRhDffTfOhDx1y4KhXLMNEEgbt71B4D7voBnlOpjfoZo0GHbVHWNQWUztkCCHlkEhAjcWCxaxQQEHp2JS0mw1913Lthb",
-   "active": true,
+   "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 2
+   "missing": 3,
+   "autoHidden": true
   },
   {
    "id": "1005007938007660",

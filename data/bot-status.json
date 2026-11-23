@@ -1,43 +1,20 @@
 {
  "prices": {
-  "at": "2026-11-23T10:17:16.553Z",
+  "at": "2026-11-23T16:17:27.039Z",
   "ok": true,
   "checked": 81,
   "returned": 77,
   "changes": [
-   "MAONO PS22: ₪198 → ₪197",
-   "FIFINE A2: ₪79 → ₪78",
-   "M-VAVE SMK-25: ₪161 → ₪152",
-   "FIFINE SC8: ₪202 → ₪199",
-   "Oneodio Pro 50: ₪150 → ₪141",
-   "Rowin Looper: ₪77 → ₪75",
-   "Softbox Kit: ₪139 → ₪138",
-   "MCHOSE V9 Pro: ₪164 → ₪154",
-   "Haomuren Mic Kit: ₪131 → ₪123",
-   "Haomuren Pink Mic: ₪98 → ₪93",
-   "MAONO PD100X: ₪164 → ₪156",
-   "DJ Controller Case: ₪158 → ₪156",
-   "Spring-Free Microphone Arm: ₪58 → ₪54",
-   "Gaming Laptop Cooler: ₪77 → ₪72",
-   "MCHOSE X9 Tri-Mode: ₪222 → ₪209",
-   "Professional Studio Low: ₪182 → ₪180",
-   "F16 Selfie Stick: ₪43 → ₪40",
-   "Photo Studio 8-inch: ₪32 → ₪31",
-   "30CM LED Desk: ₪27 → ₪26",
-   "APEXEL 10-20X Zoom: ₪124 → ₪117",
-   "Ourlife 4K Action: ₪221 → ₪207",
-   "BRDRC Pocket 4: ₪68 → ₪66",
-   "Wireless Microphone Lavalier: ₪42 → ₪39",
-   "MAONO G1 NEO: ₪155 → ₪157",
-   "Gaming Laptop Cooling: ₪68 → ₪64",
-   "Zealsound RGB Recording: ₪137 → ₪130",
-   "Extendable Recording Microphone: ₪55 → ₪54"
+   "HOMEFISH Light Bar: ₪42 → ₪45",
+   "🚫 הוסתר (לא זמין): Ulanzi TT88 1.44M",
+   "🚫 הוסתר (לא זמין): Ulanzi D200X 8",
+   "🚫 הוסתר (לא זמין): Ulanzi VL49 Mini"
   ],
   "items": [
    {
     "id": "1005012329009344",
     "name": "MAONO PS22",
-    "before": 198,
+    "before": 197,
     "api": {
      "sale": "196.81",
      "app": "196.81",
@@ -53,7 +30,7 @@
    {
     "id": "1005006930797952",
     "name": "FIFINE A2",
-    "before": 79,
+    "before": 78,
     "api": {
      "sale": "78.22",
      "app": "78.22",
@@ -85,7 +62,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 161,
+    "before": 152,
     "api": {
      "sale": "152.43",
      "app": "152.43",
@@ -133,7 +110,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 202,
+    "before": 199,
     "api": {
      "sale": "198.81",
      "app": "198.81",
@@ -165,7 +142,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 150,
+    "before": 141,
     "api": {
      "sale": "140.86",
      "app": "140.86",
@@ -181,7 +158,7 @@
    {
     "id": "1005007938035539",
     "name": "Rowin Looper",
-    "before": 77,
+    "before": 75,
     "api": {
      "sale": "75.39",
      "app": "75.39",
@@ -198,7 +175,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 137,
+    "missing": 138,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -239,7 +216,7 @@
    {
     "id": "1005006861879179",
     "name": "Softbox Kit",
-    "before": 139,
+    "before": 138,
     "api": {
      "sale": "138.39",
      "app": "138.39",
@@ -255,7 +232,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 164,
+    "before": 154,
     "api": {
      "sale": "154.11",
      "app": "154.11",
@@ -303,7 +280,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 131,
+    "before": 123,
     "api": {
      "sale": "123.37",
      "app": "123.37",
@@ -337,21 +314,21 @@
     "name": "HOMEFISH Light Bar",
     "before": 42,
     "api": {
-     "sale": "42.17",
-     "app": "42.17",
-     "original": "98.06",
+     "sale": "44.55",
+     "app": "44.55",
+     "original": "103.59",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c709e83eb0e48098f0324ae35f71f8a6.jpg",
-    "after": 42,
-    "listPrice": 98,
+    "after": 45,
+    "listPrice": 104,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5f07b510728442a48ce25a6e280b7effo.png",
     "active": true
    },
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 98,
+    "before": 93,
     "api": {
      "sale": "92.58",
      "app": "92.58",
@@ -383,7 +360,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 164,
+    "before": 156,
     "api": {
      "sale": "155.52",
      "app": "155.52",
@@ -447,7 +424,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 158,
+    "before": 156,
     "api": {
      "sale": "156.39",
      "app": "156.39",
@@ -463,7 +440,7 @@
    {
     "id": "1005009184927989",
     "name": "Spring-Free Microphone Arm",
-    "before": 58,
+    "before": 54,
     "api": {
      "sale": "54.40",
      "app": "54.40",
@@ -495,7 +472,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 77,
+    "before": 72,
     "api": {
      "sale": "72.18",
      "app": "72.18",
@@ -512,11 +489,11 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 2,
+    "missing": 3,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
-    "active": true
+    "active": false
    },
    {
     "id": "1005006648408257",
@@ -544,7 +521,7 @@
      "original": "1647.92",
      "currency": "ILS"
     },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S42f557f61aee4a8c87c9c3db34a35ecaK.jpg",
     "after": 908,
     "listPrice": 1648,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
@@ -569,7 +546,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 222,
+    "before": 209,
     "api": {
      "sale": "208.87",
      "app": "208.87",
@@ -665,7 +642,7 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 182,
+    "before": 180,
     "api": {
      "sale": "180.07",
      "app": "180.07",
@@ -761,7 +738,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 43,
+    "before": 40,
     "api": {
      "sale": "40.15",
      "app": "40.15",
@@ -809,7 +786,7 @@
    {
     "id": "1005010044183032",
     "name": "Photo Studio 8-inch",
-    "before": 32,
+    "before": 31,
     "api": {
      "sale": "30.59",
      "app": "30.59",
@@ -825,7 +802,7 @@
    {
     "id": "1005011743097337",
     "name": "30CM LED Desk",
-    "before": 27,
+    "before": 26,
     "api": {
      "sale": "26.39",
      "app": "26.39",
@@ -841,7 +818,7 @@
    {
     "id": "1005008932500509",
     "name": "APEXEL 10-20X Zoom",
-    "before": 124,
+    "before": 117,
     "api": {
      "sale": "116.93",
      "app": "116.93",
@@ -937,7 +914,7 @@
    {
     "id": "1005012177106297",
     "name": "Ourlife 4K Action",
-    "before": 221,
+    "before": 207,
     "api": {
      "sale": "207.44",
      "app": "207.44",
@@ -954,11 +931,11 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 2,
+    "missing": 3,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
-    "active": true
+    "active": false
    },
    {
     "id": "1005010439207982",
@@ -979,7 +956,7 @@
    {
     "id": "1005011656171989",
     "name": "BRDRC Pocket 4",
-    "before": 68,
+    "before": 66,
     "api": {
      "sale": "66.49",
      "app": "66.49",
@@ -1027,7 +1004,7 @@
    {
     "id": "1005009278189244",
     "name": "Wireless Microphone Lavalier",
-    "before": 42,
+    "before": 39,
     "api": {
      "sale": "39.10",
      "app": "39.10",
@@ -1076,16 +1053,16 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 2,
+    "missing": 3,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
-    "active": true
+    "active": false
    },
    {
     "id": "1005007938007660",
     "name": "MAONO G1 NEO",
-    "before": 155,
+    "before": 157,
     "api": {
      "sale": "156.90",
      "app": "156.90",
@@ -1101,7 +1078,7 @@
    {
     "id": "1005007344994416",
     "name": "Gaming Laptop Cooling",
-    "before": 68,
+    "before": 64,
     "api": {
      "sale": "64.22",
      "app": "64.22",
@@ -1149,7 +1126,7 @@
    {
     "id": "1005007096854664",
     "name": "Zealsound RGB Recording",
-    "before": 137,
+    "before": 130,
     "api": {
      "sale": "130.11",
      "app": "130.11",
@@ -1245,7 +1222,7 @@
    {
     "id": "1005010332459192",
     "name": "Extendable Recording Microphone",
-    "before": 55,
+    "before": 54,
     "api": {
      "sale": "54.39",
      "app": "54.39",
