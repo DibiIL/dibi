@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:17:20.472Z",
+ "updated": "2026-11-24T16:17:36.278Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 141,
+   "missing": 142,
    "autoHidden": true
   },
   {
@@ -836,7 +836,7 @@
    "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות.",
    "positive": 98,
    "sold": "260+ מכירות",
-   "price": 154,
+   "price": 155,
    "listPrice": 317,
    "commission": 7,
    "freeShip": true,
@@ -941,7 +941,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 6,
+   "missing": 7,
    "autoHidden": true
   },
   {
@@ -1174,7 +1174,7 @@
    "desc": "זרוע למיקרופון — מחזיקה אותו בדיוק מול הפה ומשאירה את השולחן פנוי.",
    "positive": 98,
    "sold": "630+ מכירות",
-   "price": 179,
+   "price": 180,
    "listPrice": 384,
    "commission": 7,
    "freeShip": true,
@@ -1247,7 +1247,7 @@
    "positive": 98,
    "sold": "440+ מכירות",
    "price": 159,
-   "listPrice": 326,
+   "listPrice": 325,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S533260b1601f4424ba9735964e83be9dJ.jpg",
@@ -1615,7 +1615,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 6,
+   "missing": 7,
    "autoHidden": true
   },
   {
@@ -1656,7 +1656,7 @@
    "desc": "אביזר ליוצרי תוכן — סטודיו קטן ומסודר בבית. כולל: הצמדה מגנטית.",
    "positive": 97,
    "sold": "380+ מכירות",
-   "price": 65,
+   "price": 74,
    "commission": 8,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
@@ -1680,7 +1680,7 @@
    "desc": "אביזר למסך ולמקרן — העמדה נוחה, מסודרת ובגובה הנכון. כולל: מתקפל.",
    "positive": 98,
    "sold": "950+ מכירות",
-   "price": 119,
+   "price": 120,
    "listPrice": 245,
    "commission": 7,
    "freeShip": true,
@@ -1809,7 +1809,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 6,
+   "missing": 7,
    "autoHidden": true
   },
   {
