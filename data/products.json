@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:17:15.599Z",
+ "updated": "2026-11-24T03:43:55.494Z",
  "niches": [
   {
    "id": "music",
@@ -2147,6 +2147,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-23"
+  },
+  {
+   "id": "1005008589597733",
+   "name": "XMSJ Laptop Stand Adjustable Carbon Steel Notebook",
+   "short": "XMSJ Laptop Stand",
+   "cat": "dj-acc",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אביזר DJ",
+   "icon": "🧳",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות. כולל: מתקפל.",
+   "positive": 97,
+   "sold": "370+ מכירות",
+   "price": 120,
+   "listPrice": 280,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8ec4198869f447829d99501158a9dc3e1.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4petf2Pzk7744nnIaEsmBo9v77p4tCA0tusyw8z5Kpr81D2EKQRlC0jO5VaRlpveklqQkKgvAhVYMQVttLP1TCMl05yqDqSmI8Y5DGFJIVFxOihZqAkwrFFDbRv2PJ4ftBP48BmiuLpsnzfqOOVqpPeurEiUOBBlHcLeggNikBb1FSvdlRxkp3KIhsQPodXIQKFqALDbRAbF3du1UvwjPZ9fHIebuBvbjuzPBFs8BJHgXQtYFd8TBNaBtKXe2YSLerVwIGFBLEOeMDqrsRTYT9YaYmlHMUkmkO1VlSiIvfIQ7vlhZGrFEIX6FXCY1eRIav8eh62ofIihMZ0f1AL1RmzlDpydQqUZHrEWZWiJjgN0hvUXvGvwwYmZ5zjaBje8HHus6Ig5kyIZxZOma8MKRQjVVs7FaD6Tj60ODaYyowcJ0a9ba9uZisjWlndJ0s86ZGf7eIiMGob5RtLEo9s7XPAUBwp2gTFEaqjfIVHzqhel36ZgpTxpeGprkWeuL7KK6dkUx3lf31V74HXa1lSMKCiaIjCNUVqeBYsvJfo2T0CkfU93RkOq7yPbx78OlilNIk64OF9qPBxhWeQNlOviZMgZ2o2JayMiX704ksj2deEkX0A6jTuwawGWB7kxTenPg9M5FJvIiYUL9lvB13Ep4FjfACdipYB2DNlCU9HyoEwYVj1S2jwKcZbP9ERqQdWMfcBvTWrPR6Pcy",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-24"
+  },
+  {
+   "id": "1005010155257708",
+   "name": "Hipacool Metal Car Steering Wheel Laptop Stand",
+   "short": "Hipacool Metal Car",
+   "cat": "screen-acc",
+   "niches": [
+    "screens"
+   ],
+   "tag": "אביזר למסך",
+   "icon": "🗜️",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר למסך ולמקרן — העמדה נוחה, מסודרת ובגובה הנכון. כולל: גוף מתכת.",
+   "positive": 98,
+   "sold": "510+ מכירות",
+   "price": 98,
+   "listPrice": 213,
+   "commission": 9,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6632939a79324a8db424bdce5369a0f9U.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C236pthCBRQCXZgi6yUG5sGUb0BGguxKjWjevGcWddsZtZw18nQK7WnWSXfEIGKzJhxCgWMdKDagSquA6uuUKAOtfBehaKsPIeUkv9m9nkmk5iPsVTCLO4xqx5llngDOc4QsdvBa0oCbBdP1axSLcvRITEd2VmVnaRUs9ozfEecdCS6mQaTaIbB24ETV3dL8CBqPrlmCjd3oiseD47i4ka7MNQjhLcn50A0LC86pahFFzlN26vzmbT1qTI9C5nAa6jnAacqfw9NgEwMWKSpra16WA1I02ihF1XXwA7z8NKg59IOsPSmNWbtR3h7TqKdZzq6NwsX32bXVC3IaaL8JJUDIHd7j7hoE1XjAUXasc6GsCnlni8nMXSTHs2C7b0UxGrk79xP5SU05QmfvBgJMv6p4DBgTKSG8ZFqzJuT7PyC8eyWKOoRg7GuATn6St9On1Hq4RWfzUSuoS1ZAr97WH2n9VYd5ehPohytEVG2oVgVu40xfrqCFq2oLadknhNSMSpgPMGDGnsbYWVm8zaks0lc2XmXFYKxX8JRjVJO7Rjv6NRLB0hWxKF2RsJ5G8ATklmuqNL76WAGGxIobFFWfhEzZaDRtWOaPxY8Wvp2FLVmb6rBR6h6xwZMQLlqFIBJ3TepTj2jTLNQ0cfYDJPO5sd3VZTDzQuT7Z2K9fQ0eB356zXlG0JBi4Tc6G0VbQk6Rs6kZyBpDNHhjJM",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-24"
+  },
+  {
+   "id": "1005012724267220",
+   "name": "LIVTRA NANOCORE Multi-Function Guitar Pedal",
+   "short": "LIVTRA NANOCORE Multi-Function",
+   "cat": "guitar",
+   "niches": [
+    "music"
+   ],
+   "tag": "אביזר גיטרה",
+   "icon": "🎸",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר לגיטריסטים — לתרגול, להופעות ולהקלטה בבית.",
+   "positive": 95,
+   "sold": "820+ מכירות",
+   "price": 130,
+   "listPrice": 188,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sba8d464b44d745d8ad03a1ea6fb2a3ddj.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoVYBGNkJxgI0iVTrTA812S666KWFhwLOVZUHnn5wGLVftBJcsBr0YwB7ucx9JiHVUvSt0dKksumkcxCKxbxSfERJ29MANlmOXiMOF8Pg7vShdNBRT4HTozYsjuJajt33U6iUhlc36XKAJD4nI658qWYZyoAjo1lN8otbJHVckJRAgMxreJJcu6P1YTirx6jw5rOiZF6lLGlugK2Bskyc2hpRA8T8gObGT914EMNdq45cAKeY2MhGwYeaalFrMSa9dP67qlonjb1F8Lj9NIgPGMjmRNV7qp3MZQfcdYVKHhvXthHJwmSvEzJGvuDQnznRblFr0uchqpqut9I8LCRnPNJo3kFCiqKi8qirDAn5QJTE0wouSvtjrZtydJBackYuIP2QOkqeAiOTQpdNKeAn6uPwn3mOzVgRz4j9Zhy94bYqiXpq2sBnFDvfCCJE6t3JMsS6jr5VzsJiTpRqdqLZawbtr1nPSLf4Y2TZI1szAAiUw2ZDi5GCEoKisaInlh8KacSWZ60xz0xYdQkYIp9dweK6kLD5SU5AKwsNk6jP2oHbEMcGcOOwvoBVf3mw3jideJyEIlS3HUd4ujYgCAo6yAcjg9FJUFyz44PXD49pUOpROrgoUKXtloHnE6y8w8TwCn93nGr7llkUj3yOHLMp715uvZ4VE9ruVwfdjjsJ36BGXPDKDsvwOFE6r3eprb0Aof91hjceO5EkY",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-24"
   }
  ]
 }

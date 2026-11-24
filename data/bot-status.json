@@ -1322,31 +1322,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-23T03:43:59.371Z",
+  "at": "2026-11-24T03:43:55.498Z",
   "ok": true,
   "added": [
    {
-    "id": "1005010504458955",
-    "name": "HORLAT 50000Lumens Google TV Projector 64GB",
-    "niche": "screens",
-    "cat": "projector",
-    "price": 910,
-    "commission": 8
-   },
-   {
-    "id": "1005012263114252",
-    "name": "10-Level Reverb Sound Card Headphones",
-    "niche": "podcast",
-    "cat": "soundcard",
-    "price": 55,
+    "id": "1005008589597733",
+    "name": "XMSJ Laptop Stand Adjustable Carbon Steel Notebook",
+    "niche": "dj",
+    "cat": "dj-acc",
+    "price": 120,
     "commission": 7
    },
    {
-    "id": "1005007298532263",
-    "name": "Picun B8 Bluetooth Headphones 120H Playtime",
-    "niche": "dj",
-    "cat": "headphones",
-    "price": 75,
+    "id": "1005010155257708",
+    "name": "Hipacool Metal Car Steering Wheel Laptop Stand",
+    "niche": "screens",
+    "cat": "screen-acc",
+    "price": 98,
+    "commission": 9
+   },
+   {
+    "id": "1005012724267220",
+    "name": "LIVTRA NANOCORE Multi-Function Guitar Pedal",
+    "niche": "music",
+    "cat": "guitar",
+    "price": 130,
     "commission": 7
    }
   ]
