@@ -1,14 +1,14 @@
 {
  "prices": {
-  "at": "2026-11-24T16:17:36.280Z",
+  "at": "2026-11-24T22:17:16.104Z",
   "ok": true,
   "checked": 84,
   "returned": 80,
   "changes": [
-   "DJ Controller Case: ₪154 → ₪155",
-   "Professional Studio Low: ₪179 → ₪180",
-   "BRDRC Pocket 4: ₪65 → ₪74",
-   "3 Rod Tablet: ₪119 → ₪120"
+   "M-VAVE SMK-25: ₪151 → ₪160",
+   "Haomuren Pink Mic: ₪92 → ₪97",
+   "MAONO PD100X: ₪155 → ₪164",
+   "BRDRC Pocket 4: ₪74 → ₪66"
   ],
   "items": [
    {
@@ -64,13 +64,13 @@
     "name": "M-VAVE SMK-25",
     "before": 151,
     "api": {
-     "sale": "150.64",
-     "app": "150.64",
-     "original": "339.55",
+     "sale": "159.69",
+     "app": "159.69",
+     "original": "339.76",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
-    "after": 151,
+    "after": 160,
     "listPrice": 340,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
     "active": true
@@ -175,7 +175,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 142,
+    "missing": 143,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -330,13 +330,13 @@
     "name": "Haomuren Pink Mic",
     "before": 92,
     "api": {
-     "sale": "91.68",
-     "app": "91.68",
-     "original": "212.74",
+     "sale": "97.39",
+     "app": "97.39",
+     "original": "212.86",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
-    "after": 92,
+    "after": 97,
     "listPrice": 213,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S773a90b4ffd2410e835210ef91fcd670m.jpg",
     "active": true
@@ -362,14 +362,14 @@
     "name": "MAONO PD100X",
     "before": 155,
     "api": {
-     "sale": "154.60",
-     "app": "154.60",
-     "original": "359.51",
+     "sale": "164.39",
+     "app": "164.39",
+     "original": "359.34",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S92d9f63fbf444086be5eb1fcabe32c54K.jpg",
-    "after": 155,
-    "listPrice": 360,
+    "after": 164,
+    "listPrice": 359,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
     "active": true
    },
@@ -424,7 +424,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 154,
+    "before": 155,
     "api": {
      "sale": "154.69",
      "app": "154.69",
@@ -489,7 +489,7 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 7,
+    "missing": 8,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
@@ -642,10 +642,10 @@
    {
     "id": "1005007670533393",
     "name": "Professional Studio Low",
-    "before": 179,
+    "before": 180,
     "api": {
-     "sale": "179.77",
-     "app": "179.77",
+     "sale": "179.78",
+     "app": "179.78",
      "original": "383.73",
      "currency": "ILS"
     },
@@ -931,7 +931,7 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 7,
+    "missing": 8,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
@@ -956,15 +956,15 @@
    {
     "id": "1005011656171989",
     "name": "BRDRC Pocket 4",
-    "before": 65,
+    "before": 74,
     "api": {
-     "sale": "73.69",
-     "app": "73.69",
-     "original": "81.93",
+     "sale": "66.20",
+     "app": "66.20",
+     "original": "81.77",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
-    "after": 74,
+    "after": 66,
     "listPrice": 82,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf88b9edc898e4af791e736fdf727cfbdG.jpg",
     "active": true
@@ -972,7 +972,7 @@
    {
     "id": "1005007477012085",
     "name": "3 Rod Tablet",
-    "before": 119,
+    "before": 120,
     "api": {
      "sale": "119.69",
      "app": "119.69",
@@ -1053,7 +1053,7 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 7,
+    "missing": 8,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
