@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:17:16.101Z",
+ "updated": "2026-11-25T03:43:57.757Z",
  "niches": [
   {
    "id": "music",
@@ -2219,6 +2219,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-24"
+  },
+  {
+   "id": "1005007805449941",
+   "name": "Acinaci Wireless Gaming Headset",
+   "short": "Acinaci Wireless Gaming",
+   "cat": "gaming-headset",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "אוזניות גיימינג",
+   "icon": "🎮",
+   "badge": "🔥 2,300+ מכירות",
+   "desc": "אוזניות גיימינג עם מיקרופון — שומעים כל צעד ומדברים עם הקבוצה בבירור. כולל: חיבור אלחוטי 2.4GHz, Bluetooth, תואם קונסולות.",
+   "positive": 98,
+   "sold": "2,300+ מכירות",
+   "price": 82,
+   "listPrice": 190,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd12e61527d76485d8253c324fbc22f48F.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cnax0Z2inOKFSBI7E03XVO36s7qdd76u24Bq1dmEJBdgO1EmIajMkK0ZeglysWnGvCHiXEiJxY4HMxVrIXarewBkFtT76GRGLw5zKnOHqwvzD6Dmt4PeYAYvnM3hmOeL5cQ7Br8XZJlZpT0a9ToQmqsGsq0qU3ccIv3M7OnX5v95YPuWbZc2khfUOxUCdczO7wiQYstoZJgE5QJGrE7mWOqv3UowjS1wgvMdMM3HZUkobK4u21paRWrT30jRJnoN22X983tyFZLQUxTFPNKaB1dem3vlPul5pUd1LdyeCLYFEWIFluOKeLaImlvNuYFASWdMOg6ZBJRMUuXil3fkoKlt53giQU3QoQA4XdsuwW6opvZ7KYAjKIDRZwW5ld5Kq0uJHODTpEHx7M7vrpaoUg9U1ndFruPzFkqLv9H4hGHoTj3XpvZSpG0NoFvy4XONzgc4xJpy9G96vGcZauzzSXm7FJfz7IOX07QmCBJdXhBOdsNleVEHwMv1GNanf6zo2IhJUmqqv5UG0sdQ3DmDxrppZ0kAMbMha0ALrVUSbCky6QE9QBK1i24Tf23H64fSvBCAC8fS4IATWBVMu3WpM7cMNPOxbYHq5z3NJbIJ7eG1cHwwdRjhEU2JZcF7wejw8GBR0yWhSgYsWxHBHq6p0OvMb7rUHH8WCIObDeviYsl7CxMuPSR3R9oG3UKzYjHCWhHgW4e2Mf1ztu",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-25"
+  },
+  {
+   "id": "1005006994683790",
+   "name": "Haomuren USB Microphone",
+   "short": "Haomuren USB Microphone",
+   "cat": "mic",
+   "niches": [
+    "podcast"
+   ],
+   "tag": "מיקרופון פודקאסט",
+   "icon": "🎙️",
+   "badge": "🔥 1,600+ מכירות",
+   "desc": "מיקרופון לפודקאסט ולסטרימינג — קול חם ונקי, בלי רעשי חדר. כולל: מיקרופון קונדנסר, האזנה בזמן אמת.",
+   "positive": 98,
+   "sold": "1,600+ מכירות",
+   "price": 92,
+   "listPrice": 214,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S90ee30090c374eec97d3804c650c0da3w.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoSr3Iw8PhHTNDqSU25PF9x9F2QD1qwmOy87gLNAOdyl2Bb4vo5vpLrQp4zIBQ3PYksbzXjkyNG3tKlnS7KFcREIGHeIbVKQDKjqNDZKxntRM2pb5ThuB1cOzxl3MDiPrntPRzdRicYo0rvvrxumsclTn6eHoWJBuuiBHiphr35luDn1v3F4fvhO2tzs5tVJNx17CbCjNfiZxIzidjLPXHEfRahE3gEBwYEEf88K3bEtf2hdceXN6i60yvgEC1xfE8gznsF4jMsSILXROxIde81UQiAB8f9xbrQ6DCEk57XaMRrrC8e3lCB3gU9vZ0Q3297tmusBbcij3A5ISXi0seLqASbXjcoZlxy43ps50anWDk72PO9inIPNhhhpwGTtdB4pxWYfwBkvRfczNFEuVk6HuRvsAIyIGjQDyzy7GWLemlS3CY52hcI1hBq32e0gCeU4X8iFoIlCGKQUIY52euPiDQf9J6ILlpbbRszv6rsDXawxaMrqN2ScDTnXgoOOk64gRnFGrxGbSb4wmkVvuYErR7K4hZGEwAtXR5RZs6gkyAR2yPbT9VCFw1geOl36CbbXNjdyFD10mlN3n3PzAaa6OZHX1817C5ZbXQ0RCuGLlGIwttcdusvwcI3xUEXlqCalChVptLsg07n69Tmk48WFatRlt5bZHdE6rA5LJvLMNasfpugRWsypbT6QzY2uTqzyxyFXixhZiw",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-25"
+  },
+  {
+   "id": "1005012650225043",
+   "name": "MAONO MH700 Studio Monitor Headphones Mixing",
+   "short": "MAONO MH700 Studio",
+   "cat": "headphones",
+   "niches": [
+    "dj"
+   ],
+   "tag": "אוזניות DJ",
+   "icon": "🎧",
+   "badge": "✨ חדש באתר",
+   "desc": "אוזניות לדיג'יי — סגורות, עם בס חזק ומבנה שמחזיק גם בסטים ארוכים.",
+   "positive": 99,
+   "sold": "230+ מכירות",
+   "price": 133,
+   "listPrice": 290,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S37cb85e0a1e644b6a1ae12611115c3d7h.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4kvAkPDlKOMpyRcDFgtfFPA7MbX0kUXbCe3sLpOLhH5a2Lmku8QoD1nGbAQ7gindm3GBC6v7tNgO59LoTPCL4Z7Aj3CLJc9stz9EnQa7baNDucLFbnOA6V0vrEqW8uNGir61aH0Dkd2QgjDpHMLvaPfPhkLHjTGKqCPLJyRX6uiSzAoREEskONx84317QYmv2G8yYAX7Lj1V6CMBVG4aG7RtD4huccx9bBEvdmLySNo9cBTyBlmhDh7QdrUHyqsH9yMD3z44Nqm76hwsxNkp51WWbGqeOiIMTrtbRviWdOPzKCzKk7GYcUrbvtormjp9qnn2bOU7jhV9wO6tdPw0zffZebdAbr0r3YztUVzK1jpejnFjvSpGslQpgTlR353QUsgQcW0dxldFnv24f0VRuYtOcqSey7xjNBu0iz49eAsX7HbvQWU1DfG4WRYa1pZUXVOdlSncf2A58mcP5Vki0C9eZ7qDMvPnZ2fzLzSDkMSWzLjElALycWvEi0Cmyc5SOoyxFPcRzlZFQskCYUWfKMMvuWijWTk0qnZtHcGZdI2zYn6Ty2Bq3vvx1WXYlwAZWzwNpqo5i3ZyDiRQM5lU2rWhb3VbWU2hk6Rnten1y89veIBdYGUEsCEepES7zTuFfQdCMSBWYzHFywG7Hg8gnezUOymU0XnIjZHx6Ey0FCIcSHrDaUccPO8rNQ4OC17gKGRYnpMM7BVCG",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-25"
   }
  ]
 }

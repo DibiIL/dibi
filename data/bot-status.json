@@ -1367,31 +1367,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-24T03:43:55.498Z",
+  "at": "2026-11-25T03:43:57.760Z",
   "ok": true,
   "added": [
    {
-    "id": "1005008589597733",
-    "name": "XMSJ Laptop Stand Adjustable Carbon Steel Notebook",
-    "niche": "dj",
-    "cat": "dj-acc",
-    "price": 120,
+    "id": "1005007805449941",
+    "name": "Acinaci Wireless Gaming Headset",
+    "niche": "gaming",
+    "cat": "gaming-headset",
+    "price": 82,
     "commission": 7
    },
    {
-    "id": "1005010155257708",
-    "name": "Hipacool Metal Car Steering Wheel Laptop Stand",
-    "niche": "screens",
-    "cat": "screen-acc",
-    "price": 98,
-    "commission": 9
+    "id": "1005006994683790",
+    "name": "Haomuren USB Microphone",
+    "niche": "podcast",
+    "cat": "mic",
+    "price": 92,
+    "commission": 7
    },
    {
-    "id": "1005012724267220",
-    "name": "LIVTRA NANOCORE Multi-Function Guitar Pedal",
-    "niche": "music",
-    "cat": "guitar",
-    "price": 130,
+    "id": "1005012650225043",
+    "name": "MAONO MH700 Studio Monitor Headphones Mixing",
+    "niche": "dj",
+    "cat": "headphones",
+    "price": 133,
     "commission": 7
    }
   ]
