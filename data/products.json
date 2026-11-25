@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:17:17.759Z",
+ "updated": "2026-11-25T22:17:19.702Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 146,
+   "missing": 147,
    "autoHidden": true
   },
   {
@@ -941,7 +941,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 11,
+   "missing": 12,
    "autoHidden": true
   },
   {
@@ -982,8 +982,8 @@
    "desc": "מקרן לסרטים, גיימינג ומצגות — מסך ענק על כל קיר. כולל: Bluetooth, תומך בתוכן 4K, מערכת Android מובנית.",
    "positive": 100,
    "sold": "240+ מכירות",
-   "price": 907,
-   "listPrice": 1646,
+   "price": 921,
+   "listPrice": 1670,
    "commission": 3,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
@@ -1558,8 +1558,8 @@
    "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות. כולל: הצמדה מגנטית, מתקפל, גוף מתכת.",
    "positive": 95,
    "sold": "1,700+ מכירות",
-   "price": 41,
-   "listPrice": 100,
+   "price": 39,
+   "listPrice": 97,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
@@ -1615,7 +1615,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 11,
+   "missing": 12,
    "autoHidden": true
   },
   {
@@ -1809,7 +1809,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 11,
+   "missing": 12,
    "autoHidden": true
   },
   {
@@ -2042,8 +2042,8 @@
    "desc": "אביזר לגיטריסטים — לתרגול, להופעות ולהקלטה בבית.",
    "positive": 98,
    "sold": "680+ מכירות",
-   "price": 101,
-   "listPrice": 231,
+   "price": 98,
+   "listPrice": 224,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2d44e2c6a58e4a7ab87b69abbe1957afM.jpg",

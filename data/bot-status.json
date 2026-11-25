@@ -1,13 +1,13 @@
 {
  "prices": {
-  "at": "2026-11-25T16:17:17.762Z",
+  "at": "2026-11-25T22:17:19.704Z",
   "ok": true,
   "checked": 87,
   "returned": 83,
   "changes": [
-   "M-VAVE SMK-25: ₪153 → ₪162",
-   "Haomuren Pink Mic: ₪93 → ₪99",
-   "MAONO PD100X: ₪158 → ₪168"
+   "DITONG Full HD: ₪907 → ₪921",
+   "Foldable Magnetic Laptop: ₪41 → ₪39",
+   "SONICAKE Octaver Analog: ₪101 → ₪98"
   ],
   "items": [
    {
@@ -61,7 +61,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 153,
+    "before": 162,
     "api": {
      "sale": "161.69",
      "app": "161.69",
@@ -174,7 +174,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 146,
+    "missing": 147,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -327,7 +327,7 @@
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 93,
+    "before": 99,
     "api": {
      "sale": "99.39",
      "app": "99.39",
@@ -359,7 +359,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 158,
+    "before": 168,
     "api": {
      "sale": "167.69",
      "app": "167.69",
@@ -488,7 +488,7 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 11,
+    "missing": 12,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
@@ -515,14 +515,14 @@
     "name": "DITONG Full HD",
     "before": 907,
     "api": {
-     "sale": "906.91",
-     "app": "906.91",
-     "original": "1645.51",
+     "sale": "920.99",
+     "app": "920.99",
+     "original": "1669.81",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S42f557f61aee4a8c87c9c3db34a35ecaK.jpg",
-    "after": 907,
-    "listPrice": 1646,
+    "after": 921,
+    "listPrice": 1670,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S49926beac4974027a7ccfba45e27dbd5T.jpg",
     "active": true
    },
@@ -899,14 +899,14 @@
     "name": "Foldable Magnetic Laptop",
     "before": 41,
     "api": {
-     "sale": "40.61",
-     "app": "40.61",
-     "original": "100.09",
+     "sale": "39.48",
+     "app": "39.48",
+     "original": "97.28",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
-    "after": 41,
-    "listPrice": 100,
+    "after": 39,
+    "listPrice": 97,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
     "active": true
    },
@@ -930,7 +930,7 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 11,
+    "missing": 12,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
@@ -1052,7 +1052,7 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 11,
+    "missing": 12,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
@@ -1207,14 +1207,14 @@
     "name": "SONICAKE Octaver Analog",
     "before": 101,
     "api": {
-     "sale": "100.97",
-     "app": "100.97",
-     "original": "230.78",
+     "sale": "98.01",
+     "app": "98.01",
+     "original": "224.28",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2d44e2c6a58e4a7ab87b69abbe1957afM.jpg",
-    "after": 101,
-    "listPrice": 231,
+    "after": 98,
+    "listPrice": 224,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2d44e2c6a58e4a7ab87b69abbe1957afM.jpg",
     "active": true
    },
