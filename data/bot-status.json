@@ -1,42 +1,10 @@
 {
  "prices": {
-  "at": "2026-11-26T16:17:16.719Z",
+  "at": "2026-11-26T22:17:43.170Z",
   "ok": true,
   "checked": 90,
   "returned": 86,
-  "changes": [
-   "M-VAVE SMK-25: ₪163 → ₪153",
-   "FIFINE SC8: ₪200 → ₪219",
-   "Oneodio Pro 50: ₪153 → ₪143",
-   "EMEET PIXY: ₪298 → ₪312",
-   "MCHOSE V9 Pro: ₪167 → ₪157",
-   "BINNUNE BW06: ₪96 → ₪95",
-   "Haomuren Mic Kit: ₪134 → ₪126",
-   "MAONO PD400X: ₪444 → ₪455",
-   "Haomuren Pink Mic: ₪100 → ₪94",
-   "MAONO PD100X: ₪170 → ₪159",
-   "DJ Controller Case: ₪161 → ₪160",
-   "Spring-Free Microphone Arm: ₪58 → ₪55",
-   "Gaming Laptop Cooler: ₪78 → ₪73",
-   "MCHOSE X9 Tri-Mode: ₪227 → ₪213",
-   "Lenovo Original Stylus: ₪91 → ₪92",
-   "TAVOSOP Portable 4: ₪99 → ₪98",
-   "F16 Selfie Stick: ₪44 → ₪41",
-   "SMAILWOLF L80 Bluetooth: ₪84 → ₪83",
-   "APEXEL 10-20X Zoom: ₪127 → ₪119",
-   "4K Webcam EMEET: ₪160 → ₪166",
-   "Ourlife 4K Action: ₪218 → ₪211",
-   "Wireless Microphone Lavalier: ₪43 → ₪40",
-   "Gaming Laptop Cooling: ₪69 → ₪65",
-   "Ulanzi A100 Wireless: ₪82 → ₪91",
-   "Zealsound RGB Recording: ₪141 → ₪133",
-   "XIWBSY 4K Ultra: ₪801 → ₪888",
-   "Extendable Recording Microphone: ₪55 → ₪56",
-   "Picun B8 Bluetooth: ₪75 → ₪83",
-   "Acinaci Wireless Gaming: ₪88 → ₪85",
-   "Haomuren USB Microphone: ₪100 → ₪93",
-   "Oatsbasf Laptop Stand: ₪206 → ₪202"
-  ],
+  "changes": [],
   "items": [
    {
     "id": "1005012329009344",
@@ -89,7 +57,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 163,
+    "before": 153,
     "api": {
      "sale": "153.43",
      "app": "153.43",
@@ -137,7 +105,7 @@
    {
     "id": "1005010049082935",
     "name": "FIFINE SC8",
-    "before": 200,
+    "before": 219,
     "api": {
      "sale": "219.39",
      "app": "219.39",
@@ -169,7 +137,7 @@
    {
     "id": "1005006966378311",
     "name": "Oneodio Pro 50",
-    "before": 153,
+    "before": 143,
     "api": {
      "sale": "143.47",
      "app": "143.47",
@@ -202,7 +170,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 150,
+    "missing": 151,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -227,7 +195,7 @@
    {
     "id": "1005009353113123",
     "name": "EMEET PIXY",
-    "before": 298,
+    "before": 312,
     "api": {
      "sale": "311.75",
      "app": "311.75",
@@ -259,7 +227,7 @@
    {
     "id": "1005009508910625",
     "name": "MCHOSE V9 Pro",
-    "before": 167,
+    "before": 157,
     "api": {
      "sale": "156.99",
      "app": "156.99",
@@ -275,7 +243,7 @@
    {
     "id": "1005009719114453",
     "name": "BINNUNE BW06",
-    "before": 96,
+    "before": 95,
     "api": {
      "sale": "94.69",
      "app": "94.69",
@@ -307,7 +275,7 @@
    {
     "id": "1005006994824375",
     "name": "Haomuren Mic Kit",
-    "before": 134,
+    "before": 126,
     "api": {
      "sale": "125.68",
      "app": "125.68",
@@ -323,7 +291,7 @@
    {
     "id": "1005004795387201",
     "name": "MAONO PD400X",
-    "before": 444,
+    "before": 455,
     "api": {
      "sale": "455.32",
      "app": "455.32",
@@ -355,7 +323,7 @@
    {
     "id": "1005006782794822",
     "name": "Haomuren Pink Mic",
-    "before": 100,
+    "before": 94,
     "api": {
      "sale": "94.20",
      "app": "94.20",
@@ -387,7 +355,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 170,
+    "before": 159,
     "api": {
      "sale": "159.35",
      "app": "159.35",
@@ -451,7 +419,7 @@
    {
     "id": "1005010653444372",
     "name": "DJ Controller Case",
-    "before": 161,
+    "before": 160,
     "api": {
      "sale": "160.39",
      "app": "160.39",
@@ -467,7 +435,7 @@
    {
     "id": "1005009184927989",
     "name": "Spring-Free Microphone Arm",
-    "before": 58,
+    "before": 55,
     "api": {
      "sale": "54.86",
      "app": "54.86",
@@ -499,7 +467,7 @@
    {
     "id": "1005006861793306",
     "name": "Gaming Laptop Cooler",
-    "before": 78,
+    "before": 73,
     "api": {
      "sale": "72.81",
      "app": "72.81",
@@ -516,7 +484,7 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 15,
+    "missing": 16,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
@@ -573,7 +541,7 @@
    {
     "id": "1005009695617845",
     "name": "MCHOSE X9 Tri-Mode",
-    "before": 227,
+    "before": 213,
     "api": {
      "sale": "212.97",
      "app": "212.97",
@@ -589,7 +557,7 @@
    {
     "id": "1005009874196617",
     "name": "Lenovo Original Stylus",
-    "before": 91,
+    "before": 92,
     "api": {
      "sale": "91.69",
      "app": "91.69",
@@ -685,7 +653,7 @@
    {
     "id": "1005011940113445",
     "name": "TAVOSOP Portable 4",
-    "before": 99,
+    "before": 98,
     "api": {
      "sale": "98.39",
      "app": "98.39",
@@ -765,7 +733,7 @@
    {
     "id": "1005013266020643",
     "name": "F16 Selfie Stick",
-    "before": 44,
+    "before": 41,
     "api": {
      "sale": "40.94",
      "app": "40.94",
@@ -781,7 +749,7 @@
    {
     "id": "1005009120888793",
     "name": "SMAILWOLF L80 Bluetooth",
-    "before": 84,
+    "before": 83,
     "api": {
      "sale": "83.29",
      "app": "83.29",
@@ -845,7 +813,7 @@
    {
     "id": "1005008932500509",
     "name": "APEXEL 10-20X Zoom",
-    "before": 127,
+    "before": 119,
     "api": {
      "sale": "118.99",
      "app": "118.99",
@@ -893,7 +861,7 @@
    {
     "id": "1005010241698060",
     "name": "4K Webcam EMEET",
-    "before": 160,
+    "before": 166,
     "api": {
      "sale": "165.82",
      "app": "165.82",
@@ -941,7 +909,7 @@
    {
     "id": "1005012177106297",
     "name": "Ourlife 4K Action",
-    "before": 218,
+    "before": 211,
     "api": {
      "sale": "210.68",
      "app": "210.68",
@@ -958,7 +926,7 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 15,
+    "missing": 16,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
@@ -1031,7 +999,7 @@
    {
     "id": "1005009278189244",
     "name": "Wireless Microphone Lavalier",
-    "before": 43,
+    "before": 40,
     "api": {
      "sale": "39.78",
      "app": "39.78",
@@ -1080,7 +1048,7 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 15,
+    "missing": 16,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
@@ -1105,7 +1073,7 @@
    {
     "id": "1005007344994416",
     "name": "Gaming Laptop Cooling",
-    "before": 69,
+    "before": 65,
     "api": {
      "sale": "64.86",
      "app": "64.86",
@@ -1121,7 +1089,7 @@
    {
     "id": "1005007475545125",
     "name": "Ulanzi A100 Wireless",
-    "before": 82,
+    "before": 91,
     "api": {
      "sale": "90.69",
      "app": "90.69",
@@ -1153,7 +1121,7 @@
    {
     "id": "1005007096854664",
     "name": "Zealsound RGB Recording",
-    "before": 141,
+    "before": 133,
     "api": {
      "sale": "132.55",
      "app": "132.55",
@@ -1217,7 +1185,7 @@
    {
     "id": "1005011649524654",
     "name": "XIWBSY 4K Ultra",
-    "before": 801,
+    "before": 888,
     "api": {
      "sale": "887.58",
      "app": "887.58",
@@ -1249,7 +1217,7 @@
    {
     "id": "1005010332459192",
     "name": "Extendable Recording Microphone",
-    "before": 55,
+    "before": 56,
     "api": {
      "sale": "55.59",
      "app": "55.59",
@@ -1297,7 +1265,7 @@
    {
     "id": "1005007298532263",
     "name": "Picun B8 Bluetooth",
-    "before": 75,
+    "before": 83,
     "api": {
      "sale": "83.39",
      "app": "83.39",
@@ -1361,7 +1329,7 @@
    {
     "id": "1005007805449941",
     "name": "Acinaci Wireless Gaming",
-    "before": 88,
+    "before": 85,
     "api": {
      "sale": "85.15",
      "app": "85.15",
@@ -1377,7 +1345,7 @@
    {
     "id": "1005006994683790",
     "name": "Haomuren USB Microphone",
-    "before": 100,
+    "before": 93,
     "api": {
      "sale": "93.18",
      "app": "93.18",
@@ -1441,7 +1409,7 @@
    {
     "id": "1005005503855948",
     "name": "Oatsbasf Laptop Stand",
-    "before": 206,
+    "before": 202,
     "api": {
      "sale": "202.44",
      "app": "202.44",
