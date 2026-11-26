@@ -1415,31 +1415,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-25T03:43:57.760Z",
+  "at": "2026-11-26T03:43:59.340Z",
   "ok": true,
   "added": [
    {
-    "id": "1005007805449941",
-    "name": "Acinaci Wireless Gaming Headset",
+    "id": "1005011634121465",
+    "name": "HD Printing Mouse Pad Laptop Extended protective",
     "niche": "gaming",
-    "cat": "gaming-headset",
-    "price": 82,
-    "commission": 7
+    "cat": "desk",
+    "price": 31,
+    "commission": 8
    },
    {
-    "id": "1005006994683790",
-    "name": "Haomuren USB Microphone",
+    "id": "1005012014162013",
+    "name": "Professional Grade 360° Rotation Microphone",
     "niche": "podcast",
-    "cat": "mic",
-    "price": 92,
+    "cat": "mic-arm",
+    "price": 57,
     "commission": 7
    },
    {
-    "id": "1005012650225043",
-    "name": "MAONO MH700 Studio Monitor Headphones Mixing",
+    "id": "1005005503855948",
+    "name": "Oatsbasf Laptop Stand Clamp Tablet Hightening",
     "niche": "dj",
-    "cat": "headphones",
-    "price": 133,
+    "cat": "dj-acc",
+    "price": 204,
     "commission": 7
    }
   ]
