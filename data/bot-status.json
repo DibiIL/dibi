@@ -1465,31 +1465,31 @@
   "pending": 60
  },
  "publish": {
-  "at": "2026-11-26T03:43:59.340Z",
+  "at": "2026-11-27T03:43:56.346Z",
   "ok": true,
   "added": [
    {
-    "id": "1005011634121465",
-    "name": "HD Printing Mouse Pad Laptop Extended protective",
-    "niche": "gaming",
-    "cat": "desk",
-    "price": 31,
+    "id": "1005007707973510",
+    "name": "Huion Tablet Kamvas 13 Graphics Tablets Monitor",
+    "niche": "podcast",
+    "cat": "editing",
+    "price": 739,
     "commission": 8
    },
    {
-    "id": "1005012014162013",
-    "name": "Professional Grade 360° Rotation Microphone",
-    "niche": "podcast",
-    "cat": "mic-arm",
-    "price": 57,
+    "id": "1005011718070603",
+    "name": "DMX512 Wireless Controller ISM XLR Receiver",
+    "niche": "dj",
+    "cat": "dj-lights",
+    "price": 48,
     "commission": 7
    },
    {
-    "id": "1005005503855948",
-    "name": "Oatsbasf Laptop Stand Clamp Tablet Hightening",
-    "niche": "dj",
-    "cat": "dj-acc",
-    "price": 204,
+    "id": "1005009463011323",
+    "name": "Baseus EH10 NC ANC Wireless Headphones 45dB",
+    "niche": "gaming",
+    "cat": "gaming-headset",
+    "price": 145,
     "commission": 7
    }
   ]
