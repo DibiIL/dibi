@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:17:21.052Z",
+ "updated": "2026-11-27T16:17:17.836Z",
  "niches": [
   {
    "id": "music",
@@ -296,7 +296,7 @@
    "desc": "קלידיית MIDI נייחת עם 25 מקשים Spring-Action, כפתורי Pitch ו-Mod, USB-C ותמיכה אלחוטית. תואמת iOS, Mac ו-PC — סטודיו ביתי בכיס.",
    "rating": 4.9,
    "sold": "129 מכירות",
-   "price": 151,
+   "price": 160,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab92b7354eb84856b718036ceecfce93d.jpg",
    "link": "https://s.click.aliexpress.com/e/_c4E0aQhJ",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 153,
+   "missing": 154,
    "autoHidden": true
   },
   {
@@ -742,7 +742,7 @@
    "desc": "מיקרופון דינמי לגיימינג ולסטרימינג, עם חיבור USB וגם XLR, סינון רעשים, יציאת אוזניות ותאורת RGB.",
    "positive": 98,
    "sold": "430+ מכירות",
-   "price": 156,
+   "price": 166,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbddfe2820721454fa46fadcd42a7d2396.jpg",
@@ -941,7 +941,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 18,
+   "missing": 19,
    "autoHidden": true
   },
   {
@@ -1375,7 +1375,7 @@
    "active": true,
    "auto": true,
    "added": "2026-11-13",
-   "missing": 1
+   "missing": 2
   },
   {
    "id": "1005010044183032",
@@ -1616,7 +1616,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 18,
+   "missing": 19,
    "autoHidden": true
   },
   {
@@ -1810,7 +1810,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 18,
+   "missing": 19,
    "autoHidden": true
   },
   {
@@ -2355,7 +2355,7 @@
    "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות.",
    "positive": 96,
    "sold": "420+ מכירות",
-   "price": 199,
+   "price": 202,
    "listPrice": 490,
    "commission": 7,
    "freeShip": true,
