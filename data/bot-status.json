@@ -1,13 +1,11 @@
 {
  "prices": {
-  "at": "2026-11-27T16:17:17.840Z",
+  "at": "2026-11-27T22:17:19.418Z",
   "ok": true,
   "checked": 93,
   "returned": 88,
   "changes": [
-   "M-VAVE SMK-25: ₪151 → ₪160",
-   "MAONO PD100X: ₪156 → ₪166",
-   "Oatsbasf Laptop Stand: ₪199 → ₪202"
+   "🚫 הוסתר (לא זמין): HIFIMAN Edition XS"
   ],
   "items": [
    {
@@ -61,7 +59,7 @@
    {
     "id": "1005008077659125",
     "name": "M-VAVE SMK-25",
-    "before": 151,
+    "before": 160,
     "api": {
      "sale": "159.90",
      "app": "159.90",
@@ -174,7 +172,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 154,
+    "missing": 155,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -359,7 +357,7 @@
    {
     "id": "1005008406447372",
     "name": "MAONO PD100X",
-    "before": 156,
+    "before": 166,
     "api": {
      "sale": "166.39",
      "app": "166.39",
@@ -488,7 +486,7 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 19,
+    "missing": 20,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
@@ -770,11 +768,11 @@
     "id": "1005004110574958",
     "name": "HIFIMAN Edition XS",
     "before": 620,
-    "missing": 2,
+    "missing": 3,
     "after": 620,
     "listPrice": 2869,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
-    "active": true
+    "active": false
    },
    {
     "id": "1005010044183032",
@@ -924,7 +922,7 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 19,
+    "missing": 20,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
@@ -1046,7 +1044,7 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 19,
+    "missing": 20,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
@@ -1407,7 +1405,7 @@
    {
     "id": "1005005503855948",
     "name": "Oatsbasf Laptop Stand",
-    "before": 199,
+    "before": 202,
     "api": {
      "sale": "202.33",
      "app": "202.33",
