@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:17:19.416Z",
+ "updated": "2026-11-28T03:43:53.522Z",
  "niches": [
   {
    "id": "music",
@@ -2437,6 +2437,78 @@
    "active": true,
    "auto": true,
    "added": "2026-11-27"
+  },
+  {
+   "id": "1005010804345103",
+   "name": "COMAN MT61 1.96M Portable Light Stand Tripod",
+   "short": "COMAN MT61 1.96M",
+   "cat": "screen-acc",
+   "niches": [
+    "screens"
+   ],
+   "tag": "אביזר למסך",
+   "icon": "🗜️",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר למסך ולמקרן — העמדה נוחה, מסודרת ובגובה הנכון. כולל: Bluetooth, תואם iPhone.",
+   "positive": 98,
+   "sold": "470+ מכירות",
+   "price": 113,
+   "listPrice": 134,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdec9cc9b216f4daba520c5b42d457d03w.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4O1SwrCjkpHL0huy3drSOhroN9JCd4dBawpn48HiRmTg0pLskbzglk1lz3x8z9ZkCyVf5YxTCVIoGXakpKeMvX3ZqL4NDzquGnAJrPmwMJE1yo5JHrmHFHjcLxUDAalEsQJ0FP7xHjWQvkudmrHbYoiDXS2plc4zegTcgJ7dbutTBDj1FGoZTqXP1JJS7GlqGthJfOppIBGoHENTSuo8JoCrBHUjlGPbFlrxt7LfkJ5t044yBlyP3WjANd2TjKMdbxwBR3gRLuhK1KJu7bG3gQ4HtDKimPHJjvyhXZN2Ni34N9pAFtw05ITGNKqIHNEaH4o1DrgK0NQlj5fQOf2INg2Ya0EQSUJa871HEljFNKUhstFPRZCWqqT0ztFCc1XhqsGddsdZRBuvHRLCstVX0davSSDOgkQutWt6lLUxvnkkAeco74SdBfrTldzyndqTZZwCOsLKKNRlyNj4QYUNY4JIOFc30Zggs3j5pyoqbsMjMSA1TbisIFPcrYr8xv4oL0il0nl7OxKz9MXmMyt2VBpl6InG34uRy7pkdunpNGaaxR2NXeuE55UaMqJRPBikZJ1tIMCUU6Z1y0iDxnW7ctK6mALE4752hd1LSdkj4XUul5wt7OkwboWokLlrZE5hE3WLw7840lFBXoPUaUX5ZNyYgt1mtvZ1FiDJ5JBOlBI15n1CsM7TsIcPmvDMM06x1gNd4lsXHMlHq",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-28"
+  },
+  {
+   "id": "1005006860959251",
+   "name": "FIFINE RGB Gaming Headset",
+   "short": "FIFINE RGB Gaming",
+   "cat": "gaming-headset",
+   "niches": [
+    "gaming"
+   ],
+   "tag": "אוזניות גיימינג",
+   "icon": "🎮",
+   "badge": "🔥 1,700+ מכירות",
+   "desc": "אוזניות גיימינג עם מיקרופון — שומעים כל צעד ומדברים עם הקבוצה בבירור. כולל: סראונד 7.1, תאורת RGB, תואם קונסולות.",
+   "positive": 98,
+   "sold": "1,700+ מכירות",
+   "price": 121,
+   "listPrice": 277,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02750d1845b94dc0baf63718e2270069f.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4q1giAJ4JnvlpxCTXAIeflNWCw846kO3Xu8wXwvIejAfZeoz9LSRbcfn4FrQYy5ZduDDxJKyFbB6qRP6RGCO9p4U9eipYH7M8S0vlgc2cXXF2zDaa4hTK3egMrwdJMsR4rDlHKqVJiDMuw5QBeQUILVFnJyPyG3X9k8o6baoS8v8c8jFSeUMMRxRHHrrbAUFKFWTmuViE2XKQDKPSFjlpaS5As9Ft4NxSYeWY9uCrip6cni0BMbu3I960wW8n15NSbiifCqjNVWHWzFIEbV1BD26Fkhl4wwEpM0Mke4NSLiOKerw4Ab4yLavp5s02WqYaJFHPsukeTiVsscgu1wzoTbDoX7htnd2nO5EBIIpM64XMQ1lxsJmNUTTFSMslSA5wkTvT1l7EzDSlKwkRdLFwnIg94jsmYKqFLEWE1bWGk5R3eQcbpHDk4qZm8V5vwcgzjeQPfe0OhoJTGRdN2JFXZRfQbSTRevMaEtEiJHSXWwyPX1xvmD0UyOWv6OmmAVXTNPFz3S5vj8clpBC8qhDFdoVxBaI604vdILmMjFcryb06eJhfVJbxmfNuf3ngTFmcyqm2uzvIHmYw85q0rgNtLdsnDlOO24njW5tFn3PIWKz8AoW2ZCorooO4gLtuATNKrRHnCmQfRys68QH51meejq9bLABRtJLbGLU03yJM1Px1qgSTrJTDD9v5DBCWMw3cJqbZJjn2dSKc",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-28"
+  },
+  {
+   "id": "1005007170202184",
+   "name": "M-VAVE Cube BABY Guitar Multi-Effects Pedal",
+   "short": "M-VAVE Cube BABY",
+   "cat": "guitar",
+   "niches": [
+    "music"
+   ],
+   "tag": "אביזר גיטרה",
+   "icon": "🎸",
+   "badge": "✨ חדש באתר",
+   "desc": "אביזר לגיטריסטים — לתרגול, להופעות ולהקלטה בבית. כולל: סוללה נטענת.",
+   "positive": 98,
+   "sold": "320+ מכירות",
+   "price": 120,
+   "listPrice": 240,
+   "commission": 7,
+   "freeShip": true,
+   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S64b4421c42f5422ebae8745d8e7f9672U.jpg",
+   "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoAzMMc7XUcb7BOzynzwbb6IgbOUmcz70g1LgXDFXlXMbGLsj6p1XRe5x7uDP7nLdQkxDFhO44Zb7QcvWuYT0JaHuGFO4iwTlljxmzVdt1pb872KEQRgmyFXYhcBY4BkUcXIr6vNDy3MDfX7cqJ29Lylcax6IeI4yhULwWYTLXFg6GP2k9VGgpBtxGuOOOxRccOe9xL6WreESIWgxaPYsA57GcyJUIbkYIAkJN87x92CYYQtfRpV7Xi7s75NJgOHbfoUBhMvCLUpoMjIcyw5MBvlTaEYN0eu6X8fLw35QHOCmZqZbjeQ8rc6d0bt0aHAqf2nenWdCQbwv9jKi2awOdYHFPMzZ3wrMVRJckBlakJJTEQh313PIRoWqguMzvNJf6Ypo0PNwU1FHHlxhKklLWX3oFYU4yDS6zeG4YTeE2RVafuL2CUVVt0JJPdAqEZgbhnymlIis1pXHyEqlOPaDZ3QlyvZrUzVEQ6WkQ8ygXr7LxZQsSvfDDPgS6LDAZhCeh8Iqc3TkRRTODdfKvkCRK2WXu7lmH7FXwtU9yw0ifJPXkQqk5JTgQ9E7AGWjRgKrWgC0DDzV9EXf8x312fFX60UFfRHsHfOct7MwZoilUAI07vHs8QCmOngHlBz6TMaEf9LhnVzqIKNiDsR6j7goMTvqlDD0HAN3XvC7qf8TBj4XcU6TXcmH8YCafzqSe9BYyok8ysrUvD3Ko",
+   "active": true,
+   "auto": true,
+   "added": "2026-11-28"
   }
  ]
 }

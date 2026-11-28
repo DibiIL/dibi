@@ -1500,31 +1500,31 @@
   "pending": 58
  },
  "publish": {
-  "at": "2026-11-27T03:43:56.346Z",
+  "at": "2026-11-28T03:43:53.526Z",
   "ok": true,
   "added": [
    {
-    "id": "1005007707973510",
-    "name": "Huion Tablet Kamvas 13 Graphics Tablets Monitor",
-    "niche": "podcast",
-    "cat": "editing",
-    "price": 739,
-    "commission": 8
-   },
-   {
-    "id": "1005011718070603",
-    "name": "DMX512 Wireless Controller ISM XLR Receiver",
-    "niche": "dj",
-    "cat": "dj-lights",
-    "price": 48,
+    "id": "1005010804345103",
+    "name": "COMAN MT61 1.96M Portable Light Stand Tripod",
+    "niche": "screens",
+    "cat": "screen-acc",
+    "price": 113,
     "commission": 7
    },
    {
-    "id": "1005009463011323",
-    "name": "Baseus EH10 NC ANC Wireless Headphones 45dB",
+    "id": "1005006860959251",
+    "name": "FIFINE RGB Gaming Headset",
     "niche": "gaming",
     "cat": "gaming-headset",
-    "price": 145,
+    "price": 121,
+    "commission": 7
+   },
+   {
+    "id": "1005007170202184",
+    "name": "M-VAVE Cube BABY Guitar Multi-Effects Pedal",
+    "niche": "music",
+    "cat": "guitar",
+    "price": 120,
     "commission": 7
    }
   ]
