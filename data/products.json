@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T04:17:33.620Z",
+ "updated": "2026-11-28T10:17:17.255Z",
  "niches": [
   {
    "id": "music",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 156,
+   "missing": 157,
    "autoHidden": true
   },
   {
@@ -682,7 +682,7 @@
    "active": true,
    "added": "2026-11-04",
    "listPrice": 97,
-   "missing": 1
+   "missing": 2
   },
   {
    "id": "1005006782794822",
@@ -869,7 +869,8 @@
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmR4BcbnEyJ9pfZuWgJvtKfUIwoRSy8a2VLjII3snpeY4PqAG3wCZmhmZEYbMGQxT2Zy0sSw6Vw5apcSx8GHvtAQgVpaheWjmYz58trYrrozSZwWwJHf0N2HCJg8IIrIfBJ4MbeDwIJhpYXOd2iYMmpYYUsjacVil79cazSRiRSGV3gFxvRjjFGrfK6cfyC9EEprqRbVlTF4TF8IN2V8vHwLoD4O1yTGgH22Gqk78ckJhU8616saRVXlTRFI5j3DGLrvmnS9enKX4H4uZOaLHBFPadNOmOQykr0LNtDikYANfEae2UxJMt8IfpX2EkJJAVjs6V7Dbf1OyaQiNmnHP2iSLMBPOdCZJ5ug3g7SicvZBBUikxWwLSsxumLMQdTTnBYfymTlCegPnBCI1pOrjH9pZPhR2rJu7lI7FiHCrv5UxD9zE4rY4mcczJmj2P4idj3SzmON4A0IFJ0MqAn0L1Y4bQDyru1s3XOUXpuGdhj8Ln37jJ6g6Abc09ToxNL3Yawh9i3k4Zh5Nhtr4hB7b5Ng9Ce2dnRripUUyB4DjWQ7rXrOIDKgcjJyFeukeKSWNCRvKivmf7CYT9ctXinoPGe2FQNfElv0LI40rRQB9a27LSXHZ7ZB5s1TbcqhrK8z7AVY3RHXk7YK1ZmqMLwik6EZVCQGk0Kq58aPaxoyLOnW8XrNUmcurQ4C8qzPuCXHDpt1qA6r8TtEdM",
    "active": true,
    "auto": true,
-   "added": "2026-11-06"
+   "added": "2026-11-06",
+   "missing": 1
   },
   {
    "id": "1005010241212987",
@@ -942,7 +943,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 21,
+   "missing": 22,
    "autoHidden": true
   },
   {
@@ -1319,7 +1320,7 @@
    "desc": "חצובה או מייצב לצילום יציב — סרטונים חלקים ותמונות חדות. כולל: Bluetooth, שלט רחוק.",
    "positive": 98,
    "sold": "5,600+ מכירות",
-   "price": 40,
+   "price": 41,
    "listPrice": 93,
    "commission": 7,
    "freeShip": true,
@@ -1376,7 +1377,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-13",
-   "missing": 4,
+   "missing": 5,
    "autoHidden": true
   },
   {
@@ -1561,8 +1562,8 @@
    "desc": "אביזר לדיג'יי — לנשיאה, לסידור העמדה ולהופעות. כולל: הצמדה מגנטית, מתקפל, גוף מתכת.",
    "positive": 95,
    "sold": "1,700+ מכירות",
-   "price": 39,
-   "listPrice": 96,
+   "price": 37,
+   "listPrice": 93,
    "commission": 7,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
@@ -1618,7 +1619,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 21,
+   "missing": 22,
    "autoHidden": true
   },
   {
@@ -1812,7 +1813,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 21,
+   "missing": 22,
    "autoHidden": true
   },
   {

@@ -1,12 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-28T04:17:33.622Z",
+  "at": "2026-11-28T10:17:17.257Z",
   "ok": true,
   "checked": 96,
-  "returned": 90,
+  "returned": 89,
   "changes": [
-   "AIYIMA S4000: ₪704 → ₪669",
-   "Photo Studio 8-inch: ₪30 → ₪28"
+   "F16 Selfie Stick: ₪40 → ₪41",
+   "Foldable Magnetic Laptop: ₪39 → ₪37"
   ],
   "items": [
    {
@@ -92,7 +92,7 @@
    {
     "id": "1005011667078395",
     "name": "AIYIMA S4000",
-    "before": 704,
+    "before": 669,
     "api": {
      "sale": "668.88",
      "app": "668.88",
@@ -173,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 156,
+    "missing": 157,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -311,7 +311,7 @@
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
     "before": 42,
-    "missing": 1,
+    "missing": 2,
     "after": 42,
     "listPrice": 97,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5f07b510728442a48ce25a6e280b7effo.png",
@@ -433,13 +433,7 @@
     "id": "1005009184927989",
     "name": "Spring-Free Microphone Arm",
     "before": 54,
-    "api": {
-     "sale": "53.73",
-     "app": "53.73",
-     "original": "117.87",
-     "currency": "ILS"
-    },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb82a2513a2e54a53b81944a723891fc7R.png",
+    "missing": 1,
     "after": 54,
     "listPrice": 118,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb82a2513a2e54a53b81944a723891fc7R.png",
@@ -481,7 +475,7 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 21,
+    "missing": 22,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
@@ -732,13 +726,13 @@
     "name": "F16 Selfie Stick",
     "before": 40,
     "api": {
-     "sale": "40.45",
-     "app": "40.45",
-     "original": "93.05",
+     "sale": "40.52",
+     "app": "40.52",
+     "original": "93.22",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb91e80db9dc8423795f6df5311ad72f3X.jpg",
-    "after": 40,
+    "after": 41,
     "listPrice": 93,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sb91e80db9dc8423795f6df5311ad72f3X.jpg",
     "active": true
@@ -763,7 +757,7 @@
     "id": "1005004110574958",
     "name": "HIFIMAN Edition XS",
     "before": 620,
-    "missing": 4,
+    "missing": 5,
     "after": 620,
     "listPrice": 2869,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
@@ -772,7 +766,7 @@
    {
     "id": "1005010044183032",
     "name": "Photo Studio 8-inch",
-    "before": 30,
+    "before": 28,
     "api": {
      "sale": "28.44",
      "app": "28.44",
@@ -886,14 +880,14 @@
     "name": "Foldable Magnetic Laptop",
     "before": 39,
     "api": {
-     "sale": "39.21",
-     "app": "39.21",
-     "original": "96.14",
+     "sale": "37.10",
+     "app": "37.10",
+     "original": "92.93",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
-    "after": 39,
-    "listPrice": 96,
+    "after": 37,
+    "listPrice": 93,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Saad0b368f34049a1bd985700702b52ccb.jpg",
     "active": true
    },
@@ -917,7 +911,7 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 21,
+    "missing": 22,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
@@ -1039,7 +1033,7 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 21,
+    "missing": 22,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
