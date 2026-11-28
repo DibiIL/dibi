@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:43:53.522Z",
+ "updated": "2026-11-28T04:17:33.620Z",
  "niches": [
   {
    "id": "music",
@@ -344,13 +344,13 @@
    "desc": "מוניטורי סטודיו אקטיביים 40W לכל ערוץ עם Bluetooth 5.0, כניסות RCA/XLR מאוזנות, יציאת Subwoofer וארון עץ לאקוסטיקה חמה ומדויקת.",
    "rating": 4.7,
    "sold": "109 מכירות",
-   "price": 704,
+   "price": 669,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
    "link": "https://s.click.aliexpress.com/e/_c365CVQV",
    "active": true,
    "added": "2026-10-06",
-   "listPrice": 1051,
+   "listPrice": 1050,
    "commission": 7
   },
   {
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 155,
+   "missing": 156,
    "autoHidden": true
   },
   {
@@ -681,7 +681,8 @@
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m1Qhg6kiUy6olGHsRrVanz6OTLGW0sMEj7SaxZBT3a8lq9O0LynadP8iIkyYJRhpzz6V6bgM7DPvkub5uIQcEtmk5qzoiCAEIN2Q4gWsFqXqXGVjir02sWTygpEx7P8IqZFtN1ysoxQOJN9iwEG1dE1pzjdQJqvJj7WeA8Kba7jyIABLmVeuyHKUVAhFcJLX6moZ2Up8TRT5yonwFhFL6kIs8iGWqiEKuzNR9GnmaYwhLsPv6ELk4LdZK63ZOvYDZ4V27Tm8T5nxiSdZU7zjQmgVQO7QHo0zr0PngYAGuAc7U25F4ugrZq2YV7UEKjYxLHJQWE6TpKTlQLdFbLAxKMvEVTIUbKSFTVXePBmtiTcMIrYcRAV8N02sbKtI28loGd91vEgo11nDGKQTSPmIGJIEY85IFIpWv27hqPVQ6cnMmObQPt7UDomusXVW4thGNBYNLX9xJKBrSmAlGcyjCn5jBOGMYZBThskaIKndlS74XPa03iBf6oaeOAD2a0fIU0pccRja4WflEJDrrzWHZa12fM7W7E7rBUgCNMJO7n8e9Hmxm2qGYmIlhVwBDw0SAil6Tvph9jz2VkKCh8fpi5XZKTYBObMHuvZbGYohH7KCJYMTI2NXbrI2YSdGIO7JRabp36lIcidCxJPRhr2C2PuqmHaWp0DTn4Fvyuy6Er88XfhDHnRzuZbZOvopbrBDHRpAD2vrPWM3l",
    "active": true,
    "added": "2026-11-04",
-   "listPrice": 97
+   "listPrice": 97,
+   "missing": 1
   },
   {
    "id": "1005006782794822",
@@ -941,7 +942,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 20,
+   "missing": 21,
    "autoHidden": true
   },
   {
@@ -1375,7 +1376,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-13",
-   "missing": 3,
+   "missing": 4,
    "autoHidden": true
   },
   {
@@ -1392,7 +1393,7 @@
    "desc": "תאורה לצילום ולוידאו — תמונה מוארת ונקייה גם בבית. כולל: תאורת RGB.",
    "positive": 98,
    "sold": "1,200+ מכירות",
-   "price": 30,
+   "price": 28,
    "listPrice": 62,
    "commission": 7,
    "freeShip": true,
@@ -1617,7 +1618,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 20,
+   "missing": 21,
    "autoHidden": true
   },
   {
@@ -1811,7 +1812,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 20,
+   "missing": 21,
    "autoHidden": true
   },
   {

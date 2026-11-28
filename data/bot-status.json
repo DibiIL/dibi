@@ -1,11 +1,12 @@
 {
  "prices": {
-  "at": "2026-11-27T22:17:19.418Z",
+  "at": "2026-11-28T04:17:33.622Z",
   "ok": true,
-  "checked": 93,
-  "returned": 88,
+  "checked": 96,
+  "returned": 90,
   "changes": [
-   "🚫 הוסתר (לא זמין): HIFIMAN Edition XS"
+   "AIYIMA S4000: ₪704 → ₪669",
+   "Photo Studio 8-inch: ₪30 → ₪28"
   ],
   "items": [
    {
@@ -93,14 +94,14 @@
     "name": "AIYIMA S4000",
     "before": 704,
     "api": {
-     "sale": "703.90",
-     "app": "703.90",
-     "original": "1050.60",
+     "sale": "668.88",
+     "app": "668.88",
+     "original": "1049.82",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
-    "after": 704,
-    "listPrice": 1051,
+    "after": 669,
+    "listPrice": 1050,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S3604bbb999c341e6a9190177a38d852eh.jpg",
     "active": true
    },
@@ -172,7 +173,7 @@
     "id": "1005008719757425",
     "name": "V8S Sound Card",
     "before": 63,
-    "missing": 155,
+    "missing": 156,
     "after": 63,
     "listPrice": 126,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc4f469239b84743be1cd7fa0b76a808A.jpg",
@@ -310,13 +311,7 @@
     "id": "1005007805766024",
     "name": "HOMEFISH Light Bar",
     "before": 42,
-    "api": {
-     "sale": "42.07",
-     "app": "42.07",
-     "original": "96.78",
-     "currency": "ILS"
-    },
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9c709e83eb0e48098f0324ae35f71f8a6.jpg",
+    "missing": 1,
     "after": 42,
     "listPrice": 97,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5f07b510728442a48ce25a6e280b7effo.png",
@@ -486,7 +481,7 @@
     "id": "1005008108618534",
     "name": "Ulanzi TT88 1.44M",
     "before": 73,
-    "missing": 20,
+    "missing": 21,
     "after": 73,
     "listPrice": 197,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sbeae48f0ec7947b898a8ce312bec1e75O.png",
@@ -768,7 +763,7 @@
     "id": "1005004110574958",
     "name": "HIFIMAN Edition XS",
     "before": 620,
-    "missing": 3,
+    "missing": 4,
     "after": 620,
     "listPrice": 2869,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S02ccee5607da49b7a983a8803398565d4.jpg",
@@ -779,13 +774,13 @@
     "name": "Photo Studio 8-inch",
     "before": 30,
     "api": {
-     "sale": "30.19",
-     "app": "30.19",
-     "original": "62.26",
+     "sale": "28.44",
+     "app": "28.44",
+     "original": "62.39",
      "currency": "ILS"
     },
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf6b51b19b2084763b5a57f404177263eH.png",
-    "after": 30,
+    "after": 28,
     "listPrice": 62,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sf6b51b19b2084763b5a57f404177263eH.png",
     "active": true
@@ -922,7 +917,7 @@
     "id": "1005011918971877",
     "name": "Ulanzi D200X 8",
     "before": 299,
-    "missing": 20,
+    "missing": 21,
     "after": 299,
     "listPrice": 770,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55bde5a392f4521b12ff4ff9dbda559L.jpg",
@@ -1044,7 +1039,7 @@
     "id": "1005003911060887",
     "name": "Ulanzi VL49 Mini",
     "before": 37,
-    "missing": 20,
+    "missing": 21,
     "after": 37,
     "listPrice": 65,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9fbfc8ba4f5a4a16a7c6bcd45f3f7fbcY.jpg",
@@ -1464,6 +1459,54 @@
     "after": 140,
     "listPrice": 338,
     "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S01068676843e49518bb8b060fc4b9d7bg.jpg",
+    "active": true
+   },
+   {
+    "id": "1005010804345103",
+    "name": "COMAN MT61 1.96M",
+    "before": 113,
+    "api": {
+     "sale": "112.54",
+     "app": "112.54",
+     "original": "134.46",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdec9cc9b216f4daba520c5b42d457d03w.jpg",
+    "after": 113,
+    "listPrice": 134,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sdec9cc9b216f4daba520c5b42d457d03w.jpg",
+    "active": true
+   },
+   {
+    "id": "1005006860959251",
+    "name": "FIFINE RGB Gaming",
+    "before": 121,
+    "api": {
+     "sale": "120.53",
+     "app": "120.53",
+     "original": "277.24",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S02750d1845b94dc0baf63718e2270069f.jpg",
+    "after": 121,
+    "listPrice": 277,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S02750d1845b94dc0baf63718e2270069f.jpg",
+    "active": true
+   },
+   {
+    "id": "1005007170202184",
+    "name": "M-VAVE Cube BABY",
+    "before": 120,
+    "api": {
+     "sale": "119.99",
+     "app": "119.99",
+     "original": "239.97",
+     "currency": "ILS"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S64b4421c42f5422ebae8745d8e7f9672U.jpg",
+    "after": 120,
+    "listPrice": 240,
+    "siteImage": "https://ae-pic-a1.aliexpress-media.com/kf/S64b4421c42f5422ebae8745d8e7f9672U.jpg",
     "active": true
    }
   ]
