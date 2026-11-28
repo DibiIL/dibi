@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:17:17.255Z",
+ "updated": "2026-11-28T16:17:15.238Z",
  "niches": [
   {
    "id": "music",
@@ -369,7 +369,7 @@
    "desc": "מיקסר שמע מקצועי עם תאורת RGB, שלושה מצבי EQ, Preamp XLR מובנה ומשנה קול דיגיטלי. Plug & Play — מושלם לגיימינג, סטרימינג ופודקאסט.",
    "rating": 4.8,
    "sold": "600+ מכירות",
-   "price": 196,
+   "price": 200,
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9c86177ffd64cd9968800192ed6299du.jpg",
    "link": "https://s.click.aliexpress.com/e/_c45rBg2t",
@@ -473,7 +473,7 @@
    "added": "2026-10-06",
    "listPrice": 126,
    "commission": 7,
-   "missing": 157,
+   "missing": 158,
    "autoHidden": true
   },
   {
@@ -679,10 +679,11 @@
    "freeShip": true,
    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f07b510728442a48ce25a6e280b7effo.png",
    "link": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m1Qhg6kiUy6olGHsRrVanz6OTLGW0sMEj7SaxZBT3a8lq9O0LynadP8iIkyYJRhpzz6V6bgM7DPvkub5uIQcEtmk5qzoiCAEIN2Q4gWsFqXqXGVjir02sWTygpEx7P8IqZFtN1ysoxQOJN9iwEG1dE1pzjdQJqvJj7WeA8Kba7jyIABLmVeuyHKUVAhFcJLX6moZ2Up8TRT5yonwFhFL6kIs8iGWqiEKuzNR9GnmaYwhLsPv6ELk4LdZK63ZOvYDZ4V27Tm8T5nxiSdZU7zjQmgVQO7QHo0zr0PngYAGuAc7U25F4ugrZq2YV7UEKjYxLHJQWE6TpKTlQLdFbLAxKMvEVTIUbKSFTVXePBmtiTcMIrYcRAV8N02sbKtI28loGd91vEgo11nDGKQTSPmIGJIEY85IFIpWv27hqPVQ6cnMmObQPt7UDomusXVW4thGNBYNLX9xJKBrSmAlGcyjCn5jBOGMYZBThskaIKndlS74XPa03iBf6oaeOAD2a0fIU0pccRja4WflEJDrrzWHZa12fM7W7E7rBUgCNMJO7n8e9Hmxm2qGYmIlhVwBDw0SAil6Tvph9jz2VkKCh8fpi5XZKTYBObMHuvZbGYohH7KCJYMTI2NXbrI2YSdGIO7JRabp36lIcidCxJPRhr2C2PuqmHaWp0DTn4Fvyuy6Er88XfhDHnRzuZbZOvopbrBDHRpAD2vrPWM3l",
-   "active": true,
+   "active": false,
    "added": "2026-11-04",
    "listPrice": 97,
-   "missing": 2
+   "missing": 3,
+   "autoHidden": true
   },
   {
    "id": "1005006782794822",
@@ -870,7 +871,7 @@
    "active": true,
    "auto": true,
    "added": "2026-11-06",
-   "missing": 1
+   "missing": 2
   },
   {
    "id": "1005010241212987",
@@ -943,7 +944,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-07",
-   "missing": 22,
+   "missing": 23,
    "autoHidden": true
   },
   {
@@ -1377,7 +1378,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-13",
-   "missing": 5,
+   "missing": 6,
    "autoHidden": true
   },
   {
@@ -1619,7 +1620,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-16",
-   "missing": 22,
+   "missing": 23,
    "autoHidden": true
   },
   {
@@ -1813,7 +1814,7 @@
    "active": false,
    "auto": true,
    "added": "2026-11-19",
-   "missing": 22,
+   "missing": 23,
    "autoHidden": true
   },
   {
